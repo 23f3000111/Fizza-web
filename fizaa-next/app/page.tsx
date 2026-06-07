@@ -98,7 +98,7 @@ export default async function HomePage() {
           </div>
           {/* main details */}
           <div>
-            <span className="eyebrow">{t("Our Journey")}</span>
+            <span className="eyebrow">{t("My Journey")}</span>
             <h2 className="font-serif text-3xl sm:text-5xl mt-4 leading-tight">{t("Property is a people business.")}</h2>
             <p className="text-[17px] text-navy italic font-serif mt-4">&ldquo;{t("I'm just a friendly agent who goes the extra mile to solve my client's problems.")}&rdquo;</p>
             <p className="text-ink-2 mt-4 text-[15.5px] leading-relaxed">{lang === "bm"
