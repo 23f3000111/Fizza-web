@@ -1,0 +1,53 @@
+[
+  {
+    "id": "mps7nlae34znn9",
+    "createdAt": "2026-05-30T10:31:19.430Z",
+    "title": "Warehouse For Rent - Sungai Tua, Batu Caves",
+    "slug": "warehouse-for-rent-sungai-tua-batu-caves-47n6",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Warehouse",
+    "dealType": "rent",
+    "city": "Kepong",
+    "state": "Selangor",
+    "address": "Sungai Tua, Batu Caves",
+    "lat": 3.230512,
+    "lng": 101.696585,
+    "price": null,
+    "priceUnit": "MYR 17000",
+    "priceLabel": "",
+    "size": 44120,
+    "sizeUnit": "6,455 sqft",
+    "beds": null,
+    "baths": null,
+    "featured": true,
+    "status": "active",
+    "shortDesc": "Warehouse For Rent - Sungai Tua, Batu Caves",
+    "description": "Warehouse For Rent - Sungai Tua, Batu Caves\r\n\r\n✅️Superlink warehouse/factory\r\n✅️Light Industry\r\n\r\nType 1:\r\n✅️Land size : 44 x 120 ft\r\n✅️Built up area : 6,455 sqft\r\n💰Asking Rental RM 17k\r\n\r\nType 2:\r\n✅️Land size : 40 x 94 ft\r\n✅️Built up area : 4,793 sqft\r\n💰Asking Rental RM 14k\r\n\r\n\r\nType 3:\r\n✅️Land size : 33 x 110 ft\r\n✅️Built up area : 4,457 sqft\r\n💰Asking Rental RM 13k\r\n\r\n✅️Power supply 160 amp\r\n✅️Ceiling height 40ft (can do another mezzanine floor)\r\n✅️Office floor approx 1,000 sqft\r\n✅️Wide road access 66 ft (suitable for containers)\r\n✅️ Two way loading/unloading (front & back)",
+    "images": [
+      "/api/uploads/1780148689627-ewjoh3.jpeg",
+      "/api/uploads/1780148689636-xqbcop.jpeg",
+      "/api/uploads/1780148689643-9oo7m7.jpeg",
+      "/api/uploads/1780148689651-16i3us.jpeg",
+      "/api/uploads/1780148689658-2sf5nv.jpeg",
+      "/api/uploads/1780148689666-8gtp7a.jpeg",
+      "/api/uploads/1780148689673-9fqq96.jpeg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Exit Jalan Ipoh (3.6km)",
+      "Exit MRR2 (4.2km)",
+      "Pasar Borong Selayang (3.3km)",
+      "Jinjang / Kepong (8.2km)"
+    ],
+    "attributes": {},
+    "updatedAt": "2026-05-30T15:08:50.171Z",
+    "documents": [
+      {
+        "name": "Warehouse For Rent - Sungai Tua, Batu Caves.docx",
+        "url": "/api/uploads/1780147141254-pw5t7z.docx"
+      }
+    ],
+    "segment": "industrial"
+  }
+]
