@@ -65,7 +65,7 @@ export default function Nav() {
           <Link href="/" className="flex items-center gap-3">
             <span className="w-10 h-10 rounded-[10px] bg-navy text-white grid place-items-center font-serif italic text-xl shadow-sm2">F</span>
             <span className="font-serif text-[19px] leading-tight">
-              Fizaa
+              myindustrialrealtors
               <small className="block font-sans text-[9.5px] tracking-[0.18em] uppercase text-mute mt-0.5">
                 {t("Industrial & Commercial · Malaysia")}
               </small>
