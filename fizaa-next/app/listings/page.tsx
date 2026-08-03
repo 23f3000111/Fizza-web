@@ -8,6 +8,7 @@ import ListingCard from "@/components/ListingCard";
 import ListingsMap from "@/components/ListingsMap";
 import { Search, Chevron } from "@/components/Icons";
 import { useLang } from "@/components/LangProvider";
+import { tPhrase } from "@/lib/listing-i18n";
 
 const num = (v: string) => {
   const n = Number(v.replace(/[^0-9.]/g, ""));
@@ -24,7 +25,7 @@ export default function ListingsPage() {
 }
 
 function ListingsInner() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const sp = useSearchParams();
   const [all, setAll] = useState<Listing[]>([]);
   const [meta, setMeta] = useState<Meta | null>(null);
@@ -131,11 +132,11 @@ function ListingsInner() {
           <input value={q} onChange={(e) => setQ(e.target.value)} className="input !h-[46px]" placeholder={t("Search keyword (e.g. factory, warehouse, Banting)")} />
           <select value={types.length === 1 ? types[0] : ""} onChange={(e) => setTypes(e.target.value ? [e.target.value] : [])} className="select !h-[46px]">
             <option value="">{t("Property Type")}</option>
-            {meta?.propertyTypes.map((pt) => <option key={pt} value={pt}>{pt}</option>)}
+            {meta?.propertyTypes.map((pt) => <option key={pt} value={pt}>{tPhrase(lang, pt)}</option>)}
           </select>
           <select value={cities.length === 1 ? cities[0] : ""} onChange={(e) => setCities(e.target.value ? [e.target.value] : [])} className="select !h-[46px]">
             <option value="">{t("All Cities")}</option>
-            {meta?.cities.map((c) => <option key={c} value={c}>{c}</option>)}
+            {meta?.cities.map((c) => <option key={c} value={c}>{tPhrase(lang, c)}</option>)}
           </select>
           <button type="submit" className="btn btn-brass !h-[46px]"><Search className="w-4 h-4" /> {t("Search")}</button>
         </form>
@@ -153,12 +154,12 @@ function ListingsInner() {
           </div>
           <FilterGroup title={t("Type")}>
             {meta?.propertyTypes.length ? meta.propertyTypes.map((pt) => (
-              <CheckRow key={pt} label={pt} count={countBy("propertyType", pt)} checked={types.includes(pt)} onChange={() => setTypes((a) => toggle(a, pt))} />
+              <CheckRow key={pt} label={tPhrase(lang, pt)} count={countBy("propertyType", pt)} checked={types.includes(pt)} onChange={() => setTypes((a) => toggle(a, pt))} />
             )) : <Empty t={t} />}
           </FilterGroup>
           <FilterGroup title={t("Location")}>
             {meta?.cities.length ? meta.cities.map((c) => (
-              <CheckRow key={c} label={c} count={countBy("city", c)} checked={cities.includes(c)} onChange={() => setCities((a) => toggle(a, c))} />
+              <CheckRow key={c} label={tPhrase(lang, c)} count={countBy("city", c)} checked={cities.includes(c)} onChange={() => setCities((a) => toggle(a, c))} />
             )) : <Empty t={t} />}
           </FilterGroup>
           <FilterGroup title={t("Price (MYR)")}>

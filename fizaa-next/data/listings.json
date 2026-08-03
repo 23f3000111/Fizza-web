@@ -48,7 +48,17 @@
         "url": "/api/uploads/1780147141254-pw5t7z.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Untuk Disewa - Sungai Tua, Batu Caves",
+        "shortDesc": "Gudang/kilang superlink industri ringan di Sungai Tua, Batu Caves — siling 40 kaki, kuasa 160 amp, memunggah dua hala."
+      },
+      "zh": {
+        "title": "仓库出租 — Sungai Tua，黑风洞",
+        "shortDesc": "位于黑风洞 Sungai Tua 的轻工业超级连排仓库／厂房——40尺净空、160安培电力、前后双向装卸。"
+      }
+    }
   },
   {
     "id": "mscywml2194cak",
@@ -61,7 +71,7 @@
     "dealType": "sale",
     "city": "Kepong",
     "state": "Kuala Lumpur",
-    "address": "Jalan Kepong, Mukim Batu, Kuala Lumpur",
+    "address": "Jalan Kepong, Mukim Batu",
     "lat": 3.2038,
     "lng": 101.6383,
     "price": 550000,
@@ -98,7 +108,17 @@
         "url": "/api/uploads/1785745738842-gq1k4j.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Tanah Banglo Untuk Dijual – Jalan Kepong, Mukim Batu",
+        "shortDesc": "Tanah banglo 4,516 kaki persegi di Jalan Kepong — pajakan 99 tahun, jarak berjalan kaki ke MRT Sri Delima."
+      },
+      "zh": {
+        "title": "洋房地段出售 — Jalan Kepong，Mukim Batu",
+        "shortDesc": "甲洞大路旁 4,516 平方尺洋房地段——99 年租赁地契，步行可达 Sri Delima 地铁站。"
+      }
+    }
   },
   {
     "id": "mscywmli25khw8",
@@ -111,7 +131,7 @@
     "dealType": "sale",
     "city": "Klang",
     "state": "Selangor",
-    "address": "Meru, Klang, Selangor",
+    "address": "Meru, Klang",
     "lat": 3.0906,
     "lng": 101.4269,
     "price": 4400000,
@@ -152,7 +172,17 @@
         "url": "/api/uploads/1785745738860-y8i6kj.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Superlink 2.5 Tingkat Untuk Dijual – Meru (Lot Tengah)",
+        "shortDesc": "Kilang superlink 2.5 tingkat moden di Meru dengan keterlihatan baik, binaan 8,141 kaki persegi dan lif kargo 2 tan."
+      },
+      "zh": {
+        "title": "2.5 层超级连排厂房出售 — 巴生 Meru（中间单位）",
+        "shortDesc": "巴生 Meru 现代化 2.5 层超级连排厂房，位置显眼，建筑面积 8,141 平方尺，配 2 吨货梯。"
+      }
+    }
   },
   {
     "id": "mscywmlu35okch",
@@ -165,7 +195,7 @@
     "dealType": "sale",
     "city": "Banting",
     "state": "Selangor",
-    "address": "Banting, Selangor",
+    "address": "Banting",
     "lat": 2.8167,
     "lng": 101.5,
     "price": 19335000,
@@ -206,7 +236,17 @@
         "url": "/api/uploads/1785745738873-zwpuox.docx"
       }
     ],
-    "segment": "commercial"
+    "segment": "commercial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah 2 Tingkat Baharu Untuk Dijual – Banting",
+        "shortDesc": "Kilang sesebuah pegangan bebas siap bina dalam hab perindustrian hijau — tanah 69,870 kp, binaan 45,936 kp, 1000 amp."
+      },
+      "zh": {
+        "title": "全新 2 层独立式厂房出售 — 万津",
+        "shortDesc": "绿色工业枢纽内的永久地契现成独立式厂房——地段 69,870 平方尺、建筑面积 45,936 平方尺、1000 安培。"
+      }
+    }
   },
   {
     "id": "mscywmm6438exl",
@@ -219,7 +259,7 @@
     "dealType": "sale",
     "city": "Kuala Lumpur",
     "state": "Kuala Lumpur",
-    "address": "Jalan Sg Penchala, Sg Penchala, Kuala Lumpur",
+    "address": "Jalan Sg Penchala, Sg Penchala",
     "lat": 3.1685,
     "lng": 101.6205,
     "price": 10000000,
@@ -258,7 +298,17 @@
         "url": "/api/uploads/1785745738881-rl3ut4.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Tanah Pembangunan 1.75 Ekar di Sg Penchala, Kuala Lumpur",
+        "shortDesc": "Tanah pembangunan pegangan bebas bersebelahan TTDI — zon Kediaman 2, nisbah plot sehingga 1:2.5, 6km ke Mont Kiara."
+      },
+      "zh": {
+        "title": "1.75 英亩发展地段 — 吉隆坡 Sg Penchala",
+        "shortDesc": "毗邻 TTDI 的永久地契发展地段——住宅二类分区，容积率高达 1:2.5，距 Mont Kiara 6 公里。"
+      }
+    }
   },
   {
     "id": "mscywmmd56h5rz",
@@ -271,7 +321,7 @@
     "dealType": "sale",
     "city": "Puncak Alam",
     "state": "Selangor",
-    "address": "Eco Business Park V, Puncak Alam, Selangor",
+    "address": "Eco Business Park V, Puncak Alam",
     "lat": 3.2167,
     "lng": 101.4167,
     "price": 18500000,
@@ -315,7 +365,17 @@
         "url": "/api/uploads/1785745738888-l0tpi3.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah Bersewa @ Eco Business Park V, Puncak Alam",
+        "shortDesc": "Kilang sesebuah 3 tingkat bersewa di Eco Business Park V dengan ROI kira-kira 5%, CF diperoleh, 600 amp boleh dinaik taraf."
+      },
+      "zh": {
+        "title": "已出租独立式厂房 @ Eco Business Park V，Puncak Alam",
+        "shortDesc": "Eco Business Park V 已出租 3 层独立式厂房，回酬约 5%，已取得入伙纸，600 安培可提升。"
+      }
+    }
   },
   {
     "id": "mscywmml65iph6",
@@ -328,7 +388,7 @@
     "dealType": "sale",
     "city": "Banting",
     "state": "Selangor",
-    "address": "Banting, Selangor",
+    "address": "Banting",
     "lat": 2.8167,
     "lng": 101.5,
     "price": 18850000,
@@ -371,7 +431,17 @@
         "url": "/api/uploads/1785745738900-03xb64.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Berkembar 3 Tingkat Banting Untuk Dijual",
+        "shortDesc": "Kilang berkembar pajakan 63,340 kp di Banting — ketinggian bumbung 40 kaki, 8km ke KLIA, berhubung WCE, SKVE, KESAS & Elite."
+      },
+      "zh": {
+        "title": "万津 3 层半独立式厂房出售",
+        "shortDesc": "万津 63,340 平方尺租赁地契半独立式厂房——檐高 40 尺，距吉隆坡国际机场 8 公里，连接 WCE、SKVE、KESAS 与 Elite 大道。"
+      }
+    }
   },
   {
     "id": "mscywmmw79kcgu",
@@ -384,7 +454,7 @@
     "dealType": "rent",
     "city": "Shah Alam",
     "state": "Selangor",
-    "address": "Jalan Mokhtar Dahari, Alam Budiman, Shah Alam, Selangor",
+    "address": "Jalan Mokhtar Dahari, Alam Budiman, Shah Alam",
     "lat": 3.1889,
     "lng": 101.51,
     "price": null,
@@ -421,7 +491,17 @@
         "url": "/api/uploads/1785745738907-plgjqc.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Tanah Perindustrian Bina-Untuk-Sewa @ Alam Budiman",
+        "shortDesc": "Tanah perindustrian 2.32 ekar di Jalan Mokhtar Dahari secara bina-untuk-sewa — potensi binaan sehingga 44,000 kp satu tingkat."
+      },
+      "zh": {
+        "title": "订制出租工业地段 @ Alam Budiman",
+        "shortDesc": "Jalan Mokhtar Dahari 2.32 英亩工业地段，可订制出租——单层潜在建筑面积达 44,000 平方尺。"
+      }
+    }
   },
   {
     "id": "mscywmn384olmm",
@@ -434,7 +514,7 @@
     "dealType": "rent",
     "city": "Shah Alam",
     "state": "Selangor",
-    "address": "Bukit Jelutong, Shah Alam, Selangor",
+    "address": "Bukit Jelutong, Shah Alam",
     "lat": 3.1069,
     "lng": 101.5397,
     "price": 79315,
@@ -476,7 +556,17 @@
         "url": "/api/uploads/1785745738914-sjknpg.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah 1 Ekar Untuk Disewa @ Bukit Jelutong",
+        "shortDesc": "Kilang sesebuah 1 ekar di Bukit Jelutong — binaan 30,506 kp, 1000 amp, bumbung 12m dan 2 ruang memunggah."
+      },
+      "zh": {
+        "title": "1 英亩独立式厂房出租 @ Bukit Jelutong",
+        "shortDesc": "Bukit Jelutong 1 英亩独立式厂房——建筑面积 30,506 平方尺、1000 安培、12 米檐高、2 个装卸月台。"
+      }
+    }
   },
   {
     "id": "mscywmna9fkv8",
@@ -489,7 +579,7 @@
     "dealType": "rent",
     "city": "Shah Alam",
     "state": "Selangor",
-    "address": "Kampung Baru Subang, Shah Alam, Selangor",
+    "address": "Kampung Baru Subang, Shah Alam",
     "lat": 3.1478,
     "lng": 101.5486,
     "price": 29000,
@@ -527,7 +617,17 @@
         "url": "/api/uploads/1785745738921-fbhd5n.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Berkembar 3 Tingkat Untuk Disewa – Kg Baru Subang",
+        "shortDesc": "Kilang berkembar 3 tingkat baru diubah suai di Kg Baru Subang dengan pejabat separa berperabot dan tingkat bawah berbumbung penuh."
+      },
+      "zh": {
+        "title": "3 层半独立式厂房出租 — Kg Baru Subang",
+        "shortDesc": "Kg Baru Subang 全新装修 3 层半独立式厂房，办公室半配套，底层全覆遮篷。"
+      }
+    }
   },
   {
     "id": "mscywmnka3zs37",
@@ -540,7 +640,7 @@
     "dealType": "rent",
     "city": "Rawang",
     "state": "Selangor",
-    "address": "Jalan STR 3, Saujana Teknologi Park, Rawang, Selangor",
+    "address": "Jalan STR 3, Saujana Teknologi Park, Rawang",
     "lat": 3.3216,
     "lng": 101.5769,
     "price": 15000,
@@ -581,7 +681,17 @@
         "url": "/api/uploads/1785745738936-2wd2n1.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Berkembar Untuk Disewa – Jalan STR 3, Saujana Teknologi Park",
+        "shortDesc": "Kilang berkembar di Saujana Teknologi Park — binaan 7,880 kp, ketinggian gudang 30 kaki. Dua unit bersebelahan pada RM30k."
+      },
+      "zh": {
+        "title": "半独立式厂房出租 — Jalan STR 3，Saujana Teknologi Park",
+        "shortDesc": "Saujana Teknologi Park 半独立式厂房——建筑面积 7,880 平方尺、仓库高度 30 尺。两个相邻单位共 RM30,000。"
+      }
+    }
   },
   {
     "id": "mscywmnxb9voll",
@@ -594,7 +704,7 @@
     "dealType": "rent",
     "city": "Puncak Alam",
     "state": "Selangor",
-    "address": "Puncak Alam, Selangor",
+    "address": "Puncak Alam",
     "lat": 3.2167,
     "lng": 101.4167,
     "price": 236356,
@@ -634,7 +744,17 @@
         "url": "/api/uploads/1785745738943-s2bnbb.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang dengan Ruang Memunggah Untuk Disewa – Puncak Alam",
+        "shortDesc": "Hab logistik luas 127,760 kp di Puncak Alam — siling 12m, 10 ruang memunggah dan tempoh sewa 3 tahun."
+      },
+      "zh": {
+        "title": "附装卸月台仓库出租 — Puncak Alam",
+        "shortDesc": "Puncak Alam 宽敞 127,760 平方尺物流枢纽——12 米净空、10 个装卸月台、租期 3 年。"
+      }
+    }
   },
   {
     "id": "mscywmo4c9fxv4",
@@ -647,7 +767,7 @@
     "dealType": "rent",
     "city": "Puncak Alam",
     "state": "Selangor",
-    "address": "Taman Industri Alam Jaya, Puncak Alam, Selangor",
+    "address": "Taman Industri Alam Jaya, Puncak Alam",
     "lat": 3.2167,
     "lng": 101.4167,
     "price": 79560,
@@ -688,7 +808,17 @@
         "url": "/api/uploads/1785745738951-ux3h24.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah Untuk Disewa – Taman Industri Alam Jaya, Puncak Alam",
+        "shortDesc": "Kilang sesebuah 65,340 kp di Taman Industri Alam Jaya — binaan 46,800 kp, 400 amp. Turut ditawarkan untuk jualan."
+      },
+      "zh": {
+        "title": "独立式厂房出租 — Taman Industri Alam Jaya，Puncak Alam",
+        "shortDesc": "Taman Industri Alam Jaya 65,340 平方尺独立式厂房——建筑面积 46,800 平方尺、400 安培。亦可出售。"
+      }
+    }
   },
   {
     "id": "mscz46sd16jtbf",
@@ -701,7 +831,7 @@
     "dealType": "sale",
     "city": "Klang",
     "state": "Selangor",
-    "address": "Meru, Klang, Selangor",
+    "address": "Meru, Klang",
     "lat": 3.0906,
     "lng": 101.4269,
     "price": 25000000,
@@ -740,7 +870,17 @@
         "url": "/api/uploads/1785746091621-61aicl.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Sesebuah Meru Untuk Dijual",
+        "shortDesc": "Gudang sesebuah di Meru atas tanah 100,578 kp — binaan 48,018 kp, siling 10.5m dan kuasa sehingga 1,000 amp."
+      },
+      "zh": {
+        "title": "巴生 Meru 独立式仓库出售",
+        "shortDesc": "巴生 Meru 独立式仓库，地段 100,578 平方尺——建筑面积 48,018 平方尺、10.5 米净空、电力最高 1,000 安培。"
+      }
+    }
   },
   {
     "id": "mscz46sv29u551",
@@ -753,7 +893,7 @@
     "dealType": "sale",
     "city": "Taiping",
     "state": "Perak",
-    "address": "Taiping, Perak",
+    "address": "Taiping",
     "lat": 4.85,
     "lng": 100.7333,
     "price": 60000000,
@@ -791,7 +931,17 @@
         "url": "/api/uploads/1785746091634-6i5pai.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Tanah Perindustrian Taiping Perak Untuk Dijual – 29.3 Ekar",
+        "shortDesc": "29.3 ekar tanah perindustrian ringan pegangan bebas di Taiping, Perak dengan akses terus ke jalan utama."
+      },
+      "zh": {
+        "title": "太平霹雳工业地段出售 — 29.3 英亩",
+        "shortDesc": "霹雳太平 29.3 英亩永久地契轻工业地段，直通大路。"
+      }
+    }
   },
   {
     "id": "mscz46t2398woq",
@@ -804,7 +954,7 @@
     "dealType": "sale",
     "city": "Bandar Enstek",
     "state": "Negeri Sembilan",
-    "address": "Bandar Enstek, Negeri Sembilan",
+    "address": "Bandar Enstek",
     "lat": 2.7856,
     "lng": 101.7583,
     "price": 57000000,
@@ -846,7 +996,17 @@
         "url": "/api/uploads/1785746091641-671ubw.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah Untuk Dijual – Bandar Enstek, Negeri Sembilan",
+        "shortDesc": "Kilang sesebuah dua blok atas 8.55 ekar di Bandar Enstek — binaan 216,522 kp, 845 amp setiap bangunan."
+      },
+      "zh": {
+        "title": "独立式厂房出售 — 森美兰 Bandar Enstek",
+        "shortDesc": "Bandar Enstek 8.55 英亩双座独立式厂房——建筑面积 216,522 平方尺，每座 845 安培。"
+      }
+    }
   },
   {
     "id": "mscz46ta464g0y",
@@ -859,7 +1019,7 @@
     "dealType": "rent",
     "city": "Puncak Alam",
     "state": "Selangor",
-    "address": "Puncak Alam, Selangor",
+    "address": "Puncak Alam",
     "lat": 3.2167,
     "lng": 101.4167,
     "price": 50000,
@@ -898,7 +1058,17 @@
         "url": "/api/uploads/1785746091648-l63v1o.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah Puncak Alam Untuk Disewa",
+        "shortDesc": "Kilang sesebuah 1 ekar di kawasan perindustrian matang Puncak Alam — binaan 29,000 kp, bumbung 12m, 400 amp."
+      },
+      "zh": {
+        "title": "Puncak Alam 独立式厂房出租",
+        "shortDesc": "Puncak Alam 成熟工业区 1 英亩独立式厂房——建筑面积 29,000 平方尺、12 米檐高、400 安培。"
+      }
+    }
   },
   {
     "id": "mscz46th532wly",
@@ -911,7 +1081,7 @@
     "dealType": "rent",
     "city": "Rawang",
     "state": "Selangor",
-    "address": "Rawang, Selangor",
+    "address": "Rawang",
     "lat": 3.3216,
     "lng": 101.5769,
     "price": 25000,
@@ -950,7 +1120,17 @@
         "url": "/api/uploads/1785746091655-o1xlh3.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah Lot Penjuru Untuk Disewa – Rawang",
+        "shortDesc": "Kilang sesebuah lot penjuru di Rawang — ketinggian gudang 12m sesuai untuk raking tinggi, akses mudah kontena 40 kaki."
+      },
+      "zh": {
+        "title": "转角独立式厂房出租 — 万挠",
+        "shortDesc": "万挠转角独立式厂房——12 米仓库高度适合高层货架，40 尺货柜车进出方便。"
+      }
+    }
   },
   {
     "id": "mscz46tp6xwl1",
@@ -963,7 +1143,7 @@
     "dealType": "rent",
     "city": "Klang",
     "state": "Selangor",
-    "address": "Meru, Klang, Selangor",
+    "address": "Meru, Klang",
     "lat": 3.0906,
     "lng": 101.4269,
     "price": 19574,
@@ -1003,6 +1183,16 @@
         "url": "/api/uploads/1785746091663-62fycw.docx"
       }
     ],
-    "segment": "industrial"
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Superlink 2.5 Tingkat Lot Hujung Untuk Disewa – Meru",
+        "shortDesc": "Kilang superlink lot hujung di Meru dengan parkir tambahan, siling 40 kaki, sedia panel solar dan lif kargo 2 tan."
+      },
+      "zh": {
+        "title": "2.5 层超级连排厂房出租 — 巴生 Meru（端头单位）",
+        "shortDesc": "巴生 Meru 端头超级连排厂房，泊车位充裕、40 尺净空、已预留太阳能板，配 2 吨货梯。"
+      }
+    }
   }
 ]

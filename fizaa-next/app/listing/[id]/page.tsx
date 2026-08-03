@@ -8,7 +8,8 @@ import { Pin } from "@/components/Icons";
 import Gallery from "@/components/Gallery";
 import DetailMap from "@/components/DetailMap";
 import InquiryForm from "@/components/InquiryForm";
-import { getT } from "@/lib/i18n-server";
+import { getLang, getT } from "@/lib/i18n-server";
+import { tListing, tPhrase } from "@/lib/listing-i18n";
 
 export const dynamic = "force-dynamic";
 
@@ -23,13 +24,15 @@ export default async function ListingDetail({ params }: { params: { id: string }
   const l = await db.listings.get(params.id);
   if (!l || l.status === "hidden") notFound();
   const t = getT();
+  const lang = getLang();
+  const tl = tListing(lang, l);
 
   const baseRows: [string, string | number | null | undefined][] = [
-    [t("Property type"), l.propertyType],
+    [t("Property type"), tl.propertyType],
     [t("Deal"), l.dealType === "rent" ? t("For Rent") : t("For Sale")],
-    [t("City"), l.city],
-    [t("State"), l.state],
-    [t("Size"), l.size ? `${Number(l.size).toLocaleString("en-MY")} ${l.sizeUnit || ""}` : ""],
+    [t("City"), tl.city],
+    [t("State"), tl.state],
+    [t("Size"), l.size ? `${Number(l.size).toLocaleString("en-MY")} ${tl.sizeUnit || ""}` : ""],
     [t("Beds"), l.beds],
     [t("Baths"), l.baths],
   ];
@@ -44,7 +47,7 @@ export default async function ListingDetail({ params }: { params: { id: string }
           <li className="text-faint" aria-hidden>›</li>
           <li><Link href="/listings" className="inline-flex items-center px-2.5 py-1 rounded-full text-ink-2 hover:text-navy hover:bg-cream transition-colors">{t("Listings")}</Link></li>
           <li className="text-faint" aria-hidden>›</li>
-          <li><span className="inline-flex items-center px-2.5 py-1 rounded-full bg-navy-soft text-navy-2 font-medium max-w-[60vw] sm:max-w-[42ch] truncate">{l.title}</span></li>
+          <li><span className="inline-flex items-center px-2.5 py-1 rounded-full bg-navy-soft text-navy-2 font-medium max-w-[60vw] sm:max-w-[42ch] truncate">{tl.title}</span></li>
         </ol>
       </nav>
 
@@ -52,33 +55,33 @@ export default async function ListingDetail({ params }: { params: { id: string }
         <div>
           <div className="flex gap-2 mb-4">
             <span className={l.dealType === "rent" ? "pill pill-rent" : "pill pill-sale"}>{l.dealType === "rent" ? t("For Rent") : t("For Sale")}</span>
-            {l.propertyType && <span className="pill pill-soft">{l.propertyType}</span>}
+            {tl.propertyType && <span className="pill pill-soft">{tl.propertyType}</span>}
           </div>
-          <h1 className="font-serif text-2xl sm:text-[42px] max-w-[22ch] leading-tight">{l.title}</h1>
-          <div className="text-mute flex items-center gap-1.5 mt-2.5 text-sm"><Pin className="w-4 h-4 text-brass" />{[l.address || l.city, l.state].filter(Boolean).join(", ")}</div>
+          <h1 className="font-serif text-2xl sm:text-[42px] max-w-[22ch] leading-tight">{tl.title}</h1>
+          <div className="text-mute flex items-center gap-1.5 mt-2.5 text-sm"><Pin className="w-4 h-4 text-brass" />{[l.address || tl.city, tl.state].filter(Boolean).join(", ")}</div>
         </div>
         <div className="text-right">
-          <div className="font-serif text-2xl sm:text-[38px] text-navy">{t(money(l))}</div>
+          <div className="font-serif text-2xl sm:text-[38px] text-navy">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
           <div className="text-xs text-mute uppercase tracking-wide">{l.dealType === "rent" ? t("Rental") : t("Sale price")}</div>
         </div>
       </div>
 
-      <Gallery images={l.images || []} title={l.title} />
+      <Gallery images={l.images || []} title={tl.title} />
 
       <div className="grid lg:grid-cols-[1fr_360px] gap-8 py-7 pb-[70px] items-start">
         <div>
-          {l.specs && l.specs.length > 0 && (
+          {tl.specs && tl.specs.length > 0 && (
             <Section title={t("Highlights")}>
               <div className="grid sm:grid-cols-2 gap-3">
-                {l.specs.map((s, i) => (
+                {tl.specs.map((s, i) => (
                   <div key={i} className="flex items-center gap-2.5 bg-white border border-line rounded-xl px-4 py-3.5 text-sm before:content-[''] before:w-[7px] before:h-[7px] before:rounded-full before:bg-brass before:shrink-0">{s}</div>
                 ))}
               </div>
             </Section>
           )}
-          {l.description && (
+          {tl.description && (
             <Section title={t("About this property")}>
-              <p className="text-ink-2 text-[15.5px] leading-[1.7] whitespace-pre-line">{l.description}</p>
+              <p className="text-ink-2 text-[15.5px] leading-[1.7] whitespace-pre-line">{tl.description}</p>
             </Section>
           )}
           <Section title={t("Details")}>
@@ -87,7 +90,7 @@ export default async function ListingDetail({ params }: { params: { id: string }
                 {baseRows.filter(([, v]) => v != null && v !== "").map(([k, v]) => (
                   <Row key={k} k={k} v={String(v)} />
                 ))}
-                {attrRows.map(([k, v]) => <Row key={k} k={labelFromKey(k)} v={v} />)}
+                {attrRows.map(([k, v]) => <Row key={k} k={tPhrase(lang, labelFromKey(k))} v={tPhrase(lang, v)} />)}
               </tbody>
             </table>
           </Section>

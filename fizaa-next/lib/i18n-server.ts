@@ -1,9 +1,10 @@
 // Server-only i18n helpers — reads the chosen language from the cookie.
 import { cookies } from "next/headers";
-import { translate, type Lang } from "./i18n";
+import { translate, isLang, LANG_COOKIE, type Lang } from "./i18n";
 
 export function getLang(): Lang {
-  return cookies().get("lang")?.value === "bm" ? "bm" : "en";
+  const v = cookies().get(LANG_COOKIE)?.value;
+  return isLang(v) ? v : "en";
 }
 
 // Returns a bound translator for server components: const t = getT(); t("Home")

@@ -35,6 +35,15 @@ export const SEGMENT_LABEL: Record<Segment, string> = {
   hotel: "Hotel",
 };
 
+// Hand-written translations for a listing's prose, keyed by language code
+// ("bm", "zh"). Anything omitted falls back to the English field.
+export interface ListingI18n {
+  title?: string;
+  shortDesc?: string;
+  description?: string;
+  specs?: string[];
+}
+
 export interface Listing {
   id: string;
   title: string;
@@ -65,6 +74,7 @@ export interface Listing {
   documents?: DocFile[];
   specs?: string[];
   attributes?: Record<string, string>;
+  i18n?: Record<string, ListingI18n>;
   createdAt?: string;
   updatedAt?: string;
 }

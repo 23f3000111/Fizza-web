@@ -103,6 +103,8 @@ export default async function HomePage() {
             <p className="text-[17px] text-navy italic font-serif mt-4">&ldquo;{t("I'm just a friendly agent who goes the extra mile to solve my client's problems.")}&rdquo;</p>
             <p className="text-ink-2 mt-4 text-[15.5px] leading-relaxed">{lang === "bm"
               ? `Nur Hafizah Abd Aziz — dikenali sebagai Fizaa — ialah Perunding Hartanah Berdaftar (REN 63161) di bawah ${SITE.agency}, Cyberjaya. Beliau pakar dalam hartanah perindustrian, komersial dan hotel di seluruh Malaysia.`
+              : lang === "zh"
+              ? `Nur Hafizah Abd Aziz——客户称她为 Fizaa——是隶属赛城 ${SITE.agency} 的注册地产协商员（REN 63161）。她专精于马来西亚各地的工业、商业与酒店地产。`
               : <>Nur Hafizah Abd Aziz — known as Fizaa — is a Registered Estate Negotiator (REN 63161) under {SITE.agency}, Cyberjaya. She specialises in industrial, commercial and hotel property across Malaysia.</>}</p>
             <div className="flex flex-wrap gap-2.5 mt-6">
               {[["REN 63161", <Shield key="s" className="w-[15px] h-[15px]" />], [t("Industrial & Commercial"), <Building key="b" className="w-[15px] h-[15px]" />], [t("24/7 Response"), <Check key="c" className="w-[15px] h-[15px]" />]].map(([label, icon], i) => (

@@ -57,6 +57,8 @@ export default function HomeHero() {
           <h1 className="font-serif text-white text-[40px] sm:text-6xl lg:text-7xl leading-[1.05] mt-5">
             {lang === "bm" ? (
               <>Rakan <span className="text-brass-soft italic">Dipercayai</span> Anda dalam Hartanah Perindustrian &amp; Komersial.</>
+            ) : lang === "zh" ? (
+              <>您<span className="text-brass-soft italic">值得信赖</span>的工业与商业地产伙伴。</>
             ) : (
               <>Your <span className="text-brass-soft italic">Trusted</span> Partner in Industrial &amp; Commercial Property.</>
             )}

@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { fetchJSON } from "@/lib/clientApi";
 import { money, imgOf } from "@/lib/format";
+import { tListing, tPhrase } from "@/lib/listing-i18n";
+import type { Lang } from "@/lib/i18n";
 import type { Listing, Meta, Segment } from "@/lib/types";
 import { SITE } from "@/lib/site";
 import { Search, Pin, ArrowRight } from "./Icons";
@@ -24,7 +26,7 @@ export default function SegmentListings({
   title: string;
   subtitle: string;
 }) {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const [all, setAll] = useState<Listing[]>([]);
   const [meta, setMeta] = useState<Meta | null>(null);
   const [loaded, setLoaded] = useState(false);
@@ -110,7 +112,7 @@ export default function SegmentListings({
             <Pin className="w-4 h-4 text-brass shrink-0" />
             <select value={region} onChange={(e) => setRegion(e.target.value)} className="bg-transparent w-full py-3 text-[14px] focus:outline-none">
               <option value="">{t("All Malaysia")}</option>
-              {regions.map((s) => <option key={s} value={s}>{s}</option>)}
+              {regions.map((s) => <option key={s} value={s}>{tPhrase(lang, s)}</option>)}
             </select>
           </div>
           <input value={q} onChange={(e) => setQ(e.target.value)} className="flex-1 px-4 py-3 rounded-full bg-cream text-[14.5px] focus:outline-none focus:ring-2 focus:ring-navy-soft" placeholder={t("Search property…")} />
@@ -125,7 +127,7 @@ export default function SegmentListings({
           <span className="w-px h-5 bg-line-strong mx-1" />
           <select value={ptype} onChange={(e) => setPtype(e.target.value)} className="chip-select">
             <option value="">{t("Property Type")}</option>
-            {(propertyTypes.length ? propertyTypes : meta?.propertyTypes || []).map((pt) => <option key={pt} value={pt}>{pt}</option>)}
+            {(propertyTypes.length ? propertyTypes : meta?.propertyTypes || []).map((pt) => <option key={pt} value={pt}>{tPhrase(lang, pt)}</option>)}
           </select>
           <input value={minPrice} onChange={(e) => setMinPrice(e.target.value)} inputMode="numeric" placeholder={t("Min price")} className="chip-select w-[120px]" />
           <input value={maxPrice} onChange={(e) => setMaxPrice(e.target.value)} inputMode="numeric" placeholder={t("Max price")} className="chip-select w-[120px]" />
@@ -167,7 +169,7 @@ export default function SegmentListings({
             </div>
           ) : (
             <div className="flex flex-col gap-3.5">
-              {filtered.map((l) => <Row key={l.id} l={l} t={t} />)}
+              {filtered.map((l) => <Row key={l.id} l={l} t={t} lang={lang} />)}
             </div>
           )}
         </main>
@@ -199,33 +201,34 @@ function Seg({ label, active, onClick }: { label: string; active: boolean; onCli
   );
 }
 
-function Row({ l, t }: { l: Listing; t: (s: string) => string }) {
+function Row({ l, t, lang }: { l: Listing; t: (s: string) => string; lang: Lang }) {
+  const tl = tListing(lang, l);
   return (
     <Link href={`/listing/${l.id}`} data-row={l.id} className="group grid grid-cols-[120px_1fr] sm:grid-cols-[210px_1fr_auto] gap-4 sm:gap-5 bg-white border border-line rounded-xl2 p-3 sm:p-3.5 hover:shadow-md2 hover:border-line-strong transition-all scroll-mt-[88px]">
       <div className="relative aspect-[4/3] sm:aspect-[16/11] rounded-xl overflow-hidden bg-cream">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={imgOf(l)} alt={l.title} loading="lazy" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+        <img src={imgOf(l)} alt={tl.title} loading="lazy" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
         <span className={`absolute top-2 left-2 ${l.dealType === "rent" ? "pill pill-rent" : "pill pill-sale"} !text-[10px] !px-2 !py-0.5`}>{l.dealType === "rent" ? t("For Rent") : t("For Sale")}</span>
       </div>
       <div className="min-w-0 flex flex-col justify-center">
-        <h3 className="font-serif text-[18px] sm:text-[21px] leading-snug group-hover:text-navy transition-colors truncate">{l.title}</h3>
+        <h3 className="font-serif text-[18px] sm:text-[21px] leading-snug group-hover:text-navy transition-colors truncate">{tl.title}</h3>
         <div className="flex items-center gap-1.5 text-[13px] text-mute mt-1.5">
           <Pin className="w-[14px] h-[14px] text-brass shrink-0" />
-          <span className="truncate">{[l.city, l.state].filter(Boolean).join(", ") || "—"}</span>
+          <span className="truncate">{[tl.city, tl.state].filter(Boolean).join(", ") || "—"}</span>
         </div>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[13px] text-ink-2 mt-2.5">
-          {l.propertyType && <span className="inline-flex items-center gap-1.5">🏢 {l.propertyType}</span>}
+          {tl.propertyType && <span className="inline-flex items-center gap-1.5">🏢 {tl.propertyType}</span>}
           {l.beds != null && l.beds > 0 && <span className="inline-flex items-center gap-1.5">🛏 {l.beds} {t("beds")}</span>}
           {l.baths != null && l.baths > 0 && <span className="inline-flex items-center gap-1.5">🛁 {l.baths} {t("baths")}</span>}
-          {l.size != null && <span className="inline-flex items-center gap-1.5">📐 {Number(l.size).toLocaleString("en-MY")} {l.sizeUnit || "sqft"}</span>}
+          {l.size != null && <span className="inline-flex items-center gap-1.5">📐 {Number(l.size).toLocaleString("en-MY")} {tl.sizeUnit || "sqft"}</span>}
         </div>
       </div>
       <div className="hidden sm:flex flex-col justify-center items-end text-right pr-2">
-        <div className="font-serif text-xl text-navy whitespace-nowrap">{t(money(l))}</div>
+        <div className="font-serif text-xl text-navy whitespace-nowrap">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
         <span className="text-[13px] font-semibold text-brass-2 inline-flex items-center gap-1 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">{t("View")} <ArrowRight className="w-3.5 h-3.5" /></span>
       </div>
       {/* price on mobile (under details) */}
-      <div className="sm:hidden col-span-2 -mt-1 font-serif text-lg text-navy">{t(money(l))}</div>
+      <div className="sm:hidden col-span-2 -mt-1 font-serif text-lg text-navy">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
     </Link>
   );
 }

@@ -34,6 +34,8 @@ export default async function JourneyPage() {
             <p className="text-[19px] text-navy italic font-serif mb-4">&ldquo;{t("I'm just a friendly agent who goes the extra mile to solve my client's problems.")}&rdquo;</p>
             <p className="text-ink-2 mb-3.5">{lang === "bm"
               ? `Nur Hafizah Abd Aziz — dikenali pelanggan sebagai Fizaa — ialah Perunding Hartanah Berdaftar (REN 63161) yang beramal di bawah ${SITE.agency} di Cyberjaya. Beliau pakar dalam hartanah perindustrian dan komersial di seluruh Malaysia: kilang binaan khas, gudang logistik, pelaburan hotel dan taman perindustrian bertauliah GreenRE.`
+              : lang === "zh"
+              ? `Nur Hafizah Abd Aziz——客户称她为 Fizaa——是在赛城 ${SITE.agency} 执业的注册地产协商员（REN 63161）。她专精于马来西亚各地的工业与商业地产：订制厂房、物流仓库、酒店投资，以及获 GreenRE 认证的工业园。`
               : <>Nur Hafizah Abd Aziz — known to clients as Fizaa — is a Registered Estate Negotiator (REN 63161) practising under {SITE.agency} in Cyberjaya. She specialises in industrial and commercial property across Malaysia: purpose-built factories, logistics warehouses, hotel investments and GreenRE-certified industrial parks.</>}</p>
             <p className="text-ink-2">{t("Her approach is simple: understand the business first, then match it to the right space. Every listing is personally vetted, every client personally served — nothing handed off to an assistant or resolved by a template reply.")}</p>
             <div className="flex flex-wrap gap-2.5 mt-6">
@@ -57,6 +59,8 @@ export default async function JourneyPage() {
             <blockquote className="font-serif text-2xl sm:text-[40px] leading-tight">
               {lang === "bm"
                 ? <>&ldquo;Sasarkan dan <em className="italic text-brass-soft not-italic">kawal keadaan.</em><br />Bukan dikawal.&rdquo;</>
+                : lang === "zh"
+                ? <>&ldquo;瞄准目标，<em className="italic text-brass-soft not-italic">掌控全局。</em><br />而非被人掌控。&rdquo;</>
                 : <>&ldquo;Aim and be <em className="italic text-brass-soft not-italic">in control.</em><br />Not controlled.&rdquo;</>}
             </blockquote>
             <cite className="block mt-5 not-italic text-[13px] tracking-[0.1em] uppercase text-[#9fb1c6]">{t("Nur Hafizah · Personal Philosophy")}</cite>
