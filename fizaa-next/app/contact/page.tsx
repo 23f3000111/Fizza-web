@@ -35,7 +35,7 @@ export default function ContactPage() {
         <div className="container-site">
           <span className="eyebrow text-brass-soft before:bg-brass-soft">{t("Contact Us")}</span>
           <h1 className="font-serif text-3xl sm:text-[44px] text-white mt-3">{t("Let's start a conversation.")}</h1>
-          <p className="text-[#B9C7D8] mt-2.5 max-w-[56ch]">{t("Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — Fizaa replies personally.")}</p>
+          <p className="text-[#B9C7D8] mt-2.5 max-w-[56ch]">{t("Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — we reply personally.")}</p>
         </div>
       </section>
 
@@ -45,19 +45,19 @@ export default function ContactPage() {
             <div className="text-center py-7">
               <Check className="w-[52px] h-[52px] text-good mx-auto mb-3.5" />
               <h2 className="font-serif text-2xl text-navy">{t("Message sent!")}</h2>
-              <p className="text-mute my-2.5 mb-5">{t("Thanks for reaching out — Fizaa will reply to you shortly.")}</p>
+              <p className="text-mute my-2.5 mb-5">{t("Thanks for reaching out — we'll reply to you shortly.")}</p>
               <Link href="/listings" className="btn btn-primary">{t("Browse listings")}</Link>
             </div>
           ) : (
             <form onSubmit={onSubmit}>
               <h2 className="font-serif text-2xl">{t("Send a message")}</h2>
-              <p className="text-ink-2 text-[14.5px] mb-6">{t("Fill in the form and Fizaa will get back to you directly.")}</p>
+              <p className="text-ink-2 text-[14.5px] mb-6">{t("Fill in the form and we'll get back to you directly.")}</p>
               <div className="grid sm:grid-cols-2 gap-3.5">
                 <div className="mb-1"><label className="field-label">{t("First Name")} <span className="text-brass-2">*</span></label><input className="input" name="firstName" required placeholder={t("Enter your name")} /></div>
                 <div className="mb-1"><label className="field-label">{t("Last Name")}</label><input className="input" name="lastName" placeholder={t("Enter your last name")} /></div>
               </div>
               <div className="my-4"><label className="field-label">{t("Email")} <span className="text-brass-2">*</span></label><input className="input" type="email" name="email" required placeholder="you@email.com" /></div>
-              <div className="mb-4"><label className="field-label">{t("Message")} <span className="text-brass-2">*</span></label><textarea className="textarea" name="message" required placeholder={t("How can Fizaa help?")} /></div>
+              <div className="mb-4"><label className="field-label">{t("Message")} <span className="text-brass-2">*</span></label><textarea className="textarea" name="message" required placeholder={t("How can we help?")} /></div>
               <label className="flex items-start gap-2.5 text-[13.5px] text-ink-2 my-2 mb-5"><input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 w-4 h-4 accent-navy" /> <span>{t("I consent to having this website store my submitted information.")} <span className="text-brass-2">*</span></span></label>
               {err && <p className="text-sm text-bad mb-3">{err}</p>}
               <button className="btn btn-brass btn-lg btn-block" disabled={busy}>{busy ? t("Sending…") : t("Submit")}</button>
@@ -68,7 +68,7 @@ export default function ContactPage() {
         <aside className="flex flex-col gap-4">
           <div className="bg-white border border-line rounded-xl2 p-6">
             <h3 className="font-serif text-lg">{t("For inquiries")}</h3>
-            <div className="text-[13px] text-mute mb-3.5">Nur Hafizah Abd Aziz — REN 63161</div>
+            <div className="text-[13px] text-mute mb-3.5">M.I.R. · REN 63161</div>
             <Side icon={<Phone className="w-[18px] h-[18px]" />} k={t("Mobile / WhatsApp")} v={SITE.phone} href={`tel:${SITE.phoneRaw}`} />
             <Side icon={<Mail className="w-[18px] h-[18px]" />} k={t("Email")} v={SITE.email} href={`mailto:${SITE.email}`} />
             <Side icon={<Clock className="w-[18px] h-[18px]" />} k={t("Hours")} v="9am – 9pm · GMT+8" last />

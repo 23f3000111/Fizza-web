@@ -33,7 +33,7 @@ export default function InquiryForm({ listingId, listingTitle }: { listingId: st
     return (
       <div className="text-center py-3.5">
         <Check className="w-11 h-11 text-good mx-auto mb-2.5" />
-        <p>{t("Thank you! Fizaa will be in touch shortly.")}</p>
+        <p>{t("Thank you! We'll be in touch shortly.")}</p>
       </div>
     );
   }

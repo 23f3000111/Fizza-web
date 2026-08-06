@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "ff-msczrw8w169rdx",
+    "createdAt": "2026-08-03T08:53:17.697Z",
+    "key": "land_area",
+    "label": "Land area",
+    "type": "text",
+    "options": []
+  },
+  {
+    "id": "ff-msczrw93283hov",
+    "createdAt": "2026-08-03T08:53:17.706Z",
+    "key": "built_up",
+    "label": "Built up",
+    "type": "text",
+    "options": []
+  },
+  {
+    "id": "ff-msczrw9a31ymhk",
+    "createdAt": "2026-08-03T08:53:17.713Z",
+    "key": "eave_height",
+    "label": "Eave height",
+    "type": "text",
+    "options": []
+  },
+  {
+    "id": "ff-msczrw9h47dks1",
+    "createdAt": "2026-08-03T08:53:17.720Z",
+    "key": "power_supply",
+    "label": "Power supply",
+    "type": "text",
+    "options": []
+  },
+  {
+    "id": "ff-msczrw9p552zzl",
+    "createdAt": "2026-08-03T08:53:17.727Z",
+    "key": "tenure",
+    "label": "Tenure",
+    "type": "text",
+    "options": []
+  },
+  {
+    "id": "ff-msczrw9w63s7sm",
+    "createdAt": "2026-08-03T08:53:17.735Z",
+    "key": "price_psf",
+    "label": "Price psf",
+    "type": "text",
+    "options": []
+  }
+]

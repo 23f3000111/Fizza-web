@@ -16,18 +16,18 @@ const WA = SITE.whatsapp;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 const FAQ: { k: string[]; a: ReactNode }[] = [
-  { k: ["fee", "commission", "charge"], a: <>Agent fees are capped by law: max <b>3% of the price</b> for a subsale, or about <b>1.25 months’ rent</b> for a lease (both + SST). Fizaa clarifies fees upfront.</> },
-  { k: ["ren", "license", "licence", "registered", "bovaep"], a: <>Fizaa is a <b>Registered Estate Negotiator (REN 63161)</b> under Esprit Estate Agent Sdn Bhd — fully licensed and verifiable on the BOVAEP register.</> },
-  { k: ["zoning", "light industry", "medium industry", "heavy"], a: <>Industrial land is zoned <b>Light, Medium or Heavy</b> industry. Your activity must match the approved zoning — Fizaa checks title, zoning and MITI requirements before recommending anything.</> },
+  { k: ["fee", "commission", "charge"], a: <>Agent fees are capped by law: max <b>3% of the price</b> for a subsale, or about <b>1.25 months’ rent</b> for a lease (both + SST). We clarify fees upfront.</> },
+  { k: ["ren", "license", "licence", "registered", "bovaep"], a: <>M.I.R. operates as a <b>Registered Estate Negotiator (REN 63161)</b> under Esprit Estate Agent Sdn Bhd — fully licensed and verifiable on the BOVAEP register.</> },
+  { k: ["zoning", "light industry", "medium industry", "heavy"], a: <>Industrial land is zoned <b>Light, Medium or Heavy</b> industry. Your activity must match the approved zoning — We check title, zoning and MITI requirements before recommending anything.</> },
   { k: ["btr", "built to rent", "built-to-rent"], a: <><b>Built-To-Rent (BTR)</b> means a facility is built to your spec then leased long-term — you avoid the capital outlay of buying while getting a tailored building.</> },
   { k: ["greenre", "esg", "green"], a: <><b>GreenRE</b> is Malaysia’s green-building certification. GreenRE-certified industrial assets help meet ESG reporting and attract premium tenants and financing.</> },
-  { k: ["area", "where", "location", "cover", "region"], a: <>Fizaa covers industrial &amp; commercial property across <b>Malaysia</b>, with deep focus on the Klang Valley, Selangor and Negeri Sembilan corridors.</> },
+  { k: ["area", "where", "location", "cover", "region"], a: <>M.I.R. covers industrial &amp; commercial property across <b>Malaysia</b>, with deep focus on the Klang Valley, Selangor and Negeri Sembilan corridors.</> },
 ];
 
 const MAIN_CHIPS: Chip[] = [
   { label: "Browse listings", intent: "browse" },
   { label: "Get a quote", intent: "quote" },
-  { label: "Talk to Fizaa", intent: "contact" },
+  { label: "Talk to us", intent: "contact" },
   { label: "Agent fees", intent: "faq", value: "agent fees" },
 ];
 
@@ -88,7 +88,7 @@ export default function Chatbot() {
     const all = await getListings();
     const matches = all.filter(filterFn).slice(0, 3);
     if (!matches.length) {
-      await botSay(<>I don’t have a live match for that yet, but new listings come in often. <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">WhatsApp Fizaa →</a></>);
+      await botSay(<>I don’t have a live match for that yet, but new listings come in often. <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">WhatsApp us →</a></>);
       return;
     }
     await botSay(<>{intro}</>);
@@ -127,14 +127,14 @@ export default function Chatbot() {
 
   async function answerFaq(t: string) {
     const hit = FAQ.find((f) => f.k.some((k) => t.includes(k)));
-    await botSay(hit ? hit.a : <>Good question — Fizaa can answer that in detail. <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">Ask her on WhatsApp →</a></>);
+    await botSay(hit ? hit.a : <>Good question — we can answer that in detail. <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">Ask us on WhatsApp →</a></>);
     setChips(MAIN_CHIPS);
   }
 
   async function handleFree(t: string) {
     const faqHit = FAQ.find((f) => f.k.some((k) => t.includes(k)));
     if (faqHit) { await botSay(faqHit.a); setChips(MAIN_CHIPS); return; }
-    await botSay(<>Thanks! I’ve noted that. For anything specific, Fizaa will help personally. <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">Message Fizaa →</a></>);
+    await botSay(<>Thanks! I’ve noted that. For anything specific, our team will help personally. <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">Message us →</a></>);
     setChips(MAIN_CHIPS);
   }
 
@@ -155,9 +155,9 @@ export default function Chatbot() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: leadRef.current?.name, email: leadRef.current?.email, mobile: leadRef.current?.phone, propertyType: data.propertyType, message: data.message, inquiryType: "Purchase", source: "chatbot" }),
       });
-      await botSay(<>Perfect — your request is in! Fizaa will reach out on <b>{leadRef.current?.phone || "your number"}</b> shortly. Anything else?</>);
+      await botSay(<>Perfect — your request is in! We'll reach out on <b>{leadRef.current?.phone || "your number"}</b> shortly. Anything else?</>);
     } catch {
-      await botSay(<>I couldn’t submit that just now — please <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">WhatsApp Fizaa →</a> and she’ll sort it immediately.</>);
+      await botSay(<>I couldn’t submit that just now — please <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">WhatsApp us →</a> and we’ll sort it immediately.</>);
     }
     setChips(MAIN_CHIPS);
   }
@@ -193,7 +193,7 @@ export default function Chatbot() {
         startQuoteFlow();
         break;
       case "contact":
-        await botSay(<>The fastest way to reach Fizaa is WhatsApp — she replies personally, usually within minutes.</>);
+        await botSay(<>The fastest way to reach us is WhatsApp — we reply personally, usually within minutes.</>);
         pushBot(
           <div className="flex gap-2 flex-wrap">
             <a className="btn btn-brass btn-sm" href={WA} target="_blank" rel="noopener noreferrer">WhatsApp {SITE.phone}</a>
@@ -257,7 +257,7 @@ export default function Chatbot() {
           <div className="flex items-center gap-3 px-4 py-3.5 bg-navy text-white">
             <div className="w-10 h-10 rounded-full bg-brass grid place-items-center font-serif italic text-[19px]">F</div>
             <div>
-              <h4 className="font-sans text-[14.5px] font-semibold">Fizaa · {t("Property Assistant")}</h4>
+              <h4 className="font-sans text-[14.5px] font-semibold">{SITE.name} · {t("Property Assistant")}</h4>
               <p className="text-[11.5px] text-[#B9C7D8] flex items-center gap-1.5"><span className="w-[7px] h-[7px] rounded-full bg-[#5BE584]" /> {t("Online · replies in minutes")}</p>
             </div>
             <button onClick={() => setOpen(false)} aria-label="Close" className="ml-auto w-8 h-8 rounded-lg bg-white/10 grid place-items-center hover:bg-white/20"><Close className="w-[17px] h-[17px]" /></button>
@@ -269,15 +269,15 @@ export default function Chatbot() {
               <>
                 <div className="text-center pt-2.5 pb-1">
                   <div className="w-14 h-14 rounded-full bg-navy text-white grid place-items-center font-serif italic text-[26px] mx-auto mb-3.5">F</div>
-                  <h4 className="font-serif text-xl mb-2">{t("Hi, I'm Fizaa's assistant 👋")}</h4>
-                  <p className="text-[13.5px] text-ink-2 leading-relaxed">{t("Industrial & commercial property across Malaysia. Leave your details so Fizaa can follow up, then let's chat.")}</p>
+                  <h4 className="font-serif text-xl mb-2">{t("Hi, I'm the M.I.R. assistant 👋")}</h4>
+                  <p className="text-[13.5px] text-ink-2 leading-relaxed">{t("Industrial & commercial property across Malaysia. Leave your details so we can follow up, then let's chat.")}</p>
                 </div>
                 <form onSubmit={onGateSubmit} className="flex flex-col gap-2.5 mt-3">
                   <input className="input !py-2.5" name="name" placeholder={t("Your name *")} required />
                   <input className="input !py-2.5" name="phone" placeholder={t("Phone (WhatsApp) *")} required />
                   <input className="input !py-2.5" name="email" type="email" placeholder={t("Email (optional)")} />
                   <button className="btn btn-brass btn-block" type="submit">{t("Start chat →")}</button>
-                  <small className="text-[11px] text-mute text-center leading-tight">{t("By starting, you agree Fizaa may contact you about your enquiry.")}</small>
+                  <small className="text-[11px] text-mute text-center leading-tight">{t("By starting, you agree M.I.R. may contact you about your enquiry.")}</small>
                 </form>
               </>
             ) : (
@@ -318,7 +318,7 @@ export default function Chatbot() {
               </button>
             </form>
           )}
-          <a href={WA} target="_blank" rel="noopener noreferrer" className="block text-center py-2.5 text-xs text-brass-2 font-medium border-t border-line-2 bg-white">{t("Prefer WhatsApp? Chat with Fizaa directly →")}</a>
+          <a href={WA} target="_blank" rel="noopener noreferrer" className="block text-center py-2.5 text-xs text-brass-2 font-medium border-t border-line-2 bg-white">{t("Prefer WhatsApp? Chat with us directly →")}</a>
         </div>
       )}
     </div>

@@ -43,9 +43,10 @@ export const BM: Record<string, string> = {
   "Trusted across": "Dipercayai di",
 
   // Home — values
-  "Why work with Fizaa": "Mengapa bekerja dengan Fizaa",
-  "Property is a people business — handled by one pair of hands.":
-    "Hartanah ialah perniagaan tentang manusia — diuruskan oleh sepasang tangan yang sama.",
+  "Why work with M.I.R.":
+    "Mengapa bekerja dengan M.I.R.",
+  "Property is a people business — handled by one dedicated team.":
+    "Hartanah ialah perniagaan tentang manusia — diuruskan oleh satu pasukan yang berdedikasi.",
   "No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.":
     "Tiada pusat panggilan, tiada serah-menyerah, tiada jawapan templat. Setiap pertanyaan perindustrian dan komersial disemak dan dilayan secara peribadi.",
   "A registered hand": "Tangan yang berdaftar",
@@ -63,9 +64,10 @@ export const BM: Record<string, string> = {
   "Currently in the portfolio.": "Dalam portfolio sekarang.",
   "View all listings": "Lihat semua senarai",
   "New listings coming soon.": "Senarai baharu akan datang.",
-  "Fizaa is curating the latest industrial & commercial opportunities. Get in touch to discuss your requirement.":
-    "Fizaa sedang menyusun peluang perindustrian & komersial terkini. Hubungi kami untuk membincangkan keperluan anda.",
-  "Tell Fizaa what you need": "Beritahu Fizaa keperluan anda",
+  "We are curating the latest industrial & commercial opportunities. Get in touch to discuss your requirement.":
+    "Kami sedang menyusun peluang perindustrian & komersial terkini. Hubungi kami untuk membincangkan keperluan anda.",
+  "Tell us what you need":
+    "Beritahu kami keperluan anda",
 
   // Home — reviews
   "What clients say": "Apa kata pelanggan",
@@ -76,8 +78,8 @@ export const BM: Record<string, string> = {
 
   // Home — CTA
   "Let's find your next property.": "Mari cari hartanah anda yang seterusnya.",
-  "Tell Fizaa what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.":
-    "Beritahu Fizaa keperluan perniagaan anda — jenis, saiz, kuasa, lokasi dan bajet — dan dipadankan dengan ruang perindustrian atau komersial yang tepat.",
+  "Tell us what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.":
+    "Beritahu kami keperluan perniagaan anda — jenis, saiz, kuasa, lokasi dan bajet — dan dipadankan dengan ruang perindustrian atau komersial yang tepat.",
 
   // Footer
   "A dedicated estate negotiator under": "Seorang perunding hartanah berdedikasi di bawah",
@@ -147,7 +149,8 @@ export const BM: Record<string, string> = {
   "WhatsApp about this": "WhatsApp tentang ini",
   "Call": "Telefon",
   "Enquire about this property": "Tanya tentang hartanah ini",
-  "Fizaa will reply personally.": "Fizaa akan membalas secara peribadi.",
+  "We reply personally.":
+    "Kami akan membalas secara peribadi.",
   "View": "Lihat",
 
   // Inquiry / forms (shared)
@@ -156,10 +159,12 @@ export const BM: Record<string, string> = {
   "Email (optional)": "E-mel (pilihan)",
   "Send enquiry": "Hantar pertanyaan",
   "Sending…": "Menghantar…",
-  "Thank you! Fizaa will be in touch shortly.": "Terima kasih! Fizaa akan menghubungi anda sebentar lagi.",
+  "Thank you! We'll be in touch shortly.":
+    "Terima kasih! Kami akan menghubungi anda sebentar lagi.",
 
   // Quote page
-  "Tell Fizaa what your business needs.": "Beritahu Fizaa keperluan perniagaan anda.",
+  "Tell us what your business needs.":
+    "Beritahu kami keperluan perniagaan anda.",
   "Share your requirement — type, size, power, location and budget — and get a tailored shortlist of industrial & commercial options, including off-market properties.":
     "Kongsi keperluan anda — jenis, saiz, kuasa, lokasi dan bajet — dan dapatkan senarai pendek pilihan perindustrian & komersial yang disesuaikan, termasuk hartanah luar pasaran.",
   "Property requirement": "Keperluan hartanah",
@@ -184,13 +189,15 @@ export const BM: Record<string, string> = {
   "No. of Baths": "Bil. Bilik Air",
   "Message": "Mesej",
   "Send my requirement": "Hantar keperluan saya",
-  "Speak to Fizaa": "Bercakap dengan Fizaa",
+  "Speak to us":
+    "Bercakap dengan kami",
   "Mobile / WhatsApp": "Telefon / WhatsApp",
   "Licence": "Lesen",
   "Thank you — request received.": "Terima kasih — permintaan diterima.",
-  "Fizaa will personally review your requirement and get back to you shortly, usually within hours.":
-    "Fizaa akan menyemak keperluan anda secara peribadi dan menghubungi anda sebentar lagi, biasanya dalam beberapa jam.",
-  "WhatsApp Fizaa": "WhatsApp Fizaa",
+  "We'll personally review your requirement and get back to you shortly, usually within hours.":
+    "Kami akan menyemak keperluan anda secara peribadi dan menghubungi anda sebentar lagi, biasanya dalam beberapa jam.",
+  "WhatsApp us":
+    "WhatsApp kami",
 
   // Contact page
   "Contact Us": "Hubungi Kami",
@@ -208,13 +215,14 @@ export const BM: Record<string, string> = {
   "Frequently asked": "Kerap ditanya",
   "Questions, answered.": "Soalan, dijawab.",
   "Still have a question?": "Masih ada soalan?",
-  "Ask Fizaa directly — she replies personally, usually within minutes.":
-    "Tanya Fizaa terus — beliau membalas secara peribadi, biasanya dalam beberapa minit.",
+  "Ask us directly — we reply personally, usually within minutes.":
+    "Tanya kami terus — kami membalas secara peribadi, biasanya dalam beberapa minit.",
   "Contact form": "Borang hubungi",
 
   // Journey
   "Property is a people business.": "Hartanah ialah perniagaan tentang manusia.",
-  "Work with Fizaa": "Bekerja dengan Fizaa",
+  "Work with us":
+    "Bekerja dengan kami",
   "What we do": "Apa yang kami buat",
   "Specialist advice across the industrial & commercial spectrum.":
     "Nasihat pakar merentas spektrum perindustrian & komersial.",
@@ -230,49 +238,56 @@ export const BM: Record<string, string> = {
   // Chatbot
   "Property Assistant": "Pembantu Hartanah",
   "Online · replies in minutes": "Dalam talian · membalas dalam minit",
-  "Hi, I'm Fizaa's assistant 👋": "Hai, saya pembantu Fizaa 👋",
-  "Industrial & commercial property across Malaysia. Leave your details so Fizaa can follow up, then let's chat.":
-    "Hartanah perindustrian & komersial di seluruh Malaysia. Tinggalkan butiran anda supaya Fizaa boleh menyusul, kemudian mari berbual.",
+  "Hi, I'm the M.I.R. assistant 👋":
+    "Hai, saya pembantu M.I.R. 👋",
+  "Industrial & commercial property across Malaysia. Leave your details so we can follow up, then let's chat.":
+    "Hartanah perindustrian & komersial di seluruh Malaysia. Tinggalkan butiran anda supaya kami boleh menyusul, kemudian mari berbual.",
   "Phone (WhatsApp) *": "Telefon (WhatsApp) *",
   "Start chat →": "Mula bersembang →",
-  "By starting, you agree Fizaa may contact you about your enquiry.":
-    "Dengan memulakan, anda bersetuju Fizaa boleh menghubungi anda mengenai pertanyaan anda.",
+  "By starting, you agree M.I.R. may contact you about your enquiry.":
+    "Dengan memulakan, anda bersetuju M.I.R. boleh menghubungi anda mengenai pertanyaan anda.",
   "Type a message…": "Taip mesej…",
-  "Prefer WhatsApp? Chat with Fizaa directly →": "Lebih suka WhatsApp? Berbual dengan Fizaa terus →",
-  "Talk to Fizaa": "Bercakap dengan Fizaa",
+  "Prefer WhatsApp? Chat with us directly →":
+    "Lebih suka WhatsApp? Berbual dengan kami terus →",
+  "Talk to us":
+    "Hubungi kami",
   "Agent fees": "Yuran ejen",
 
   // Quote — extra
-  "Fields marked * are required. Fizaa replies in hours, not days.":
-    "Medan bertanda * adalah wajib. Fizaa membalas dalam beberapa jam, bukan berhari-hari.",
-  "Tell Fizaa more — eave height, power supply, zoning, timeline…":
-    "Beritahu Fizaa lebih lanjut — ketinggian bumbung, bekalan kuasa, zon, jangka masa…",
+  "Fields marked * are required. We reply in hours, not days.":
+    "Medan bertanda * adalah wajib. Kami membalas dalam beberapa jam, bukan berhari-hari.",
+  "Tell us more — eave height, power supply, zoning, timeline…":
+    "Beritahu kami lebih lanjut — ketinggian bumbung, bekalan kuasa, zon, jangka masa…",
   "No obligation.": "Tiada obligasi.",
-  "Your details are used only to respond to your enquiry — never shared or sold. Fizaa handles every requirement personally.":
-    "Butiran anda hanya digunakan untuk membalas pertanyaan anda — tidak pernah dikongsi atau dijual. Fizaa mengendalikan setiap keperluan secara peribadi.",
+  "I consent to M.I.R. storing my submitted information to respond to this enquiry.":
+    "Saya bersetuju M.I.R. menyimpan maklumat yang saya hantar untuk membalas pertanyaan ini.",
+  "Your details are used only to respond to your enquiry — never shared or sold. M.I.R. handles every requirement personally.":
+    "Butiran anda hanya digunakan untuk membalas pertanyaan anda — tidak pernah dikongsi atau dijual. M.I.R. mengendalikan setiap keperluan secara peribadi.",
 
   // Contact — extra
-  "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — Fizaa replies personally.":
-    "Sama ada lawatan tapak, pandangan kedua tentang sesuatu transaksi, atau perbualan ringkas tentang membeli, memajak atau melabur — Fizaa membalas secara peribadi.",
-  "Thanks for reaching out — Fizaa will reply to you shortly.":
-    "Terima kasih kerana menghubungi — Fizaa akan membalas anda sebentar lagi.",
-  "Fill in the form and Fizaa will get back to you directly.":
-    "Isi borang ini dan Fizaa akan menghubungi anda secara terus.",
+  "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — we reply personally.":
+    "Sama ada lawatan tapak, pandangan kedua tentang sesuatu transaksi, atau perbualan ringkas tentang membeli, memajak atau melabur — kami membalas secara peribadi.",
+  "Thanks for reaching out — we'll reply to you shortly.":
+    "Terima kasih kerana menghubungi — kami akan membalas anda sebentar lagi.",
+  "Fill in the form and we'll get back to you directly.":
+    "Isi borang ini dan kami akan menghubungi anda secara terus.",
   "Enter your name": "Masukkan nama anda",
   "Enter your last name": "Masukkan nama akhir anda",
-  "How can Fizaa help?": "Bagaimana Fizaa boleh membantu?",
+  "How can we help?":
+    "Bagaimana kami boleh membantu?",
   "I consent to having this website store my submitted information.":
     "Saya bersetuju laman web ini menyimpan maklumat yang saya hantar.",
 
   // Journey — extra
   "Available": "Tersedia",
-  "I'm just a friendly agent who goes the extra mile to solve my client's problems.":
-    "Saya hanyalah ejen yang mesra dan sanggup berusaha lebih untuk menyelesaikan masalah pelanggan saya.",
-  "Her approach is simple: understand the business first, then match it to the right space. Every listing is personally vetted, every client personally served — nothing handed off to an assistant or resolved by a template reply.":
-    "Pendekatannya mudah: fahami perniagaan dahulu, kemudian padankan dengan ruang yang tepat. Setiap senarai disemak secara peribadi, setiap pelanggan dilayan secara peribadi — tiada yang diserahkan kepada pembantu atau diselesaikan dengan jawapan templat.",
+  "We're a friendly team that goes the extra mile to solve our clients' problems.":
+    "Kami pasukan yang mesra dan sanggup berusaha lebih untuk menyelesaikan masalah pelanggan kami.",
+  "Our approach is simple: understand the business first, then match it to the right space. Every listing is personally vetted, every client personally served — nothing handed off to an assistant or resolved by a template reply.":
+    "Pendekatan kami mudah: fahami perniagaan dahulu, kemudian padankan dengan ruang yang tepat. Setiap senarai disemak secara peribadi, setiap pelanggan dilayan secara peribadi — tiada yang diserahkan kepada pembantu atau diselesaikan dengan jawapan templat.",
   "24/7 Response": "Respons 24/7",
   "Industrial & Commercial": "Perindustrian & Komersial",
-  "Nur Hafizah · Personal Philosophy": "Nur Hafizah · Falsafah Peribadi",
+  "M.I.R. · Our Philosophy":
+    "M.I.R. · Falsafah Kami",
   "Detached and semi-detached factories, superlink warehouses and logistics facilities — matched to your floor area, eave height, power and loading needs.":
     "Kilang sesebuah dan berkembar, gudang superlink dan kemudahan logistik — dipadankan dengan luas lantai, ketinggian bumbung, kuasa dan keperluan memunggah anda.",
   "Freehold and leasehold plots in established parks and ESG-certified developments, with zoning, title and MITI requirements verified up front.":
@@ -283,15 +298,17 @@ export const BM: Record<string, string> = {
     "Menghadiri ESP Global Ascend Bootcamp — program transformasi tentang minda, keberanian dan tujuan profesional, termasuk Surat kepada Diri Masa Depan.",
   "Recognised among Esprit's top performers for consistent results and dedication — a milestone that's never about the trophy, but the standard it represents.":
     "Diiktiraf antara penyumbang terbaik Esprit kerana hasil yang konsisten dan dedikasi — satu pencapaian yang bukan tentang trofi, tetapi piawai yang diwakilinya.",
+  "Award": "Anugerah",
+  "Field": "Lapangan",
   "On the ground, every deal": "Di lapangan, setiap transaksi",
-  "Every deal starts with a site visit. Fizaa walks the property — rain or shine — so clients get accurate, first-hand information, not recycled brochure data.":
-    "Setiap transaksi bermula dengan lawatan tapak. Fizaa menyelusuri hartanah — hujan atau panas — supaya pelanggan mendapat maklumat tepat dan terus, bukan data risalah kitar semula.",
-  "Fizaa's latest industrial & commercial projects will appear here.":
-    "Projek perindustrian & komersial terkini Fizaa akan dipaparkan di sini.",
+  "Every deal starts with a site visit. We walk the property — rain or shine — so clients get accurate, first-hand information, not recycled brochure data.":
+    "Setiap transaksi bermula dengan lawatan tapak. Kami menyelusuri hartanah — hujan atau panas — supaya pelanggan mendapat maklumat tepat dan terus, bukan data risalah kitar semula.",
+  "Our latest industrial & commercial projects will appear here.":
+    "Projek perindustrian & komersial terkini kami akan dipaparkan di sini.",
 
   // FAQ — extra
-  "Common questions about industrial & commercial property, REN registration, agent fees and what Fizaa actually does — before you pick up the phone.":
-    "Soalan lazim tentang hartanah perindustrian & komersial, pendaftaran REN, yuran ejen dan apa yang Fizaa sebenarnya lakukan — sebelum anda menghubunginya.",
+  "Common questions about industrial & commercial property, REN registration, agent fees and what we actually do — before you pick up the phone.":
+    "Soalan lazim tentang hartanah perindustrian & komersial, pendaftaran REN, yuran ejen dan apa yang kami sebenarnya lakukan — sebelum anda menghubungi kami.",
 
   // v2 — nav segments
   "Industrial": "Perindustrian",
@@ -317,14 +334,15 @@ export const BM: Record<string, string> = {
   "Investment-grade hotel and hospitality assets, including tenanted opportunities.":
     "Aset hotel dan hospitaliti gred pelaburan, termasuk peluang yang telah disewa.",
   "No properties here yet.": "Belum ada hartanah di sini.",
-  "Tell Fizaa what you need and she'll source it for you.":
-    "Beritahu Fizaa keperluan anda dan beliau akan mencarikannya untuk anda.",
+  "Tell us what you need and we'll source it for you.":
+    "Beritahu kami keperluan anda dan kami akan mencarikannya untuk anda.",
   "beds": "bilik tidur",
   "baths": "bilik air",
   "Looking for something specific?": "Mencari sesuatu yang khusus?",
   "Share your brief — size, power, zoning, budget — and get matched, including off-market.":
     "Kongsi keperluan anda — saiz, kuasa, zon, bajet — dan dipadankan, termasuk luar pasaran.",
-  "Tell Fizaa": "Beritahu Fizaa",
+  "Tell us":
+    "Beritahu kami",
 
   // v2 — footer
   "Powered by": "Dikuasakan oleh",
@@ -355,11 +373,12 @@ export const ZH: Record<string, string> = {
   "Trusted across": "值得信赖于",
 
   // Home — values
-  "Why work with Fizaa": "为什么选择 Fizaa",
-  "Property is a people business — handled by one pair of hands.":
-    "地产是与人打交道的生意——始终由同一双手亲自处理。",
+  "Why work with M.I.R.":
+    "为什么选择 M.I.R.",
+  "Property is a people business — handled by one dedicated team.":
+    "地产是与人打交道的生意——由一支专属团队亲自处理。",
   "No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.":
-    "没有客服中心，没有转手，没有模板回复。每一宗工业与商业咨询都由本人亲自审核、亲自服务。",
+    "没有客服中心，没有转手，没有模板回复。每一宗工业与商业咨询都由我们亲自审核、亲自服务。",
   "A registered hand": "持牌专业",
   "REN 63161 under Esprit Estate Agent Sdn Bhd — licensed, compliant, and operating within BOVAEP's framework.":
     "隶属 Esprit Estate Agent Sdn Bhd 的 REN 63161——持牌合规，在 BOVAEP 监管框架内执业。",
@@ -375,9 +394,10 @@ export const ZH: Record<string, string> = {
   "Currently in the portfolio.": "目前的房源组合。",
   "View all listings": "查看全部房源",
   "New listings coming soon.": "新房源即将上架。",
-  "Fizaa is curating the latest industrial & commercial opportunities. Get in touch to discuss your requirement.":
-    "Fizaa 正在筛选最新的工业与商业机会。欢迎联系，详谈您的需求。",
-  "Tell Fizaa what you need": "告诉 Fizaa 您的需求",
+  "We are curating the latest industrial & commercial opportunities. Get in touch to discuss your requirement.":
+    "我们正在筛选最新的工业与商业机会。欢迎联系，详谈您的需求。",
+  "Tell us what you need":
+    "告诉我们您的需求",
 
   // Home — reviews
   "What clients say": "客户评价",
@@ -388,8 +408,8 @@ export const ZH: Record<string, string> = {
 
   // Home — CTA
   "Let's find your next property.": "让我们找到您的下一处物业。",
-  "Tell Fizaa what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.":
-    "告诉 Fizaa 您企业的需求——类型、面积、电力、地点与预算——即可匹配到合适的工业或商业空间。",
+  "Tell us what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.":
+    "告诉我们您企业的需求——类型、面积、电力、地点与预算——即可匹配到合适的工业或商业空间。",
 
   // Footer
   "A dedicated estate negotiator under": "专属地产协商员，隶属",
@@ -459,7 +479,8 @@ export const ZH: Record<string, string> = {
   "WhatsApp about this": "WhatsApp 咨询此物业",
   "Call": "致电",
   "Enquire about this property": "咨询此物业",
-  "Fizaa will reply personally.": "Fizaa 将亲自回复。",
+  "We reply personally.":
+    "我们将亲自回复。",
   "View": "查看",
 
   // Inquiry / forms (shared)
@@ -468,10 +489,12 @@ export const ZH: Record<string, string> = {
   "Email (optional)": "电邮（选填）",
   "Send enquiry": "发送咨询",
   "Sending…": "发送中…",
-  "Thank you! Fizaa will be in touch shortly.": "谢谢！Fizaa 将尽快与您联系。",
+  "Thank you! We'll be in touch shortly.":
+    "谢谢！我们将尽快与您联系。",
 
   // Quote page
-  "Tell Fizaa what your business needs.": "告诉 Fizaa 您企业的需求。",
+  "Tell us what your business needs.":
+    "告诉我们您企业的需求。",
   "Share your requirement — type, size, power, location and budget — and get a tailored shortlist of industrial & commercial options, including off-market properties.":
     "分享您的需求——类型、面积、电力、地点与预算——即可获得一份量身定制的工业与商业选项清单，包括未公开的私洽房源。",
   "Property requirement": "物业需求",
@@ -496,13 +519,15 @@ export const ZH: Record<string, string> = {
   "No. of Baths": "浴室数量",
   "Message": "留言",
   "Send my requirement": "发送我的需求",
-  "Speak to Fizaa": "与 Fizaa 洽谈",
+  "Speak to us":
+    "与我们洽谈",
   "Mobile / WhatsApp": "手机 / WhatsApp",
   "Licence": "执照",
   "Thank you — request received.": "谢谢——已收到您的请求。",
-  "Fizaa will personally review your requirement and get back to you shortly, usually within hours.":
-    "Fizaa 将亲自审阅您的需求并尽快回复，通常在数小时之内。",
-  "WhatsApp Fizaa": "WhatsApp 联系 Fizaa",
+  "We'll personally review your requirement and get back to you shortly, usually within hours.":
+    "我们将亲自审阅您的需求并尽快回复，通常在数小时之内。",
+  "WhatsApp us":
+    "WhatsApp 联系我们",
 
   // Contact page
   "Contact Us": "联系我们",
@@ -520,13 +545,14 @@ export const ZH: Record<string, string> = {
   "Frequently asked": "常见问题",
   "Questions, answered.": "为您解答。",
   "Still have a question?": "还有疑问？",
-  "Ask Fizaa directly — she replies personally, usually within minutes.":
-    "直接询问 Fizaa——本人亲自回复，通常只需几分钟。",
+  "Ask us directly — we reply personally, usually within minutes.":
+    "直接询问我们——我们亲自回复，通常只需几分钟。",
   "Contact form": "联络表格",
 
   // Journey
   "Property is a people business.": "地产是与人打交道的生意。",
-  "Work with Fizaa": "与 Fizaa 合作",
+  "Work with us":
+    "与我们合作",
   "What we do": "我们的服务",
   "Specialist advice across the industrial & commercial spectrum.":
     "涵盖整个工业与商业领域的专业建议。",
@@ -542,49 +568,56 @@ export const ZH: Record<string, string> = {
   // Chatbot
   "Property Assistant": "地产助理",
   "Online · replies in minutes": "在线 · 数分钟内回复",
-  "Hi, I'm Fizaa's assistant 👋": "您好，我是 Fizaa 的助理 👋",
-  "Industrial & commercial property across Malaysia. Leave your details so Fizaa can follow up, then let's chat.":
-    "遍布马来西亚的工业与商业地产。请留下您的联络资料以便 Fizaa 跟进，然后我们聊聊。",
+  "Hi, I'm the M.I.R. assistant 👋":
+    "您好，我是 M.I.R. 助理 👋",
+  "Industrial & commercial property across Malaysia. Leave your details so we can follow up, then let's chat.":
+    "遍布马来西亚的工业与商业地产。请留下您的联络资料以便我们跟进，然后我们聊聊。",
   "Phone (WhatsApp) *": "电话（WhatsApp）*",
   "Start chat →": "开始对话 →",
-  "By starting, you agree Fizaa may contact you about your enquiry.":
-    "开始即表示您同意 Fizaa 就您的咨询与您联系。",
+  "By starting, you agree M.I.R. may contact you about your enquiry.":
+    "开始即表示您同意 M.I.R. 就您的咨询与您联系。",
   "Type a message…": "输入讯息…",
-  "Prefer WhatsApp? Chat with Fizaa directly →": "更喜欢用 WhatsApp？直接与 Fizaa 对话 →",
-  "Talk to Fizaa": "与 Fizaa 交谈",
+  "Prefer WhatsApp? Chat with us directly →":
+    "更喜欢用 WhatsApp？直接与我们对话 →",
+  "Talk to us":
+    "与我们交谈",
   "Agent fees": "代理费用",
 
   // Quote — extra
-  "Fields marked * are required. Fizaa replies in hours, not days.":
-    "标有 * 的栏位为必填。Fizaa 以小时计回复，而非以天计。",
-  "Tell Fizaa more — eave height, power supply, zoning, timeline…":
-    "告诉 Fizaa 更多细节——檐高、电力供应、分区用途、时间安排…",
+  "Fields marked * are required. We reply in hours, not days.":
+    "标有 * 的栏位为必填。我们以小时计回复，而非以天计。",
+  "Tell us more — eave height, power supply, zoning, timeline…":
+    "告诉我们更多细节——檐高、电力供应、分区用途、时间安排…",
   "No obligation.": "绝无义务。",
-  "Your details are used only to respond to your enquiry — never shared or sold. Fizaa handles every requirement personally.":
-    "您的资料仅用于回复您的咨询——绝不分享或出售。每一项需求均由 Fizaa 亲自处理。",
+  "I consent to M.I.R. storing my submitted information to respond to this enquiry.":
+    "我同意 M.I.R. 储存我所提交的资料，以回复此项咨询。",
+  "Your details are used only to respond to your enquiry — never shared or sold. M.I.R. handles every requirement personally.":
+    "您的资料仅用于回复您的咨询——绝不分享或出售。每一项需求均由 M.I.R. 亲自处理。",
 
   // Contact — extra
-  "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — Fizaa replies personally.":
-    "无论是实地考察、对某宗交易的第二意见，还是关于买卖、租赁或投资的私下交流——Fizaa 都会亲自回复。",
-  "Thanks for reaching out — Fizaa will reply to you shortly.":
-    "感谢您的联系——Fizaa 将尽快回复您。",
-  "Fill in the form and Fizaa will get back to you directly.":
-    "填写表格，Fizaa 将直接与您联系。",
+  "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — we reply personally.":
+    "无论是实地考察、对某宗交易的第二意见，还是关于买卖、租赁或投资的私下交流——我们都会亲自回复。",
+  "Thanks for reaching out — we'll reply to you shortly.":
+    "感谢您的联系——我们将尽快回复您。",
+  "Fill in the form and we'll get back to you directly.":
+    "填写表格，我们将直接与您联系。",
   "Enter your name": "请输入您的姓名",
   "Enter your last name": "请输入您的姓氏",
-  "How can Fizaa help?": "Fizaa 能为您做些什么？",
+  "How can we help?":
+    "我们能为您做些什么？",
   "I consent to having this website store my submitted information.":
     "我同意本网站储存我所提交的资料。",
 
   // Journey — extra
   "Available": "可洽询",
-  "I'm just a friendly agent who goes the extra mile to solve my client's problems.":
-    "我只是一位亲切的经纪，愿意多走一步，为客户解决问题。",
-  "Her approach is simple: understand the business first, then match it to the right space. Every listing is personally vetted, every client personally served — nothing handed off to an assistant or resolved by a template reply.":
-    "她的做法很简单：先了解生意，再匹配合适的空间。每一个房源都由本人亲自审核，每一位客户都由本人亲自服务——绝不转交助理，也绝不以模板回复敷衍。",
+  "We're a friendly team that goes the extra mile to solve our clients' problems.":
+    "我们是一支亲切的团队，愿意多走一步，为客户解决问题。",
+  "Our approach is simple: understand the business first, then match it to the right space. Every listing is personally vetted, every client personally served — nothing handed off to an assistant or resolved by a template reply.":
+    "我们的做法很简单：先了解生意，再匹配合适的空间。每一个房源都由我们亲自审核，每一位客户都由我们亲自服务——绝不转交助理，也绝不以模板回复敷衍。",
   "24/7 Response": "全天候回应",
   "Industrial & Commercial": "工业与商业",
-  "Nur Hafizah · Personal Philosophy": "Nur Hafizah · 个人理念",
+  "M.I.R. · Our Philosophy":
+    "M.I.R. · 我们的理念",
   "Detached and semi-detached factories, superlink warehouses and logistics facilities — matched to your floor area, eave height, power and loading needs.":
     "独立式与半独立式厂房、超级连排仓库及物流设施——依您对楼面面积、檐高、电力与装卸的需求进行匹配。",
   "Freehold and leasehold plots in established parks and ESG-certified developments, with zoning, title and MITI requirements verified up front.":
@@ -595,15 +628,17 @@ export const ZH: Record<string, string> = {
     "参与 ESP Global Ascend 集训营——一项关于心态、勇气与职业使命的蜕变课程，包括写给未来自己的一封信。",
   "Recognised among Esprit's top performers for consistent results and dedication — a milestone that's never about the trophy, but the standard it represents.":
     "凭借稳定的业绩与投入，获选为 Esprit 顶尖表现者之一——这个里程碑重要的从不是奖杯，而是它所代表的标准。",
+  "Award": "奖项",
+  "Field": "现场",
   "On the ground, every deal": "每一宗交易，都亲临现场",
-  "Every deal starts with a site visit. Fizaa walks the property — rain or shine — so clients get accurate, first-hand information, not recycled brochure data.":
-    "每一宗交易都始于实地考察。无论晴雨，Fizaa 都会亲自走遍物业——让客户获得准确的第一手资讯，而非照搬的宣传册数据。",
-  "Fizaa's latest industrial & commercial projects will appear here.":
-    "Fizaa 最新的工业与商业项目将在此呈现。",
+  "Every deal starts with a site visit. We walk the property — rain or shine — so clients get accurate, first-hand information, not recycled brochure data.":
+    "每一宗交易都始于实地考察。无论晴雨，我们都会亲自走遍物业——让客户获得准确的第一手资讯，而非照搬的宣传册数据。",
+  "Our latest industrial & commercial projects will appear here.":
+    "我们最新的工业与商业项目将在此呈现。",
 
   // FAQ — extra
-  "Common questions about industrial & commercial property, REN registration, agent fees and what Fizaa actually does — before you pick up the phone.":
-    "关于工业与商业地产、REN 注册、代理费用以及 Fizaa 实际提供哪些服务的常见问题——在您拨打电话之前。",
+  "Common questions about industrial & commercial property, REN registration, agent fees and what we actually do — before you pick up the phone.":
+    "关于工业与商业地产、REN 注册、代理费用以及我们实际提供哪些服务的常见问题——在您拨打电话之前。",
 
   // v2 — nav segments
   "Industrial": "工业",
@@ -629,14 +664,15 @@ export const ZH: Record<string, string> = {
   "Investment-grade hotel and hospitality assets, including tenanted opportunities.":
     "投资级酒店与款待业资产，包括已出租的机会。",
   "No properties here yet.": "此处暂无物业。",
-  "Tell Fizaa what you need and she'll source it for you.":
-    "告诉 Fizaa 您的需求，她将为您寻找。",
+  "Tell us what you need and we'll source it for you.":
+    "告诉我们您的需求，我们会为您寻找。",
   "beds": "卧室",
   "baths": "浴室",
   "Looking for something specific?": "在寻找特定的物业？",
   "Share your brief — size, power, zoning, budget — and get matched, including off-market.":
     "分享您的需求——面积、电力、分区用途、预算——即可获得匹配，包括未公开的私洽房源。",
-  "Tell Fizaa": "告诉 Fizaa",
+  "Tell us":
+    "告诉我们",
 
   // v2 — footer
   "Powered by": "技术支持",

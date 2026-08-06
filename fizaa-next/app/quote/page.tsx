@@ -37,7 +37,7 @@ export default function QuotePage() {
       <section className="navy-gradient text-white pt-8 pb-24">
         <div className="container-site">
           <span className="eyebrow text-brass-soft before:bg-brass-soft">{t("Get a Quote")}</span>
-          <h1 className="font-serif text-3xl sm:text-[44px] text-white mt-3">{t("Tell Fizaa what your business needs.")}</h1>
+          <h1 className="font-serif text-3xl sm:text-[44px] text-white mt-3">{t("Tell us what your business needs.")}</h1>
           <p className="text-[#B9C7D8] mt-2.5 max-w-[56ch]">{t("Share your requirement — type, size, power, location and budget — and get a tailored shortlist of industrial & commercial options, including off-market properties.")}</p>
         </div>
       </section>
@@ -48,16 +48,16 @@ export default function QuotePage() {
             <div className="text-center py-8">
               <Check className="w-14 h-14 text-good mx-auto mb-4" />
               <h2 className="font-serif text-2xl text-navy">{t("Thank you — request received.")}</h2>
-              <p className="text-mute mt-2.5 mb-5">{t("Fizaa will personally review your requirement and get back to you shortly, usually within hours.")}</p>
+              <p className="text-mute mt-2.5 mb-5">{t("We'll personally review your requirement and get back to you shortly, usually within hours.")}</p>
               <div className="flex gap-2.5 justify-center flex-wrap">
                 <Link href="/listings" className="btn btn-primary">{t("Browse listings")}</Link>
-                <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">{t("WhatsApp Fizaa")}</a>
+                <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">{t("WhatsApp us")}</a>
               </div>
             </div>
           ) : (
             <form onSubmit={onSubmit}>
               <h2 className="font-serif text-2xl">{t("Property requirement")}</h2>
-              <p className="text-ink-2 text-[14.5px] mb-6">{t("Fields marked * are required. Fizaa replies in hours, not days.")}</p>
+              <p className="text-ink-2 text-[14.5px] mb-6">{t("Fields marked * are required. We reply in hours, not days.")}</p>
 
               <Legend>{t("Your enquiry")}</Legend>
               <div className="grid sm:grid-cols-2 gap-3.5">
@@ -95,9 +95,9 @@ export default function QuotePage() {
                 <Field label={t("No. of Baths")}><input className="input" name="baths" placeholder="—" /></Field>
               </div>
 
-              <div className="mb-4"><label className="field-label">{t("Message")}</label><textarea className="textarea" name="message" placeholder={t("Tell Fizaa more — eave height, power supply, zoning, timeline…")} /></div>
+              <div className="mb-4"><label className="field-label">{t("Message")}</label><textarea className="textarea" name="message" placeholder={t("Tell us more — eave height, power supply, zoning, timeline…")} /></div>
 
-              <label className="flex items-start gap-2.5 text-[13.5px] text-ink-2 my-2 mb-5"><input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 w-4 h-4 accent-navy" /> <span>{t("I consent to Fizaa storing my submitted information to respond to this enquiry.")} <span className="text-brass-2">*</span></span></label>
+              <label className="flex items-start gap-2.5 text-[13.5px] text-ink-2 my-2 mb-5"><input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 w-4 h-4 accent-navy" /> <span>{t("I consent to M.I.R. storing my submitted information to respond to this enquiry.")} <span className="text-brass-2">*</span></span></label>
               {err && <p className="text-sm text-bad mb-3">{err}</p>}
               <button className="btn btn-brass btn-lg btn-block" disabled={busy}>{busy ? t("Sending…") : t("Send my requirement")}</button>
             </form>
@@ -106,12 +106,12 @@ export default function QuotePage() {
 
         <aside className="flex flex-col gap-4 lg:sticky lg:top-[88px]">
           <div className="bg-white border border-line rounded-xl2 p-6">
-            <h3 className="font-serif text-[19px] mb-3.5">{t("Speak to Fizaa")}</h3>
+            <h3 className="font-serif text-[19px] mb-3.5">{t("Speak to us")}</h3>
             <Side icon={<Phone className="w-[18px] h-[18px]" />} k={t("Mobile / WhatsApp")} v={SITE.phone} />
             <Side icon={<Mail className="w-[18px] h-[18px]" />} k={t("Email")} v={SITE.email} />
             <Side icon={<Shield className="w-[18px] h-[18px]" />} k={t("Licence")} v="REN 63161 · Esprit Estate" last />
           </div>
-          <div className="bg-navy-soft rounded-xl p-[18px] text-[13.5px] text-navy-2 leading-relaxed"><strong>{t("No obligation.")}</strong> {t("Your details are used only to respond to your enquiry — never shared or sold. Fizaa handles every requirement personally.")}</div>
+          <div className="bg-navy-soft rounded-xl p-[18px] text-[13.5px] text-navy-2 leading-relaxed"><strong>{t("No obligation.")}</strong> {t("Your details are used only to respond to your enquiry — never shared or sold. M.I.R. handles every requirement personally.")}</div>
         </aside>
       </div>
     </>

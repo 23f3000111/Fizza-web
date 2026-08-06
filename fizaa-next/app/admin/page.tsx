@@ -152,8 +152,8 @@ export default function AdminPage() {
     return (
       <div className="min-h-screen grid place-items-center p-6 bg-[#F4F2EC]">
         <form onSubmit={login} className="bg-white border border-line rounded-xl2 shadow-lg2 p-9 w-full max-w-[380px] text-center">
-          <div className="w-[52px] h-[52px] rounded-xl bg-navy text-white grid place-items-center font-serif italic text-[26px] mx-auto mb-4">F</div>
-          <h1 className="font-serif text-2xl">Fizaa Admin</h1>
+          <div className="w-[52px] h-[52px] rounded-xl bg-navy text-white grid place-items-center font-serif font-semibold text-[17px] tracking-[0.04em] mx-auto mb-4">MIR</div>
+          <h1 className="font-serif text-2xl">M.I.R. Admin</h1>
           <p className="text-mute text-sm mb-5">Manage listings, categories &amp; submissions</p>
           <div className="text-left mb-1"><label className="field-label">Password</label><input className="input" type="password" value={pw} onChange={(e) => setPw(e.target.value)} placeholder="Enter admin password" required /></div>
           {loginErr && <p className="text-sm text-bad my-2">{loginErr}</p>}
@@ -169,7 +169,7 @@ export default function AdminPage() {
 
       <div className="bg-navy text-white sticky top-0 z-50">
         <div className="max-w-site mx-auto px-4 sm:px-8 py-3.5 flex items-center gap-4">
-          <div className="font-serif text-[19px] flex items-center gap-2.5"><span className="w-8 h-8 rounded-lg bg-brass grid place-items-center italic">F</span> Fizaa Admin</div>
+          <div className="font-serif text-[19px] flex items-center gap-2.5"><span className="w-8 h-8 rounded-lg bg-brass grid place-items-center text-[11px] font-semibold tracking-[0.04em]">MIR</span> M.I.R. Admin</div>
           <div className="flex-1" />
           <a href="/" target="_blank" className="text-[#cdd9e6] text-[13.5px] hover:text-white">View site ↗</a>
           <button onClick={logout} className="text-[#cdd9e6] text-[13.5px] hover:text-white">Log out</button>

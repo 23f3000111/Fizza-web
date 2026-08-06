@@ -32,15 +32,18 @@ export default function HomeHero() {
   }
 
   return (
-    <header className="relative min-h-[88vh] flex items-center overflow-hidden">
-      {/* video background */}
+    <header className="relative min-h-[88vh] flex items-center overflow-hidden bg-navy-2">
+      {/* Video background. No poster frame on purpose — the navy backdrop above
+          carries the first paint so the hero never flashes a still portrait. */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
         muted
         loop
         playsInline
-        poster="/fiza-website-images/MRL_8310.JPG"
+        preload="auto"
+        aria-hidden="true"
+        tabIndex={-1}
       >
         <source src="/fiza-website-images/watermarked_preview.mp4" type="video/mp4" />
       </video>

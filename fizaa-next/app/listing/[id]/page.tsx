@@ -128,15 +128,15 @@ export default async function ListingDetail({ params }: { params: { id: string }
         <aside className="lg:sticky lg:top-[88px] flex flex-col gap-[18px]">
           <div className="bg-white border border-line rounded-xl2 p-[22px] text-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/fiza-website-images/MRL_8310.JPG" alt="Fizaa" className="w-[78px] h-[78px] rounded-full object-cover object-[center_20%] mx-auto mb-3" />
-            <div className="font-serif text-[19px]">Nur Hafizah · Fizaa</div>
+            <img src="/fiza-website-images/MRL_8310.JPG" alt="M.I.R. — industrial & commercial property consultant" className="w-[78px] h-[78px] rounded-full object-cover object-[center_20%] mx-auto mb-3" />
+            <div className="font-serif text-[19px]">M.I.R.</div>
             <div className="text-[12.5px] text-mute mt-1 mb-3.5">REN 63161 · Esprit Estate</div>
-            <a href={`${SITE.whatsapp}?text=${encodeURIComponent("Hi Fizaa, I am interested in: " + l.title)}`} target="_blank" rel="noopener noreferrer" className="btn btn-brass btn-block mb-2">{t("WhatsApp about this")}</a>
+            <a href={`${SITE.whatsapp}?text=${encodeURIComponent("Hi M.I.R., I am interested in: " + l.title)}`} target="_blank" rel="noopener noreferrer" className="btn btn-brass btn-block mb-2">{t("WhatsApp about this")}</a>
             <a href={`tel:${SITE.phoneRaw}`} className="btn btn-ghost btn-block">{t("Call")} {SITE.phone}</a>
           </div>
           <div className="bg-white border border-line rounded-xl2 p-[22px]">
             <h3 className="font-serif text-lg">{t("Enquire about this property")}</h3>
-            <div className="text-[13px] text-mute mb-4">{t("Fizaa will reply personally.")}</div>
+            <div className="text-[13px] text-mute mb-4">{t("We reply personally.")}</div>
             <InquiryForm listingId={l.id} listingTitle={l.title} />
           </div>
         </aside>

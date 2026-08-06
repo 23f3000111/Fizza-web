@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr] gap-10 pb-10 border-b border-white/10">
           <div>
             <div className="font-serif text-2xl text-white">
-              Nur Hafizah · Fizaa
+              {SITE.name}
               <small className="block font-sans text-[11px] tracking-[0.14em] uppercase text-[#8DA0B6] mt-1.5">
                 {t("Industrial & Commercial · Malaysia")}
               </small>
@@ -43,7 +43,7 @@ export default function Footer() {
           </span>
         </div>
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-5 mt-2 border-t border-white/10 text-[12.5px] text-[#8DA0B6]">
-          <div>© {year} · Nur Hafizah Abd Aziz · {SITE.ren} · {SITE.agency}</div>
+          <div>© {year} {SITE.name} · {SITE.legal} · {SITE.ren} · {SITE.agency}</div>
           <div className="flex gap-2">
             {[["WA", SITE.whatsapp], ["FB", "#"], ["IG", "#"]].map(([label, h]) => (
               <a key={label} href={h} target="_blank" rel="noopener noreferrer" className="w-[34px] h-[34px] rounded-[9px] border border-white/15 grid place-items-center text-[11px] font-semibold hover:bg-white/10">{label}</a>

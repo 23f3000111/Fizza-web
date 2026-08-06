@@ -1,0 +1,32 @@
+/node_modules
+/.next
+/out
+
+# Secrets — never commit.
+.env
+.env*.local
+
+# Runtime-mutable collections: these hold enquirer names, phones and emails.
+# They must never reach the repository. db.ts recreates them empty on boot.
+/data/leads.json
+/data/contacts.json
+/data/inquiries.json
+/data/leads-csv/
+
+# Seed content (listings, categories, subcategories, filterFields) IS tracked,
+# so a fresh deploy comes up with the live portfolio already populated.
+
+# /uploads (top level) IS tracked — it holds the listing photos and brochures
+# that /api/uploads serves, so a fresh deploy renders the portfolio correctly.
+# It is also written at runtime by the admin panel; redeploy from a server copy.
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+# Source listing brochures (.docx) — working files, not site assets.
+/public/For Rent/
+/public/For Sale/
+
+*.log
+.DS_Store
+next-env.d.ts
+tsconfig.tsbuildinfo

@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Menu, Close } from "./Icons";
 import { useLang } from "./LangProvider";
 import { LANGS, LANG_LABEL } from "@/lib/i18n";
+import { SITE } from "@/lib/site";
 
 const LINKS = [
   { href: "/", label: "Home" },
@@ -62,10 +63,12 @@ export default function Nav() {
         }`}
       >
         <div className="container-site flex items-center justify-between gap-4 w-full">
-          <Link href="/" className="flex items-center gap-3">
-            <span className="w-10 h-10 rounded-[10px] bg-navy text-white grid place-items-center font-serif italic text-xl shadow-sm2">F</span>
+          <Link href="/" className="flex items-center gap-3" aria-label={`${SITE.name} — ${SITE.legal}`}>
+            <span className="w-10 h-10 rounded-[10px] bg-navy text-white grid place-items-center font-serif text-[13px] font-semibold tracking-[0.04em] shadow-sm2">
+              {SITE.short}
+            </span>
             <span className="font-serif text-[19px] leading-tight">
-              myindustrialrealtors
+              {SITE.name}
               <small className="block font-sans text-[9.5px] tracking-[0.18em] uppercase text-mute mt-0.5">
                 {t("Industrial & Commercial · Malaysia")}
               </small>

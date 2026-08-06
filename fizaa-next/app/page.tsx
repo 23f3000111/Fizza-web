@@ -34,8 +34,8 @@ export default async function HomePage() {
       <section className="py-14 sm:py-24">
         <div className="container-site">
           <div className="max-w-[720px] mb-10 sm:mb-14">
-            <span className="eyebrow">{t("Why work with Fizaa")}</span>
-            <h2 className="font-serif text-3xl sm:text-5xl mt-4">{t("Property is a people business — handled by one pair of hands.")}</h2>
+            <span className="eyebrow">{t("Why work with M.I.R.")}</span>
+            <h2 className="font-serif text-3xl sm:text-5xl mt-4">{t("Property is a people business — handled by one dedicated team.")}</h2>
             <p className="text-ink-2 mt-4 text-[17px]">{t("No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.")}</p>
           </div>
           <div className="grid sm:grid-cols-3 gap-[22px]">
@@ -59,8 +59,8 @@ export default async function HomePage() {
           {latest.length === 0 ? (
             <div className="text-center border border-dashed border-line-strong rounded-xl2 py-12 px-6">
               <div className="font-serif text-2xl text-navy mb-2">{t("New listings coming soon.")}</div>
-              <p className="text-mute mb-4">{t("Fizaa is curating the latest industrial & commercial opportunities. Get in touch to discuss your requirement.")}</p>
-              <Link href="/quote" className="btn btn-brass">{t("Tell Fizaa what you need")}</Link>
+              <p className="text-mute mb-4">{t("We are curating the latest industrial & commercial opportunities. Get in touch to discuss your requirement.")}</p>
+              <Link href="/quote" className="btn btn-brass">{t("Tell us what you need")}</Link>
             </div>
           ) : (
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -78,9 +78,9 @@ export default async function HomePage() {
             <h2 className="font-serif text-3xl sm:text-5xl mt-4">{t("Trusted by businesses across Malaysia.")}</h2>
           </div>
           <div className="grid sm:grid-cols-3 gap-[22px]">
-            <Review initial="A" name="Azman R." role={t("Logistics Director")} text="Fizaa found us a warehouse that actually matched our power and loading needs. She walked the site herself and flagged issues other agents missed." />
+            <Review initial="A" name="Azman R." role={t("Logistics Director")} text="M.I.R. found us a warehouse that actually matched our power and loading needs. They walked the site themselves and flagged issues other agents missed." />
             <Review initial="L" name="Lim S.K." role={t("Manufacturing Owner")} text="Professional, responsive and genuinely knowledgeable about industrial zoning. The whole factory purchase was smoother than we expected." />
-            <Review initial="N" name="Nadia H." role={t("Private Investor")} text="We were investing in a hotel asset and Fizaa's diligence on the tenancy and yield gave us real confidence. Highly recommended." />
+            <Review initial="N" name="Nadia H." role={t("Private Investor")} text="We were investing in a hotel asset and M.I.R.'s diligence on the tenancy and yield gave us real confidence. Highly recommended." />
           </div>
         </div>
       </section>
@@ -91,28 +91,28 @@ export default async function HomePage() {
           {/* small image */}
           <div className="relative rounded-2xl2 overflow-hidden aspect-[4/5] max-w-[280px] mx-auto lg:mx-0 shadow-lg2 bg-navy">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/fiza-website-images/MRL_8310.JPG" alt="Nur Hafizah Abd Aziz (Fizaa)" className="w-full h-full object-cover object-[center_18%]" />
+            <img src="/fiza-website-images/MRL_8310.JPG" alt="M.I.R. — industrial & commercial property consultant" className="w-full h-full object-cover object-[center_18%]" />
             <div className="absolute left-3 bottom-3 bg-white/90 backdrop-blur rounded-full px-3 py-1.5 text-[11px] font-semibold flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-good" /> {t("Available")} · GMT+8
             </div>
           </div>
           {/* main details */}
           <div>
-            <span className="eyebrow">{t("My Journey")}</span>
+            <span className="eyebrow">{t("Our Journey")}</span>
             <h2 className="font-serif text-3xl sm:text-5xl mt-4 leading-tight">{t("Property is a people business.")}</h2>
-            <p className="text-[17px] text-navy italic font-serif mt-4">&ldquo;{t("I'm just a friendly agent who goes the extra mile to solve my client's problems.")}&rdquo;</p>
+            <p className="text-[17px] text-navy italic font-serif mt-4">&ldquo;{t("We're a friendly team that goes the extra mile to solve our clients' problems.")}&rdquo;</p>
             <p className="text-ink-2 mt-4 text-[15.5px] leading-relaxed">{lang === "bm"
-              ? `Nur Hafizah Abd Aziz — dikenali sebagai Fizaa — ialah Perunding Hartanah Berdaftar (REN 63161) di bawah ${SITE.agency}, Cyberjaya. Beliau pakar dalam hartanah perindustrian, komersial dan hotel di seluruh Malaysia.`
+              ? `M.I.R. — My Industrial Realtors — beroperasi sebagai Perunding Hartanah Berdaftar (REN 63161) di bawah ${SITE.agency}, Cyberjaya. Kami pakar dalam hartanah perindustrian, komersial dan hotel di seluruh Malaysia.`
               : lang === "zh"
-              ? `Nur Hafizah Abd Aziz——客户称她为 Fizaa——是隶属赛城 ${SITE.agency} 的注册地产协商员（REN 63161）。她专精于马来西亚各地的工业、商业与酒店地产。`
-              : <>Nur Hafizah Abd Aziz — known as Fizaa — is a Registered Estate Negotiator (REN 63161) under {SITE.agency}, Cyberjaya. She specialises in industrial, commercial and hotel property across Malaysia.</>}</p>
+              ? `M.I.R.（My Industrial Realtors）以注册地产协商员（REN 63161）身份，隶属赛城 ${SITE.agency} 执业。我们专精于马来西亚各地的工业、商业与酒店地产。`
+              : <>M.I.R. — My Industrial Realtors — operates as a Registered Estate Negotiator (REN 63161) under {SITE.agency}, Cyberjaya. We specialise in industrial, commercial and hotel property across Malaysia.</>}</p>
             <div className="flex flex-wrap gap-2.5 mt-6">
               {[["REN 63161", <Shield key="s" className="w-[15px] h-[15px]" />], [t("Industrial & Commercial"), <Building key="b" className="w-[15px] h-[15px]" />], [t("24/7 Response"), <Check key="c" className="w-[15px] h-[15px]" />]].map(([label, icon], i) => (
                 <span key={i} className="inline-flex items-center gap-2 px-3.5 py-2 border border-line rounded-full bg-white text-[13px] font-medium text-brass-2 [&>svg]:text-brass">{icon as React.ReactNode}<span className="text-ink">{label as string}</span></span>
               ))}
             </div>
             <div className="mt-6 flex gap-3 flex-wrap">
-              <Link href="/quote" className="btn btn-brass">{t("Work with Fizaa")}</Link>
+              <Link href="/quote" className="btn btn-brass">{t("Work with us")}</Link>
               <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">WhatsApp</a>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default async function HomePage() {
           <div className="relative overflow-hidden navy-gradient text-white rounded-2xl2 p-9 sm:p-16 text-center">
             <div className="absolute -top-32 -right-20 w-[360px] h-[360px] rounded-full bg-brass/25 blur-2xl" />
             <h2 className="font-serif text-3xl sm:text-5xl text-white relative">{t("Let's find your next property.")}</h2>
-            <p className="text-[#B9C7D8] mt-4 max-w-[52ch] mx-auto relative">{t("Tell Fizaa what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.")}</p>
+            <p className="text-[#B9C7D8] mt-4 max-w-[52ch] mx-auto relative">{t("Tell us what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.")}</p>
             <div className="mt-7 flex gap-3 justify-center flex-wrap relative">
               <Link href="/quote" className="btn btn-brass btn-lg">{t("Get a quote")}</Link>
               <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-white btn-lg">WhatsApp · {SITE.phone}</a>

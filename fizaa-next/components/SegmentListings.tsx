@@ -94,7 +94,7 @@ export default function SegmentListings({
       <section className="navy-gradient text-white pt-9 pb-24">
         <div className="container-site">
           <div className="flex items-center gap-3 flex-wrap">
-            <span className="font-serif text-2xl sm:text-3xl text-white tracking-tight">Fizaa</span>
+            <span className="font-serif text-2xl sm:text-3xl text-white tracking-tight">{SITE.name}</span>
             <span className="w-px h-6 bg-white/25 hidden sm:block" />
             <h1 className="font-serif text-xl sm:text-3xl text-white">{title}</h1>
           </div>
@@ -164,7 +164,7 @@ export default function SegmentListings({
           {loaded && filtered.length === 0 ? (
             <div className="text-center border border-dashed border-line-strong rounded-xl2 py-16 px-6">
               <div className="font-serif text-xl text-navy mb-2">{t("No properties here yet.")}</div>
-              <p className="text-mute mb-4">{t("Tell Fizaa what you need and she'll source it for you.")}</p>
+              <p className="text-mute mb-4">{t("Tell us what you need and we'll source it for you.")}</p>
               <Link href="/quote" className="btn btn-brass">{t("Get a Quote")}</Link>
             </div>
           ) : (
@@ -178,16 +178,16 @@ export default function SegmentListings({
         <aside className="lg:sticky lg:top-[88px] flex flex-col gap-4">
           <div className="bg-white border border-line rounded-xl2 p-[22px] text-center shadow-sm2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/fiza-website-images/MRL_8310.JPG" alt="Fizaa" className="w-[72px] h-[72px] rounded-full object-cover object-[center_20%] mx-auto mb-3" />
-            <div className="font-serif text-[18px]">Nur Hafizah · Fizaa</div>
+            <img src="/fiza-website-images/MRL_8310.JPG" alt="M.I.R. — industrial & commercial property consultant" className="w-[72px] h-[72px] rounded-full object-cover object-[center_20%] mx-auto mb-3" />
+            <div className="font-serif text-[18px]">M.I.R.</div>
             <div className="text-[12.5px] text-mute mt-1 mb-4">REN 63161 · Esprit Estate</div>
-            <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-brass btn-block mb-2">{t("WhatsApp Fizaa")}</a>
+            <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-brass btn-block mb-2">{t("WhatsApp us")}</a>
             <Link href="/quote" className="btn btn-ghost btn-block">{t("Get a Quote")}</Link>
           </div>
           <div className="navy-gradient text-white rounded-xl2 p-[22px]">
             <h3 className="font-serif text-lg text-white mb-1.5">{t("Looking for something specific?")}</h3>
             <p className="text-[#B9C7D8] text-[13.5px] mb-3.5">{t("Share your brief — size, power, zoning, budget — and get matched, including off-market.")}</p>
-            <Link href="/quote" className="btn btn-white btn-block">{t("Tell Fizaa")}</Link>
+            <Link href="/quote" className="btn btn-white btn-block">{t("Tell us")}</Link>
           </div>
         </aside>
       </div>
