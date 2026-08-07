@@ -4,6 +4,7 @@ import { db } from "@/lib/db";
 import { sortListings } from "@/lib/filter";
 import ListingCard from "@/components/ListingCard";
 import { SITE } from "@/lib/site";
+import { JOURNEY_BIO } from "@/lib/journey";
 import { Shield, Building, Clock, Check, ArrowRight } from "@/components/Icons";
 import { getLang, getT } from "@/lib/i18n-server";
 
@@ -31,13 +32,10 @@ export default async function JourneyPage() {
           <div>
             <span className="eyebrow">{t("Our Journey")}</span>
             <h1 className="font-serif text-4xl sm:text-6xl my-4">{t("Property is a people business.")}</h1>
-            <p className="text-[19px] text-navy italic font-serif mb-4">&ldquo;{t("We're a friendly team that goes the extra mile to solve our clients' problems.")}&rdquo;</p>
-            <p className="text-ink-2 mb-3.5">{lang === "bm"
-              ? `M.I.R. — My Industrial Realtors — beroperasi sebagai Perunding Hartanah Berdaftar (REN 63161) di bawah ${SITE.agency} di Cyberjaya. Kami pakar dalam hartanah perindustrian dan komersial di seluruh Malaysia: kilang binaan khas, gudang logistik, pelaburan hotel dan taman perindustrian bertauliah GreenRE.`
-              : lang === "zh"
-              ? `M.I.R.（My Industrial Realtors）以注册地产协商员（REN 63161）身份，在赛城 ${SITE.agency} 执业。我们专精于马来西亚各地的工业与商业地产：订制厂房、物流仓库、酒店投资，以及获 GreenRE 认证的工业园。`
-              : <>M.I.R. — My Industrial Realtors — operates as a Registered Estate Negotiator (REN 63161) under {SITE.agency} in Cyberjaya. We specialise in industrial and commercial property across Malaysia: purpose-built factories, logistics warehouses, hotel investments and GreenRE-certified industrial parks.</>}</p>
-            <p className="text-ink-2">{t("Our approach is simple: understand the business first, then match it to the right space. Every listing is personally vetted, every client personally served — nothing handed off to an assistant or resolved by a template reply.")}</p>
+            <p className="text-[19px] text-navy italic font-serif mb-4">&ldquo;{t("We are professionals who go the extra mile to solve every client's requirements.")}&rdquo;</p>
+            {JOURNEY_BIO[lang].map((para, i) => (
+              <p key={i} className="text-ink-2 mb-3.5 last:mb-0">{para}</p>
+            ))}
             <div className="flex flex-wrap gap-2.5 mt-6">
               <Cred icon={<Shield className="w-[15px] h-[15px]" />} text="REN 63161" />
               <Cred icon={<Building className="w-[15px] h-[15px]" />} text="Esprit Estate Agent" />

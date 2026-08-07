@@ -32,16 +32,24 @@ export default function HomeHero() {
   }
 
   return (
-    <header className="relative min-h-[88vh] flex items-center overflow-hidden bg-navy-2">
-      {/* Video background. No poster frame on purpose — the navy backdrop above
-          carries the first paint so the hero never flashes a still portrait. */}
+    <header
+      className="relative min-h-[88vh] flex items-center overflow-hidden"
+      /* Averaged tone of the poster frame. Only visible for the instant before
+         the poster decodes — keeps that gap from flashing white, without the
+         blue block that used to read as the video failing to load. */
+      style={{ backgroundColor: "#726E61" }}
+    >
+      {/* Poster is frame 0 of the video itself, so the still and the first
+          played frame are identical — the handover is invisible. metadata
+          preload lets the 215 KB poster win the race against the 23 MB video. */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
         muted
         loop
         playsInline
-        preload="auto"
+        preload="metadata"
+        poster="/fiza-website-images/hero-poster.jpg"
         aria-hidden="true"
         tabIndex={-1}
       >

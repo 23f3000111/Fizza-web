@@ -280,10 +280,8 @@ export const BM: Record<string, string> = {
 
   // Journey — extra
   "Available": "Tersedia",
-  "We're a friendly team that goes the extra mile to solve our clients' problems.":
-    "Kami pasukan yang mesra dan sanggup berusaha lebih untuk menyelesaikan masalah pelanggan kami.",
-  "Our approach is simple: understand the business first, then match it to the right space. Every listing is personally vetted, every client personally served — nothing handed off to an assistant or resolved by a template reply.":
-    "Pendekatan kami mudah: fahami perniagaan dahulu, kemudian padankan dengan ruang yang tepat. Setiap senarai disemak secara peribadi, setiap pelanggan dilayan secara peribadi — tiada yang diserahkan kepada pembantu atau diselesaikan dengan jawapan templat.",
+  "We are professionals who go the extra mile to solve every client's requirements.":
+    "Kami profesional yang sanggup berusaha lebih untuk menyelesaikan keperluan setiap pelanggan.",
   "24/7 Response": "Respons 24/7",
   "Industrial & Commercial": "Perindustrian & Komersial",
   "M.I.R. · Our Philosophy":
@@ -610,10 +608,8 @@ export const ZH: Record<string, string> = {
 
   // Journey — extra
   "Available": "可洽询",
-  "We're a friendly team that goes the extra mile to solve our clients' problems.":
-    "我们是一支亲切的团队，愿意多走一步，为客户解决问题。",
-  "Our approach is simple: understand the business first, then match it to the right space. Every listing is personally vetted, every client personally served — nothing handed off to an assistant or resolved by a template reply.":
-    "我们的做法很简单：先了解生意，再匹配合适的空间。每一个房源都由我们亲自审核，每一位客户都由我们亲自服务——绝不转交助理，也绝不以模板回复敷衍。",
+  "We are professionals who go the extra mile to solve every client's requirements.":
+    "我们是专业团队，愿意多走一步，满足每一位客户的需求。",
   "24/7 Response": "全天候回应",
   "Industrial & Commercial": "工业与商业",
   "M.I.R. · Our Philosophy":

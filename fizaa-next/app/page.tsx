@@ -5,6 +5,7 @@ import ListingCard from "@/components/ListingCard";
 import HomeHero from "@/components/HomeHero";
 import { ArrowRight, Shield, Building, Search, Check } from "@/components/Icons";
 import { SITE } from "@/lib/site";
+import { JOURNEY_BIO } from "@/lib/journey";
 import { getLang, getT } from "@/lib/i18n-server";
 
 export const dynamic = "force-dynamic";
@@ -100,12 +101,9 @@ export default async function HomePage() {
           <div>
             <span className="eyebrow">{t("Our Journey")}</span>
             <h2 className="font-serif text-3xl sm:text-5xl mt-4 leading-tight">{t("Property is a people business.")}</h2>
-            <p className="text-[17px] text-navy italic font-serif mt-4">&ldquo;{t("We're a friendly team that goes the extra mile to solve our clients' problems.")}&rdquo;</p>
-            <p className="text-ink-2 mt-4 text-[15.5px] leading-relaxed">{lang === "bm"
-              ? `M.I.R. — My Industrial Realtors — beroperasi sebagai Perunding Hartanah Berdaftar (REN 63161) di bawah ${SITE.agency}, Cyberjaya. Kami pakar dalam hartanah perindustrian, komersial dan hotel di seluruh Malaysia.`
-              : lang === "zh"
-              ? `M.I.R.（My Industrial Realtors）以注册地产协商员（REN 63161）身份，隶属赛城 ${SITE.agency} 执业。我们专精于马来西亚各地的工业、商业与酒店地产。`
-              : <>M.I.R. — My Industrial Realtors — operates as a Registered Estate Negotiator (REN 63161) under {SITE.agency}, Cyberjaya. We specialise in industrial, commercial and hotel property across Malaysia.</>}</p>
+            <p className="text-[17px] text-navy italic font-serif mt-4">&ldquo;{t("We are professionals who go the extra mile to solve every client's requirements.")}&rdquo;</p>
+            {/* Teaser: opening paragraph only — /journey carries the full profile. */}
+            <p className="text-ink-2 mt-4 text-[15.5px] leading-relaxed">{JOURNEY_BIO[lang][0]}</p>
             <div className="flex flex-wrap gap-2.5 mt-6">
               {[["REN 63161", <Shield key="s" className="w-[15px] h-[15px]" />], [t("Industrial & Commercial"), <Building key="b" className="w-[15px] h-[15px]" />], [t("24/7 Response"), <Check key="c" className="w-[15px] h-[15px]" />]].map(([label, icon], i) => (
                 <span key={i} className="inline-flex items-center gap-2 px-3.5 py-2 border border-line rounded-full bg-white text-[13px] font-medium text-brass-2 [&>svg]:text-brass">{icon as React.ReactNode}<span className="text-ink">{label as string}</span></span>
