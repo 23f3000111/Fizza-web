@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="M.I.R.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="MyIR · Malaysia Industrial Realtors">
+  <!-- MyIR mark, lettering converted to outlines (Montserrat ExtraBold, SIL OFL) so it renders the same everywhere -->
   <rect width="64" height="64" rx="14" fill="#173352"/>
-  <text x="32" y="40" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-weight="600" letter-spacing="0.5" fill="#ffffff" text-anchor="middle">MIR</text>
+  <g transform="translate(1.42 37.72)">
+    <path fill="#FFFFFF" d="M1.61 0V-16.1H5.36L12.03 -5.15H10.05L16.54 -16.1H20.29L20.33 0H16.15L16.1 -9.73H16.81L11.96 -1.59H9.94L4.95 -9.73H5.82V0Z"/>
+    <path fill="#FFFFFF" d="M25.18 4.67Q24.2 4.67 23.19 4.36Q22.19 4.05 21.57 3.54L23.09 0.48Q23.48 0.83 24 1.02Q24.52 1.22 25.02 1.22Q25.74 1.22 26.15 0.9Q26.56 0.57 26.86 -0.11L27.44 -1.56L27.78 -2L32.02 -12.47H36.18L30.8 0.51Q30.15 2.12 29.31 3.02Q28.47 3.93 27.45 4.3Q26.43 4.67 25.18 4.67ZM26.89 0.53 21.39 -12.47H25.87L29.92 -2.39Z"/>
+    <path fill="#D9B46E" d="M37.21 0V-16.1H41.77V0Z"/>
+    <path fill="#D9B46E" d="M44.71 0V-16.1H51.91Q55.43 -16.1 57.32 -14.5Q59.22 -12.9 59.22 -10.14Q59.22 -8.33 58.35 -7Q57.47 -5.68 55.88 -4.98Q54.28 -4.28 52.07 -4.28H47.24L49.26 -6.19V0ZM54.67 0 50.67 -5.87H55.52L59.54 0ZM49.26 -5.7 47.24 -7.8H51.79Q53.22 -7.8 53.92 -8.42Q54.62 -9.04 54.62 -10.14Q54.62 -11.27 53.92 -11.89Q53.22 -12.51 51.79 -12.51H47.24L49.26 -14.61Z"/>
+  </g>
 </svg>

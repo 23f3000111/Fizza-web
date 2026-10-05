@@ -9,8 +9,8 @@ export const metadata: Metadata = {
 };
 
 const FAQS_EN: { q: string; a: React.ReactNode }[] = [
-  { q: "What is a Registered Estate Negotiator (REN)?", a: <>A <strong>Registered Estate Negotiator (REN)</strong> is a licensed property professional registered with BOVAEP. A REN must operate under a registered estate agency firm — in M.I.R.&apos;s case, <strong>Esprit Estate Agent Sdn Bhd</strong>. The REN number (<strong>REN 63161</strong>) is verifiable on the BOVAEP public register at <a className="text-brass-2 font-semibold" href="https://www.lppeh.gov.my/" target="_blank" rel="noopener noreferrer">lppeh.gov.my</a>.</> },
-  { q: "What types of property does M.I.R. specialise in?", a: <>M.I.R. focuses on <strong>industrial and commercial real estate</strong> — detached and semi-detached factories, superlink warehouses, industrial land, hotel assets, commercial office floors and built-to-rent (BTR) developments. We do not handle residential property, which means our knowledge of the industrial-commercial space runs deeper than a generalist agent&apos;s.</> },
+  { q: "What is a Registered Estate Negotiator (REN)?", a: <>A <strong>Registered Estate Negotiator (REN)</strong> is a licensed property professional registered with BOVAEP. A REN must operate under a registered estate agency firm — in Malaysia Industrial Realtors&apos; case, <strong>Esprit Estate Agent Sdn Bhd</strong>. The REN number (<strong>REN 63161</strong>) is verifiable on the BOVAEP public register at <a className="text-brass-2 font-semibold" href="https://www.lppeh.gov.my/" target="_blank" rel="noopener noreferrer">lppeh.gov.my</a>.</> },
+  { q: "What types of property does Malaysia Industrial Realtors specialise in?", a: <>Malaysia Industrial Realtors focuses on <strong>industrial and commercial real estate</strong> — detached and semi-detached factories, superlink warehouses, industrial land, hotel assets, commercial office floors and built-to-rent (BTR) developments. We do not handle residential property, which means our knowledge of the industrial-commercial space runs deeper than a generalist agent&apos;s.</> },
   { q: "How do I find the right factory or warehouse for my business?", a: <>Start by identifying your <strong>operational requirements</strong>: floor area, eave height, power supply (amp), loading access, zoning type and location relative to your supply chain. Share these with us and we&apos;ll match your brief against available listings — including off-market properties. A site visit is always arranged before any commitment.</> },
   { q: "What is Built-To-Rent (BTR) in commercial property?", a: <>A <strong>Built-To-Rent (BTR)</strong> development is a commercial or industrial space purpose-designed and constructed to a tenant&apos;s specific requirements, then leased under a long-term agreement. The developer builds to your spec, you lease it — avoiding the capital outlay of purchasing while securing a facility tailored to your operations.</> },
   { q: "What should I know about industrial zoning in Malaysia?", a: <>Industrial land is zoned into <strong>Light, Medium and Heavy Industry</strong> categories. Your business activity must match the land&apos;s approved zoning — operating heavy industry on light-zoned land risks enforcement action. We check zoning, title restrictions and MITI requirements before recommending any industrial property.</> },
@@ -20,8 +20,8 @@ const FAQS_EN: { q: string; a: React.ReactNode }[] = [
 ];
 
 const FAQS_BM: { q: string; a: React.ReactNode }[] = [
-  { q: "Apakah itu Perunding Hartanah Berdaftar (REN)?", a: <>Seorang <strong>Perunding Hartanah Berdaftar (REN)</strong> ialah profesional hartanah berlesen yang berdaftar dengan BOVAEP. Seorang REN mesti beroperasi di bawah firma agensi hartanah berdaftar — dalam kes M.I.R., <strong>Esprit Estate Agent Sdn Bhd</strong>. Nombor REN (<strong>REN 63161</strong>) boleh disahkan dalam daftar awam BOVAEP di <a className="text-brass-2 font-semibold" href="https://www.lppeh.gov.my/" target="_blank" rel="noopener noreferrer">lppeh.gov.my</a>.</> },
-  { q: "Jenis hartanah apakah yang menjadi kepakaran M.I.R.?", a: <>M.I.R. tertumpu pada <strong>hartanah perindustrian dan komersial</strong> — kilang berkembar dan sesebuah, gudang superlink, tanah perindustrian, aset hotel, tingkat pejabat komersial dan pembangunan built-to-rent (BTR). Kami tidak mengendalikan hartanah kediaman, bermakna pengetahuan kami dalam ruang perindustrian-komersial lebih mendalam berbanding ejen umum.</> },
+  { q: "Apakah itu Perunding Hartanah Berdaftar (REN)?", a: <>Seorang <strong>Perunding Hartanah Berdaftar (REN)</strong> ialah profesional hartanah berlesen yang berdaftar dengan BOVAEP. Seorang REN mesti beroperasi di bawah firma agensi hartanah berdaftar — dalam kes Malaysia Industrial Realtors, <strong>Esprit Estate Agent Sdn Bhd</strong>. Nombor REN (<strong>REN 63161</strong>) boleh disahkan dalam daftar awam BOVAEP di <a className="text-brass-2 font-semibold" href="https://www.lppeh.gov.my/" target="_blank" rel="noopener noreferrer">lppeh.gov.my</a>.</> },
+  { q: "Jenis hartanah apakah yang menjadi kepakaran Malaysia Industrial Realtors?", a: <>Malaysia Industrial Realtors tertumpu pada <strong>hartanah perindustrian dan komersial</strong> — kilang berkembar dan sesebuah, gudang superlink, tanah perindustrian, aset hotel, tingkat pejabat komersial dan pembangunan built-to-rent (BTR). Kami tidak mengendalikan hartanah kediaman, bermakna pengetahuan kami dalam ruang perindustrian-komersial lebih mendalam berbanding ejen umum.</> },
   { q: "Bagaimana saya mencari kilang atau gudang yang sesuai untuk perniagaan saya?", a: <>Mulakan dengan mengenal pasti <strong>keperluan operasi</strong> anda: luas lantai, ketinggian bumbung, bekalan kuasa (amp), akses memunggah, jenis zon dan lokasi berbanding rantaian bekalan anda. Kongsikan dengan kami dan kami akan memadankan keperluan anda dengan senarai yang ada — termasuk hartanah luar pasaran. Lawatan tapak sentiasa diatur sebelum sebarang komitmen.</> },
   { q: "Apakah itu Built-To-Rent (BTR) dalam hartanah komersial?", a: <>Pembangunan <strong>Built-To-Rent (BTR)</strong> ialah ruang komersial atau perindustrian yang direka dan dibina khas mengikut keperluan penyewa, kemudian dipajak di bawah perjanjian jangka panjang. Pemaju membina mengikut spesifikasi anda, anda memajaknya — mengelakkan perbelanjaan modal untuk membeli sambil mendapatkan kemudahan yang disesuaikan dengan operasi anda.</> },
   { q: "Apa yang perlu saya tahu tentang zon perindustrian di Malaysia?", a: <>Tanah perindustrian dizonkan kepada kategori <strong>Industri Ringan, Sederhana dan Berat</strong>. Aktiviti perniagaan anda mesti sepadan dengan zon yang diluluskan — mengendalikan industri berat di tanah zon ringan berisiko tindakan penguatkuasaan. Kami menyemak zon, sekatan hakmilik dan keperluan MITI sebelum mengesyorkan sebarang hartanah perindustrian.</> },
@@ -31,8 +31,8 @@ const FAQS_BM: { q: string; a: React.ReactNode }[] = [
 ];
 
 const FAQS_ZH: { q: string; a: React.ReactNode }[] = [
-  { q: "什么是注册地产协商员（REN）？", a: <><strong>注册地产协商员（REN）</strong>是在 BOVAEP 注册的持牌地产专业人士。REN 必须隶属于一家注册地产代理行执业——以 M.I.R. 而言，即 <strong>Esprit Estate Agent Sdn Bhd</strong>。其 REN 编号（<strong>REN 63161</strong>）可在 BOVAEP 公开名册查证：<a className="text-brass-2 font-semibold" href="https://www.lppeh.gov.my/" target="_blank" rel="noopener noreferrer">lppeh.gov.my</a>。</> },
-  { q: "M.I.R. 专精于哪些类型的物业？", a: <>M.I.R. 专注于<strong>工业与商业地产</strong>——独立式与半独立式厂房、超级连排仓库、工业地段、酒店资产、商业办公楼层以及订制出租（BTR）项目。我们不经手住宅物业，因此在工业与商业领域的专业深度远超全能型经纪。</> },
+  { q: "什么是注册地产协商员（REN）？", a: <><strong>注册地产协商员（REN）</strong>是在 BOVAEP 注册的持牌地产专业人士。REN 必须隶属于一家注册地产代理行执业——以 Malaysia Industrial Realtors 而言，即 <strong>Esprit Estate Agent Sdn Bhd</strong>。其 REN 编号（<strong>REN 63161</strong>）可在 BOVAEP 公开名册查证：<a className="text-brass-2 font-semibold" href="https://www.lppeh.gov.my/" target="_blank" rel="noopener noreferrer">lppeh.gov.my</a>。</> },
+  { q: "Malaysia Industrial Realtors 专精于哪些类型的物业？", a: <>Malaysia Industrial Realtors 专注于<strong>工业与商业地产</strong>——独立式与半独立式厂房、超级连排仓库、工业地段、酒店资产、商业办公楼层以及订制出租（BTR）项目。我们不经手住宅物业，因此在工业与商业领域的专业深度远超全能型经纪。</> },
   { q: "我该如何为公司找到合适的厂房或仓库？", a: <>首先厘清您的<strong>营运需求</strong>：楼面面积、檐高、电力供应（安培）、装卸通道、分区用途，以及相对于供应链的地点。将这些告诉我们，我们会依您的条件匹配现有房源——包括未公开的私洽物业。任何承诺之前，必定先安排实地考察。</> },
   { q: "商业地产中的订制出租（BTR）是什么？", a: <><strong>订制出租（BTR）</strong>项目是指依据租户特定需求专门设计与建造的商业或工业空间，再以长期合约出租。发展商按您的规格兴建，您承租使用——既省去购置的资本支出，又能获得贴合营运需求的设施。</> },
   { q: "关于马来西亚的工业分区，我需要知道什么？", a: <>工业地段分为<strong>轻工业、中工业与重工业</strong>三类。您的营业活动必须符合该地段获批的分区用途——在轻工业地段经营重工业将面临执法风险。在推荐任何工业物业之前，我们都会核实分区用途、地契限制与 MITI 要求。</> },
@@ -51,7 +51,7 @@ export default function FaqPage() {
       <section className="navy-gradient text-white pt-8 pb-24">
         <div className="container-site">
           <span className="eyebrow text-brass-soft before:bg-brass-soft">{t("Frequently asked")}</span>
-          <h1 className="font-serif text-3xl sm:text-[44px] text-white mt-3">{t("Questions, answered.")}</h1>
+          <h1 className="font-bold tracking-tight text-3xl sm:text-[44px] text-white mt-3">{t("Questions, answered.")}</h1>
           <p className="text-[#B9C7D8] mt-2.5 max-w-[56ch]">{t("Common questions about industrial & commercial property, REN registration, agent fees and what we actually do — before you pick up the phone.")}</p>
         </div>
       </section>
@@ -61,7 +61,7 @@ export default function FaqPage() {
           {FAQS.map((f, i) => (
             <details key={i} open={i === 0} className="border-b border-line-2 last:border-0 group [&_summary::-webkit-details-marker]:hidden">
               <summary className="list-none cursor-pointer flex items-center gap-4 px-6 py-5">
-                <span className="font-serif text-brass-2 text-[15px] min-w-[24px]">{String(i + 1).padStart(2, "0")}</span>
+                <span className="font-bold text-brass-2 text-[15px] min-w-[24px]">{String(i + 1).padStart(2, "0")}</span>
                 <span className="flex-1 font-semibold text-base">{f.q}</span>
                 <span className="w-[26px] h-[26px] rounded-full bg-cream grid place-items-center text-navy text-lg transition-transform group-open:rotate-45 group-open:bg-navy group-open:text-white">+</span>
               </summary>
@@ -72,7 +72,7 @@ export default function FaqPage() {
 
         <aside className="lg:sticky lg:top-[88px]">
           <div className="bg-navy text-white rounded-xl2 p-[26px]">
-            <h3 className="font-serif text-[21px] text-white mb-2">{t("Still have a question?")}</h3>
+            <h3 className="font-bold text-[21px] text-white mb-2">{t("Still have a question?")}</h3>
             <p className="text-[#B9C7D8] text-sm mb-4">{t("Ask us directly — we reply personally, usually within minutes.")}</p>
             <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-brass btn-block mb-2">{t("WhatsApp us")}</a>
             <Link href="/quote" className="btn btn-white btn-block mb-2">{t("Get a quote")}</Link>

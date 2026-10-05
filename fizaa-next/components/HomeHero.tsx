@@ -37,11 +37,15 @@ export default function HomeHero() {
       /* Averaged tone of the poster frame. Only visible for the instant before
          the poster decodes — keeps that gap from flashing white, without the
          blue block that used to read as the video failing to load. */
-      style={{ backgroundColor: "#726E61" }}
+      style={{ backgroundColor: "#7C7D80" }}
     >
-      {/* Poster is frame 0 of the video itself, so the still and the first
+      {/* Aerial drift over an industrial estate (Pexels #32338863 by Toàn BDS,
+          Pexels License: free for commercial use, no attribution required).
+          Re-encoded to 1080p/30fps, 20 s, with the last 2 s crossfaded into
+          the first so the loop has no visible seam.
+          Poster is frame 0 of the video itself, so the still and the first
           played frame are identical — the handover is invisible. metadata
-          preload lets the 215 KB poster win the race against the 23 MB video. */}
+          preload lets the 290 KB poster win the race against the 6 MB video. */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
@@ -49,34 +53,36 @@ export default function HomeHero() {
         loop
         playsInline
         preload="metadata"
-        poster="/fiza-website-images/hero-poster.jpg"
+        poster="/media/hero-industrial-poster.jpg"
         aria-hidden="true"
         tabIndex={-1}
       >
-        <source src="/fiza-website-images/watermarked_preview.mp4" type="video/mp4" />
+        <source src="/media/hero-industrial.mp4" type="video/mp4" />
       </video>
-      {/* legibility overlays */}
-      <div className="absolute inset-0 bg-gradient-to-r from-navy-2/92 via-navy-2/70 to-navy-2/35" />
+      {/* legibility overlays (opacity steps must exist in Tailwind's scale —
+          an off-scale value like /92 is silently dropped and the whole
+          gradient disappears) */}
+      <div className="absolute inset-0 bg-gradient-to-r from-navy-2/90 via-navy-2/70 to-navy-2/35" />
       <div className="absolute inset-0 bg-gradient-to-t from-navy-2/85 via-transparent to-navy-2/40" />
 
       <div className="container-site relative py-24 sm:py-28">
         <div className="max-w-[760px]">
           <span className="inline-flex items-center gap-2.5 text-xs font-semibold uppercase tracking-[0.18em] text-brass-soft">
-            <span className="w-5 h-px bg-brass" /> {SITE.ren} · {SITE.agency}
+            <span className="w-5 h-px bg-brass" /> {SITE.name}
           </span>
 
-          <h1 className="font-serif text-white text-[40px] sm:text-6xl lg:text-7xl leading-[1.05] mt-5">
+          <h1 className="font-bold tracking-tight text-white text-[38px] sm:text-[54px] lg:text-[66px] leading-[1.06] mt-5">
             {lang === "bm" ? (
-              <>Rakan <span className="text-brass-soft italic">Dipercayai</span> Anda dalam Hartanah Perindustrian &amp; Komersial.</>
+              <>Rakan <span className="text-brass-soft">Dipercayai</span> Anda dalam Hartanah Perindustrian &amp; Komersial.</>
             ) : lang === "zh" ? (
-              <>您<span className="text-brass-soft italic">值得信赖</span>的工业与商业地产伙伴。</>
+              <>您<span className="text-brass-soft">值得信赖</span>的工业与商业地产伙伴。</>
             ) : (
-              <>Your <span className="text-brass-soft italic">Trusted</span> Partner in Industrial &amp; Commercial Property.</>
+              <>Your <span className="text-brass-soft">Trusted</span> Partner in Industrial &amp; Commercial Property.</>
             )}
           </h1>
 
           <p className="mt-5 text-[17px] sm:text-[18px] text-[#D7E0EC] max-w-[52ch]">
-            {t("Factories, warehouses, hotels, offices and industrial land across Malaysia — handled personally by one dedicated negotiator, from first enquiry to final handover.")}
+            {t("Factories, warehouses, hotels, offices and industrial land across Malaysia — handled personally by dedicated negotiators, from first enquiry to final handover.")}
           </p>
 
           {/* search bar (#5) */}
@@ -100,7 +106,7 @@ export default function HomeHero() {
               { href: "/commercial", label: t("Commercial") },
               { href: "/hotel", label: t("Hotel") },
             ].map((s) => (
-              <Link key={s.href} href={s.href} className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/12 hover:bg-white/22 border border-white/20 text-white text-[13px] font-medium transition">
+              <Link key={s.href} href={s.href} className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 border border-white/20 text-white text-[13px] font-medium transition">
                 {s.label} <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             ))}

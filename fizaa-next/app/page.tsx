@@ -23,43 +23,27 @@ export default async function HomePage() {
 
       {/* BRANDS */}
       <section className="bg-white border-y border-line">
-        <div className="container-site flex items-center gap-10 flex-wrap justify-center py-7">
+        <div className="container-site flex items-center gap-x-10 gap-y-4 flex-wrap justify-center py-7">
           <span className="text-xs tracking-[0.14em] uppercase text-mute font-semibold">{t("Trusted across")}</span>
-          {["Esprit Estate", "BOVAEP", "GreenRE", "MITI", "Klang Valley"].map((b) => (
-            <span key={b} className="font-serif text-[19px] text-ink-2 opacity-65 hover:opacity-100 transition-opacity">{b}</span>
+          {["BOVAEP", "MIEA", "PEHAM", "ESP", t("Local Developers")].map((b) => (
+            <span key={b} className="text-[18px] font-bold tracking-tight text-ink-2 opacity-65 hover:opacity-100 transition-opacity">{b}</span>
           ))}
         </div>
       </section>
 
-      {/* VALUES */}
-      <section className="py-14 sm:py-24">
-        <div className="container-site">
-          <div className="max-w-[720px] mb-10 sm:mb-14">
-            <span className="eyebrow">{t("Why work with M.I.R.")}</span>
-            <h2 className="font-serif text-3xl sm:text-5xl mt-4">{t("Property is a people business — handled by one dedicated team.")}</h2>
-            <p className="text-ink-2 mt-4 text-[17px]">{t("No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.")}</p>
-          </div>
-          <div className="grid sm:grid-cols-3 gap-[22px]">
-            <Value icon={<Shield className="w-[22px] h-[22px]" />} title={t("A registered hand")} text={t("REN 63161 under Esprit Estate Agent Sdn Bhd — licensed, compliant, and operating within BOVAEP's framework.")} />
-            <Value icon={<Building className="w-[22px] h-[22px]" />} title={t("Industrial specialist")} text={t("Focused only on factories, warehouses, lands, commercial plots and hotel assets — sharper advice than any generalist.")} />
-            <Value icon={<Search className="w-[22px] h-[22px]" />} title={t("Verified before viewing")} text={t("Title, zoning, power supply and lease terms checked before you visit — not discovered after the offer.")} />
-          </div>
-        </div>
-      </section>
-
       {/* LATEST PROJECTS */}
-      <section className="pb-14 sm:pb-24">
+      <section className="py-14 sm:py-24">
         <div className="container-site">
           <div className="flex items-end justify-between gap-5 mb-9 flex-wrap">
             <div>
               <span className="eyebrow">{t("Latest projects")}</span>
-              <h2 className="font-serif text-3xl sm:text-5xl mt-3.5">{t("Currently in the portfolio.")}</h2>
+              <h2 className="font-bold tracking-tight text-3xl sm:text-5xl mt-3.5">{t("Currently in the portfolio.")}</h2>
             </div>
             <Link href="/listings" className="btn btn-ghost">{t("View all listings")} <ArrowRight className="w-4 h-4" /></Link>
           </div>
           {latest.length === 0 ? (
             <div className="text-center border border-dashed border-line-strong rounded-xl2 py-12 px-6">
-              <div className="font-serif text-2xl text-navy mb-2">{t("New listings coming soon.")}</div>
+              <div className="font-bold text-2xl text-navy mb-2">{t("New listings coming soon.")}</div>
               <p className="text-mute mb-4">{t("We are curating the latest industrial & commercial opportunities. Get in touch to discuss your requirement.")}</p>
               <Link href="/quote" className="btn btn-brass">{t("Tell us what you need")}</Link>
             </div>
@@ -71,17 +55,33 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* VALUES — sits after the portfolio so visitors see live listings first */}
+      <section className="pb-14 sm:pb-24">
+        <div className="container-site">
+          <div className="max-w-[720px] mb-10 sm:mb-14">
+            <span className="eyebrow">{t("Why work with Malaysia Industrial Realtors")}</span>
+            <h2 className="font-bold tracking-tight text-3xl sm:text-5xl mt-4">{t("Property is a people business — handled by one dedicated team.")}</h2>
+            <p className="text-ink-2 mt-4 text-[17px]">{t("No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.")}</p>
+          </div>
+          <div className="grid sm:grid-cols-3 gap-[22px]">
+            <Value icon={<Shield className="w-[22px] h-[22px]" />} title={t("A registered hand")} text={t("REN 63161 under Esprit Estate Agent Sdn Bhd — licensed, compliant, and operating within BOVAEP's framework.")} />
+            <Value icon={<Building className="w-[22px] h-[22px]" />} title={t("Industrial specialist")} text={t("Focused only on factories, warehouses, lands, commercial plots and hotel assets — sharper advice than any generalist.")} />
+            <Value icon={<Search className="w-[22px] h-[22px]" />} title={t("Verified before viewing")} text={t("Title, zoning, power supply and lease terms checked before you visit — not discovered after the offer.")} />
+          </div>
+        </div>
+      </section>
+
       {/* REVIEWS (placeholder) */}
       <section className="py-14 sm:py-24 bg-cream">
         <div className="container-site">
           <div className="max-w-[720px] mx-auto text-center mb-12">
             <span className="eyebrow justify-center before:hidden">{t("What clients say")}</span>
-            <h2 className="font-serif text-3xl sm:text-5xl mt-4">{t("Trusted by businesses across Malaysia.")}</h2>
+            <h2 className="font-bold tracking-tight text-3xl sm:text-5xl mt-4">{t("Trusted by businesses across Malaysia.")}</h2>
           </div>
           <div className="grid sm:grid-cols-3 gap-[22px]">
-            <Review initial="A" name="Azman R." role={t("Logistics Director")} text="M.I.R. found us a warehouse that actually matched our power and loading needs. They walked the site themselves and flagged issues other agents missed." />
+            <Review initial="A" name="Azman R." role={t("Logistics Director")} text="Malaysia Industrial Realtors found us a warehouse that actually matched our power and loading needs. They walked the site themselves and flagged issues other agents missed." />
             <Review initial="L" name="Lim S.K." role={t("Manufacturing Owner")} text="Professional, responsive and genuinely knowledgeable about industrial zoning. The whole factory purchase was smoother than we expected." />
-            <Review initial="N" name="Nadia H." role={t("Private Investor")} text="We were investing in a hotel asset and M.I.R.'s diligence on the tenancy and yield gave us real confidence. Highly recommended." />
+            <Review initial="N" name="Nadia H." role={t("Private Investor")} text="We were investing in a hotel asset and Malaysia Industrial Realtors' diligence on the tenancy and yield gave us real confidence. Highly recommended." />
           </div>
         </div>
       </section>
@@ -92,7 +92,7 @@ export default async function HomePage() {
           {/* small image */}
           <div className="relative rounded-2xl2 overflow-hidden aspect-[4/5] max-w-[280px] mx-auto lg:mx-0 shadow-lg2 bg-navy">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/fiza-website-images/MRL_8310.JPG" alt="M.I.R. — industrial & commercial property consultant" className="w-full h-full object-cover object-[center_18%]" />
+            <img src="/fiza-website-images/MRL_8310.JPG" alt="Malaysia Industrial Realtors — industrial & commercial property consultant" className="w-full h-full object-cover object-[center_18%]" />
             <div className="absolute left-3 bottom-3 bg-white/90 backdrop-blur rounded-full px-3 py-1.5 text-[11px] font-semibold flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-good" /> {t("Available")} · GMT+8
             </div>
@@ -100,8 +100,8 @@ export default async function HomePage() {
           {/* main details */}
           <div>
             <span className="eyebrow">{t("Our Journey")}</span>
-            <h2 className="font-serif text-3xl sm:text-5xl mt-4 leading-tight">{t("Property is a people business.")}</h2>
-            <p className="text-[17px] text-navy italic font-serif mt-4">&ldquo;{t("We are professionals who go the extra mile to solve every client's requirements.")}&rdquo;</p>
+            <h2 className="font-bold tracking-tight text-3xl sm:text-5xl mt-4 leading-tight">{t("Property is a people business.")}</h2>
+            <p className="text-[17px] text-navy italic font-medium mt-4">&ldquo;{t("We are professionals who go the extra mile to solve every client's requirements.")}&rdquo;</p>
             {/* Teaser: opening paragraph only — /journey carries the full profile. */}
             <p className="text-ink-2 mt-4 text-[15.5px] leading-relaxed">{JOURNEY_BIO[lang][0]}</p>
             <div className="flex flex-wrap gap-2.5 mt-6">
@@ -122,7 +122,7 @@ export default async function HomePage() {
         <div className="container-site">
           <div className="relative overflow-hidden navy-gradient text-white rounded-2xl2 p-9 sm:p-16 text-center">
             <div className="absolute -top-32 -right-20 w-[360px] h-[360px] rounded-full bg-brass/25 blur-2xl" />
-            <h2 className="font-serif text-3xl sm:text-5xl text-white relative">{t("Let's find your next property.")}</h2>
+            <h2 className="font-bold tracking-tight text-3xl sm:text-5xl text-white relative">{t("Let's find your next property.")}</h2>
             <p className="text-[#B9C7D8] mt-4 max-w-[52ch] mx-auto relative">{t("Tell us what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.")}</p>
             <div className="mt-7 flex gap-3 justify-center flex-wrap relative">
               <Link href="/quote" className="btn btn-brass btn-lg">{t("Get a quote")}</Link>
@@ -139,7 +139,7 @@ function Value({ icon, title, text }: { icon: React.ReactNode; title: string; te
   return (
     <div className="bg-white border border-line rounded-xl2 p-[26px] transition-all hover:-translate-y-1 hover:shadow-md2">
       <div className="w-[46px] h-[46px] rounded-xl bg-navy-soft text-navy grid place-items-center mb-4">{icon}</div>
-      <h3 className="font-serif text-xl mb-2">{title}</h3>
+      <h3 className="font-bold text-xl mb-2">{title}</h3>
       <p className="text-[14.5px] text-ink-2">{text}</p>
     </div>
   );
@@ -151,7 +151,7 @@ function Review({ initial, name, role, text }: { initial: string; name: string; 
       <div className="text-brass tracking-[3px] mb-3.5">★★★★★</div>
       <p className="text-[15.5px] leading-relaxed flex-1">&ldquo;{text}&rdquo;</p>
       <div className="mt-5 flex items-center gap-3">
-        <div className="w-[42px] h-[42px] rounded-full bg-navy text-white grid place-items-center font-serif text-[17px]">{initial}</div>
+        <div className="w-[42px] h-[42px] rounded-full bg-navy text-white grid place-items-center font-semibold text-[17px]">{initial}</div>
         <div>
           <div className="font-semibold text-sm">{name}</div>
           <div className="text-xs text-mute">{role}</div>

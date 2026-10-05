@@ -29,7 +29,7 @@ export default function ListingCard({ listing, showType = true }: { listing: Lis
           <Pin className="w-[13px] h-[13px] text-brass" />
           {[tl.city, tl.state].filter(Boolean).join(", ")}
         </div>
-        <h3 className="font-serif text-[19px] leading-snug mb-3">{tl.title}</h3>
+        <h3 className="font-bold text-[17px] leading-snug mb-3">{tl.title}</h3>
         {tl.specs && tl.specs.length > 0 && (
           <div className="flex flex-wrap gap-x-3.5 gap-y-1.5 text-xs text-ink-2 mb-4">
             {tl.specs.slice(0, 3).map((s, i) => (
@@ -38,7 +38,7 @@ export default function ListingCard({ listing, showType = true }: { listing: Lis
           </div>
         )}
         <div className="mt-auto flex items-center justify-between gap-2.5 pt-3.5 border-t border-line-2">
-          <div className="font-serif text-xl text-navy">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
+          <div className="font-bold text-xl text-navy">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
           <span className="text-[13px] font-semibold text-brass-2 inline-flex items-center gap-1.5">
             {t("View")} <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
           </span>

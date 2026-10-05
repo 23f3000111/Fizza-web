@@ -1,4 +1,4 @@
-# M.I.R. — My Industrial Realtors
+# Malaysia Industrial Realtors (MyIR)
 
 Industrial, commercial and hotel property listings for Malaysia.
 Next.js 14 (App Router) · TypeScript · Tailwind · trilingual (EN / BM / 中文).
@@ -80,6 +80,13 @@ uploads/        listing media served by /api/uploads
 ### Branding
 
 All brand and contact strings come from **`lib/site.ts`** — change them once
-there. UI copy is keyed by its English string in `lib/i18n.ts`; if you edit an
+there. The trading name is always written in full, "Malaysia Industrial
+Realtors"; "MyIR" appears only in the logo mark (`components/Logo.tsx`, with the
+same artwork at `public/brand/myir-logo-mark.svg` for use outside the site).
+UI copy is keyed by its English string in `lib/i18n.ts`; if you edit an
 English string you must update the matching key in both the `BM` and `ZH` maps,
 or that string silently falls back to English.
+
+Headings use the system sans-serif stack in bold — there is no serif face.
+The home hero video is `public/media/hero-industrial.mp4` (poster:
+`hero-industrial-poster.jpg`, frame 0 of the same clip).

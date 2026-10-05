@@ -9,6 +9,7 @@ import type { Lang } from "@/lib/i18n";
 import type { Listing, Meta, Segment } from "@/lib/types";
 import { SITE } from "@/lib/site";
 import { Search, Pin, ArrowRight } from "./Icons";
+import { LogoMark } from "./Logo";
 import ListingsMap from "./ListingsMap";
 import { useLang } from "./LangProvider";
 
@@ -93,11 +94,7 @@ export default function SegmentListings({
       {/* header */}
       <section className="navy-gradient text-white pt-9 pb-24">
         <div className="container-site">
-          <div className="flex items-center gap-3 flex-wrap">
-            <span className="font-serif text-2xl sm:text-3xl text-white tracking-tight">{SITE.name}</span>
-            <span className="w-px h-6 bg-white/25 hidden sm:block" />
-            <h1 className="font-serif text-xl sm:text-3xl text-white">{title}</h1>
-          </div>
+          <h1 className="font-bold tracking-tight text-2xl sm:text-4xl text-white">{title}</h1>
           <p className="text-[#B9C7D8] mt-2 max-w-[60ch]">{subtitle}</p>
         </div>
       </section>
@@ -152,7 +149,7 @@ export default function SegmentListings({
           )}
 
           <div className="flex items-center justify-between gap-3 mb-4 flex-wrap">
-            <div className="font-serif text-lg text-navy">{loaded ? `${filtered.length} ${filtered.length === 1 ? t("property") : t("properties")}` : t("Loading…")}</div>
+            <div className="font-bold text-lg text-navy">{loaded ? `${filtered.length} ${filtered.length === 1 ? t("property") : t("properties")}` : t("Loading…")}</div>
             <select value={sort} onChange={(e) => setSort(e.target.value)} className="select !h-auto !py-2.5 min-w-[160px]">
               <option value="newest">{t("Sort: Newest")}</option>
               <option value="price-asc">{t("Price: Low to High")}</option>
@@ -163,7 +160,7 @@ export default function SegmentListings({
 
           {loaded && filtered.length === 0 ? (
             <div className="text-center border border-dashed border-line-strong rounded-xl2 py-16 px-6">
-              <div className="font-serif text-xl text-navy mb-2">{t("No properties here yet.")}</div>
+              <div className="font-bold text-xl text-navy mb-2">{t("No properties here yet.")}</div>
               <p className="text-mute mb-4">{t("Tell us what you need and we'll source it for you.")}</p>
               <Link href="/quote" className="btn btn-brass">{t("Get a Quote")}</Link>
             </div>
@@ -177,15 +174,14 @@ export default function SegmentListings({
         {/* sidebar CTA (replaces subsaleking's app/QR card) */}
         <aside className="lg:sticky lg:top-[88px] flex flex-col gap-4">
           <div className="bg-white border border-line rounded-xl2 p-[22px] text-center shadow-sm2">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/fiza-website-images/MRL_8310.JPG" alt="M.I.R. — industrial & commercial property consultant" className="w-[72px] h-[72px] rounded-full object-cover object-[center_20%] mx-auto mb-3" />
-            <div className="font-serif text-[18px]">M.I.R.</div>
-            <div className="text-[12.5px] text-mute mt-1 mb-4">REN 63161 · Esprit Estate</div>
+            <LogoMark className="w-[72px] h-[72px] rounded-[22%] shadow-sm2 mx-auto mb-3" />
+            <div className="font-bold text-[17px] leading-snug">{SITE.name}</div>
+            <div className="text-[12.5px] text-mute mt-1 mb-4">{t("Industrial & Commercial · Malaysia")}</div>
             <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-brass btn-block mb-2">{t("WhatsApp us")}</a>
             <Link href="/quote" className="btn btn-ghost btn-block">{t("Get a Quote")}</Link>
           </div>
           <div className="navy-gradient text-white rounded-xl2 p-[22px]">
-            <h3 className="font-serif text-lg text-white mb-1.5">{t("Looking for something specific?")}</h3>
+            <h3 className="font-bold text-lg text-white mb-1.5">{t("Looking for something specific?")}</h3>
             <p className="text-[#B9C7D8] text-[13.5px] mb-3.5">{t("Share your brief — size, power, zoning, budget — and get matched, including off-market.")}</p>
             <Link href="/quote" className="btn btn-white btn-block">{t("Tell us")}</Link>
           </div>
@@ -211,7 +207,7 @@ function Row({ l, t, lang }: { l: Listing; t: (s: string) => string; lang: Lang 
         <span className={`absolute top-2 left-2 ${l.dealType === "rent" ? "pill pill-rent" : "pill pill-sale"} !text-[10px] !px-2 !py-0.5`}>{l.dealType === "rent" ? t("For Rent") : t("For Sale")}</span>
       </div>
       <div className="min-w-0 flex flex-col justify-center">
-        <h3 className="font-serif text-[18px] sm:text-[21px] leading-snug group-hover:text-navy transition-colors truncate">{tl.title}</h3>
+        <h3 className="font-bold text-[17px] sm:text-[19px] leading-snug group-hover:text-navy transition-colors truncate">{tl.title}</h3>
         <div className="flex items-center gap-1.5 text-[13px] text-mute mt-1.5">
           <Pin className="w-[14px] h-[14px] text-brass shrink-0" />
           <span className="truncate">{[tl.city, tl.state].filter(Boolean).join(", ") || "—"}</span>
@@ -224,11 +220,11 @@ function Row({ l, t, lang }: { l: Listing; t: (s: string) => string; lang: Lang 
         </div>
       </div>
       <div className="hidden sm:flex flex-col justify-center items-end text-right pr-2">
-        <div className="font-serif text-xl text-navy whitespace-nowrap">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
+        <div className="font-bold text-xl text-navy whitespace-nowrap">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
         <span className="text-[13px] font-semibold text-brass-2 inline-flex items-center gap-1 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">{t("View")} <ArrowRight className="w-3.5 h-3.5" /></span>
       </div>
       {/* price on mobile (under details) */}
-      <div className="sm:hidden col-span-2 -mt-1 font-serif text-lg text-navy">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
+      <div className="sm:hidden col-span-2 -mt-1 font-bold text-lg text-navy">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
     </Link>
   );
 }

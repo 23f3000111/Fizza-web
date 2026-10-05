@@ -9,11 +9,11 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: "M.I.R. · Industrial & Commercial Property in Malaysia",
-    template: "%s · M.I.R.",
+    default: `${SITE.name} · Industrial & Commercial Property in Malaysia`,
+    template: `%s · ${SITE.name}`,
   },
   description:
-    "M.I.R. (My Industrial Realtors) — factories, warehouses, hotels, offices and industrial land across Malaysia, handled by a registered estate negotiator.",
+    `${SITE.name} — factories, warehouses, hotels, offices and industrial land across Malaysia, handled personally by dedicated, registered estate negotiators.`,
   applicationName: SITE.name,
   keywords: [
     "industrial property Malaysia",
@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     "warehouse for sale Malaysia",
     "commercial property Malaysia",
     "industrial land Selangor",
+    "Malaysia Industrial Realtors",
+    "MyIR",
     "My Industrial Realtors",
   ],
   alternates: { canonical: "/" },
@@ -28,13 +30,13 @@ export const metadata: Metadata = {
     type: "website",
     siteName: SITE.name,
     url: SITE.url,
-    title: "M.I.R. · Industrial & Commercial Property in Malaysia",
+    title: `${SITE.name} · Industrial & Commercial Property in Malaysia`,
     description:
       "Factories, warehouses, hotels, offices and industrial land across Malaysia — verified before viewing.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "M.I.R. · Industrial & Commercial Property in Malaysia",
+    title: `${SITE.name} · Industrial & Commercial Property in Malaysia`,
     description:
       "Factories, warehouses, hotels, offices and industrial land across Malaysia — verified before viewing.",
   },

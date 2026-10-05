@@ -3,6 +3,8 @@
 import { useEffect, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import { fetchJSON } from "@/lib/clientApi";
+import { SITE } from "@/lib/site";
+import { LogoMark } from "@/components/Logo";
 import type { Listing, Meta, DocFile } from "@/lib/types";
 
 const AdminMapPicker = dynamic(() => import("@/components/AdminMapPicker"), { ssr: false });
@@ -152,8 +154,8 @@ export default function AdminPage() {
     return (
       <div className="min-h-screen grid place-items-center p-6 bg-[#F4F2EC]">
         <form onSubmit={login} className="bg-white border border-line rounded-xl2 shadow-lg2 p-9 w-full max-w-[380px] text-center">
-          <div className="w-[52px] h-[52px] rounded-xl bg-navy text-white grid place-items-center font-serif font-semibold text-[17px] tracking-[0.04em] mx-auto mb-4">MIR</div>
-          <h1 className="font-serif text-2xl">M.I.R. Admin</h1>
+          <LogoMark className="w-[52px] h-[52px] rounded-[22%] mx-auto mb-4" />
+          <h1 className="font-bold text-2xl leading-tight">{SITE.name} Admin</h1>
           <p className="text-mute text-sm mb-5">Manage listings, categories &amp; submissions</p>
           <div className="text-left mb-1"><label className="field-label">Password</label><input className="input" type="password" value={pw} onChange={(e) => setPw(e.target.value)} placeholder="Enter admin password" required /></div>
           {loginErr && <p className="text-sm text-bad my-2">{loginErr}</p>}
@@ -169,7 +171,7 @@ export default function AdminPage() {
 
       <div className="bg-navy text-white sticky top-0 z-50">
         <div className="max-w-site mx-auto px-4 sm:px-8 py-3.5 flex items-center gap-4">
-          <div className="font-serif text-[19px] flex items-center gap-2.5"><span className="w-8 h-8 rounded-lg bg-brass grid place-items-center text-[11px] font-semibold tracking-[0.04em]">MIR</span> M.I.R. Admin</div>
+          <div className="font-bold text-[17px] flex items-center gap-2.5"><LogoMark className="w-8 h-8 shrink-0 rounded-[22%] ring-1 ring-white/20" /> <span><span className="hidden sm:inline">{SITE.name} </span>Admin</span></div>
           <div className="flex-1" />
           <a href="/" target="_blank" className="text-[#cdd9e6] text-[13.5px] hover:text-white">View site ↗</a>
           <button onClick={logout} className="text-[#cdd9e6] text-[13.5px] hover:text-white">Log out</button>
@@ -187,13 +189,13 @@ export default function AdminPage() {
         {tab === "listings" && (
           <>
             <div className="flex items-center justify-between gap-3.5 mb-4 flex-wrap">
-              <h2 className="font-serif text-2xl">Listings</h2>
+              <h2 className="font-bold text-2xl">Listings</h2>
               <button onClick={openNew} className="btn btn-brass">+ New listing</button>
             </div>
 
             {showForm && (
               <form ref={formRef} onSubmit={submitListing} className="bg-white border border-line rounded-xl2 p-6 mb-6">
-                <h2 className="font-serif text-xl mb-1">{editId ? "Edit listing" : "Create listing"}</h2>
+                <h2 className="font-bold text-xl mb-1">{editId ? "Edit listing" : "Create listing"}</h2>
                 <p className="text-mute text-[13.5px] mb-3">New categories, locations and &ldquo;Others&rdquo; fields you type here are saved as suggestions for next time.</p>
 
                 <Legend>Basics</Legend>
@@ -392,7 +394,7 @@ function DocChip({ name, onDel }: { name: string; onDel: () => void }) {
 function Card({ title, action, children }: { title: string; action?: React.ReactNode; children: React.ReactNode }) {
   return (
     <div className="bg-white border border-line rounded-xl2 p-6 mb-5 overflow-x-auto">
-      <div className="flex items-center justify-between gap-3.5 mb-3 flex-wrap"><h2 className="font-serif text-xl">{title}</h2>{action}</div>
+      <div className="flex items-center justify-between gap-3.5 mb-3 flex-wrap"><h2 className="font-bold text-xl">{title}</h2>{action}</div>
       {children}
     </div>
   );

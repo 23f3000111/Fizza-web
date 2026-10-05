@@ -5,6 +5,7 @@ import { db } from "@/lib/db";
 import { money } from "@/lib/format";
 import { SITE } from "@/lib/site";
 import { Pin } from "@/components/Icons";
+import { LogoMark } from "@/components/Logo";
 import Gallery from "@/components/Gallery";
 import DetailMap from "@/components/DetailMap";
 import InquiryForm from "@/components/InquiryForm";
@@ -57,11 +58,11 @@ export default async function ListingDetail({ params }: { params: { id: string }
             <span className={l.dealType === "rent" ? "pill pill-rent" : "pill pill-sale"}>{l.dealType === "rent" ? t("For Rent") : t("For Sale")}</span>
             {tl.propertyType && <span className="pill pill-soft">{tl.propertyType}</span>}
           </div>
-          <h1 className="font-serif text-2xl sm:text-[42px] max-w-[22ch] leading-tight">{tl.title}</h1>
+          <h1 className="font-bold tracking-tight text-2xl sm:text-[40px] max-w-[22ch] leading-tight">{tl.title}</h1>
           <div className="text-mute flex items-center gap-1.5 mt-2.5 text-sm"><Pin className="w-4 h-4 text-brass" />{[l.address || tl.city, tl.state].filter(Boolean).join(", ")}</div>
         </div>
         <div className="text-right">
-          <div className="font-serif text-2xl sm:text-[38px] text-navy">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
+          <div className="font-bold tracking-tight text-2xl sm:text-[36px] text-navy">{t(money({ ...l, priceLabel: tl.priceLabel }))}</div>
           <div className="text-xs text-mute uppercase tracking-wide">{l.dealType === "rent" ? t("Rental") : t("Sale price")}</div>
         </div>
       </div>
@@ -127,15 +128,14 @@ export default async function ListingDetail({ params }: { params: { id: string }
 
         <aside className="lg:sticky lg:top-[88px] flex flex-col gap-[18px]">
           <div className="bg-white border border-line rounded-xl2 p-[22px] text-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/fiza-website-images/MRL_8310.JPG" alt="M.I.R. — industrial & commercial property consultant" className="w-[78px] h-[78px] rounded-full object-cover object-[center_20%] mx-auto mb-3" />
-            <div className="font-serif text-[19px]">M.I.R.</div>
-            <div className="text-[12.5px] text-mute mt-1 mb-3.5">REN 63161 · Esprit Estate</div>
-            <a href={`${SITE.whatsapp}?text=${encodeURIComponent("Hi M.I.R., I am interested in: " + l.title)}`} target="_blank" rel="noopener noreferrer" className="btn btn-brass btn-block mb-2">{t("WhatsApp about this")}</a>
+            <LogoMark className="w-[78px] h-[78px] rounded-[22%] shadow-sm2 mx-auto mb-3" />
+            <div className="font-bold text-[18px] leading-snug">{SITE.name}</div>
+            <div className="text-[12.5px] text-mute mt-1 mb-3.5">{t("Industrial & Commercial · Malaysia")}</div>
+            <a href={`${SITE.whatsapp}?text=${encodeURIComponent(`Hi ${SITE.name}, I am interested in: ${l.title}`)}`} target="_blank" rel="noopener noreferrer" className="btn btn-brass btn-block mb-2">{t("WhatsApp about this")}</a>
             <a href={`tel:${SITE.phoneRaw}`} className="btn btn-ghost btn-block">{t("Call")} {SITE.phone}</a>
           </div>
           <div className="bg-white border border-line rounded-xl2 p-[22px]">
-            <h3 className="font-serif text-lg">{t("Enquire about this property")}</h3>
+            <h3 className="font-bold text-lg">{t("Enquire about this property")}</h3>
             <div className="text-[13px] text-mute mb-4">{t("We reply personally.")}</div>
             <InquiryForm listingId={l.id} listingTitle={l.title} />
           </div>
@@ -148,7 +148,7 @@ export default async function ListingDetail({ params }: { params: { id: string }
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div className="mb-8">
-      {title && <h2 className="font-serif text-[22px] mb-3.5">{title}</h2>}
+      {title && <h2 className="font-bold tracking-tight text-[22px] mb-3.5">{title}</h2>}
       {children}
     </div>
   );

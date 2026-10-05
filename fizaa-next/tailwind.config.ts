@@ -23,9 +23,9 @@ const config: Config = {
         bad: "#C0492F",
       },
       fontFamily: {
-        // Simple system serif + sans-serif — no web fonts.
+        // System sans-serif only — no web fonts, no serif face. Titles and
+        // headers are set in this stack at bold weight.
         sans: ["system-ui", "-apple-system", "Segoe UI", "Roboto", "Helvetica", "Arial", "sans-serif"],
-        serif: ["Georgia", "Cambria", "Times New Roman", "Times", "serif"],
       },
       boxShadow: {
         sm2: "0 1px 2px rgba(22,32,28,.04), 0 4px 12px -6px rgba(22,32,28,.08)",

@@ -31,8 +31,8 @@ export const BM: Record<string, string> = {
 
   // Home — hero
   "Your Trusted Partner in Industrial & Commercial Property.": "Rakan Dipercayai Anda dalam Hartanah Perindustrian & Komersial.",
-  "Factories, warehouses, hotels, offices and industrial land across Malaysia — handled personally by one dedicated negotiator, from first enquiry to final handover.":
-    "Kilang, gudang, hotel, pejabat dan tanah perindustrian di seluruh Malaysia — diuruskan secara peribadi oleh seorang perunding yang berdedikasi, dari pertanyaan pertama hingga serah kunci.",
+  "Factories, warehouses, hotels, offices and industrial land across Malaysia — handled personally by dedicated negotiators, from first enquiry to final handover.":
+    "Kilang, gudang, hotel, pejabat dan tanah perindustrian di seluruh Malaysia — diuruskan secara peribadi oleh para perunding yang berdedikasi, dari pertanyaan pertama hingga serah kunci.",
   "Browse listings": "Lihat senarai",
   "Get a quote": "Dapatkan sebut harga",
   "Registered Estate Negotiator": "Perunding Hartanah Berdaftar",
@@ -41,10 +41,11 @@ export const BM: Record<string, string> = {
 
   // Home — brands strip
   "Trusted across": "Dipercayai di",
+  "Local Developers": "Pemaju Tempatan",
 
   // Home — values
-  "Why work with M.I.R.":
-    "Mengapa bekerja dengan M.I.R.",
+  "Why work with Malaysia Industrial Realtors":
+    "Mengapa bekerja dengan Malaysia Industrial Realtors",
   "Property is a people business — handled by one dedicated team.":
     "Hartanah ialah perniagaan tentang manusia — diuruskan oleh satu pasukan yang berdedikasi.",
   "No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.":
@@ -238,14 +239,14 @@ export const BM: Record<string, string> = {
   // Chatbot
   "Property Assistant": "Pembantu Hartanah",
   "Online · replies in minutes": "Dalam talian · membalas dalam minit",
-  "Hi, I'm the M.I.R. assistant 👋":
-    "Hai, saya pembantu M.I.R. 👋",
+  "Hi, I'm the Malaysia Industrial Realtors assistant 👋":
+    "Hai, saya pembantu Malaysia Industrial Realtors 👋",
   "Industrial & commercial property across Malaysia. Leave your details so we can follow up, then let's chat.":
     "Hartanah perindustrian & komersial di seluruh Malaysia. Tinggalkan butiran anda supaya kami boleh menyusul, kemudian mari berbual.",
   "Phone (WhatsApp) *": "Telefon (WhatsApp) *",
   "Start chat →": "Mula bersembang →",
-  "By starting, you agree M.I.R. may contact you about your enquiry.":
-    "Dengan memulakan, anda bersetuju M.I.R. boleh menghubungi anda mengenai pertanyaan anda.",
+  "By starting, you agree Malaysia Industrial Realtors may contact you about your enquiry.":
+    "Dengan memulakan, anda bersetuju Malaysia Industrial Realtors boleh menghubungi anda mengenai pertanyaan anda.",
   "Type a message…": "Taip mesej…",
   "Prefer WhatsApp? Chat with us directly →":
     "Lebih suka WhatsApp? Berbual dengan kami terus →",
@@ -259,10 +260,10 @@ export const BM: Record<string, string> = {
   "Tell us more — eave height, power supply, zoning, timeline…":
     "Beritahu kami lebih lanjut — ketinggian bumbung, bekalan kuasa, zon, jangka masa…",
   "No obligation.": "Tiada obligasi.",
-  "I consent to M.I.R. storing my submitted information to respond to this enquiry.":
-    "Saya bersetuju M.I.R. menyimpan maklumat yang saya hantar untuk membalas pertanyaan ini.",
-  "Your details are used only to respond to your enquiry — never shared or sold. M.I.R. handles every requirement personally.":
-    "Butiran anda hanya digunakan untuk membalas pertanyaan anda — tidak pernah dikongsi atau dijual. M.I.R. mengendalikan setiap keperluan secara peribadi.",
+  "I consent to Malaysia Industrial Realtors storing my submitted information to respond to this enquiry.":
+    "Saya bersetuju Malaysia Industrial Realtors menyimpan maklumat yang saya hantar untuk membalas pertanyaan ini.",
+  "Your details are used only to respond to your enquiry — never shared or sold. Malaysia Industrial Realtors handles every requirement personally.":
+    "Butiran anda hanya digunakan untuk membalas pertanyaan anda — tidak pernah dikongsi atau dijual. Malaysia Industrial Realtors mengendalikan setiap keperluan secara peribadi.",
 
   // Contact — extra
   "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — we reply personally.":
@@ -284,8 +285,8 @@ export const BM: Record<string, string> = {
     "Kami profesional yang sanggup berusaha lebih untuk menyelesaikan keperluan setiap pelanggan.",
   "24/7 Response": "Respons 24/7",
   "Industrial & Commercial": "Perindustrian & Komersial",
-  "M.I.R. · Our Philosophy":
-    "M.I.R. · Falsafah Kami",
+  "Malaysia Industrial Realtors · Our Philosophy":
+    "Malaysia Industrial Realtors · Falsafah Kami",
   "Detached and semi-detached factories, superlink warehouses and logistics facilities — matched to your floor area, eave height, power and loading needs.":
     "Kilang sesebuah dan berkembar, gudang superlink dan kemudahan logistik — dipadankan dengan luas lantai, ketinggian bumbung, kuasa dan keperluan memunggah anda.",
   "Freehold and leasehold plots in established parks and ESG-certified developments, with zoning, title and MITI requirements verified up front.":
@@ -359,8 +360,8 @@ export const ZH: Record<string, string> = {
 
   // Home — hero
   "Your Trusted Partner in Industrial & Commercial Property.": "您值得信赖的工业与商业地产伙伴。",
-  "Factories, warehouses, hotels, offices and industrial land across Malaysia — handled personally by one dedicated negotiator, from first enquiry to final handover.":
-    "遍布马来西亚的厂房、仓库、酒店、办公室与工业地段——由一位专属地产协商员亲自跟进，从初次咨询到最终交接。",
+  "Factories, warehouses, hotels, offices and industrial land across Malaysia — handled personally by dedicated negotiators, from first enquiry to final handover.":
+    "遍布马来西亚的厂房、仓库、酒店、办公室与工业地段——由我们的专属地产协商员亲自跟进，从初次咨询到最终交接。",
   "Browse listings": "浏览房源",
   "Get a quote": "获取报价",
   "Registered Estate Negotiator": "注册地产协商员",
@@ -369,10 +370,11 @@ export const ZH: Record<string, string> = {
 
   // Home — brands strip
   "Trusted across": "值得信赖于",
+  "Local Developers": "本地发展商",
 
   // Home — values
-  "Why work with M.I.R.":
-    "为什么选择 M.I.R.",
+  "Why work with Malaysia Industrial Realtors":
+    "为什么选择 Malaysia Industrial Realtors",
   "Property is a people business — handled by one dedicated team.":
     "地产是与人打交道的生意——由一支专属团队亲自处理。",
   "No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.":
@@ -566,14 +568,14 @@ export const ZH: Record<string, string> = {
   // Chatbot
   "Property Assistant": "地产助理",
   "Online · replies in minutes": "在线 · 数分钟内回复",
-  "Hi, I'm the M.I.R. assistant 👋":
-    "您好，我是 M.I.R. 助理 👋",
+  "Hi, I'm the Malaysia Industrial Realtors assistant 👋":
+    "您好，我是 Malaysia Industrial Realtors 助理 👋",
   "Industrial & commercial property across Malaysia. Leave your details so we can follow up, then let's chat.":
     "遍布马来西亚的工业与商业地产。请留下您的联络资料以便我们跟进，然后我们聊聊。",
   "Phone (WhatsApp) *": "电话（WhatsApp）*",
   "Start chat →": "开始对话 →",
-  "By starting, you agree M.I.R. may contact you about your enquiry.":
-    "开始即表示您同意 M.I.R. 就您的咨询与您联系。",
+  "By starting, you agree Malaysia Industrial Realtors may contact you about your enquiry.":
+    "开始即表示您同意 Malaysia Industrial Realtors 就您的咨询与您联系。",
   "Type a message…": "输入讯息…",
   "Prefer WhatsApp? Chat with us directly →":
     "更喜欢用 WhatsApp？直接与我们对话 →",
@@ -587,10 +589,10 @@ export const ZH: Record<string, string> = {
   "Tell us more — eave height, power supply, zoning, timeline…":
     "告诉我们更多细节——檐高、电力供应、分区用途、时间安排…",
   "No obligation.": "绝无义务。",
-  "I consent to M.I.R. storing my submitted information to respond to this enquiry.":
-    "我同意 M.I.R. 储存我所提交的资料，以回复此项咨询。",
-  "Your details are used only to respond to your enquiry — never shared or sold. M.I.R. handles every requirement personally.":
-    "您的资料仅用于回复您的咨询——绝不分享或出售。每一项需求均由 M.I.R. 亲自处理。",
+  "I consent to Malaysia Industrial Realtors storing my submitted information to respond to this enquiry.":
+    "我同意 Malaysia Industrial Realtors 储存我所提交的资料，以回复此项咨询。",
+  "Your details are used only to respond to your enquiry — never shared or sold. Malaysia Industrial Realtors handles every requirement personally.":
+    "您的资料仅用于回复您的咨询——绝不分享或出售。每一项需求均由 Malaysia Industrial Realtors 亲自处理。",
 
   // Contact — extra
   "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — we reply personally.":
@@ -612,8 +614,8 @@ export const ZH: Record<string, string> = {
     "我们是专业团队，愿意多走一步，满足每一位客户的需求。",
   "24/7 Response": "全天候回应",
   "Industrial & Commercial": "工业与商业",
-  "M.I.R. · Our Philosophy":
-    "M.I.R. · 我们的理念",
+  "Malaysia Industrial Realtors · Our Philosophy":
+    "Malaysia Industrial Realtors · 我们的理念",
   "Detached and semi-detached factories, superlink warehouses and logistics facilities — matched to your floor area, eave height, power and loading needs.":
     "独立式与半独立式厂房、超级连排仓库及物流设施——依您对楼面面积、檐高、电力与装卸的需求进行匹配。",
   "Freehold and leasehold plots in established parks and ESG-certified developments, with zoning, title and MITI requirements verified up front.":

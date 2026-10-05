@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, Close } from "./Icons";
+import { LogoMark } from "./Logo";
 import { useLang } from "./LangProvider";
 import { LANGS, LANG_LABEL } from "@/lib/i18n";
 import { SITE } from "@/lib/site";
@@ -63,13 +64,11 @@ export default function Nav() {
         }`}
       >
         <div className="container-site flex items-center justify-between gap-4 w-full">
-          <Link href="/" className="flex items-center gap-3" aria-label={`${SITE.name} — ${SITE.legal}`}>
-            <span className="w-10 h-10 rounded-[10px] bg-navy text-white grid place-items-center font-serif text-[13px] font-semibold tracking-[0.04em] shadow-sm2">
-              {SITE.short}
-            </span>
-            <span className="font-serif text-[19px] leading-tight">
+          <Link href="/" className="flex items-center gap-2.5 sm:gap-3 min-w-0" aria-label={`${SITE.name} — ${t("Home")}`}>
+            <LogoMark className="w-10 h-10 shrink-0 rounded-[22%] shadow-sm2" />
+            <span className="text-[13px] sm:text-[17px] font-bold leading-tight tracking-tight">
               {SITE.name}
-              <small className="block font-sans text-[9.5px] tracking-[0.18em] uppercase text-mute mt-0.5">
+              <small className="hidden sm:block text-[9.5px] font-normal tracking-[0.18em] uppercase text-mute mt-0.5">
                 {t("Industrial & Commercial · Malaysia")}
               </small>
             </span>
@@ -103,7 +102,7 @@ export default function Nav() {
       {open && (
         <div className="fixed inset-x-0 top-[72px] bottom-0 z-[99] bg-paper p-6 flex flex-col gap-1.5 lg:hidden overflow-y-auto">
           {LINKS.map((l) => (
-            <Link key={l.href} href={l.href} className="py-3.5 px-2 text-lg font-serif border-b border-line-2">
+            <Link key={l.href} href={l.href} className="py-3.5 px-2 text-lg font-semibold border-b border-line-2">
               {t(l.label)}
             </Link>
           ))}

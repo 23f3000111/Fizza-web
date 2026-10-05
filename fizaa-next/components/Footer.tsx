@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { SITE } from "@/lib/site";
+import { LogoMark } from "./Logo";
 import { useLang } from "./LangProvider";
 
 export default function Footer() {
@@ -12,11 +13,14 @@ export default function Footer() {
       <div className="container-site">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.6fr_1fr_1fr_1fr] gap-10 pb-10 border-b border-white/10">
           <div>
-            <div className="font-serif text-2xl text-white">
-              {SITE.name}
-              <small className="block font-sans text-[11px] tracking-[0.14em] uppercase text-[#8DA0B6] mt-1.5">
-                {t("Industrial & Commercial · Malaysia")}
-              </small>
+            <div className="flex items-center gap-3.5">
+              <LogoMark className="w-12 h-12 shrink-0 rounded-[22%] ring-1 ring-white/15" />
+              <div className="text-xl font-bold tracking-tight text-white leading-tight">
+                {SITE.name}
+                <small className="block text-[11px] font-normal tracking-[0.14em] uppercase text-[#8DA0B6] mt-1.5">
+                  {t("Industrial & Commercial · Malaysia")}
+                </small>
+              </div>
             </div>
             <p className="mt-4 text-sm text-[#A9B6C6] max-w-[36ch] leading-relaxed">
               {t("A dedicated estate negotiator under")} {SITE.agency}. {t("Licensed, focused, and genuinely committed to solving your industrial & commercial property needs.")}
@@ -43,7 +47,7 @@ export default function Footer() {
           </span>
         </div>
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pt-5 mt-2 border-t border-white/10 text-[12.5px] text-[#8DA0B6]">
-          <div>© {year} {SITE.name} · {SITE.legal} · {SITE.ren} · {SITE.agency}</div>
+          <div>© {year} {SITE.name} · {SITE.ren} · {SITE.agency}</div>
           <div className="flex gap-2">
             {[["WA", SITE.whatsapp], ["FB", "#"], ["IG", "#"]].map(([label, h]) => (
               <a key={label} href={h} target="_blank" rel="noopener noreferrer" className="w-[34px] h-[34px] rounded-[9px] border border-white/15 grid place-items-center text-[11px] font-semibold hover:bg-white/10">{label}</a>

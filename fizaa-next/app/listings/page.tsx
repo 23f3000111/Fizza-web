@@ -113,7 +113,7 @@ function ListingsInner() {
       <section className="navy-gradient text-white pt-8 pb-24">
         <div className="container-site">
           <span className="eyebrow text-brass-soft before:bg-brass-soft">{t("Our Listings")}</span>
-          <h1 className="font-serif text-3xl sm:text-[44px] text-white mt-3">{t("Industrial & commercial property across Malaysia.")}</h1>
+          <h1 className="font-bold tracking-tight text-3xl sm:text-[44px] text-white mt-3">{t("Industrial & commercial property across Malaysia.")}</h1>
           <p className="text-[#B9C7D8] mt-2">{t("Search by type, location and more — and see everything on the map.")}</p>
         </div>
       </section>
@@ -189,7 +189,7 @@ function ListingsInner() {
         {/* main */}
         <main>
           <div className="flex items-center justify-between gap-3.5 mb-[18px] flex-wrap">
-            <div className="font-serif text-xl text-navy">{loaded ? `${filtered.length} ${filtered.length === 1 ? t("property") : t("properties")}` : t("Loading…")}</div>
+            <div className="font-bold text-xl text-navy">{loaded ? `${filtered.length} ${filtered.length === 1 ? t("property") : t("properties")}` : t("Loading…")}</div>
             <div className="flex items-center gap-2.5">
               <button onClick={() => setSidebarOpen(true)} className="lg:hidden btn btn-ghost btn-sm">{t("Filters")}</button>
               <button onClick={() => setMapHidden((h) => !h)} className="lg:hidden btn btn-ghost btn-sm">{mapHidden ? t("Show map") : t("Hide map")}</button>
