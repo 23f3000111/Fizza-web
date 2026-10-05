@@ -258,8 +258,8 @@ export default function AdminPage() {
                 <div className="grid sm:grid-cols-4 gap-3.5">
                   <Field label="Size"><input className="input" name="size" placeholder="e.g. 45936" /></Field>
                   <Field label="Size unit"><input className="input" name="sizeUnit" placeholder="sqft built-up" /></Field>
-                  <Field label="Beds"><input className="input" name="beds" placeholder="—" /></Field>
-                  <Field label="Baths"><input className="input" name="baths" placeholder="—" /></Field>
+                  <Field label="Beds"><input className="input" name="beds" placeholder="-" /></Field>
+                  <Field label="Baths"><input className="input" name="baths" placeholder="-" /></Field>
                 </div>
                 <label className="flex items-center gap-2.5 my-1.5 text-sm"><input type="checkbox" name="featured" className="w-4 h-4 accent-navy" /> Feature on home page</label>
 
@@ -268,8 +268,8 @@ export default function AdminPage() {
                 <Field label="Full description"><textarea className="textarea" name="description" placeholder="Full property description…" /></Field>
                 <Field label="Highlights / specs (one per line)"><textarea className="textarea" name="specs" placeholder={"45,936 sqft built-up\n10m eave height\n1,000 amp power"} /></Field>
 
-                <Legend>&ldquo;Others&rdquo; — extra filterable attributes</Legend>
-                <p className="text-xs text-mute mb-2.5">Anything that doesn&apos;t fit a category — e.g. Tenure: Freehold. These appear as filters on the listings page.</p>
+                <Legend>&ldquo;Others&rdquo;: extra filterable attributes</Legend>
+                <p className="text-xs text-mute mb-2.5">Anything that doesn&apos;t fit a category, e.g. Tenure: Freehold. These appear as filters on the listings page.</p>
                 {attrRows.map((r, i) => (
                   <div key={i} className="grid grid-cols-[1fr_1fr_auto] gap-2 mb-2">
                     <input className="input" placeholder="Label (e.g. Tenure)" value={r.k} onChange={(e) => setAttrRows((a) => a.map((x, j) => j === i ? { ...x, k: e.target.value } : x))} />
@@ -283,7 +283,7 @@ export default function AdminPage() {
                 <div className="mb-4">
                   <label className="field-label">Photos (images)</label>
                   <label className="block border border-dashed border-line-strong rounded-xl p-4 text-center text-[13.5px] text-mute cursor-pointer hover:border-navy hover:text-navy">
-                    Click to upload images (JPG, PNG, WebP) — up to 12
+                    Click to upload images (JPG, PNG, WebP), up to 12
                     <input type="file" accept="image/*" multiple className="hidden" onChange={(e) => { setNewImages((arr) => [...arr, ...Array.from(e.target.files || [])]); e.target.value = ""; }} />
                   </label>
                   <div className="flex flex-wrap gap-2.5 mt-2.5">
@@ -294,7 +294,7 @@ export default function AdminPage() {
                 <div className="mb-4">
                   <label className="field-label">Brochures &amp; documents (PDF, Word)</label>
                   <label className="block border border-dashed border-line-strong rounded-xl p-4 text-center text-[13.5px] text-mute cursor-pointer hover:border-navy hover:text-navy">
-                    Click to upload documents (PDF, DOC, DOCX, XLS, XLSX) — multiple allowed
+                    Click to upload documents (PDF, DOC, DOCX, XLS, XLSX), multiple allowed
                     <input type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" multiple className="hidden" onChange={(e) => { setNewDocs((arr) => [...arr, ...Array.from(e.target.files || [])]); e.target.value = ""; }} />
                   </label>
                   <div className="flex flex-col gap-1.5 mt-2.5">
@@ -322,10 +322,10 @@ export default function AdminPage() {
                       <tr key={l.id} className="hover:bg-[#FAF8F3]">
                         <td className="px-3 py-3 border-b border-line-2">{/* eslint-disable-next-line @next/next/no-img-element */}<img src={(l.images && l.images[0]) || "/img/placeholder.svg"} alt="" className="w-[52px] h-10 rounded-md object-cover bg-cream" /></td>
                         <td className="px-3 py-3 border-b border-line-2"><b>{l.title}</b><div className="text-xs text-mute">{[l.city, l.state].filter(Boolean).join(", ")}</div></td>
-                        <td className="px-3 py-3 border-b border-line-2">{l.segment ? <span className="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-navy-soft text-navy-2 capitalize">{l.segment}</span> : <span className="text-faint text-xs">—</span>}</td>
-                        <td className="px-3 py-3 border-b border-line-2">{l.propertyType || "—"}</td>
+                        <td className="px-3 py-3 border-b border-line-2">{l.segment ? <span className="inline-block px-2.5 py-0.5 rounded-full text-[11px] font-semibold bg-navy-soft text-navy-2 capitalize">{l.segment}</span> : <span className="text-faint text-xs">-</span>}</td>
+                        <td className="px-3 py-3 border-b border-line-2">{l.propertyType || "-"}</td>
                         <td className="px-3 py-3 border-b border-line-2"><span className={`inline-block px-2.5 py-0.5 rounded-full text-[11px] font-semibold ${l.dealType === "rent" ? "bg-brass-soft text-brass-2" : "bg-navy-soft text-navy-2"}`}>{l.dealType === "rent" ? "Rent" : "Sale"}</span></td>
-                        <td className="px-3 py-3 border-b border-line-2">{l.priceLabel || (l.price != null ? `${l.priceUnit || "MYR"} ${Number(l.price).toLocaleString("en-MY")}` : "—")}</td>
+                        <td className="px-3 py-3 border-b border-line-2">{l.priceLabel || (l.price != null ? `${l.priceUnit || "MYR"} ${Number(l.price).toLocaleString("en-MY")}` : "-")}</td>
                         <td className="px-3 py-3 border-b border-line-2">{l.status === "hidden" ? <span className="text-mute text-xs">Hidden</span> : "Active"}{l.featured ? " ⭐" : ""}</td>
                         <td className="px-3 py-3 border-b border-line-2 whitespace-nowrap"><button onClick={() => editListing(l)} className="text-navy font-semibold text-[13px] px-2">Edit</button><button onClick={() => deleteListing(l.id)} className="text-bad font-semibold text-[13px] px-2">Delete</button></td>
                       </tr>
@@ -343,10 +343,10 @@ export default function AdminPage() {
           <>
             <Card title="Chatbot leads" action={<a href="/api/admin/leads?format=csv" className="btn btn-ghost btn-sm">Download CSV</a>}>
               <p className="text-mute text-[13.5px] mb-3">Captured by the website chatbot. A CSV of each day&apos;s leads is emailed to the client nightly at 1am.</p>
-              <Table empty={leads.length === 0} head={["Date", "Name", "Phone", "Email", "Source"]} rows={leads.map((l) => [fmt(l.createdAt), l.name, l.phone, l.email || "—", l.source || ""])} />
+              <Table empty={leads.length === 0} head={["Date", "Name", "Phone", "Email", "Source"]} rows={leads.map((l) => [fmt(l.createdAt), l.name, l.phone, l.email || "-", l.source || ""])} />
             </Card>
             <Card title="Quote / inquiry requests">
-              <Table empty={inquiries.length === 0} head={["Date", "Name", "Contact", "Looking for", "Message"]} rows={inquiries.map((i) => [fmt(i.createdAt), i.name || "—", `${i.mobile || ""} ${i.email || ""}`, [i.propertyType, i.listingTitle].filter(Boolean).join(" · ") || "—", (i.message || "").slice(0, 80)])} />
+              <Table empty={inquiries.length === 0} head={["Date", "Name", "Contact", "Looking for", "Message"]} rows={inquiries.map((i) => [fmt(i.createdAt), i.name || "-", `${i.mobile || ""} ${i.email || ""}`, [i.propertyType, i.listingTitle].filter(Boolean).join(" · ") || "-", (i.message || "").slice(0, 80)])} />
             </Card>
             <Card title="Contact messages">
               <Table empty={contacts.length === 0} head={["Date", "Name", "Email", "Message"]} rows={contacts.map((c) => [fmt(c.createdAt), `${c.firstName} ${c.lastName || ""}`, c.email, (c.message || "").slice(0, 90)])} />
@@ -437,7 +437,7 @@ function Taxonomy({ meta, refreshMeta, flash }: { meta: Meta; refreshMeta: () =>
           <input className="input max-w-[240px]" value={subName} onChange={(e) => setSubName(e.target.value)} placeholder="New sub-category name" />
           <button className="btn btn-primary">Add sub-category</button>
         </form>
-        <Tags items={meta.subCategories.map((s) => ({ id: s.id, label: `${s.name} · ${meta.categories.find((c) => c.id === s.categoryId)?.name || "—"}` }))} onDel={(id) => del(`/api/admin/subcategories/${id}`, "Sub-category deleted")} empty="No sub-categories yet." />
+        <Tags items={meta.subCategories.map((s) => ({ id: s.id, label: `${s.name} · ${meta.categories.find((c) => c.id === s.categoryId)?.name || "-"}` }))} onDel={(id) => del(`/api/admin/subcategories/${id}`, "Sub-category deleted")} empty="No sub-categories yet." />
       </Card>
 
       <Card title="“Others” filter fields">

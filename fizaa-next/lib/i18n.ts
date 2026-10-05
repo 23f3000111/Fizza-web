@@ -31,8 +31,8 @@ export const BM: Record<string, string> = {
 
   // Home — hero
   "Your Trusted Partner in Industrial & Commercial Property.": "Rakan Dipercayai Anda dalam Hartanah Perindustrian & Komersial.",
-  "Factories, warehouses, hotels, offices and industrial land across Malaysia — handled personally by dedicated negotiators, from first enquiry to final handover.":
-    "Kilang, gudang, hotel, pejabat dan tanah perindustrian di seluruh Malaysia — diuruskan secara peribadi oleh para perunding yang berdedikasi, dari pertanyaan pertama hingga serah kunci.",
+  "Factories, warehouses, hotels, offices and industrial land across Malaysia, handled personally by a dedicated team from first enquiry to final handover.":
+    "Kilang, gudang, hotel, pejabat dan tanah perindustrian di seluruh Malaysia, diuruskan secara peribadi oleh pasukan yang berdedikasi dari pertanyaan pertama hingga serah kunci.",
   "Browse listings": "Lihat senarai",
   "Get a quote": "Dapatkan sebut harga",
   "Registered Estate Negotiator": "Perunding Hartanah Berdaftar",
@@ -46,19 +46,19 @@ export const BM: Record<string, string> = {
   // Home — values
   "Why work with Malaysia Industrial Realtors":
     "Mengapa bekerja dengan Malaysia Industrial Realtors",
-  "Property is a people business — handled by one dedicated team.":
-    "Hartanah ialah perniagaan tentang manusia — diuruskan oleh satu pasukan yang berdedikasi.",
+  "Property is a people business, handled by one dedicated team.":
+    "Hartanah ialah perniagaan tentang manusia, diuruskan oleh satu pasukan yang berdedikasi.",
   "No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.":
     "Tiada pusat panggilan, tiada serah-menyerah, tiada jawapan templat. Setiap pertanyaan perindustrian dan komersial disemak dan dilayan secara peribadi.",
   "A registered hand": "Tangan yang berdaftar",
-  "REN 63161 under Esprit Estate Agent Sdn Bhd — licensed, compliant, and operating within BOVAEP's framework.":
-    "REN 63161 di bawah Esprit Estate Agent Sdn Bhd — berlesen, mematuhi peraturan, dan beroperasi dalam rangka kerja BOVAEP.",
+  "REN 63161 under Esprit Estate Agent Sdn Bhd. Licensed, compliant and operating within BOVAEP's framework.":
+    "REN 63161 di bawah Esprit Estate Agent Sdn Bhd. Berlesen, mematuhi peraturan dan beroperasi dalam rangka kerja BOVAEP.",
   "Industrial specialist": "Pakar perindustrian",
-  "Focused only on factories, warehouses, lands, commercial plots and hotel assets — sharper advice than any generalist.":
-    "Tertumpu hanya pada kilang, gudang, tanah, lot komersial dan aset hotel — nasihat yang lebih tajam daripada ejen umum.",
+  "Focused only on factories, warehouses, lands, commercial plots and hotel assets, for sharper advice than any generalist.":
+    "Tertumpu hanya pada kilang, gudang, tanah, lot komersial dan aset hotel, untuk nasihat yang lebih tajam daripada ejen umum.",
   "Verified before viewing": "Disahkan sebelum melihat",
-  "Title, zoning, power supply and lease terms checked before you visit — not discovered after the offer.":
-    "Hakmilik, zon, bekalan kuasa dan terma pajakan disemak sebelum anda melawat — bukan ditemui selepas tawaran.",
+  "Title, zoning, power supply and lease terms checked before you visit, not discovered after the offer.":
+    "Hakmilik, zon, bekalan kuasa dan terma pajakan disemak sebelum anda melawat, bukan ditemui selepas tawaran.",
 
   // Home — latest
   "Latest projects": "Projek terkini",
@@ -79,8 +79,8 @@ export const BM: Record<string, string> = {
 
   // Home — CTA
   "Let's find your next property.": "Mari cari hartanah anda yang seterusnya.",
-  "Tell us what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.":
-    "Beritahu kami keperluan perniagaan anda — jenis, saiz, kuasa, lokasi dan bajet — dan dipadankan dengan ruang perindustrian atau komersial yang tepat.",
+  "Tell us what your business needs (type, size, power, location and budget) and get matched to the right industrial or commercial space.":
+    "Beritahu kami keperluan perniagaan anda (jenis, saiz, kuasa, lokasi dan bajet) dan dipadankan dengan ruang perindustrian atau komersial yang tepat.",
 
   // Footer
   "A dedicated estate negotiator under": "Seorang perunding hartanah berdedikasi di bawah",
@@ -99,7 +99,7 @@ export const BM: Record<string, string> = {
   // Listings
   "Our Listings": "Senarai Kami",
   "Industrial & commercial property across Malaysia.": "Hartanah perindustrian & komersial di seluruh Malaysia.",
-  "Search by type, location and more — and see everything on the map.": "Cari mengikut jenis, lokasi dan lagi — dan lihat semuanya di peta.",
+  "Search by type, location and more, and see everything on the map.": "Cari mengikut jenis, lokasi dan lagi, dan lihat semuanya di peta.",
   "All": "Semua",
   "Sale": "Jual",
   "Rent": "Sewa",
@@ -166,8 +166,8 @@ export const BM: Record<string, string> = {
   // Quote page
   "Tell us what your business needs.":
     "Beritahu kami keperluan perniagaan anda.",
-  "Share your requirement — type, size, power, location and budget — and get a tailored shortlist of industrial & commercial options, including off-market properties.":
-    "Kongsi keperluan anda — jenis, saiz, kuasa, lokasi dan bajet — dan dapatkan senarai pendek pilihan perindustrian & komersial yang disesuaikan, termasuk hartanah luar pasaran.",
+  "Share your requirement (type, size, power, location and budget) and get a tailored shortlist of industrial & commercial options, including off-market properties.":
+    "Kongsi keperluan anda (jenis, saiz, kuasa, lokasi dan bajet) dan dapatkan senarai pendek pilihan perindustrian & komersial yang disesuaikan, termasuk hartanah luar pasaran.",
   "Property requirement": "Keperluan hartanah",
   "Your enquiry": "Pertanyaan anda",
   "Inquiry Type": "Jenis Pertanyaan",
@@ -194,7 +194,7 @@ export const BM: Record<string, string> = {
     "Bercakap dengan kami",
   "Mobile / WhatsApp": "Telefon / WhatsApp",
   "Licence": "Lesen",
-  "Thank you — request received.": "Terima kasih — permintaan diterima.",
+  "Thank you, request received.": "Terima kasih, permintaan diterima.",
   "We'll personally review your requirement and get back to you shortly, usually within hours.":
     "Kami akan menyemak keperluan anda secara peribadi dan menghubungi anda sebentar lagi, biasanya dalam beberapa jam.",
   "WhatsApp us":
@@ -216,8 +216,8 @@ export const BM: Record<string, string> = {
   "Frequently asked": "Kerap ditanya",
   "Questions, answered.": "Soalan, dijawab.",
   "Still have a question?": "Masih ada soalan?",
-  "Ask us directly — we reply personally, usually within minutes.":
-    "Tanya kami terus — kami membalas secara peribadi, biasanya dalam beberapa minit.",
+  "Ask us directly. We reply personally, usually within minutes.":
+    "Tanya kami terus. Kami membalas secara peribadi, biasanya dalam beberapa minit.",
   "Contact form": "Borang hubungi",
 
   // Journey
@@ -257,19 +257,19 @@ export const BM: Record<string, string> = {
   // Quote — extra
   "Fields marked * are required. We reply in hours, not days.":
     "Medan bertanda * adalah wajib. Kami membalas dalam beberapa jam, bukan berhari-hari.",
-  "Tell us more — eave height, power supply, zoning, timeline…":
-    "Beritahu kami lebih lanjut — ketinggian bumbung, bekalan kuasa, zon, jangka masa…",
+  "Tell us more: eave height, power supply, zoning, timeline…":
+    "Beritahu kami lebih lanjut: ketinggian bumbung, bekalan kuasa, zon, jangka masa…",
   "No obligation.": "Tiada obligasi.",
   "I consent to Malaysia Industrial Realtors storing my submitted information to respond to this enquiry.":
     "Saya bersetuju Malaysia Industrial Realtors menyimpan maklumat yang saya hantar untuk membalas pertanyaan ini.",
-  "Your details are used only to respond to your enquiry — never shared or sold. Malaysia Industrial Realtors handles every requirement personally.":
-    "Butiran anda hanya digunakan untuk membalas pertanyaan anda — tidak pernah dikongsi atau dijual. Malaysia Industrial Realtors mengendalikan setiap keperluan secara peribadi.",
+  "Your details are used only to respond to your enquiry, never shared or sold. Malaysia Industrial Realtors handles every requirement personally.":
+    "Butiran anda hanya digunakan untuk membalas pertanyaan anda, tidak pernah dikongsi atau dijual. Malaysia Industrial Realtors mengendalikan setiap keperluan secara peribadi.",
 
   // Contact — extra
-  "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — we reply personally.":
-    "Sama ada lawatan tapak, pandangan kedua tentang sesuatu transaksi, atau perbualan ringkas tentang membeli, memajak atau melabur — kami membalas secara peribadi.",
-  "Thanks for reaching out — we'll reply to you shortly.":
-    "Terima kasih kerana menghubungi — kami akan membalas anda sebentar lagi.",
+  "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing, we reply personally.":
+    "Sama ada lawatan tapak, pandangan kedua tentang sesuatu transaksi, atau perbualan ringkas tentang membeli, memajak atau melabur, kami membalas secara peribadi.",
+  "Thanks for reaching out. We'll reply to you shortly.":
+    "Terima kasih kerana menghubungi. Kami akan membalas anda sebentar lagi.",
   "Fill in the form and we'll get back to you directly.":
     "Isi borang ini dan kami akan menghubungi anda secara terus.",
   "Enter your name": "Masukkan nama anda",
@@ -287,27 +287,27 @@ export const BM: Record<string, string> = {
   "Industrial & Commercial": "Perindustrian & Komersial",
   "Malaysia Industrial Realtors · Our Philosophy":
     "Malaysia Industrial Realtors · Falsafah Kami",
-  "Detached and semi-detached factories, superlink warehouses and logistics facilities — matched to your floor area, eave height, power and loading needs.":
-    "Kilang sesebuah dan berkembar, gudang superlink dan kemudahan logistik — dipadankan dengan luas lantai, ketinggian bumbung, kuasa dan keperluan memunggah anda.",
+  "Detached and semi-detached factories, superlink warehouses and logistics facilities, matched to your floor area, eave height, power and loading needs.":
+    "Kilang sesebuah dan berkembar, gudang superlink dan kemudahan logistik, dipadankan dengan luas lantai, ketinggian bumbung, kuasa dan keperluan memunggah anda.",
   "Freehold and leasehold plots in established parks and ESG-certified developments, with zoning, title and MITI requirements verified up front.":
     "Lot pegangan bebas dan pajakan di taman mantap dan pembangunan bertauliah ESG, dengan zon, hakmilik dan keperluan MITI disahkan terlebih dahulu.",
-  "Office floors, shoplots, built-to-rent developments and hotel assets — including investment-grade, tenanted opportunities with verified yields.":
-    "Tingkat pejabat, lot kedai, pembangunan built-to-rent dan aset hotel — termasuk peluang gred pelaburan yang telah disewa dengan pulangan disahkan.",
-  "Attended the ESP Global Ascend Bootcamp — a transformational programme on mindset, courage and professional purpose, including a Letter to Future Self.":
-    "Menghadiri ESP Global Ascend Bootcamp — program transformasi tentang minda, keberanian dan tujuan profesional, termasuk Surat kepada Diri Masa Depan.",
-  "Recognised among Esprit's top performers for consistent results and dedication — a milestone that's never about the trophy, but the standard it represents.":
-    "Diiktiraf antara penyumbang terbaik Esprit kerana hasil yang konsisten dan dedikasi — satu pencapaian yang bukan tentang trofi, tetapi piawai yang diwakilinya.",
+  "Office floors, shoplots, built-to-rent developments and hotel assets, including investment-grade, tenanted opportunities with verified yields.":
+    "Tingkat pejabat, lot kedai, pembangunan built-to-rent dan aset hotel, termasuk peluang gred pelaburan yang telah disewa dengan pulangan disahkan.",
+  "Attended the ESP Global Ascend Bootcamp, a transformational programme on mindset, courage and professional purpose, including a Letter to Future Self.":
+    "Menghadiri ESP Global Ascend Bootcamp, program transformasi tentang minda, keberanian dan tujuan profesional, termasuk Surat kepada Diri Masa Depan.",
+  "Recognised among Esprit's top performers for consistent results and dedication. A milestone that's never about the trophy, but the standard it represents.":
+    "Diiktiraf antara penyumbang terbaik Esprit kerana hasil yang konsisten dan dedikasi. Satu pencapaian yang bukan tentang trofi, tetapi piawai yang diwakilinya.",
   "Award": "Anugerah",
   "Field": "Lapangan",
   "On the ground, every deal": "Di lapangan, setiap transaksi",
-  "Every deal starts with a site visit. We walk the property — rain or shine — so clients get accurate, first-hand information, not recycled brochure data.":
-    "Setiap transaksi bermula dengan lawatan tapak. Kami menyelusuri hartanah — hujan atau panas — supaya pelanggan mendapat maklumat tepat dan terus, bukan data risalah kitar semula.",
+  "Every deal starts with a site visit. We walk the property, rain or shine, so clients get accurate, first-hand information, not recycled brochure data.":
+    "Setiap transaksi bermula dengan lawatan tapak. Kami menyelusuri hartanah, hujan atau panas, supaya pelanggan mendapat maklumat tepat dan terus, bukan data risalah kitar semula.",
   "Our latest industrial & commercial projects will appear here.":
     "Projek perindustrian & komersial terkini kami akan dipaparkan di sini.",
 
   // FAQ — extra
-  "Common questions about industrial & commercial property, REN registration, agent fees and what we actually do — before you pick up the phone.":
-    "Soalan lazim tentang hartanah perindustrian & komersial, pendaftaran REN, yuran ejen dan apa yang kami sebenarnya lakukan — sebelum anda menghubungi kami.",
+  "Common questions about industrial & commercial property, REN registration, agent fees and what we actually do, answered before you pick up the phone.":
+    "Soalan lazim tentang hartanah perindustrian & komersial, pendaftaran REN, yuran ejen dan apa yang kami sebenarnya lakukan, dijawab sebelum anda menghubungi kami.",
 
   // v2 — nav segments
   "Industrial": "Perindustrian",
@@ -338,8 +338,8 @@ export const BM: Record<string, string> = {
   "beds": "bilik tidur",
   "baths": "bilik air",
   "Looking for something specific?": "Mencari sesuatu yang khusus?",
-  "Share your brief — size, power, zoning, budget — and get matched, including off-market.":
-    "Kongsi keperluan anda — saiz, kuasa, zon, bajet — dan dipadankan, termasuk luar pasaran.",
+  "Share your brief (size, power, zoning, budget) and get matched, including off-market.":
+    "Kongsi keperluan anda (saiz, kuasa, zon, bajet) dan dipadankan, termasuk luar pasaran.",
   "Tell us":
     "Beritahu kami",
 
@@ -360,8 +360,8 @@ export const ZH: Record<string, string> = {
 
   // Home — hero
   "Your Trusted Partner in Industrial & Commercial Property.": "您值得信赖的工业与商业地产伙伴。",
-  "Factories, warehouses, hotels, offices and industrial land across Malaysia — handled personally by dedicated negotiators, from first enquiry to final handover.":
-    "遍布马来西亚的厂房、仓库、酒店、办公室与工业地段——由我们的专属地产协商员亲自跟进，从初次咨询到最终交接。",
+  "Factories, warehouses, hotels, offices and industrial land across Malaysia, handled personally by a dedicated team from first enquiry to final handover.":
+    "遍布马来西亚的厂房、仓库、酒店、办公室与工业地段，由我们的专属团队亲自跟进，从初次咨询到最终交接。",
   "Browse listings": "浏览房源",
   "Get a quote": "获取报价",
   "Registered Estate Negotiator": "注册地产协商员",
@@ -375,19 +375,19 @@ export const ZH: Record<string, string> = {
   // Home — values
   "Why work with Malaysia Industrial Realtors":
     "为什么选择 Malaysia Industrial Realtors",
-  "Property is a people business — handled by one dedicated team.":
-    "地产是与人打交道的生意——由一支专属团队亲自处理。",
+  "Property is a people business, handled by one dedicated team.":
+    "地产是与人打交道的生意，由一支专属团队亲自处理。",
   "No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.":
     "没有客服中心，没有转手，没有模板回复。每一宗工业与商业咨询都由我们亲自审核、亲自服务。",
   "A registered hand": "持牌专业",
-  "REN 63161 under Esprit Estate Agent Sdn Bhd — licensed, compliant, and operating within BOVAEP's framework.":
-    "隶属 Esprit Estate Agent Sdn Bhd 的 REN 63161——持牌合规，在 BOVAEP 监管框架内执业。",
+  "REN 63161 under Esprit Estate Agent Sdn Bhd. Licensed, compliant and operating within BOVAEP's framework.":
+    "隶属 Esprit Estate Agent Sdn Bhd 的 REN 63161，持牌合规，在 BOVAEP 监管框架内执业。",
   "Industrial specialist": "工业地产专家",
-  "Focused only on factories, warehouses, lands, commercial plots and hotel assets — sharper advice than any generalist.":
-    "只专注于厂房、仓库、地段、商业用地与酒店资产——比全能型经纪更精准的建议。",
+  "Focused only on factories, warehouses, lands, commercial plots and hotel assets, for sharper advice than any generalist.":
+    "只专注于厂房、仓库、地段、商业用地与酒店资产，提供比全能型经纪更精准的建议。",
   "Verified before viewing": "看房前先核实",
-  "Title, zoning, power supply and lease terms checked before you visit — not discovered after the offer.":
-    "地契、分区、电力供应与租约条款在您到场前已核实——而非出价后才发现。",
+  "Title, zoning, power supply and lease terms checked before you visit, not discovered after the offer.":
+    "地契、分区、电力供应与租约条款在您到场前已核实，而非出价后才发现。",
 
   // Home — latest
   "Latest projects": "最新项目",
@@ -408,8 +408,8 @@ export const ZH: Record<string, string> = {
 
   // Home — CTA
   "Let's find your next property.": "让我们找到您的下一处物业。",
-  "Tell us what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.":
-    "告诉我们您企业的需求——类型、面积、电力、地点与预算——即可匹配到合适的工业或商业空间。",
+  "Tell us what your business needs (type, size, power, location and budget) and get matched to the right industrial or commercial space.":
+    "告诉我们您企业的需求（类型、面积、电力、地点与预算），即可匹配到合适的工业或商业空间。",
 
   // Footer
   "A dedicated estate negotiator under": "专属地产协商员，隶属",
@@ -428,7 +428,7 @@ export const ZH: Record<string, string> = {
   // Listings
   "Our Listings": "我们的房源",
   "Industrial & commercial property across Malaysia.": "遍布马来西亚的工业与商业地产。",
-  "Search by type, location and more — and see everything on the map.": "按类型、地点等条件搜索——并在地图上一览无遗。",
+  "Search by type, location and more, and see everything on the map.": "按类型、地点等条件搜索，并在地图上一览无遗。",
   "All": "全部",
   "Sale": "出售",
   "Rent": "出租",
@@ -495,8 +495,8 @@ export const ZH: Record<string, string> = {
   // Quote page
   "Tell us what your business needs.":
     "告诉我们您企业的需求。",
-  "Share your requirement — type, size, power, location and budget — and get a tailored shortlist of industrial & commercial options, including off-market properties.":
-    "分享您的需求——类型、面积、电力、地点与预算——即可获得一份量身定制的工业与商业选项清单，包括未公开的私洽房源。",
+  "Share your requirement (type, size, power, location and budget) and get a tailored shortlist of industrial & commercial options, including off-market properties.":
+    "分享您的需求（类型、面积、电力、地点与预算），即可获得一份量身定制的工业与商业选项清单，包括未公开的私洽房源。",
   "Property requirement": "物业需求",
   "Your enquiry": "您的咨询",
   "Inquiry Type": "咨询类型",
@@ -523,7 +523,7 @@ export const ZH: Record<string, string> = {
     "与我们洽谈",
   "Mobile / WhatsApp": "手机 / WhatsApp",
   "Licence": "执照",
-  "Thank you — request received.": "谢谢——已收到您的请求。",
+  "Thank you, request received.": "谢谢，已收到您的请求。",
   "We'll personally review your requirement and get back to you shortly, usually within hours.":
     "我们将亲自审阅您的需求并尽快回复，通常在数小时之内。",
   "WhatsApp us":
@@ -545,8 +545,8 @@ export const ZH: Record<string, string> = {
   "Frequently asked": "常见问题",
   "Questions, answered.": "为您解答。",
   "Still have a question?": "还有疑问？",
-  "Ask us directly — we reply personally, usually within minutes.":
-    "直接询问我们——我们亲自回复，通常只需几分钟。",
+  "Ask us directly. We reply personally, usually within minutes.":
+    "直接询问我们，我们亲自回复，通常只需几分钟。",
   "Contact form": "联络表格",
 
   // Journey
@@ -586,19 +586,19 @@ export const ZH: Record<string, string> = {
   // Quote — extra
   "Fields marked * are required. We reply in hours, not days.":
     "标有 * 的栏位为必填。我们以小时计回复，而非以天计。",
-  "Tell us more — eave height, power supply, zoning, timeline…":
-    "告诉我们更多细节——檐高、电力供应、分区用途、时间安排…",
+  "Tell us more: eave height, power supply, zoning, timeline…":
+    "告诉我们更多细节：檐高、电力供应、分区用途、时间安排…",
   "No obligation.": "绝无义务。",
   "I consent to Malaysia Industrial Realtors storing my submitted information to respond to this enquiry.":
     "我同意 Malaysia Industrial Realtors 储存我所提交的资料，以回复此项咨询。",
-  "Your details are used only to respond to your enquiry — never shared or sold. Malaysia Industrial Realtors handles every requirement personally.":
-    "您的资料仅用于回复您的咨询——绝不分享或出售。每一项需求均由 Malaysia Industrial Realtors 亲自处理。",
+  "Your details are used only to respond to your enquiry, never shared or sold. Malaysia Industrial Realtors handles every requirement personally.":
+    "您的资料仅用于回复您的咨询，绝不分享或出售。每一项需求均由 Malaysia Industrial Realtors 亲自处理。",
 
   // Contact — extra
-  "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing — we reply personally.":
-    "无论是实地考察、对某宗交易的第二意见，还是关于买卖、租赁或投资的私下交流——我们都会亲自回复。",
-  "Thanks for reaching out — we'll reply to you shortly.":
-    "感谢您的联系——我们将尽快回复您。",
+  "Whether it's a site visit, a second opinion on a deal, or a quiet chat about buying, leasing or investing, we reply personally.":
+    "无论是实地考察、对某宗交易的第二意见，还是关于买卖、租赁或投资的私下交流，我们都会亲自回复。",
+  "Thanks for reaching out. We'll reply to you shortly.":
+    "感谢您的联系，我们将尽快回复您。",
   "Fill in the form and we'll get back to you directly.":
     "填写表格，我们将直接与您联系。",
   "Enter your name": "请输入您的姓名",
@@ -616,27 +616,27 @@ export const ZH: Record<string, string> = {
   "Industrial & Commercial": "工业与商业",
   "Malaysia Industrial Realtors · Our Philosophy":
     "Malaysia Industrial Realtors · 我们的理念",
-  "Detached and semi-detached factories, superlink warehouses and logistics facilities — matched to your floor area, eave height, power and loading needs.":
-    "独立式与半独立式厂房、超级连排仓库及物流设施——依您对楼面面积、檐高、电力与装卸的需求进行匹配。",
+  "Detached and semi-detached factories, superlink warehouses and logistics facilities, matched to your floor area, eave height, power and loading needs.":
+    "独立式与半独立式厂房、超级连排仓库及物流设施，依您对楼面面积、檐高、电力与装卸的需求进行匹配。",
   "Freehold and leasehold plots in established parks and ESG-certified developments, with zoning, title and MITI requirements verified up front.":
     "位于成熟工业园及 ESG 认证发展项目内的永久地契与租赁地契地段，分区用途、地契与 MITI 要求均已事先核实。",
-  "Office floors, shoplots, built-to-rent developments and hotel assets — including investment-grade, tenanted opportunities with verified yields.":
-    "办公楼层、店铺、订制出租（BTR）项目与酒店资产——包括已出租、回酬经核实的投资级机会。",
-  "Attended the ESP Global Ascend Bootcamp — a transformational programme on mindset, courage and professional purpose, including a Letter to Future Self.":
-    "参与 ESP Global Ascend 集训营——一项关于心态、勇气与职业使命的蜕变课程，包括写给未来自己的一封信。",
-  "Recognised among Esprit's top performers for consistent results and dedication — a milestone that's never about the trophy, but the standard it represents.":
-    "凭借稳定的业绩与投入，获选为 Esprit 顶尖表现者之一——这个里程碑重要的从不是奖杯，而是它所代表的标准。",
+  "Office floors, shoplots, built-to-rent developments and hotel assets, including investment-grade, tenanted opportunities with verified yields.":
+    "办公楼层、店铺、订制出租（BTR）项目与酒店资产，包括已出租、回酬经核实的投资级机会。",
+  "Attended the ESP Global Ascend Bootcamp, a transformational programme on mindset, courage and professional purpose, including a Letter to Future Self.":
+    "参与 ESP Global Ascend 集训营，一项关于心态、勇气与职业使命的蜕变课程，包括写给未来自己的一封信。",
+  "Recognised among Esprit's top performers for consistent results and dedication. A milestone that's never about the trophy, but the standard it represents.":
+    "凭借稳定的业绩与投入，获选为 Esprit 顶尖表现者之一。这个里程碑重要的从不是奖杯，而是它所代表的标准。",
   "Award": "奖项",
   "Field": "现场",
   "On the ground, every deal": "每一宗交易，都亲临现场",
-  "Every deal starts with a site visit. We walk the property — rain or shine — so clients get accurate, first-hand information, not recycled brochure data.":
-    "每一宗交易都始于实地考察。无论晴雨，我们都会亲自走遍物业——让客户获得准确的第一手资讯，而非照搬的宣传册数据。",
+  "Every deal starts with a site visit. We walk the property, rain or shine, so clients get accurate, first-hand information, not recycled brochure data.":
+    "每一宗交易都始于实地考察。无论晴雨，我们都会亲自走遍物业，让客户获得准确的第一手资讯，而非照搬的宣传册数据。",
   "Our latest industrial & commercial projects will appear here.":
     "我们最新的工业与商业项目将在此呈现。",
 
   // FAQ — extra
-  "Common questions about industrial & commercial property, REN registration, agent fees and what we actually do — before you pick up the phone.":
-    "关于工业与商业地产、REN 注册、代理费用以及我们实际提供哪些服务的常见问题——在您拨打电话之前。",
+  "Common questions about industrial & commercial property, REN registration, agent fees and what we actually do, answered before you pick up the phone.":
+    "关于工业与商业地产、REN 注册、代理费用以及我们实际提供哪些服务的常见问题，在您拨打电话之前为您解答。",
 
   // v2 — nav segments
   "Industrial": "工业",
@@ -667,8 +667,8 @@ export const ZH: Record<string, string> = {
   "beds": "卧室",
   "baths": "浴室",
   "Looking for something specific?": "在寻找特定的物业？",
-  "Share your brief — size, power, zoning, budget — and get matched, including off-market.":
-    "分享您的需求——面积、电力、分区用途、预算——即可获得匹配，包括未公开的私洽房源。",
+  "Share your brief (size, power, zoning, budget) and get matched, including off-market.":
+    "分享您的需求（面积、电力、分区用途、预算），即可获得匹配，包括未公开的私洽房源。",
   "Tell us":
     "告诉我们",
 

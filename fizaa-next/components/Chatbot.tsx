@@ -18,9 +18,9 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 const FAQ: { k: string[]; a: ReactNode }[] = [
   { k: ["fee", "commission", "charge"], a: <>Agent fees are capped by law: max <b>3% of the price</b> for a subsale, or about <b>1.25 months’ rent</b> for a lease (both + SST). We clarify fees upfront.</> },
-  { k: ["ren", "license", "licence", "registered", "bovaep"], a: <>Malaysia Industrial Realtors operates as a <b>Registered Estate Negotiator (REN 63161)</b> under Esprit Estate Agent Sdn Bhd — fully licensed and verifiable on the BOVAEP register.</> },
-  { k: ["zoning", "light industry", "medium industry", "heavy"], a: <>Industrial land is zoned <b>Light, Medium or Heavy</b> industry. Your activity must match the approved zoning — We check title, zoning and MITI requirements before recommending anything.</> },
-  { k: ["btr", "built to rent", "built-to-rent"], a: <><b>Built-To-Rent (BTR)</b> means a facility is built to your spec then leased long-term — you avoid the capital outlay of buying while getting a tailored building.</> },
+  { k: ["ren", "license", "licence", "registered", "bovaep"], a: <>Malaysia Industrial Realtors operates as a <b>Registered Estate Negotiator (REN 63161)</b> under Esprit Estate Agent Sdn Bhd, fully licensed and verifiable on the BOVAEP register.</> },
+  { k: ["zoning", "light industry", "medium industry", "heavy"], a: <>Industrial land is zoned <b>Light, Medium or Heavy</b> industry. Your activity must match the approved zoning. We check title, zoning and MITI requirements before recommending anything.</> },
+  { k: ["btr", "built to rent", "built-to-rent"], a: <><b>Built-To-Rent (BTR)</b> means a facility is built to your spec then leased long-term, so you avoid the capital outlay of buying while getting a tailored building.</> },
   { k: ["greenre", "esg", "green"], a: <><b>GreenRE</b> is Malaysia’s green-building certification. GreenRE-certified industrial assets help meet ESG reporting and attract premium tenants and financing.</> },
   { k: ["area", "where", "location", "cover", "region"], a: <>Malaysia Industrial Realtors covers industrial &amp; commercial property across <b>Malaysia</b>, with deep focus on the Klang Valley, Selangor and Negeri Sembilan corridors.</> },
 ];
@@ -128,7 +128,7 @@ export default function Chatbot() {
 
   async function answerFaq(t: string) {
     const hit = FAQ.find((f) => f.k.some((k) => t.includes(k)));
-    await botSay(hit ? hit.a : <>Good question — we can answer that in detail. <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">Ask us on WhatsApp →</a></>);
+    await botSay(hit ? hit.a : <>Good question! We can answer that in detail. <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">Ask us on WhatsApp →</a></>);
     setChips(MAIN_CHIPS);
   }
 
@@ -143,8 +143,8 @@ export default function Chatbot() {
     const data: { propertyType?: string; message?: string } = {};
     botSay(<>Happy to help you get a quote. What type of property are you looking for? (e.g. factory, warehouse, land)</>).then(() => {
       flowRef.current = (inp: string) => {
-        if (!data.propertyType) { data.propertyType = inp || "—"; botSay(<>Got it. What’s your budget or any key requirement? (size, location, power…)</>); return; }
-        if (!data.message) { data.message = inp || "—"; flowRef.current = null; submitQuote(data); }
+        if (!data.propertyType) { data.propertyType = inp || "-"; botSay(<>Got it. What’s your budget or any key requirement? (size, location, power…)</>); return; }
+        if (!data.message) { data.message = inp || "-"; flowRef.current = null; submitQuote(data); }
       };
     });
   }
@@ -156,9 +156,9 @@ export default function Chatbot() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name: leadRef.current?.name, email: leadRef.current?.email, mobile: leadRef.current?.phone, propertyType: data.propertyType, message: data.message, inquiryType: "Purchase", source: "chatbot" }),
       });
-      await botSay(<>Perfect — your request is in! We'll reach out on <b>{leadRef.current?.phone || "your number"}</b> shortly. Anything else?</>);
+      await botSay(<>Perfect, your request is in! We'll reach out on <b>{leadRef.current?.phone || "your number"}</b> shortly. Anything else?</>);
     } catch {
-      await botSay(<>I couldn’t submit that just now — please <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">WhatsApp us →</a> and we’ll sort it immediately.</>);
+      await botSay(<>I couldn’t submit that just now. Please <a className="text-brass-2 font-semibold" href={WA} target="_blank" rel="noopener noreferrer">WhatsApp us →</a> and we’ll sort it immediately.</>);
     }
     setChips(MAIN_CHIPS);
   }
@@ -174,7 +174,7 @@ export default function Chatbot() {
 
     switch (intent) {
       case "all":
-        await botSay(<>Here’s the full portfolio — search and filter by type, location and more.</>);
+        await botSay(<>Here’s the full portfolio. Search and filter by type, location and more.</>);
         pushBot(<Link href="/listings" className="btn btn-brass btn-sm">Open all listings →</Link>);
         setChips(MAIN_CHIPS);
         break;
@@ -194,7 +194,7 @@ export default function Chatbot() {
         startQuoteFlow();
         break;
       case "contact":
-        await botSay(<>The fastest way to reach us is WhatsApp — we reply personally, usually within minutes.</>);
+        await botSay(<>The fastest way to reach us is WhatsApp. We reply personally, usually within minutes.</>);
         pushBot(
           <div className="flex gap-2 flex-wrap">
             <a className="btn btn-brass btn-sm" href={WA} target="_blank" rel="noopener noreferrer">WhatsApp {SITE.phone}</a>

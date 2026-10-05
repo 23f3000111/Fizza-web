@@ -37,15 +37,13 @@ export default function HomeHero() {
       /* Averaged tone of the poster frame. Only visible for the instant before
          the poster decodes — keeps that gap from flashing white, without the
          blue block that used to read as the video failing to load. */
-      style={{ backgroundColor: "#7C7D80" }}
+      style={{ backgroundColor: "#7096A9" }}
     >
-      {/* Aerial drift over an industrial estate (Pexels #32338863 by Toàn BDS,
-          Pexels License: free for commercial use, no attribution required).
-          Re-encoded to 1080p/30fps, 20 s, with the last 2 s crossfaded into
-          the first so the loop has no visible seam.
+      {/* Client-supplied aerial of an industrial park (Hero_video.mp4),
+          re-encoded for the web: audio track dropped, 720p/24fps kept, 4.7 MB.
           Poster is frame 0 of the video itself, so the still and the first
           played frame are identical — the handover is invisible. metadata
-          preload lets the 290 KB poster win the race against the 6 MB video. */}
+          preload lets the 140 KB poster win the race against the video. */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
@@ -53,11 +51,11 @@ export default function HomeHero() {
         loop
         playsInline
         preload="metadata"
-        poster="/media/hero-industrial-poster.jpg"
+        poster="/media/hero-video-poster.jpg"
         aria-hidden="true"
         tabIndex={-1}
       >
-        <source src="/media/hero-industrial.mp4" type="video/mp4" />
+        <source src="/media/hero-video.mp4" type="video/mp4" />
       </video>
       {/* legibility overlays (opacity steps must exist in Tailwind's scale —
           an off-scale value like /92 is silently dropped and the whole
@@ -82,7 +80,7 @@ export default function HomeHero() {
           </h1>
 
           <p className="mt-5 text-[17px] sm:text-[18px] text-[#D7E0EC] max-w-[52ch]">
-            {t("Factories, warehouses, hotels, offices and industrial land across Malaysia — handled personally by dedicated negotiators, from first enquiry to final handover.")}
+            {t("Factories, warehouses, hotels, offices and industrial land across Malaysia, handled personally by a dedicated team from first enquiry to final handover.")}
           </p>
 
           {/* search bar (#5) */}

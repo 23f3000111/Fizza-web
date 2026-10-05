@@ -60,13 +60,13 @@ export default async function HomePage() {
         <div className="container-site">
           <div className="max-w-[720px] mb-10 sm:mb-14">
             <span className="eyebrow">{t("Why work with Malaysia Industrial Realtors")}</span>
-            <h2 className="font-bold tracking-tight text-3xl sm:text-5xl mt-4">{t("Property is a people business — handled by one dedicated team.")}</h2>
+            <h2 className="font-bold tracking-tight text-3xl sm:text-5xl mt-4">{t("Property is a people business, handled by one dedicated team.")}</h2>
             <p className="text-ink-2 mt-4 text-[17px]">{t("No call-centres, no handoffs, no template replies. Every industrial and commercial enquiry is personally vetted and personally served.")}</p>
           </div>
           <div className="grid sm:grid-cols-3 gap-[22px]">
-            <Value icon={<Shield className="w-[22px] h-[22px]" />} title={t("A registered hand")} text={t("REN 63161 under Esprit Estate Agent Sdn Bhd — licensed, compliant, and operating within BOVAEP's framework.")} />
-            <Value icon={<Building className="w-[22px] h-[22px]" />} title={t("Industrial specialist")} text={t("Focused only on factories, warehouses, lands, commercial plots and hotel assets — sharper advice than any generalist.")} />
-            <Value icon={<Search className="w-[22px] h-[22px]" />} title={t("Verified before viewing")} text={t("Title, zoning, power supply and lease terms checked before you visit — not discovered after the offer.")} />
+            <Value icon={<Shield className="w-[22px] h-[22px]" />} title={t("A registered hand")} text={t("REN 63161 under Esprit Estate Agent Sdn Bhd. Licensed, compliant and operating within BOVAEP's framework.")} />
+            <Value icon={<Building className="w-[22px] h-[22px]" />} title={t("Industrial specialist")} text={t("Focused only on factories, warehouses, lands, commercial plots and hotel assets, for sharper advice than any generalist.")} />
+            <Value icon={<Search className="w-[22px] h-[22px]" />} title={t("Verified before viewing")} text={t("Title, zoning, power supply and lease terms checked before you visit, not discovered after the offer.")} />
           </div>
         </div>
       </section>
@@ -92,7 +92,7 @@ export default async function HomePage() {
           {/* small image */}
           <div className="relative rounded-2xl2 overflow-hidden aspect-[4/5] max-w-[280px] mx-auto lg:mx-0 shadow-lg2 bg-navy">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/fiza-website-images/MRL_8310.JPG" alt="Malaysia Industrial Realtors — industrial & commercial property consultant" className="w-full h-full object-cover object-[center_18%]" />
+            <img src="/fiza-website-images/MRL_8310.JPG" alt="Malaysia Industrial Realtors, industrial & commercial property consultant" className="w-full h-full object-cover object-[center_18%]" />
             <div className="absolute left-3 bottom-3 bg-white/90 backdrop-blur rounded-full px-3 py-1.5 text-[11px] font-semibold flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-good" /> {t("Available")} · GMT+8
             </div>
@@ -123,7 +123,7 @@ export default async function HomePage() {
           <div className="relative overflow-hidden navy-gradient text-white rounded-2xl2 p-9 sm:p-16 text-center">
             <div className="absolute -top-32 -right-20 w-[360px] h-[360px] rounded-full bg-brass/25 blur-2xl" />
             <h2 className="font-bold tracking-tight text-3xl sm:text-5xl text-white relative">{t("Let's find your next property.")}</h2>
-            <p className="text-[#B9C7D8] mt-4 max-w-[52ch] mx-auto relative">{t("Tell us what your business needs — type, size, power, location and budget — and get matched to the right industrial or commercial space.")}</p>
+            <p className="text-[#B9C7D8] mt-4 max-w-[52ch] mx-auto relative">{t("Tell us what your business needs (type, size, power, location and budget) and get matched to the right industrial or commercial space.")}</p>
             <div className="mt-7 flex gap-3 justify-center flex-wrap relative">
               <Link href="/quote" className="btn btn-brass btn-lg">{t("Get a quote")}</Link>
               <a href={SITE.whatsapp} target="_blank" rel="noopener noreferrer" className="btn btn-white btn-lg">WhatsApp · {SITE.phone}</a>

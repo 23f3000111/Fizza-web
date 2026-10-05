@@ -14,5 +14,5 @@ export const SITE = {
   phone: "+60 16-753 3315",
   phoneRaw: "60167533315",
   whatsapp: "https://wa.me/60167533315",
-  email: "fiza.espritestate@gmail.com",
+  email: "hello.myindustrialrealtors@gmail.com",
 };

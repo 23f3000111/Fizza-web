@@ -114,7 +114,7 @@ function ListingsInner() {
         <div className="container-site">
           <span className="eyebrow text-brass-soft before:bg-brass-soft">{t("Our Listings")}</span>
           <h1 className="font-bold tracking-tight text-3xl sm:text-[44px] text-white mt-3">{t("Industrial & commercial property across Malaysia.")}</h1>
-          <p className="text-[#B9C7D8] mt-2">{t("Search by type, location and more — and see everything on the map.")}</p>
+          <p className="text-[#B9C7D8] mt-2">{t("Search by type, location and more, and see everything on the map.")}</p>
         </div>
       </section>
 

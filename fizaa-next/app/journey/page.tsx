@@ -24,7 +24,7 @@ export default async function JourneyPage() {
         <div className="container-site grid lg:grid-cols-[.85fr_1.15fr] gap-8 lg:gap-14 items-center">
           <div className="relative rounded-2xl2 overflow-hidden aspect-[4/5] shadow-lg2 bg-navy">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/fiza-website-images/MRL_8310.JPG" alt="Malaysia Industrial Realtors — industrial & commercial property consultant" className="w-full h-full object-cover object-[center_18%]" />
+            <img src="/fiza-website-images/MRL_8310.JPG" alt="Malaysia Industrial Realtors, industrial & commercial property consultant" className="w-full h-full object-cover object-[center_18%]" />
             <div className="absolute left-4 bottom-4 bg-white/90 backdrop-blur rounded-full px-3.5 py-2 text-xs font-semibold flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-good" /> {t("Available")} · GMT+8
             </div>
@@ -74,9 +74,9 @@ export default async function JourneyPage() {
             <h2 className="font-bold tracking-tight text-3xl sm:text-5xl mt-4">{t("Specialist advice across the industrial & commercial spectrum.")}</h2>
           </div>
           <div className="grid sm:grid-cols-3 gap-[22px]">
-            <WWD icon={<Building className="w-[22px] h-[22px]" />} title={t("Factories & warehouses")} text={t("Detached and semi-detached factories, superlink warehouses and logistics facilities — matched to your floor area, eave height, power and loading needs.")} />
+            <WWD icon={<Building className="w-[22px] h-[22px]" />} title={t("Factories & warehouses")} text={t("Detached and semi-detached factories, superlink warehouses and logistics facilities, matched to your floor area, eave height, power and loading needs.")} />
             <WWD icon={<Building className="w-[22px] h-[22px]" />} title={t("Industrial Land")} text={t("Freehold and leasehold plots in established parks and ESG-certified developments, with zoning, title and MITI requirements verified up front.")} />
-            <WWD icon={<Building className="w-[22px] h-[22px]" />} title={t("Commercial & hotel")} text={t("Office floors, shoplots, built-to-rent developments and hotel assets — including investment-grade, tenanted opportunities with verified yields.")} />
+            <WWD icon={<Building className="w-[22px] h-[22px]" />} title={t("Commercial & hotel")} text={t("Office floors, shoplots, built-to-rent developments and hotel assets, including investment-grade, tenanted opportunities with verified yields.")} />
           </div>
         </div>
       </section>
@@ -89,9 +89,9 @@ export default async function JourneyPage() {
             <h2 className="font-bold tracking-tight text-3xl sm:text-5xl mt-4">{t("Milestones along the way.")}</h2>
           </div>
           <div className="grid gap-[18px] max-w-[820px]">
-            <TL year="2026" h="ESP Global Ascend Bootcamp · Pulau Tioman" p={t("Attended the ESP Global Ascend Bootcamp — a transformational programme on mindset, courage and professional purpose, including a Letter to Future Self.")} />
-            <TL year={t("Award")} h="ESP Golden Awards · Top Performer" p={t("Recognised among Esprit's top performers for consistent results and dedication — a milestone that's never about the trophy, but the standard it represents.")} />
-            <TL year={t("Field")} h={t("On the ground, every deal")} p={t("Every deal starts with a site visit. We walk the property — rain or shine — so clients get accurate, first-hand information, not recycled brochure data.")} />
+            <TL year="2026" h="ESP Global Ascend Bootcamp · Pulau Tioman" p={t("Attended the ESP Global Ascend Bootcamp, a transformational programme on mindset, courage and professional purpose, including a Letter to Future Self.")} />
+            <TL year={t("Award")} h="ESP Golden Awards · Top Performer" p={t("Recognised among Esprit's top performers for consistent results and dedication. A milestone that's never about the trophy, but the standard it represents.")} />
+            <TL year={t("Field")} h={t("On the ground, every deal")} p={t("Every deal starts with a site visit. We walk the property, rain or shine, so clients get accurate, first-hand information, not recycled brochure data.")} />
           </div>
         </div>
       </section>

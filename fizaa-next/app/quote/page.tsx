@@ -38,7 +38,7 @@ export default function QuotePage() {
         <div className="container-site">
           <span className="eyebrow text-brass-soft before:bg-brass-soft">{t("Get a Quote")}</span>
           <h1 className="font-bold tracking-tight text-3xl sm:text-[44px] text-white mt-3">{t("Tell us what your business needs.")}</h1>
-          <p className="text-[#B9C7D8] mt-2.5 max-w-[56ch]">{t("Share your requirement — type, size, power, location and budget — and get a tailored shortlist of industrial & commercial options, including off-market properties.")}</p>
+          <p className="text-[#B9C7D8] mt-2.5 max-w-[56ch]">{t("Share your requirement (type, size, power, location and budget) and get a tailored shortlist of industrial & commercial options, including off-market properties.")}</p>
         </div>
       </section>
 
@@ -47,7 +47,7 @@ export default function QuotePage() {
           {done ? (
             <div className="text-center py-8">
               <Check className="w-14 h-14 text-good mx-auto mb-4" />
-              <h2 className="font-bold text-2xl text-navy">{t("Thank you — request received.")}</h2>
+              <h2 className="font-bold text-2xl text-navy">{t("Thank you, request received.")}</h2>
               <p className="text-mute mt-2.5 mb-5">{t("We'll personally review your requirement and get back to you shortly, usually within hours.")}</p>
               <div className="flex gap-2.5 justify-center flex-wrap">
                 <Link href="/listings" className="btn btn-primary">{t("Browse listings")}</Link>
@@ -91,11 +91,11 @@ export default function QuotePage() {
               </div>
               <div className="grid sm:grid-cols-3 gap-3.5">
                 <Field label={t("Minimum Size (sq ft)")}><input className="input" name="minSize" placeholder="e.g. 10,000" /></Field>
-                <Field label={t("No. of Beds")}><input className="input" name="beds" placeholder="—" /></Field>
-                <Field label={t("No. of Baths")}><input className="input" name="baths" placeholder="—" /></Field>
+                <Field label={t("No. of Beds")}><input className="input" name="beds" placeholder="-" /></Field>
+                <Field label={t("No. of Baths")}><input className="input" name="baths" placeholder="-" /></Field>
               </div>
 
-              <div className="mb-4"><label className="field-label">{t("Message")}</label><textarea className="textarea" name="message" placeholder={t("Tell us more — eave height, power supply, zoning, timeline…")} /></div>
+              <div className="mb-4"><label className="field-label">{t("Message")}</label><textarea className="textarea" name="message" placeholder={t("Tell us more: eave height, power supply, zoning, timeline…")} /></div>
 
               <label className="flex items-start gap-2.5 text-[13.5px] text-ink-2 my-2 mb-5"><input type="checkbox" checked={consent} onChange={(e) => setConsent(e.target.checked)} className="mt-0.5 w-4 h-4 accent-navy" /> <span>{t("I consent to Malaysia Industrial Realtors storing my submitted information to respond to this enquiry.")} <span className="text-brass-2">*</span></span></label>
               {err && <p className="text-sm text-bad mb-3">{err}</p>}
@@ -111,7 +111,7 @@ export default function QuotePage() {
             <Side icon={<Mail className="w-[18px] h-[18px]" />} k={t("Email")} v={SITE.email} />
             <Side icon={<Shield className="w-[18px] h-[18px]" />} k={t("Licence")} v="REN 63161 · Esprit Estate" last />
           </div>
-          <div className="bg-navy-soft rounded-xl p-[18px] text-[13.5px] text-navy-2 leading-relaxed"><strong>{t("No obligation.")}</strong> {t("Your details are used only to respond to your enquiry — never shared or sold. Malaysia Industrial Realtors handles every requirement personally.")}</div>
+          <div className="bg-navy-soft rounded-xl p-[18px] text-[13.5px] text-navy-2 leading-relaxed"><strong>{t("No obligation.")}</strong> {t("Your details are used only to respond to your enquiry, never shared or sold. Malaysia Industrial Realtors handles every requirement personally.")}</div>
         </aside>
       </div>
     </>

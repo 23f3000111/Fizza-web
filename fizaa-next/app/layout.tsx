@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: `%s · ${SITE.name}`,
   },
   description:
-    `${SITE.name} — factories, warehouses, hotels, offices and industrial land across Malaysia, handled personally by dedicated, registered estate negotiators.`,
+    `${SITE.name}: factories, warehouses, hotels, offices and industrial land across Malaysia, handled personally by a dedicated team.`,
   applicationName: SITE.name,
   keywords: [
     "industrial property Malaysia",
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
     url: SITE.url,
     title: `${SITE.name} · Industrial & Commercial Property in Malaysia`,
     description:
-      "Factories, warehouses, hotels, offices and industrial land across Malaysia — verified before viewing.",
+      "Factories, warehouses, hotels, offices and industrial land across Malaysia, verified before viewing.",
   },
   twitter: {
     card: "summary_large_image",
     title: `${SITE.name} · Industrial & Commercial Property in Malaysia`,
     description:
-      "Factories, warehouses, hotels, offices and industrial land across Malaysia — verified before viewing.",
+      "Factories, warehouses, hotels, offices and industrial land across Malaysia, verified before viewing.",
   },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.svg" },

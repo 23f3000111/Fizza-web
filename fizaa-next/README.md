@@ -87,6 +87,11 @@ UI copy is keyed by its English string in `lib/i18n.ts`; if you edit an
 English string you must update the matching key in both the `BM` and `ZH` maps,
 or that string silently falls back to English.
 
-Headings use the system sans-serif stack in bold — there is no serif face.
-The home hero video is `public/media/hero-industrial.mp4` (poster:
-`hero-industrial-poster.jpg`, frame 0 of the same clip).
+Headings use the system sans-serif stack in bold; there is no serif face.
+The client does not want em dashes (—) anywhere in visible copy, in any
+language (including the Chinese ——). Use commas, colons, full stops or
+brackets instead, in UI strings and in listing content alike.
+
+The home hero video is `public/media/hero-video.mp4` (the client's
+Hero_video.mp4, re-encoded without audio; poster `hero-video-poster.jpg` is
+frame 0 of the same clip).

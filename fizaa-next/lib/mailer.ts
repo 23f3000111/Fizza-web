@@ -52,14 +52,14 @@ export async function sendLeadsReport(dayKey?: string): Promise<ReportResult> {
   const transport = buildTransport();
   const subject = `${SITE.name} · Website leads for ${dayKey} (${leads.length})`;
   const summary = leads.length
-    ? leads.map((l) => `• ${l.name} — ${l.phone}${l.email ? " — " + l.email : ""}`).join("\n")
+    ? leads.map((l) => `• ${l.name} | ${l.phone}${l.email ? " | " + l.email : ""}`).join("\n")
     : "No new leads were captured on this date.";
 
   await transport.sendMail({
     from: process.env.SMTP_FROM || process.env.SMTP_USER,
     to,
     subject,
-    text: `Hi ${SITE.name} team,\n\nHere are the website chatbot leads collected on ${dayKey}.\nTotal: ${leads.length}\n\n${summary}\n\nThe full CSV is attached.\n\n— ${SITE.name} website`,
+    text: `Hi ${SITE.name} team,\n\nHere are the website chatbot leads collected on ${dayKey}.\nTotal: ${leads.length}\n\n${summary}\n\nThe full CSV is attached.\n\n${SITE.name} website`,
     attachments: [{ filename: `leads-${dayKey}.csv`, content: csv, contentType: "text/csv" }],
   });
 

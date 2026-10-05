@@ -182,7 +182,7 @@ export default function SegmentListings({
           </div>
           <div className="navy-gradient text-white rounded-xl2 p-[22px]">
             <h3 className="font-bold text-lg text-white mb-1.5">{t("Looking for something specific?")}</h3>
-            <p className="text-[#B9C7D8] text-[13.5px] mb-3.5">{t("Share your brief — size, power, zoning, budget — and get matched, including off-market.")}</p>
+            <p className="text-[#B9C7D8] text-[13.5px] mb-3.5">{t("Share your brief (size, power, zoning, budget) and get matched, including off-market.")}</p>
             <Link href="/quote" className="btn btn-white btn-block">{t("Tell us")}</Link>
           </div>
         </aside>
@@ -210,7 +210,7 @@ function Row({ l, t, lang }: { l: Listing; t: (s: string) => string; lang: Lang 
         <h3 className="font-bold text-[17px] sm:text-[19px] leading-snug group-hover:text-navy transition-colors truncate">{tl.title}</h3>
         <div className="flex items-center gap-1.5 text-[13px] text-mute mt-1.5">
           <Pin className="w-[14px] h-[14px] text-brass shrink-0" />
-          <span className="truncate">{[tl.city, tl.state].filter(Boolean).join(", ") || "—"}</span>
+          <span className="truncate">{[tl.city, tl.state].filter(Boolean).join(", ") || "-"}</span>
         </div>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-[13px] text-ink-2 mt-2.5">
           {tl.propertyType && <span className="inline-flex items-center gap-1.5">🏢 {tl.propertyType}</span>}

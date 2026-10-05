@@ -64,7 +64,7 @@ export default function Nav() {
         }`}
       >
         <div className="container-site flex items-center justify-between gap-4 w-full">
-          <Link href="/" className="flex items-center gap-2.5 sm:gap-3 min-w-0" aria-label={`${SITE.name} — ${t("Home")}`}>
+          <Link href="/" className="flex items-center gap-2.5 sm:gap-3 min-w-0" aria-label={`${SITE.name} · ${t("Home")}`}>
             <LogoMark className="w-10 h-10 shrink-0 rounded-[22%] shadow-sm2" />
             <span className="text-[13px] sm:text-[17px] font-bold leading-tight tracking-tight">
               {SITE.name}

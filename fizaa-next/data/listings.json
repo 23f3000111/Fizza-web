@@ -52,18 +52,18 @@
     "i18n": {
       "bm": {
         "title": "Gudang Untuk Disewa - Sungai Tua, Batu Caves",
-        "shortDesc": "Gudang/kilang superlink industri ringan di Sungai Tua, Batu Caves — siling 40 kaki, kuasa 160 amp, memunggah dua hala."
+        "shortDesc": "Gudang/kilang superlink industri ringan di Sungai Tua, Batu Caves, siling 40 kaki, kuasa 160 amp, memunggah dua hala."
       },
       "zh": {
-        "title": "仓库出租 — Sungai Tua，黑风洞",
-        "shortDesc": "位于黑风洞 Sungai Tua 的轻工业超级连排仓库／厂房——40尺净空、160安培电力、前后双向装卸。"
+        "title": "仓库出租 - Sungai Tua，黑风洞",
+        "shortDesc": "位于黑风洞 Sungai Tua 的轻工业超级连排仓库／厂房，40尺净空、160安培电力、前后双向装卸。"
       }
     }
   },
   {
     "id": "mscywml2194cak",
     "createdAt": "2026-08-03T08:28:58.835Z",
-    "title": "Bungalow Land For Sale – Jalan Kepong, Mukim Batu",
+    "title": "Bungalow Land For Sale - Jalan Kepong, Mukim Batu",
     "slug": "bungalow-land-for-sale-jalan-kepong-mukim-batu-p9g7",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -83,8 +83,8 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "Prime 4,516 sqft bungalow land off Jalan Kepong — 99-year leasehold, walking distance to Sri Delima MRT.",
-    "description": "Prime location bungalow lot for sale — 99 years leasehold. Price negotiable.\n\n• Jalan Kepong, Mukim Batu\n• Land area: 4,516 sqft\n• Rectangular shape\n• Leasehold 99 years (approval obtained)\n• Matured, 99% developed area\n• Selling with premium\n• Selling below market value\n\nNearby:\n- Bremmall\n- Crystal Crown Hotel\n- Lakeville Residence\n- Lake City KL North\n- 10 minutes to KL City\n\nConnectivity:\n- Sri Delima MRT Station (walking distance)\n- Jalan Kuching\n- Jalan Ipoh\n- DUKE Highway\n- MRR2\n- LATAR Highway\n\nAsking price RM 550,000 (negotiable).",
+    "shortDesc": "Prime 4,516 sqft bungalow land off Jalan Kepong, 99-year leasehold, walking distance to Sri Delima MRT.",
+    "description": "Prime location bungalow lot for sale, 99 years leasehold. Price negotiable.\n\n• Jalan Kepong, Mukim Batu\n• Land area: 4,516 sqft\n• Rectangular shape\n• Leasehold 99 years (approval obtained)\n• Matured, 99% developed area\n• Selling with premium\n• Selling below market value\n\nNearby:\n- Bremmall\n- Crystal Crown Hotel\n- Lakeville Residence\n- Lake City KL North\n- 10 minutes to KL City\n\nConnectivity:\n- Sri Delima MRT Station (walking distance)\n- Jalan Kuching\n- Jalan Ipoh\n- DUKE Highway\n- MRR2\n- LATAR Highway\n\nAsking price RM 550,000 (negotiable).",
     "images": [
       "/api/uploads/1785745738839-9woksm.jpeg"
     ],
@@ -92,7 +92,7 @@
     "specs": [
       "Land area 4,516 sqft",
       "Leasehold 99 years",
-      "Sri Delima MRT — walking distance",
+      "Sri Delima MRT, walking distance",
       "10 minutes to KL City"
     ],
     "attributes": {
@@ -111,19 +111,19 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Tanah Banglo Untuk Dijual – Jalan Kepong, Mukim Batu",
-        "shortDesc": "Tanah banglo 4,516 kaki persegi di Jalan Kepong — pajakan 99 tahun, jarak berjalan kaki ke MRT Sri Delima."
+        "title": "Tanah Banglo Untuk Dijual - Jalan Kepong, Mukim Batu",
+        "shortDesc": "Tanah banglo 4,516 kaki persegi di Jalan Kepong, pajakan 99 tahun, jarak berjalan kaki ke MRT Sri Delima."
       },
       "zh": {
-        "title": "洋房地段出售 — Jalan Kepong，Mukim Batu",
-        "shortDesc": "甲洞大路旁 4,516 平方尺洋房地段——99 年租赁地契，步行可达 Sri Delima 地铁站。"
+        "title": "洋房地段出售 - Jalan Kepong，Mukim Batu",
+        "shortDesc": "甲洞大路旁 4,516 平方尺洋房地段，99 年租赁地契，步行可达 Sri Delima 地铁站。"
       }
     }
   },
   {
     "id": "mscywmli25khw8",
     "createdAt": "2026-08-03T08:28:58.835Z",
-    "title": "2.5 Storey Superlink Factory For Sale – Meru (Intermediate)",
+    "title": "2.5 Storey Superlink Factory For Sale - Meru (Intermediate)",
     "slug": "2-5-storey-superlink-factory-for-sale-meru-intermediate-tk4m",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -144,7 +144,7 @@
     "featured": false,
     "status": "active",
     "shortDesc": "Modern 2.5 storey superlink factory in Meru with great visibility, 8,141 sqft built-up and a 2-tonne cargo lift.",
-    "description": "2.5 Storey Superlink Factory For Sale – Meru (intermediate lot)\n\nGreat visibility.\nLand size: 35 ft x 138 ft\nBuilt-up area: 8,141 sqft\nCeiling height: 9m / 30ft (ground) & 10ft (1st floor)\nPower supply: 200 amp\nCargo lift: 2 tonnes capacity\n\nModern design\nESG compliance\nSpacious & high ceiling\n\nAsking price RM 4.4 mil.",
+    "description": "2.5 Storey Superlink Factory For Sale - Meru (intermediate lot)\n\nGreat visibility.\nLand size: 35 ft x 138 ft\nBuilt-up area: 8,141 sqft\nCeiling height: 9m / 30ft (ground) & 10ft (1st floor)\nPower supply: 200 amp\nCargo lift: 2 tonnes capacity\n\nModern design\nESG compliance\nSpacious & high ceiling\n\nAsking price RM 4.4 mil.",
     "images": [
       "/api/uploads/1785745738854-b6tf82.jpeg",
       "/api/uploads/1785745738856-hm8z9x.jpeg",
@@ -175,11 +175,11 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Kilang Superlink 2.5 Tingkat Untuk Dijual – Meru (Lot Tengah)",
+        "title": "Kilang Superlink 2.5 Tingkat Untuk Dijual - Meru (Lot Tengah)",
         "shortDesc": "Kilang superlink 2.5 tingkat moden di Meru dengan keterlihatan baik, binaan 8,141 kaki persegi dan lif kargo 2 tan."
       },
       "zh": {
-        "title": "2.5 层超级连排厂房出售 — 巴生 Meru（中间单位）",
+        "title": "2.5 层超级连排厂房出售 - 巴生 Meru（中间单位）",
         "shortDesc": "巴生 Meru 现代化 2.5 层超级连排厂房，位置显眼，建筑面积 8,141 平方尺，配 2 吨货梯。"
       }
     }
@@ -187,7 +187,7 @@
   {
     "id": "mscywmlu35okch",
     "createdAt": "2026-08-03T08:28:58.835Z",
-    "title": "New 2 Storey Detached Factory For Sale – Banting",
+    "title": "New 2 Storey Detached Factory For Sale - Banting",
     "slug": "new-2-storey-detached-factory-for-sale-banting-pjep",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -207,8 +207,8 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "Ready-built freehold detached factory in a green industrial hub — 69,870 sqft land, 45,936 sqft built-up, 1000 amp.",
-    "description": "New 2 Storey Detached Factory For Sale – Banting\r\n\r\nPROPERTY DETAILS\r\nLand area: 69,870 sqft\r\nBuilt-up: 45,936 sqft\r\nEave height: 10m\r\nPower supply: 1000 amp\r\n\r\nKEY ADVANTAGES\r\nLocated within a Green Industrial Hub\r\nReady-built — save time on construction\r\nFreehold tenure\r\nStrategic location with excellent connectivity\r\nCost-efficient — better value vs building from scratch\r\n\r\nRM 19,335,000 (RM 420 psf).\r\n\r\nContact for exclusive viewing.",
+    "shortDesc": "Ready-built freehold detached factory in a green industrial hub, 69,870 sqft land, 45,936 sqft built-up, 1000 amp.",
+    "description": "New 2 Storey Detached Factory For Sale - Banting\r\n\r\nPROPERTY DETAILS\r\nLand area: 69,870 sqft\r\nBuilt-up: 45,936 sqft\r\nEave height: 10m\r\nPower supply: 1000 amp\r\n\r\nKEY ADVANTAGES\r\nLocated within a Green Industrial Hub\r\nReady-built, save time on construction\r\nFreehold tenure\r\nStrategic location with excellent connectivity\r\nCost-efficient, better value vs building from scratch\r\n\r\nRM 19,335,000 (RM 420 psf).\r\n\r\nContact for exclusive viewing.",
     "images": [
       "/api/uploads/1785745738866-kg54s5.jpeg",
       "/api/uploads/1785745738868-5ruy8u.jpeg",
@@ -232,19 +232,19 @@
     "updatedAt": "2026-08-03T08:53:17.744Z",
     "documents": [
       {
-        "name": "New 2 Storey Detached Factory For Sale – Banting.docx",
+        "name": "New 2 Storey Detached Factory For Sale - Banting.docx",
         "url": "/api/uploads/1785745738873-zwpuox.docx"
       }
     ],
     "segment": "commercial",
     "i18n": {
       "bm": {
-        "title": "Kilang Sesebuah 2 Tingkat Baharu Untuk Dijual – Banting",
-        "shortDesc": "Kilang sesebuah pegangan bebas siap bina dalam hab perindustrian hijau — tanah 69,870 kp, binaan 45,936 kp, 1000 amp."
+        "title": "Kilang Sesebuah 2 Tingkat Baharu Untuk Dijual - Banting",
+        "shortDesc": "Kilang sesebuah pegangan bebas siap bina dalam hab perindustrian hijau, tanah 69,870 kp, binaan 45,936 kp, 1000 amp."
       },
       "zh": {
-        "title": "全新 2 层独立式厂房出售 — 万津",
-        "shortDesc": "绿色工业枢纽内的永久地契现成独立式厂房——地段 69,870 平方尺、建筑面积 45,936 平方尺、1000 安培。"
+        "title": "全新 2 层独立式厂房出售 - 万津",
+        "shortDesc": "绿色工业枢纽内的永久地契现成独立式厂房，地段 69,870 平方尺、建筑面积 45,936 平方尺、1000 安培。"
       }
     }
   },
@@ -271,7 +271,7 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "Freehold development land next to TTDI — Residential 2 zoning, plot ratio up to 1:2.5, 6km to Mont Kiara.",
+    "shortDesc": "Freehold development land next to TTDI, Residential 2 zoning, plot ratio up to 1:2.5, 6km to Mont Kiara.",
     "description": "1.75 acres of Development Land in Sg Penchala, Kuala Lumpur\n\nPremium location next to Taman Tun Dr Ismail (TTDI) and 6km to Mont Kiara.\nResidential 2 zoning with a high plot ratio of 2.\n\nDetails:\n• Location: Jalan Sg Penchala, Sg Penchala, Kuala Lumpur\n• Property type: Agriculture land (2 adjoining parcels off the main road)\n• Zoning: Residential 2 (base plot ratio up to 1:2.5, ideal for multi-storey dwellings, strata units or townhouses)\n• Land area: 1.75 acres (0.9686 acres + 0.7814 acres)\n• Tenure: Freehold Malay Reserve\n• Accessibility: highly accessible via Penchala Link, LDP and DUKE highway\n• Vicinity: strategically nestled within the affluent TTDI, Damansara, Mont Kiara and Hartamas neighbourhoods\n\nAsking price: RM 10,000,000 (RM 131 psf, negotiable).",
     "images": [
       "/api/uploads/1785745738879-af3qyo.jpeg"
@@ -285,7 +285,7 @@
     ],
     "attributes": {
       "property_type": "Agriculture land (2 adjoining parcels off the main road)",
-      "zoning": "Residential 2 — base plot ratio up to 1:2.5",
+      "zoning": "Residential 2, base plot ratio up to 1:2.5",
       "land_area": "1.75 acres (0.9686 + 0.7814 acres)",
       "tenure": "Freehold Malay Reserve",
       "accessibility": "Penchala Link, LDP and DUKE highway",
@@ -302,11 +302,11 @@
     "i18n": {
       "bm": {
         "title": "Tanah Pembangunan 1.75 Ekar di Sg Penchala, Kuala Lumpur",
-        "shortDesc": "Tanah pembangunan pegangan bebas bersebelahan TTDI — zon Kediaman 2, nisbah plot sehingga 1:2.5, 6km ke Mont Kiara."
+        "shortDesc": "Tanah pembangunan pegangan bebas bersebelahan TTDI, zon Kediaman 2, nisbah plot sehingga 1:2.5, 6km ke Mont Kiara."
       },
       "zh": {
-        "title": "1.75 英亩发展地段 — 吉隆坡 Sg Penchala",
-        "shortDesc": "毗邻 TTDI 的永久地契发展地段——住宅二类分区，容积率高达 1:2.5，距 Mont Kiara 6 公里。"
+        "title": "1.75 英亩发展地段 - 吉隆坡 Sg Penchala",
+        "shortDesc": "毗邻 TTDI 的永久地契发展地段，住宅二类分区，容积率高达 1:2.5，距 Mont Kiara 6 公里。"
       }
     }
   },
@@ -342,7 +342,7 @@
     "specs": [
       "Land approx. 65,000 sqft (1.5 acres)",
       "Built-up approx. 45,000 sqft",
-      "Tenanted — approx. 5% ROI",
+      "Tenanted, approx. 5% ROI",
       "Power 600 amps (upgradeable)"
     ],
     "attributes": {
@@ -400,8 +400,8 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "63,340 sqft leasehold semi-D factory in Banting — 40ft eave height, 8km to KLIA, connected to WCE, SKVE, KESAS & Elite.",
-    "description": "Banting 3 Storey Semi-D Factory for Sale\n\nSelling price RM 18,850,000\n\n- Land area 63,340 sqft\n- Built-up 48,100 sqft\n- Factory area 42,000 sqft\n- Building size 22 x 165m / 73 x 543 ft\n\nHuge & efficient size suitable for medium & light industry usage.\nLeasehold, individual title.\n\nOther specifications:\n- Eave height 40ft\n- Floor loading 30 kN/m²\n- Power supply 200 – 600 amp\n\nAmenities & connectivity:\n- 8km to KLIA\n- 47km to Port Klang\n- Connected to WCE, SKVE, KESAS & Elite Highway",
+    "shortDesc": "63,340 sqft leasehold semi-D factory in Banting, 40ft eave height, 8km to KLIA, connected to WCE, SKVE, KESAS & Elite.",
+    "description": "Banting 3 Storey Semi-D Factory for Sale\n\nSelling price RM 18,850,000\n\n- Land area 63,340 sqft\n- Built-up 48,100 sqft\n- Factory area 42,000 sqft\n- Building size 22 x 165m / 73 x 543 ft\n\nHuge & efficient size suitable for medium & light industry usage.\nLeasehold, individual title.\n\nOther specifications:\n- Eave height 40ft\n- Floor loading 30 kN/m²\n- Power supply 200 - 600 amp\n\nAmenities & connectivity:\n- 8km to KLIA\n- 47km to Port Klang\n- Connected to WCE, SKVE, KESAS & Elite Highway",
     "images": [
       "/api/uploads/1785745738893-jlfoym.jpeg",
       "/api/uploads/1785745738895-8avgm0.jpeg",
@@ -421,7 +421,7 @@
       "building_size": "22 x 165m / 73 x 543 ft",
       "eave_height": "40 ft",
       "floor_loading": "30 kN/m²",
-      "power_supply": "200 – 600 amp",
+      "power_supply": "200 - 600 amp",
       "tenure": "Leasehold, individual title"
     },
     "updatedAt": "2026-08-03T08:28:58.835Z",
@@ -435,11 +435,11 @@
     "i18n": {
       "bm": {
         "title": "Kilang Berkembar 3 Tingkat Banting Untuk Dijual",
-        "shortDesc": "Kilang berkembar pajakan 63,340 kp di Banting — ketinggian bumbung 40 kaki, 8km ke KLIA, berhubung WCE, SKVE, KESAS & Elite."
+        "shortDesc": "Kilang berkembar pajakan 63,340 kp di Banting, ketinggian bumbung 40 kaki, 8km ke KLIA, berhubung WCE, SKVE, KESAS & Elite."
       },
       "zh": {
         "title": "万津 3 层半独立式厂房出售",
-        "shortDesc": "万津 63,340 平方尺租赁地契半独立式厂房——檐高 40 尺，距吉隆坡国际机场 8 公里，连接 WCE、SKVE、KESAS 与 Elite 大道。"
+        "shortDesc": "万津 63,340 平方尺租赁地契半独立式厂房，檐高 40 尺，距吉隆坡国际机场 8 公里，连接 WCE、SKVE、KESAS 与 Elite 大道。"
       }
     }
   },
@@ -466,7 +466,7 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "2.32 acres of industrial land along Jalan Mokhtar Dahari available on a built-to-rent basis — up to 44k sqft single floor.",
+    "shortDesc": "2.32 acres of industrial land along Jalan Mokhtar Dahari available on a built-to-rent basis, up to 44k sqft single floor.",
     "description": "Built to Rent Land @ Alam Budiman, along Jalan Mokhtar Dahari.\n\n- Land area is 2.32 acres industrial land\n- Potential built-up of 44,000 sqft on a single floor\n\n▪ Built-up is just an indication and is subject to final design.\n▪ Rental rate is subject to market rate and the building cost will be factored in.",
     "images": [
       "/api/uploads/1785745738904-nw862p.jpeg"
@@ -495,11 +495,11 @@
     "i18n": {
       "bm": {
         "title": "Tanah Perindustrian Bina-Untuk-Sewa @ Alam Budiman",
-        "shortDesc": "Tanah perindustrian 2.32 ekar di Jalan Mokhtar Dahari secara bina-untuk-sewa — potensi binaan sehingga 44,000 kp satu tingkat."
+        "shortDesc": "Tanah perindustrian 2.32 ekar di Jalan Mokhtar Dahari secara bina-untuk-sewa, potensi binaan sehingga 44,000 kp satu tingkat."
       },
       "zh": {
         "title": "订制出租工业地段 @ Alam Budiman",
-        "shortDesc": "Jalan Mokhtar Dahari 2.32 英亩工业地段，可订制出租——单层潜在建筑面积达 44,000 平方尺。"
+        "shortDesc": "Jalan Mokhtar Dahari 2.32 英亩工业地段，可订制出租，单层潜在建筑面积达 44,000 平方尺。"
       }
     }
   },
@@ -526,7 +526,7 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "1 acre detached factory in Bukit Jelutong — 30,506 sqft built-up, 1000 amps, 12m eaves and 2 loading bays.",
+    "shortDesc": "1 acre detached factory in Bukit Jelutong, 30,506 sqft built-up, 1000 amps, 12m eaves and 2 loading bays.",
     "description": "1 Acre Detached Factory For Rent @ Bukit Jelutong\n\nProperty details:\nLand size: 1 acre\nBuilt-up: 30,506 sqft\nFactory area: 19,371 sqft\nFloor loading: 3 tons/m²\nPower supply: 1000 amps\nEaves height: 12m\nLoading bays: 2 units\nPassenger lifts for office\n\nAsking rental: RM 79,315 (RM 2.60 psf).",
     "images": [
       "/api/uploads/1785745738911-nb5ce4.jpeg"
@@ -560,18 +560,18 @@
     "i18n": {
       "bm": {
         "title": "Kilang Sesebuah 1 Ekar Untuk Disewa @ Bukit Jelutong",
-        "shortDesc": "Kilang sesebuah 1 ekar di Bukit Jelutong — binaan 30,506 kp, 1000 amp, bumbung 12m dan 2 ruang memunggah."
+        "shortDesc": "Kilang sesebuah 1 ekar di Bukit Jelutong, binaan 30,506 kp, 1000 amp, bumbung 12m dan 2 ruang memunggah."
       },
       "zh": {
         "title": "1 英亩独立式厂房出租 @ Bukit Jelutong",
-        "shortDesc": "Bukit Jelutong 1 英亩独立式厂房——建筑面积 30,506 平方尺、1000 安培、12 米檐高、2 个装卸月台。"
+        "shortDesc": "Bukit Jelutong 1 英亩独立式厂房，建筑面积 30,506 平方尺、1000 安培、12 米檐高、2 个装卸月台。"
       }
     }
   },
   {
     "id": "mscywmna9fkv8",
     "createdAt": "2026-08-03T08:28:58.835Z",
-    "title": "3 Storey Semi-D Factory For Rent – Kg Baru Subang",
+    "title": "3 Storey Semi-D Factory For Rent - Kg Baru Subang",
     "slug": "3-storey-semi-d-factory-for-rent-kg-baru-subang-o7zt",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -592,7 +592,7 @@
     "featured": false,
     "status": "active",
     "shortDesc": "Newly renovated 3-storey semi-D factory in Kg Baru Subang with semi-furnished office and fully awninged ground floor.",
-    "description": "3 Storey Semi-D Factory for Rent — Kg Baru Subang\n\nProperty details:\nLand area 9,558 sqft\nBuilt-up area 8,700 sqft\nGround floor 6,080 sqft\nSemi furnished office — SPC flooring, newly renovated and painted\nGround floor fully covered with awning (side & back)\n\nAsking rental RM 29,000/month.",
+    "description": "3 Storey Semi-D Factory for Rent, Kg Baru Subang\n\nProperty details:\nLand area 9,558 sqft\nBuilt-up area 8,700 sqft\nGround floor 6,080 sqft\nSemi furnished office, SPC flooring, newly renovated and painted\nGround floor fully covered with awning (side & back)\n\nAsking rental RM 29,000/month.",
     "images": [
       "/api/uploads/1785745738918-y2mjv0.jpeg"
     ],
@@ -607,7 +607,7 @@
       "land_area": "9,558 sqft",
       "built_up": "8,700 sqft",
       "ground_floor": "6,080 sqft",
-      "office": "Semi furnished — SPC flooring, newly renovated and painted",
+      "office": "Semi furnished, SPC flooring, newly renovated and painted",
       "awning": "Ground floor fully covered with awning (side & back)"
     },
     "updatedAt": "2026-08-03T08:28:58.835Z",
@@ -620,11 +620,11 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Kilang Berkembar 3 Tingkat Untuk Disewa – Kg Baru Subang",
+        "title": "Kilang Berkembar 3 Tingkat Untuk Disewa - Kg Baru Subang",
         "shortDesc": "Kilang berkembar 3 tingkat baru diubah suai di Kg Baru Subang dengan pejabat separa berperabot dan tingkat bawah berbumbung penuh."
       },
       "zh": {
-        "title": "3 层半独立式厂房出租 — Kg Baru Subang",
+        "title": "3 层半独立式厂房出租 - Kg Baru Subang",
         "shortDesc": "Kg Baru Subang 全新装修 3 层半独立式厂房，办公室半配套，底层全覆遮篷。"
       }
     }
@@ -632,7 +632,7 @@
   {
     "id": "mscywmnka3zs37",
     "createdAt": "2026-08-03T08:28:58.835Z",
-    "title": "Semi-D Factory For Rent – Jalan STR 3, Saujana Teknologi Park",
+    "title": "Semi-D Factory For Rent - Jalan STR 3, Saujana Teknologi Park",
     "slug": "semi-d-factory-for-rent-jalan-str-3-saujana-teknologi-park-1s7g",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -652,7 +652,7 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "Semi-D factory at Saujana Teknologi Park — 7,880 sqft built-up, 30ft warehouse height. Two adjoining units available at RM30k.",
+    "shortDesc": "Semi-D factory at Saujana Teknologi Park, 7,880 sqft built-up, 30ft warehouse height. Two adjoining units available at RM30k.",
     "description": "Semi-D Factory at Jalan STR 3, Saujana Teknologi Park\nAvailable 2 units side by side (rental RM 30,000).\n\nKey specs:\nLand area: 11,625 sq. ft.\nBuilt-up: 7,880 sq. ft.\nPower: 150 amp (3-phase)\nWarehouse height: 30 ft\nFloor loading: 1.0 ton/m²\n\nAsking rental: RM 15,000/month.",
     "images": [
       "/api/uploads/1785745738929-tpzysj.jpeg",
@@ -684,19 +684,19 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Kilang Berkembar Untuk Disewa – Jalan STR 3, Saujana Teknologi Park",
-        "shortDesc": "Kilang berkembar di Saujana Teknologi Park — binaan 7,880 kp, ketinggian gudang 30 kaki. Dua unit bersebelahan pada RM30k."
+        "title": "Kilang Berkembar Untuk Disewa - Jalan STR 3, Saujana Teknologi Park",
+        "shortDesc": "Kilang berkembar di Saujana Teknologi Park, binaan 7,880 kp, ketinggian gudang 30 kaki. Dua unit bersebelahan pada RM30k."
       },
       "zh": {
-        "title": "半独立式厂房出租 — Jalan STR 3，Saujana Teknologi Park",
-        "shortDesc": "Saujana Teknologi Park 半独立式厂房——建筑面积 7,880 平方尺、仓库高度 30 尺。两个相邻单位共 RM30,000。"
+        "title": "半独立式厂房出租 - Jalan STR 3，Saujana Teknologi Park",
+        "shortDesc": "Saujana Teknologi Park 半独立式厂房，建筑面积 7,880 平方尺、仓库高度 30 尺。两个相邻单位共 RM30,000。"
       }
     }
   },
   {
     "id": "mscywmnxb9voll",
     "createdAt": "2026-08-03T08:28:58.835Z",
-    "title": "Warehouse with Loading Bays For Rent – Puncak Alam",
+    "title": "Warehouse with Loading Bays For Rent - Puncak Alam",
     "slug": "warehouse-with-loading-bays-for-rent-puncak-alam-655m",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -716,8 +716,8 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "Spacious 127,760 sqft logistics hub in Puncak Alam — 12m ceiling, 10 loading bays and a 3-year tenure.",
-    "description": "Warehouse with Loading Bays For Rent — Puncak Alam, Selangor\nSpacious and well-planned logistics hub.\n\nProperty details:\nSize: 127,760 sqft\nCeiling height: 12m\nFloor loading: 4 tonne/sqm\nPower capacity: 250 amp\nLoading bays: 9 nos front loading, 1 no side loading with elevated ramp\n\nRental rate: RM 1.85 psf — RM 236,356 monthly\n\nTenure: 3 years.",
+    "shortDesc": "Spacious 127,760 sqft logistics hub in Puncak Alam, 12m ceiling, 10 loading bays and a 3-year tenure.",
+    "description": "Warehouse with Loading Bays For Rent, Puncak Alam, Selangor\nSpacious and well-planned logistics hub.\n\nProperty details:\nSize: 127,760 sqft\nCeiling height: 12m\nFloor loading: 4 tonne/sqm\nPower capacity: 250 amp\nLoading bays: 9 nos front loading, 1 no side loading with elevated ramp\n\nRental rate: RM 1.85 psf, RM 236,356 monthly\n\nTenure: 3 years.",
     "images": [
       "/api/uploads/1785745738941-l8djcz.jpeg"
     ],
@@ -747,19 +747,19 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Gudang dengan Ruang Memunggah Untuk Disewa – Puncak Alam",
-        "shortDesc": "Hab logistik luas 127,760 kp di Puncak Alam — siling 12m, 10 ruang memunggah dan tempoh sewa 3 tahun."
+        "title": "Gudang dengan Ruang Memunggah Untuk Disewa - Puncak Alam",
+        "shortDesc": "Hab logistik luas 127,760 kp di Puncak Alam, siling 12m, 10 ruang memunggah dan tempoh sewa 3 tahun."
       },
       "zh": {
-        "title": "附装卸月台仓库出租 — Puncak Alam",
-        "shortDesc": "Puncak Alam 宽敞 127,760 平方尺物流枢纽——12 米净空、10 个装卸月台、租期 3 年。"
+        "title": "附装卸月台仓库出租 - Puncak Alam",
+        "shortDesc": "Puncak Alam 宽敞 127,760 平方尺物流枢纽，12 米净空、10 个装卸月台、租期 3 年。"
       }
     }
   },
   {
     "id": "mscywmo4c9fxv4",
     "createdAt": "2026-08-03T08:28:58.835Z",
-    "title": "Detached Factory For Rent – Taman Industri Alam Jaya, Puncak Alam",
+    "title": "Detached Factory For Rent - Taman Industri Alam Jaya, Puncak Alam",
     "slug": "detached-factory-for-rent-taman-industri-alam-jaya-puncak-alam-4mwb",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -779,8 +779,8 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "65,340 sqft detached factory in Taman Industri Alam Jaya — 46,800 sqft built-up, 400 amp. Also available for sale.",
-    "description": "Detached Factory For Rent — Taman Industri Alam Jaya, Puncak Alam\n(Also available for sale)\n\nProperty details:\nLand size: 65,340 sqft\nBuilt-up: 46,800 sqft\nEaves height: 28 ft\nGround floor: 39,000 sqft\n1st floor: 7,800 sqft\nPower supply: 3 phase 415V, 50Hz — 400 amperes\n\nAsking rental: RM 79,560.00 per month (RM 1.70/sqft) negotiable.",
+    "shortDesc": "65,340 sqft detached factory in Taman Industri Alam Jaya, 46,800 sqft built-up, 400 amp. Also available for sale.",
+    "description": "Detached Factory For Rent, Taman Industri Alam Jaya, Puncak Alam\n(Also available for sale)\n\nProperty details:\nLand size: 65,340 sqft\nBuilt-up: 46,800 sqft\nEaves height: 28 ft\nGround floor: 39,000 sqft\n1st floor: 7,800 sqft\nPower supply: 3 phase 415V, 50Hz, 400 amperes\n\nAsking rental: RM 79,560.00 per month (RM 1.70/sqft) negotiable.",
     "images": [
       "/api/uploads/1785745738948-wtbf7m.jpeg"
     ],
@@ -797,7 +797,7 @@
       "eaves_height": "28 ft",
       "ground_floor": "39,000 sqft",
       "first_floor": "7,800 sqft",
-      "power_supply": "3 phase 415V, 50Hz — 400 amperes",
+      "power_supply": "3 phase 415V, 50Hz, 400 amperes",
       "rental_psf": "RM 1.70 psf (negotiable)",
       "remarks": "Also available for sale"
     },
@@ -811,12 +811,12 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Kilang Sesebuah Untuk Disewa – Taman Industri Alam Jaya, Puncak Alam",
-        "shortDesc": "Kilang sesebuah 65,340 kp di Taman Industri Alam Jaya — binaan 46,800 kp, 400 amp. Turut ditawarkan untuk jualan."
+        "title": "Kilang Sesebuah Untuk Disewa - Taman Industri Alam Jaya, Puncak Alam",
+        "shortDesc": "Kilang sesebuah 65,340 kp di Taman Industri Alam Jaya, binaan 46,800 kp, 400 amp. Turut ditawarkan untuk jualan."
       },
       "zh": {
-        "title": "独立式厂房出租 — Taman Industri Alam Jaya，Puncak Alam",
-        "shortDesc": "Taman Industri Alam Jaya 65,340 平方尺独立式厂房——建筑面积 46,800 平方尺、400 安培。亦可出售。"
+        "title": "独立式厂房出租 - Taman Industri Alam Jaya，Puncak Alam",
+        "shortDesc": "Taman Industri Alam Jaya 65,340 平方尺独立式厂房，建筑面积 46,800 平方尺、400 安培。亦可出售。"
       }
     }
   },
@@ -843,7 +843,7 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "Detached warehouse in Meru on 100,578 sqft of land — 48,018 sqft built-up, 10.5m ceiling and up to 1,000 amp.",
+    "shortDesc": "Detached warehouse in Meru on 100,578 sqft of land, 48,018 sqft built-up, 10.5m ceiling and up to 1,000 amp.",
     "description": "Meru Detached Warehouse For Sale\n\n- Built-up size / area: 48,018 sqft\n- Land area: 100,578 sqft\n- Floor loading: 1 ton/m²\n- Ceiling height: 10.5 metres\n- Electric supply: maximum 1,000 amp\n\nAsking price RM 25 mil.",
     "images": [
       "/api/uploads/1785746091615-525emc.jpeg",
@@ -874,18 +874,18 @@
     "i18n": {
       "bm": {
         "title": "Gudang Sesebuah Meru Untuk Dijual",
-        "shortDesc": "Gudang sesebuah di Meru atas tanah 100,578 kp — binaan 48,018 kp, siling 10.5m dan kuasa sehingga 1,000 amp."
+        "shortDesc": "Gudang sesebuah di Meru atas tanah 100,578 kp, binaan 48,018 kp, siling 10.5m dan kuasa sehingga 1,000 amp."
       },
       "zh": {
         "title": "巴生 Meru 独立式仓库出售",
-        "shortDesc": "巴生 Meru 独立式仓库，地段 100,578 平方尺——建筑面积 48,018 平方尺、10.5 米净空、电力最高 1,000 安培。"
+        "shortDesc": "巴生 Meru 独立式仓库，地段 100,578 平方尺，建筑面积 48,018 平方尺、10.5 米净空、电力最高 1,000 安培。"
       }
     }
   },
   {
     "id": "mscz46sv29u551",
     "createdAt": "2026-08-03T08:34:51.608Z",
-    "title": "Taiping Perak Industrial Land For Sale – 29.3 Acres",
+    "title": "Taiping Perak Industrial Land For Sale - 29.3 Acres",
     "slug": "taiping-perak-industrial-land-for-sale-29-3-acres-g0ew",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -934,11 +934,11 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Tanah Perindustrian Taiping Perak Untuk Dijual – 29.3 Ekar",
+        "title": "Tanah Perindustrian Taiping Perak Untuk Dijual - 29.3 Ekar",
         "shortDesc": "29.3 ekar tanah perindustrian ringan pegangan bebas di Taiping, Perak dengan akses terus ke jalan utama."
       },
       "zh": {
-        "title": "太平霹雳工业地段出售 — 29.3 英亩",
+        "title": "太平霹雳工业地段出售 - 29.3 英亩",
         "shortDesc": "霹雳太平 29.3 英亩永久地契轻工业地段，直通大路。"
       }
     }
@@ -946,7 +946,7 @@
   {
     "id": "mscz46t2398woq",
     "createdAt": "2026-08-03T08:34:51.608Z",
-    "title": "Detached Factory For Sale – Bandar Enstek, Negeri Sembilan",
+    "title": "Detached Factory For Sale - Bandar Enstek, Negeri Sembilan",
     "slug": "detached-factory-for-sale-bandar-enstek-negeri-sembilan-ptq4",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -966,7 +966,7 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "8.55-acre two-block detached factory in Bandar Enstek — 216,522 sqft built-up, 845 amp per building.",
+    "shortDesc": "8.55-acre two-block detached factory in Bandar Enstek, 216,522 sqft built-up, 845 amp per building.",
     "description": "Detached Factory for Sale, Bandar Enstek N9\n\nLand area 8.55 acres / 372,647 sqft\nBuilt-up area 216,522 sqft\n- Consists of 2 blocks:\nFactory area 101,383 sqft\nLoading bay 5,794 sqft\nEave height: 12 m\nRidge height: 15.9 m\nFloor loading 2.0 tonnes/m²\nPower supply 845 amp x 2 buildings\n\nAsking price RM 57 mil.\n\nContact for more details.",
     "images": [
       "/api/uploads/1785746091639-wo6uer.jpg"
@@ -999,12 +999,12 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Kilang Sesebuah Untuk Dijual – Bandar Enstek, Negeri Sembilan",
-        "shortDesc": "Kilang sesebuah dua blok atas 8.55 ekar di Bandar Enstek — binaan 216,522 kp, 845 amp setiap bangunan."
+        "title": "Kilang Sesebuah Untuk Dijual - Bandar Enstek, Negeri Sembilan",
+        "shortDesc": "Kilang sesebuah dua blok atas 8.55 ekar di Bandar Enstek, binaan 216,522 kp, 845 amp setiap bangunan."
       },
       "zh": {
-        "title": "独立式厂房出售 — 森美兰 Bandar Enstek",
-        "shortDesc": "Bandar Enstek 8.55 英亩双座独立式厂房——建筑面积 216,522 平方尺，每座 845 安培。"
+        "title": "独立式厂房出售 - 森美兰 Bandar Enstek",
+        "shortDesc": "Bandar Enstek 8.55 英亩双座独立式厂房，建筑面积 216,522 平方尺，每座 845 安培。"
       }
     }
   },
@@ -1031,7 +1031,7 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "1-acre detached factory in a matured Puncak Alam industrial area — 29,000 sqft built-up, 12m eaves, 400 amp.",
+    "shortDesc": "1-acre detached factory in a matured Puncak Alam industrial area, 29,000 sqft built-up, 12m eaves, 400 amp.",
     "description": "Puncak Alam Detached Factory For Rent\n\nMatured industrial area, surrounded by F&B, chemical supply industries, engineering companies, etc.\n\nAsking rental RM 50,000/month.\n\nProperty size:\nTotal built-up 29,000 sqft\nFactory area 22,000 sqft\nLand area 1 acre\n\nSpecification:\nMedium industry\nEave height 12m\nPower supply 400 amp",
     "images": [
       "/api/uploads/1785746091646-be41xi.jpeg"
@@ -1062,18 +1062,18 @@
     "i18n": {
       "bm": {
         "title": "Kilang Sesebuah Puncak Alam Untuk Disewa",
-        "shortDesc": "Kilang sesebuah 1 ekar di kawasan perindustrian matang Puncak Alam — binaan 29,000 kp, bumbung 12m, 400 amp."
+        "shortDesc": "Kilang sesebuah 1 ekar di kawasan perindustrian matang Puncak Alam, binaan 29,000 kp, bumbung 12m, 400 amp."
       },
       "zh": {
         "title": "Puncak Alam 独立式厂房出租",
-        "shortDesc": "Puncak Alam 成熟工业区 1 英亩独立式厂房——建筑面积 29,000 平方尺、12 米檐高、400 安培。"
+        "shortDesc": "Puncak Alam 成熟工业区 1 英亩独立式厂房，建筑面积 29,000 平方尺、12 米檐高、400 安培。"
       }
     }
   },
   {
     "id": "mscz46th532wly",
     "createdAt": "2026-08-03T08:34:51.608Z",
-    "title": "Corner Detached Factory For Rent – Rawang",
+    "title": "Corner Detached Factory For Rent - Rawang",
     "slug": "corner-detached-factory-for-rent-rawang-c1qn",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -1093,8 +1093,8 @@
     "baths": null,
     "featured": false,
     "status": "active",
-    "shortDesc": "Corner detached factory in Rawang — 12m warehouse height suitable for high-racking, easy 40ft container access.",
-    "description": "Corner Detached Factory - Rawang\n\nProperty details:\nLand area: 24,876 sq. ft.\nBuilt-up: 14,739 sq. ft.\nPower: 200 amp (3 phase)\nWarehouse height: 12m (39ft) — suitable for high-racking\nFloor loading: 1.0 ton/m²\nHuge corner land for easy 40ft container access\n\nAsking rental RM 25,000/month.",
+    "shortDesc": "Corner detached factory in Rawang, 12m warehouse height suitable for high-racking, easy 40ft container access.",
+    "description": "Corner Detached Factory - Rawang\n\nProperty details:\nLand area: 24,876 sq. ft.\nBuilt-up: 14,739 sq. ft.\nPower: 200 amp (3 phase)\nWarehouse height: 12m (39ft), suitable for high-racking\nFloor loading: 1.0 ton/m²\nHuge corner land for easy 40ft container access\n\nAsking rental RM 25,000/month.",
     "images": [
       "/api/uploads/1785746091653-f1irug.jpeg"
     ],
@@ -1103,13 +1103,13 @@
       "Land 24,876 sqft",
       "Built-up 14,739 sqft",
       "Warehouse height 12m (39ft)",
-      "Corner lot — 40ft container access"
+      "Corner lot, 40ft container access"
     ],
     "attributes": {
       "land_area": "24,876 sqft",
       "built_up": "14,739 sqft",
       "power_supply": "200 amp (3 phase)",
-      "warehouse_height": "12m (39ft) — suitable for high-racking",
+      "warehouse_height": "12m (39ft), suitable for high-racking",
       "floor_loading": "1.0 ton/m²",
       "remarks": "Huge corner land for easy 40ft container access"
     },
@@ -1123,19 +1123,19 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Kilang Sesebuah Lot Penjuru Untuk Disewa – Rawang",
-        "shortDesc": "Kilang sesebuah lot penjuru di Rawang — ketinggian gudang 12m sesuai untuk raking tinggi, akses mudah kontena 40 kaki."
+        "title": "Kilang Sesebuah Lot Penjuru Untuk Disewa - Rawang",
+        "shortDesc": "Kilang sesebuah lot penjuru di Rawang, ketinggian gudang 12m sesuai untuk raking tinggi, akses mudah kontena 40 kaki."
       },
       "zh": {
-        "title": "转角独立式厂房出租 — 万挠",
-        "shortDesc": "万挠转角独立式厂房——12 米仓库高度适合高层货架，40 尺货柜车进出方便。"
+        "title": "转角独立式厂房出租 - 万挠",
+        "shortDesc": "万挠转角独立式厂房，12 米仓库高度适合高层货架，40 尺货柜车进出方便。"
       }
     }
   },
   {
     "id": "mscz46tp6xwl1",
     "createdAt": "2026-08-03T08:34:51.608Z",
-    "title": "End Lot 2.5 Storey Superlink Factory For Rent – Meru",
+    "title": "End Lot 2.5 Storey Superlink Factory For Rent - Meru",
     "slug": "end-lot-2-5-storey-superlink-factory-for-rent-meru-uw9x",
     "categoryId": "cat-mps7nl9l13n27y",
     "subCategoryId": "sub-mps7nla222y3mg",
@@ -1174,7 +1174,7 @@
       "power_supply": "200 amp",
       "cargo_lift": "2 tonnes capacity",
       "features": "Modern design, ESG compliance, solar panel ready, green technology, extra roof top space",
-      "parking": "Extra parking lots — no parking issues"
+      "parking": "Extra parking lots, no parking issues"
     },
     "updatedAt": "2026-08-03T08:34:51.608Z",
     "documents": [
@@ -1186,11 +1186,11 @@
     "segment": "industrial",
     "i18n": {
       "bm": {
-        "title": "Kilang Superlink 2.5 Tingkat Lot Hujung Untuk Disewa – Meru",
+        "title": "Kilang Superlink 2.5 Tingkat Lot Hujung Untuk Disewa - Meru",
         "shortDesc": "Kilang superlink lot hujung di Meru dengan parkir tambahan, siling 40 kaki, sedia panel solar dan lif kargo 2 tan."
       },
       "zh": {
-        "title": "2.5 层超级连排厂房出租 — 巴生 Meru（端头单位）",
+        "title": "2.5 层超级连排厂房出租 - 巴生 Meru（端头单位）",
         "shortDesc": "巴生 Meru 端头超级连排厂房，泊车位充裕、40 尺净空、已预留太阳能板，配 2 吨货梯。"
       }
     }
