@@ -1194,5 +1194,1701 @@
         "shortDesc": "巴生 Meru 端头超级连排厂房，泊车位充裕、40 尺净空、已预留太阳能板，配 2 吨货梯。"
       }
     }
+  },
+  {
+    "id": "mv6qoajc111km4",
+    "createdAt": "2026-10-13T13:51:03.000Z",
+    "title": "Detached Warehouse Factory For Rent - HICOM Seksyen 26, Shah Alam",
+    "slug": "detached-warehouse-factory-for-rent-hicom-seksyen-26-shah-alam-f8cs",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Seksyen 26, HICOM Industrial Estate, Shah Alam",
+    "lat": 3.03129,
+    "lng": 101.56137,
+    "price": 55000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 55,000 /month",
+    "size": 26425,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Detached warehouse factory on 1 acre in HICOM Seksyen 26, Shah Alam, with 26,425 sqft built-up, 800 amp power and a 2-storey office.",
+    "description": "Detached Warehouse Factory For Rent - HICOM Seksyen 26, Shah Alam\n\nProperty details:\nLand size: 1 acre (43,560 sqft)\nBuilt-up: 26,425 sqft (approx.)\nOffice: 4,900 sqft (2 storey)\nPower supply: 800 amp\nFloor loading: 2 tonnes/m²\nEaves height: 20 ft\n\nAsking rental: RM 55,000/month (RM 2.08 psf)",
+    "images": [
+      "/api/uploads/1791899463007-tcku6q.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 1 acre",
+      "Built-up 26,425 sqft",
+      "Power supply 800 amp",
+      "Eave height 20ft"
+    ],
+    "attributes": {
+      "land_area": "1 acre (43,560 sqft)",
+      "built_up": "26,425 sqft (approx.)",
+      "office": "4,900 sqft (2 storey)",
+      "power_supply": "800 amp",
+      "floor_loading": "2 tonnes/m²",
+      "eave_height": "20 ft",
+      "rental_psf": "RM 2.08 psf"
+    },
+    "updatedAt": "2026-10-13T13:51:03.000Z",
+    "documents": [
+      {
+        "name": "Detached Warehouse Factory, Seksyen 26 Hicom Industrial Estate.docx",
+        "url": "/api/uploads/1791899463014-3f41ez.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Gudang Sesebuah Untuk Disewa - HICOM Seksyen 26, Shah Alam",
+        "shortDesc": "Kilang gudang sesebuah atas tanah 1 ekar di HICOM Seksyen 26, Shah Alam, binaan 26,425 kp, kuasa 800 amp dan pejabat 2 tingkat."
+      },
+      "zh": {
+        "title": "独立式仓库厂房出租 - 莎阿南 HICOM 第26区",
+        "shortDesc": "莎阿南 HICOM 第26区 1 英亩独立式仓库厂房，建筑面积 26,425 平方尺，800 安培电力，附两层办公室。"
+      }
+    }
+  },
+  {
+    "id": "mv6qpku02975g0",
+    "createdAt": "2026-10-13T13:52:03.000Z",
+    "title": "Detached Warehouse Factory For Rent - Seksyen 27, Shah Alam",
+    "slug": "detached-warehouse-factory-for-rent-seksyen-27-shah-alam-j09q",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Seksyen 27, Shah Alam",
+    "lat": 3.01396,
+    "lng": 101.56198,
+    "price": 50000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 50,000 /month",
+    "size": 23159,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Detached warehouse factory in Seksyen 27, Shah Alam, with 23,159 sqft built-up on 42,880 sqft of land and an eave height of 28 to 42ft.",
+    "description": "Detached Warehouse Factory For Rent - Seksyen 27, Shah Alam\n\nProperty details:\nLand size: 42,880 sqft\nBuilt-up: 23,159 sqft (approx.)\nOffice: 2,375 sqft\nPower supply: 200 amp\nFloor loading: 1.5 tonnes\nEaves height: 28 to 42 ft\n\nAsking rental: RM 50,000/month",
+    "images": [
+      "/api/uploads/1791899463021-v928eb.jpg",
+      "/api/uploads/1791899463028-kpqluz.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 42,880 sqft",
+      "Built-up 23,159 sqft",
+      "Eave height 28-42ft",
+      "Power supply 200 amp"
+    ],
+    "attributes": {
+      "land_area": "42,880 sqft",
+      "built_up": "23,159 sqft (approx.)",
+      "office": "2,375 sqft",
+      "power_supply": "200 amp",
+      "floor_loading": "1.5 tonnes",
+      "eave_height": "28 to 42 ft"
+    },
+    "updatedAt": "2026-10-13T13:52:03.000Z",
+    "documents": [
+      {
+        "name": "Detached Warehouse Factory, Seksyen 27 Shah Alam.docx",
+        "url": "/api/uploads/1791899463035-uurtpf.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Gudang Sesebuah Untuk Disewa - Seksyen 27, Shah Alam",
+        "shortDesc": "Kilang gudang sesebuah di Seksyen 27, Shah Alam, binaan 23,159 kp atas tanah 42,880 kp dengan ketinggian bumbung 28 hingga 42 kaki."
+      },
+      "zh": {
+        "title": "独立式仓库厂房出租 - 莎阿南第27区",
+        "shortDesc": "莎阿南第27区独立式仓库厂房，建筑面积 23,159 平方尺，地段 42,880 平方尺，檐高 28 至 42 尺。"
+      }
+    }
+  },
+  {
+    "id": "mv6qqv4o390996",
+    "createdAt": "2026-10-13T13:53:03.000Z",
+    "title": "Shared Warehouse Factory For Rent - HICOM Seksyen 33, Shah Alam",
+    "slug": "shared-warehouse-factory-for-rent-hicom-seksyen-33-shah-alam-1qdn",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Warehouse",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Pusat Perindustrian HICOM, Seksyen 33, Shah Alam",
+    "lat": 3.01959,
+    "lng": 101.53884,
+    "price": 42000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 42,000 /month",
+    "size": 26800,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Shared warehouse factory in Pusat Perindustrian HICOM Seksyen 33, Shah Alam, with 26,800 sqft built-up including a 16,800 sqft warehouse, 600 amp power and a ready office.",
+    "description": "Shared Warehouse Factory For Rent - Pusat Perindustrian HICOM Seksyen 33, Shah Alam\n\nProperty details:\nBuilt-up: 26,800 sqft (approx.)\nWarehouse: 16,800 sqft (approx.)\nPower supply: 600 amp\nOffice lobby, meeting room and director's room\nAmple car park\nShared security\n\nAsking rental: RM 42,000/month",
+    "images": [
+      "/api/uploads/1791899463042-f62s4u.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Built-up 26,800 sqft",
+      "Power supply 600 amp",
+      "Ample car park",
+      "Shared security"
+    ],
+    "attributes": {
+      "built_up": "26,800 sqft (approx.)",
+      "warehouse_area": "16,800 sqft (approx.)",
+      "power_supply": "600 amp",
+      "office": "Office lobby, meeting room and director's room",
+      "parking": "Ample car park",
+      "security": "Shared security"
+    },
+    "updatedAt": "2026-10-13T13:53:03.000Z",
+    "documents": [
+      {
+        "name": "Shared Warehouse Factory, Pusat Perindustrian Hicom Seksyen 33, Shah Alam.docx",
+        "url": "/api/uploads/1791899463049-ys9x1r.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Gudang Kongsi Untuk Disewa - HICOM Seksyen 33, Shah Alam",
+        "shortDesc": "Kilang gudang kongsi di Pusat Perindustrian HICOM Seksyen 33, Shah Alam, binaan 26,800 kp termasuk gudang 16,800 kp, kuasa 600 amp dan pejabat sedia ada."
+      },
+      "zh": {
+        "title": "共享仓库厂房出租 - 莎阿南第33区 HICOM 工业中心",
+        "shortDesc": "莎阿南第33区 HICOM 工业中心共享仓库厂房，建筑面积 26,800 平方尺，其中仓库 16,800 平方尺，600 安培电力，附现成办公室。"
+      }
+    }
+  },
+  {
+    "id": "mv6qs5fc47abql",
+    "createdAt": "2026-10-13T13:54:03.000Z",
+    "title": "Semi-D Factory For Rent - HICOM 27 Industrial Park, Shah Alam",
+    "slug": "semi-d-factory-for-rent-hicom-27-industrial-park-shah-alam-9znp",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Factory",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Pusat Perindustrian HICOM 27, Seksyen 27, Shah Alam",
+    "lat": 3.0165,
+    "lng": 101.558,
+    "price": 33000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 33,000 - 36,000 /month",
+    "size": 18727,
+    "sizeUnit": "sqft total built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Semi-D factory in HICOM 27 Industrial Park, Shah Alam, with 18,727 sqft in total, including a 7,165 sqft office, a 3-layer racking area and 41.5ft eaves.",
+    "description": "Semi-D Factory For Rent - Pusat Perindustrian HICOM 27 Industrial Park, Shah Alam\n\nProperty details:\nLand size: 12,723 sqft\nBuilt-up: 3,450 sqft (approx.)\nOffice: 7,165 sqft (approx.)\nRacking: 8,112 sqft (3 layers)\nTotal: 18,727 sqft (approx.)\nPower supply: 150 amp\nFloor loading: 1.5 tonnes\nEaves height: 41.5 ft\n\nAsking rental: RM 33,000 to RM 36,000/month",
+    "images": [
+      "/api/uploads/1791899463056-ce2u4i.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 12,723 sqft",
+      "Total built-up 18,727 sqft",
+      "Eave height 41.5ft",
+      "Power supply 150 amp"
+    ],
+    "attributes": {
+      "land_area": "12,723 sqft",
+      "built_up": "3,450 sqft (approx.)",
+      "office": "7,165 sqft (approx.)",
+      "racking": "8,112 sqft (3 layers)",
+      "total_built_up": "18,727 sqft (approx.)",
+      "power_supply": "150 amp",
+      "floor_loading": "1.5 tonnes",
+      "eave_height": "41.5 ft"
+    },
+    "updatedAt": "2026-10-13T13:54:03.000Z",
+    "documents": [
+      {
+        "name": "Semi-D Factory, Pusat Perindustrian Hicom 27 Industrial Park, Shah Alam.docx",
+        "url": "/api/uploads/1791899463063-2di9wt.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Berkembar Untuk Disewa - Taman Perindustrian HICOM 27, Shah Alam",
+        "shortDesc": "Kilang berkembar di Taman Perindustrian HICOM 27, Shah Alam, jumlah 18,727 kp termasuk pejabat 7,165 kp, ruang rak 3 lapis dan ketinggian bumbung 41.5 kaki."
+      },
+      "zh": {
+        "title": "半独立式厂房出租 - 莎阿南 HICOM 27 工业园",
+        "shortDesc": "莎阿南 HICOM 27 工业园半独立式厂房，总面积 18,727 平方尺，含 7,165 平方尺办公室与三层货架区，檐高 41.5 尺。"
+      }
+    }
+  },
+  {
+    "id": "mv6qtfq0590cmy",
+    "createdAt": "2026-10-13T13:55:03.000Z",
+    "title": "Detached Factory For Rent - Elmina, Shah Alam",
+    "slug": "detached-factory-for-rent-elmina-shah-alam-skiw",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Factory",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Elmina, Shah Alam",
+    "lat": 3.2235,
+    "lng": 101.5235,
+    "price": null,
+    "priceUnit": "MYR",
+    "priceLabel": "Rental on request",
+    "size": 67424,
+    "sizeUnit": "sqft total built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Detached factory in Elmina, Shah Alam, with 67,424 sqft built-up on 1.983 acres, a 14m ceiling, 3 loading bays with dock levellers and CCC for warehouse use.",
+    "description": "Detached Factory For Rent - Elmina, Shah Alam\n\nProperty details:\nLand area: 1.983 acres\nWarehouse: 48,619 sqft\n1st floor: 9,402 sqft\n2nd floor: 9,402 sqft\nTotal built-up: 67,424 sqft\n3 loading bays with dock levellers\nParking: 54 car, 5 lorry and 34 motorcycle bays\nCeiling height: 14m\nPower supply: 150 amp (can be upgraded to 600 amp)\nFloor loading: 2.5 tonnes/m²\nUsage: CCC for warehouse (gudang)\nCCC ready: July 2025\n\nRental: please contact us",
+    "images": [
+      "/api/uploads/1791899463070-95yy0s.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 1.983 acres",
+      "Total built-up 67,424 sqft",
+      "Ceiling height 14m",
+      "3 loading bays"
+    ],
+    "attributes": {
+      "land_area": "1.983 acres",
+      "warehouse_area": "48,619 sqft",
+      "first_floor": "9,402 sqft",
+      "second_floor": "9,402 sqft",
+      "total_built_up": "67,424 sqft",
+      "loading_bays": "3, with dock levellers",
+      "parking": "54 car, 5 lorry and 34 motorcycle bays",
+      "ceiling_height": "14m",
+      "power_supply": "150 amp (upgradeable to 600 amp)",
+      "floor_loading": "2.5 tonnes/m²",
+      "usage": "CCC for warehouse (gudang)",
+      "ccc": "Ready July 2025"
+    },
+    "updatedAt": "2026-10-13T13:55:03.000Z",
+    "documents": [
+      {
+        "name": "Detached Factory For Rent, Elmina Shah Alam.docx",
+        "url": "/api/uploads/1791899463077-ct4yp7.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah Untuk Disewa - Elmina, Shah Alam",
+        "shortDesc": "Kilang sesebuah di Elmina, Shah Alam, binaan 67,424 kp atas tanah 1.983 ekar, siling 14m, 3 ruang memunggah dengan dock leveller dan CCC untuk kegunaan gudang."
+      },
+      "zh": {
+        "title": "独立式厂房出租 - 莎阿南 Elmina",
+        "shortDesc": "莎阿南 Elmina 独立式厂房，1.983 英亩地段，建筑面积 67,424 平方尺，14 米净空，3 个配备升降平台的装卸月台，已获仓库用途 CCC。"
+      }
+    }
+  },
+  {
+    "id": "mv6quq0o62m0p2",
+    "createdAt": "2026-10-13T13:56:03.000Z",
+    "title": "Detached Warehouse For Rent - Elmina Business Park, Shah Alam",
+    "slug": "detached-warehouse-for-rent-elmina-business-park-shah-alam-amhc",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Elmina Business Park, Sungai Buloh, Shah Alam",
+    "lat": 3.22472,
+    "lng": 101.52537,
+    "price": 100000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 100,000 /month",
+    "size": 37355,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Detached warehouse on 1.18 acres in Elmina Business Park, with 37,355 sqft built-up, a 14m ceiling and quick links to the Guthrie Corridor, NKVE and LATAR.",
+    "description": "Detached Warehouse For Rent - Elmina Business Park, Shah Alam (Sungai Buloh)\n\nProperty details:\nLand size: 1.18 acres\nBuilt-up: 37,355 sqft (approx.)\nFactory: 25,210 sqft\nWarehouse: 1,703 sqft\nOffice: 10,442 sqft\nPower supply: 300 amp\nCeiling height: 14m\nFloor loading: 2 tonnes/m²\nCCC: 2026\n\nAccessibility: Guthrie Corridor, NKVE, LATAR, PLUS, ELITE, North East Highway\n\nAsking rental: RM 100,000/month",
+    "images": [
+      "/api/uploads/1791899463084-mtuo2h.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 1.18 acres",
+      "Built-up 37,355 sqft",
+      "Ceiling height 14m",
+      "Power supply 300 amp"
+    ],
+    "attributes": {
+      "land_area": "1.18 acres",
+      "built_up": "37,355 sqft (approx.)",
+      "factory_area": "25,210 sqft",
+      "warehouse_area": "1,703 sqft",
+      "office": "10,442 sqft",
+      "power_supply": "300 amp",
+      "ceiling_height": "14m",
+      "floor_loading": "2 tonnes/m²",
+      "ccc": "2026",
+      "accessibility": "Guthrie Corridor, NKVE, LATAR, PLUS, ELITE, North East Highway"
+    },
+    "updatedAt": "2026-10-13T13:56:03.000Z",
+    "documents": [
+      {
+        "name": "Detached Warehouse Elmina Business Park, Shah Alam Sg Buloh.docx",
+        "url": "/api/uploads/1791899463091-denihy.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Sesebuah Untuk Disewa - Elmina Business Park, Shah Alam",
+        "shortDesc": "Gudang sesebuah atas tanah 1.18 ekar di Elmina Business Park, binaan 37,355 kp, siling 14m dan akses pantas ke Lebuhraya Koridor Guthrie, NKVE dan LATAR."
+      },
+      "zh": {
+        "title": "独立式仓库出租 - 莎阿南 Elmina 商业园",
+        "shortDesc": "Elmina 商业园 1.18 英亩独立式仓库，建筑面积 37,355 平方尺，14 米净空，邻近 Guthrie 走廊大道、NKVE 与 LATAR。"
+      }
+    }
+  },
+  {
+    "id": "mv6qw0bc73w9t1",
+    "createdAt": "2026-10-13T13:57:03.000Z",
+    "title": "Corner Semi-D Warehouse For Rent - Elmina Business Park, Shah Alam",
+    "slug": "corner-semi-d-warehouse-for-rent-elmina-business-park-shah-alam-nysa",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Warehouse",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Elmina Business Park, Sungai Buloh, Shah Alam",
+    "lat": 3.2256,
+    "lng": 101.5268,
+    "price": 40000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 40,000 /month",
+    "size": 14800,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Corner semi-D warehouse in Elmina Business Park, with 14,800 sqft built-up on 28,352 sqft of land and a 9m ceiling. Also available for sale.",
+    "description": "Corner Semi-D Warehouse For Rent - Elmina Business Park, Shah Alam (Sungai Buloh)\n\nProperty details:\nLand size: 28,352 sqft\nBuilt-up: 14,800 sqft (approx.)\nPower supply: 200 amp\nCeiling height: 9m / 30ft\nFloor loading: 1.5 tonnes/m²\nCCC: 2026\n\nAccessibility: Guthrie Corridor, NKVE, LATAR, PLUS, ELITE, North East Highway\n\nRental: RM 40,000/month\nAlso available for sale: RM 14 million",
+    "images": [
+      "/api/uploads/1791899463098-ekcde1.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 28,352 sqft",
+      "Built-up 14,800 sqft",
+      "Ceiling height 9m (30ft)",
+      "Also available for sale"
+    ],
+    "attributes": {
+      "land_area": "28,352 sqft",
+      "built_up": "14,800 sqft (approx.)",
+      "power_supply": "200 amp",
+      "ceiling_height": "9m / 30ft",
+      "floor_loading": "1.5 tonnes/m²",
+      "ccc": "2026",
+      "lot_type": "Corner",
+      "accessibility": "Guthrie Corridor, NKVE, LATAR, PLUS, ELITE, North East Highway",
+      "remarks": "Also available for sale at RM 14 million"
+    },
+    "updatedAt": "2026-10-13T13:57:03.000Z",
+    "documents": [
+      {
+        "name": "Semi-Detached Warehouse (Corner) Elmina Business Park, Shah Alam Sg Buloh.docx",
+        "url": "/api/uploads/1791899463105-7kz5hs.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Berkembar Lot Penjuru Untuk Disewa - Elmina Business Park, Shah Alam",
+        "shortDesc": "Gudang berkembar lot penjuru di Elmina Business Park, binaan 14,800 kp atas tanah 28,352 kp dengan siling 9m. Turut ditawarkan untuk jualan."
+      },
+      "zh": {
+        "title": "转角半独立式仓库出租 - 莎阿南 Elmina 商业园",
+        "shortDesc": "Elmina 商业园转角半独立式仓库，建筑面积 14,800 平方尺，地段 28,352 平方尺，9 米净空，亦可出售。"
+      }
+    }
+  },
+  {
+    "id": "mv6qxam0859b5n",
+    "createdAt": "2026-10-13T13:58:03.000Z",
+    "title": "Semi-D Warehouse For Rent - Elmina Business Park, Shah Alam",
+    "slug": "semi-d-warehouse-for-rent-elmina-business-park-shah-alam-n14q",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Warehouse",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Elmina Business Park, Sungai Buloh, Shah Alam",
+    "lat": 3.2261,
+    "lng": 101.5274,
+    "price": 35000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 35,000 /month",
+    "size": 14800,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Intermediate semi-D warehouse in Elmina Business Park, with 14,800 sqft built-up on a 120 x 200 ft lot, a 9m ceiling and 200 amp power.",
+    "description": "Semi-D Warehouse (Intermediate) For Rent - Elmina Business Park, Shah Alam (Sungai Buloh)\n\nProperty details:\nLand size: 24,000 sqft (120 x 200 ft)\nBuilt-up: 14,800 sqft (approx.)\nPower supply: 200 amp\nCeiling height: 9m / 30ft\nFloor loading: 1.5 tonnes/m²\nCCC: 2026\n\nAccessibility: Guthrie Corridor, NKVE, LATAR, PLUS, ELITE, North East Highway\n\nRental: RM 35,000/month",
+    "images": [
+      "/api/uploads/1791899463112-fmm8kl.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 24,000 sqft",
+      "Built-up 14,800 sqft",
+      "Ceiling height 9m (30ft)",
+      "Power supply 200 amp"
+    ],
+    "attributes": {
+      "land_area": "24,000 sqft (120 x 200 ft)",
+      "built_up": "14,800 sqft (approx.)",
+      "power_supply": "200 amp",
+      "ceiling_height": "9m / 30ft",
+      "floor_loading": "1.5 tonnes/m²",
+      "ccc": "2026",
+      "lot_type": "Intermediate",
+      "accessibility": "Guthrie Corridor, NKVE, LATAR, PLUS, ELITE, North East Highway"
+    },
+    "updatedAt": "2026-10-13T13:58:03.000Z",
+    "documents": [
+      {
+        "name": "Semi-Detached Warehouse (Inter) Elmina Business Park, Shah Alam Sg Buloh.docx",
+        "url": "/api/uploads/1791899463119-q0lc5o.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Berkembar Untuk Disewa - Elmina Business Park, Shah Alam",
+        "shortDesc": "Gudang berkembar lot tengah di Elmina Business Park, binaan 14,800 kp atas lot 120 x 200 kaki, siling 9m dan kuasa 200 amp."
+      },
+      "zh": {
+        "title": "半独立式仓库出租 - 莎阿南 Elmina 商业园",
+        "shortDesc": "Elmina 商业园半独立式仓库（中间单位），建筑面积 14,800 平方尺，地段 120 x 200 尺，9 米净空，200 安培电力。"
+      }
+    }
+  },
+  {
+    "id": "mv6qykwo966bc7",
+    "createdAt": "2026-10-13T13:59:03.000Z",
+    "title": "4 Storey Detached Warehouse For Rent - Bukit Jelutong, Shah Alam",
+    "slug": "4-storey-detached-warehouse-for-rent-bukit-jelutong-shah-alam-tiyy",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Bukit Jelutong, Shah Alam",
+    "lat": 3.1035,
+    "lng": 101.536,
+    "price": 231537.5,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 231,537.50 /month",
+    "size": 92615,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "4-storey office with a 3-storey warehouse in Bukit Jelutong, with 92,615 sqft built-up, freight and passenger lifts, basement parking for up to 75 cars and up to 1000 amp.",
+    "description": "4 Storey Detached Warehouse For Rent - Bukit Jelutong, Shah Alam\n\nProperty details:\n4-storey office + 3-storey warehouse\nLand size: 60,052 sqft\nBuilt-up: 92,615 sqft (approx.)\nFactory: ground 21,354 sqft, 1st floor 21,827 sqft, 2nd floor 22,290 sqft\nOffice: ground 5,952 sqft, 1st to 3rd floor 6,652 sqft each\nPower supply: up to 1000 amp\nFloor loading: 1.5 tonnes/m² (each floor)\nCeiling height: 7m to 7.5m (each floor)\nBasement car park (up to 75 cars)\nPassenger lift: 1,160kg\nFreight lift: 2,500kg\nService lift: 1,600kg\nSprinkler system\n\nAsking rental: RM 231,537.50/month (RM 2.50 psf)",
+    "images": [
+      "/api/uploads/1791899463126-4xzdl9.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 60,052 sqft",
+      "Built-up 92,615 sqft",
+      "Power up to 1000 amp",
+      "Sprinkler system"
+    ],
+    "attributes": {
+      "building": "4-storey office + 3-storey warehouse",
+      "land_area": "60,052 sqft",
+      "built_up": "92,615 sqft (approx.)",
+      "factory_area": "Ground 21,354 sqft, 1st 21,827 sqft, 2nd 22,290 sqft",
+      "office": "Ground 5,952 sqft, 1st to 3rd 6,652 sqft each",
+      "power_supply": "Up to 1000 amp",
+      "floor_loading": "1.5 tonnes/m² (each floor)",
+      "ceiling_height": "7m to 7.5m (each floor)",
+      "parking": "Basement car park (up to 75)",
+      "lifts": "Passenger 1,160kg, freight 2,500kg, service 1,600kg",
+      "fire_protection": "Sprinkler system",
+      "rental_psf": "RM 2.50 psf"
+    },
+    "updatedAt": "2026-10-13T13:59:03.000Z",
+    "documents": [
+      {
+        "name": "4 Storey Detached Warehouse Bukit Jelutong, Shah Alam.docx",
+        "url": "/api/uploads/1791899463133-z2o3l1.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Sesebuah 4 Tingkat Untuk Disewa - Bukit Jelutong, Shah Alam",
+        "shortDesc": "Pejabat 4 tingkat dengan gudang 3 tingkat di Bukit Jelutong, binaan 92,615 kp, lif barang dan lif penumpang, parkir bawah tanah untuk 75 kereta dan kuasa sehingga 1000 amp."
+      },
+      "zh": {
+        "title": "4 层独立式仓库出租 - 莎阿南 Bukit Jelutong",
+        "shortDesc": "Bukit Jelutong 4 层办公楼连 3 层仓库，建筑面积 92,615 平方尺，设货梯与客梯，地下停车场可停 75 辆车，电力最高 1000 安培。"
+      }
+    }
+  },
+  {
+    "id": "mv6qzv7ca5fv0a",
+    "createdAt": "2026-10-13T14:00:03.000Z",
+    "title": "5.3 Acre Detached Warehouse For Rent - Bukit Jelutong, Shah Alam",
+    "slug": "5-3-acre-detached-warehouse-for-rent-bukit-jelutong-shah-alam-h1j0",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Bukit Jelutong, Shah Alam",
+    "lat": 3.1085,
+    "lng": 101.5415,
+    "price": 348888,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 348,888 /month",
+    "size": 143864,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "5.3-acre detached warehouse in Bukit Jelutong with 143,864 sqft built-up, a 40ft ceiling, 15 loading bays, 5 to 10 tonne overhead cranes and 10 tonne/m² floor loading.",
+    "description": "Detached Warehouse For Rent - Bukit Jelutong (5.3 acres), Shah Alam\n\nProperty details:\nLand size: 241,888 sqft (5.3 acres)\nBuilt-up: 143,864 sqft (approx.)\nWarehouse: 117,707 sqft\nOffice: 26,157 sqft (ground floor)\nPower supply: 300 amp\nFloor loading: 10 tonnes/m²\nCeiling height: 40 ft\nCar park: 40 bays\nOverhead cranes: 5 to 10 tonnes\nLoading bays: 15\n\nAsking rental: RM 348,888/month (RM 2.50 psf)\nAlso available for sale: RM 88.8 million to RM 100 million",
+    "images": [
+      "/api/uploads/1791899463140-febr66.jpg",
+      "/api/uploads/1791899463147-wqplga.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 241,888 sqft",
+      "Built-up 143,864 sqft",
+      "Ceiling height 40ft",
+      "15 loading bays"
+    ],
+    "attributes": {
+      "land_area": "241,888 sqft (5.3 acres)",
+      "built_up": "143,864 sqft (approx.)",
+      "warehouse_area": "117,707 sqft",
+      "office": "26,157 sqft (ground floor)",
+      "power_supply": "300 amp",
+      "floor_loading": "10 tonnes/m²",
+      "ceiling_height": "40 ft",
+      "parking": "40 car park bays",
+      "overhead_crane": "5 to 10 tonnes",
+      "loading_bays": "15",
+      "rental_psf": "RM 2.50 psf",
+      "remarks": "Also available for sale, asking RM 88.8 million to RM 100 million"
+    },
+    "updatedAt": "2026-10-13T14:00:03.000Z",
+    "documents": [
+      {
+        "name": "Detached Warehouse Bukit Jelutong 5.3Acre, Shah Alam.docx",
+        "url": "/api/uploads/1791899463154-nfbw6t.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Sesebuah 5.3 Ekar Untuk Disewa - Bukit Jelutong, Shah Alam",
+        "shortDesc": "Gudang sesebuah 5.3 ekar di Bukit Jelutong, binaan 143,864 kp dengan siling 40 kaki, 15 ruang memunggah, kren atas 5 hingga 10 tan dan beban lantai 10 tan/m²."
+      },
+      "zh": {
+        "title": "5.3 英亩独立式仓库出租 - 莎阿南 Bukit Jelutong",
+        "shortDesc": "Bukit Jelutong 5.3 英亩独立式仓库，建筑面积 143,864 平方尺，40 尺净空，15 个装卸月台，5 至 10 吨天车，楼面承重每平方米 10 吨。"
+      }
+    }
+  },
+  {
+    "id": "mv6r15i0b9urka",
+    "createdAt": "2026-10-13T14:01:03.000Z",
+    "title": "Premium Detached Warehouse Factory For Rent - Meru, Klang",
+    "slug": "premium-detached-warehouse-factory-for-rent-meru-klang-4442",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "rent",
+    "city": "Klang",
+    "state": "Selangor",
+    "address": "Meru, Klang",
+    "lat": 3.13868,
+    "lng": 101.44113,
+    "price": 167363,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 167,363 /month",
+    "size": 76074,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Premium detached warehouse factory on 2.69 acres in Meru, Klang, with 76,074 sqft built-up, a 13 to 18m ceiling, up to 6000 amp and trailer-friendly access. Also available for sale.",
+    "description": "Premium Detached Warehouse Factory For Rent - Meru, Klang\n\nProperty details:\nLand size: 2.69 acres\nBuilt-up: 76,074 sqft (approx., including office)\n2-storey office with workstations, meeting room, pantry, waiting room, surau and staff room\nProduction office / staff room\nPower supply: up to 6000 amp\nCeiling height: 13m to 18m\nFloor loading: 5 tonnes/m²\nSprinkler system\nDual entry\nTrailer-friendly access\nWeighing bridge\n\nAsking rental: RM 167,363/month (RM 2.20 psf)\nAlso available for sale: RM 35,797,795",
+    "images": [
+      "/api/uploads/1791899463161-qn2f4s.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 2.69 acres",
+      "Built-up 76,074 sqft",
+      "Ceiling height 13-18m",
+      "Power up to 6000 amp"
+    ],
+    "attributes": {
+      "land_area": "2.69 acres",
+      "built_up": "76,074 sqft (approx., including office)",
+      "office": "2-storey office with workstations, meeting room, pantry, waiting room, surau and staff room",
+      "power_supply": "Up to 6000 amp",
+      "ceiling_height": "13m to 18m",
+      "floor_loading": "5 tonnes/m²",
+      "features": "Sprinkler system, dual entry, trailer-friendly access, weighing bridge",
+      "rental_psf": "RM 2.20 psf",
+      "remarks": "Also available for sale at RM 35,797,795"
+    },
+    "updatedAt": "2026-10-13T14:01:03.000Z",
+    "documents": [
+      {
+        "name": "Premium Detached Warehouse Factory, Meru Klang.docx",
+        "url": "/api/uploads/1791899463168-jaxuvj.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Gudang Sesebuah Premium Untuk Disewa - Meru, Klang",
+        "shortDesc": "Kilang gudang sesebuah premium atas tanah 2.69 ekar di Meru, Klang, binaan 76,074 kp, siling 13 hingga 18m, kuasa sehingga 6000 amp dan akses mesra treler. Turut ditawarkan untuk jualan."
+      },
+      "zh": {
+        "title": "高端独立式仓库厂房出租 - 巴生 Meru",
+        "shortDesc": "巴生 Meru 2.69 英亩高端独立式仓库厂房，建筑面积 76,074 平方尺，13 至 18 米净空，电力最高 6000 安培，方便拖车进出，亦可出售。"
+      }
+    }
+  },
+  {
+    "id": "mv6r2fsoc6he7w",
+    "createdAt": "2026-10-13T14:02:03.000Z",
+    "title": "Detached Warehouse Factory For Rent - Batu 22, Ijok",
+    "slug": "detached-warehouse-factory-for-rent-batu-22-ijok-zlvm",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "rent",
+    "city": "Ijok",
+    "state": "Selangor",
+    "address": "Batu 22, Ijok, Kuala Selangor",
+    "lat": 3.29591,
+    "lng": 101.44033,
+    "price": null,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 1.50 psf /month",
+    "size": 61515,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Two-unit detached warehouse factory on 2 acres of freehold land zoned for heavy industry in Batu 22, Ijok, with 61,515 sqft built-up and a 30ft ceiling. Also available for sale.",
+    "description": "Detached Warehouse Factory For Rent - Batu 22, Ijok\n\nProperty details:\n2 units\nLand size: 2 acres\nBuilt-up: 61,515 sqft (approx.)\nFactory: 57,145 sqft (approx.)\nOffice: 3,396 sqft (3 storey)\nPower supply: up to 300 + 200 + 300 amp\nFloor loading: 1 tonne/m²\nCeiling height: 30 ft\nFreehold\nHeavy industry\n\nAsking rental: RM 1.50 psf (negotiable)\nAlso available for sale: RM 18 million",
+    "images": [
+      "/api/uploads/1791899463175-y6221t.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 2 acres",
+      "Built-up 61,515 sqft",
+      "Ceiling height 30ft",
+      "Freehold"
+    ],
+    "attributes": {
+      "units": "2",
+      "land_area": "2 acres",
+      "built_up": "61,515 sqft (approx.)",
+      "factory_area": "57,145 sqft (approx.)",
+      "office": "3,396 sqft (3 storey)",
+      "power_supply": "Up to 300 + 200 + 300 amp",
+      "floor_loading": "1 tonne/m²",
+      "ceiling_height": "30 ft",
+      "tenure": "Freehold",
+      "category": "Heavy Industry",
+      "rental_psf": "RM 1.50 psf (negotiable)",
+      "remarks": "Also available for sale at RM 18 million"
+    },
+    "updatedAt": "2026-10-13T14:02:03.000Z",
+    "documents": [
+      {
+        "name": "Detached Warehouse Factory, Batu 22, Ijok.docx",
+        "url": "/api/uploads/1791899463182-6jtnk8.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Gudang Sesebuah Untuk Disewa - Batu 22, Ijok",
+        "shortDesc": "Kilang gudang sesebuah 2 unit atas tanah industri berat pegangan bebas 2 ekar di Batu 22, Ijok, binaan 61,515 kp dengan siling 30 kaki. Turut ditawarkan untuk jualan."
+      },
+      "zh": {
+        "title": "独立式仓库厂房出租 - 依约 Batu 22",
+        "shortDesc": "依约 Batu 22 两个单位独立式仓库厂房，2 英亩永久地契重工业地段，建筑面积 61,515 平方尺，30 尺净空，亦可出售。"
+      }
+    }
+  },
+  {
+    "id": "mv6r3q3cd7sosm",
+    "createdAt": "2026-10-13T14:03:03.000Z",
+    "title": "Semi-D Factory For Rent - KIIP Kapar (Type KB3)",
+    "slug": "semi-d-factory-for-rent-kiip-kapar-type-kb3-ggtk",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Factory",
+    "dealType": "rent",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "KIIP, Kapar, Klang",
+    "lat": 3.1395,
+    "lng": 101.3765,
+    "price": 25000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 25,000 /month",
+    "size": 15260,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Semi-D factory (type KB3) in KIIP Kapar with 15,260 sqft built-up on 23,282 sqft of land, a 40ft ceiling and 3 tonne/m² floor loading, close to the WCE, KESAS and SKVE.",
+    "description": "Semi-D Factory For Rent - KIIP Kapar\n\nProperty details:\nType: KB3\nLand size: 23,282 sqft\nBuilt-up: 15,260 sqft\nPower supply: 400 amp\nCeiling height: 40 ft\nFloor loading: 3 tonnes/m²\n\nAccessibility: WCE, KESAS, SKVE\n\nRental: RM 25,000/month",
+    "images": [
+      "/api/uploads/1791899463189-s4oavi.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 23,282 sqft",
+      "Built-up 15,260 sqft",
+      "Ceiling height 40ft",
+      "Power supply 400 amp"
+    ],
+    "attributes": {
+      "unit_type": "KB3",
+      "land_area": "23,282 sqft",
+      "built_up": "15,260 sqft",
+      "power_supply": "400 amp",
+      "ceiling_height": "40 ft",
+      "floor_loading": "3 tonnes/m²",
+      "accessibility": "WCE, KESAS, SKVE"
+    },
+    "updatedAt": "2026-10-13T14:03:03.000Z",
+    "documents": [
+      {
+        "name": "Semi-Detached Factory, KIIP Kapar.docx",
+        "url": "/api/uploads/1791899463196-xvfiab.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Berkembar Untuk Disewa - KIIP Kapar (Jenis KB3)",
+        "shortDesc": "Kilang berkembar (jenis KB3) di KIIP Kapar, binaan 15,260 kp atas tanah 23,282 kp, siling 40 kaki dan beban lantai 3 tan/m², berhampiran WCE, KESAS dan SKVE."
+      },
+      "zh": {
+        "title": "半独立式厂房出租 - 加埔 KIIP（KB3 型）",
+        "shortDesc": "加埔 KIIP 半独立式厂房（KB3 型），建筑面积 15,260 平方尺，地段 23,282 平方尺，40 尺净空，楼面承重每平方米 3 吨，邻近 WCE、KESAS 与 SKVE。"
+      }
+    }
+  },
+  {
+    "id": "mv6r50e0e95p4i",
+    "createdAt": "2026-10-13T14:04:03.000Z",
+    "title": "Semi-D Factory For Rent - KIIP Kapar (Type KB2)",
+    "slug": "semi-d-factory-for-rent-kiip-kapar-type-kb2-esap",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Factory",
+    "dealType": "rent",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "KIIP, Kapar, Klang",
+    "lat": 3.14,
+    "lng": 101.3775,
+    "price": 23000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 23,000 /month",
+    "size": 13000,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Freehold semi-D factory (type KB2) in KIIP Kapar with about 13,000 sqft built-up on 20,000 sqft of land, 40ft eaves and 400 amp power.",
+    "description": "Semi-D Factory For Rent - KIIP Kapar\n\nProperty details:\nType: KB2\nLand size: 20,000 sqft (approx.)\nBuilt-up: 13,000 sqft (approx.)\nPower supply: 400 amp\nEaves height: 40 ft\nFloor loading: 3 tonnes/m²\nFreehold\n\nAccessibility: WCE, KESAS, SKVE\n\nRental: RM 23,000/month",
+    "images": [
+      "/api/uploads/1791899463203-72jrvm.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 20,000 sqft",
+      "Built-up 13,000 sqft",
+      "Eave height 40ft",
+      "Freehold"
+    ],
+    "attributes": {
+      "unit_type": "KB2",
+      "land_area": "20,000 sqft (approx.)",
+      "built_up": "13,000 sqft (approx.)",
+      "power_supply": "400 amp",
+      "eave_height": "40 ft",
+      "floor_loading": "3 tonnes/m²",
+      "tenure": "Freehold",
+      "accessibility": "WCE, KESAS, SKVE"
+    },
+    "updatedAt": "2026-10-13T14:04:03.000Z",
+    "documents": [
+      {
+        "name": "Semi-Detached Factory, KIIP Kapar.docx",
+        "url": "/api/uploads/1791899463210-cok1nj.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Berkembar Untuk Disewa - KIIP Kapar (Jenis KB2)",
+        "shortDesc": "Kilang berkembar pegangan bebas (jenis KB2) di KIIP Kapar, binaan kira-kira 13,000 kp atas tanah 20,000 kp dengan ketinggian bumbung 40 kaki dan kuasa 400 amp."
+      },
+      "zh": {
+        "title": "半独立式厂房出租 - 加埔 KIIP（KB2 型）",
+        "shortDesc": "加埔 KIIP 永久地契半独立式厂房（KB2 型），建筑面积约 13,000 平方尺，地段约 20,000 平方尺，檐高 40 尺，400 安培电力。"
+      }
+    }
+  },
+  {
+    "id": "mv6r6aoof4p28a",
+    "createdAt": "2026-10-13T14:05:03.000Z",
+    "title": "Semi-D Factory For Rent - KIIP Kapar (Type KK1)",
+    "slug": "semi-d-factory-for-rent-kiip-kapar-type-kk1-s32k",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Factory",
+    "dealType": "rent",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "KIIP, Kapar, Klang",
+    "lat": 3.1405,
+    "lng": 101.3785,
+    "price": 15000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 15,000 /month",
+    "size": 8016,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Freehold semi-D factory (type KK1) in KIIP Kapar with 8,016 sqft built-up and 40ft eaves, suited to warehousing, manufacturing, logistics and e-commerce.",
+    "description": "Semi-D Factory For Rent - KIIP Kapar\n\nProperty details:\nType: KK1\nLand size: 11,529 sqft\nBuilt-up: 8,016 sqft\nPower supply: 300 amp\nEaves height: 40 ft\nFloor loading: 3 tonnes/m²\nFreehold\n\nPerfect for: warehouse, manufacturing, logistics, distribution centre, engineering, storage, e-commerce\n\nAccessibility: WCE, KESAS, SKVE\n\nRental: RM 15,000/month",
+    "images": [
+      "/api/uploads/1791899463217-puakhr.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 11,529 sqft",
+      "Built-up 8,016 sqft",
+      "Eave height 40ft",
+      "Freehold"
+    ],
+    "attributes": {
+      "unit_type": "KK1",
+      "land_area": "11,529 sqft",
+      "built_up": "8,016 sqft",
+      "power_supply": "300 amp",
+      "eave_height": "40 ft",
+      "floor_loading": "3 tonnes/m²",
+      "tenure": "Freehold",
+      "suitable_for": "Warehouse, manufacturing, logistics, distribution centre, engineering, storage, e-commerce",
+      "accessibility": "WCE, KESAS, SKVE"
+    },
+    "updatedAt": "2026-10-13T14:05:03.000Z",
+    "documents": [
+      {
+        "name": "Semi-Detached Factory, KIIP Kapar.docx",
+        "url": "/api/uploads/1791899463224-7xfo4x.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Berkembar Untuk Disewa - KIIP Kapar (Jenis KK1)",
+        "shortDesc": "Kilang berkembar pegangan bebas (jenis KK1) di KIIP Kapar, binaan 8,016 kp dengan ketinggian bumbung 40 kaki, sesuai untuk pergudangan, pembuatan, logistik dan e-dagang."
+      },
+      "zh": {
+        "title": "半独立式厂房出租 - 加埔 KIIP（KK1 型）",
+        "shortDesc": "加埔 KIIP 永久地契半独立式厂房（KK1 型），建筑面积 8,016 平方尺，檐高 40 尺，适合仓储、制造、物流与电商。"
+      }
+    }
+  },
+  {
+    "id": "mv6r7kzcg8pi0s",
+    "createdAt": "2026-10-13T14:06:03.000Z",
+    "title": "Semi-D Warehouse For Rent - KIIP Kapar (Type KB1)",
+    "slug": "semi-d-warehouse-for-rent-kiip-kapar-type-kb1-on8p",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Warehouse",
+    "dealType": "rent",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "KIIP, Kapar, Klang",
+    "lat": 3.139,
+    "lng": 101.3755,
+    "price": 23000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 23,000 /month",
+    "size": 13080,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Semi-D warehouse (type KB1) in KIIP Kapar with 13,080 sqft built-up, a 10,800 sqft ground floor, a 40ft ceiling and 400 amp power.",
+    "description": "Semi-D Warehouse For Rent - KIIP Kapar\n\nProperty details:\nType: KB1\nLand size: 20,825 sqft\nBuilt-up: 13,080 sqft\nGround floor: 10,800 sqft\nPower supply: 400 amp\nCeiling height: 40 ft\nFloor loading: 3 tonnes/m²\n\nAccessibility: WCE, KESAS, SKVE\n\nRental: RM 23,000/month",
+    "images": [
+      "/api/uploads/1791899463231-02u7jh.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 20,825 sqft",
+      "Built-up 13,080 sqft",
+      "Ground floor 10,800 sqft",
+      "Ceiling height 40ft"
+    ],
+    "attributes": {
+      "unit_type": "KB1",
+      "land_area": "20,825 sqft",
+      "built_up": "13,080 sqft",
+      "ground_floor": "10,800 sqft",
+      "power_supply": "400 amp",
+      "ceiling_height": "40 ft",
+      "floor_loading": "3 tonnes/m²",
+      "accessibility": "WCE, KESAS, SKVE"
+    },
+    "updatedAt": "2026-10-13T14:06:03.000Z",
+    "documents": [
+      {
+        "name": "Semi-Detached Warehouse, KIIP Kapar.docx",
+        "url": "/api/uploads/1791899463238-zrw5k1.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Berkembar Untuk Disewa - KIIP Kapar (Jenis KB1)",
+        "shortDesc": "Gudang berkembar (jenis KB1) di KIIP Kapar, binaan 13,080 kp dengan tingkat bawah 10,800 kp, siling 40 kaki dan kuasa 400 amp."
+      },
+      "zh": {
+        "title": "半独立式仓库出租 - 加埔 KIIP（KB1 型）",
+        "shortDesc": "加埔 KIIP 半独立式仓库（KB1 型），建筑面积 13,080 平方尺，底层 10,800 平方尺，40 尺净空，400 安培电力。"
+      }
+    }
+  },
+  {
+    "id": "mv6r8va0h9l7hs",
+    "createdAt": "2026-10-13T14:07:03.000Z",
+    "title": "3 Storey Detached Factory For Rent - Jalan Timah, Kapar",
+    "slug": "3-storey-detached-factory-for-rent-jalan-timah-kapar-nxb4",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Factory",
+    "dealType": "rent",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "Jalan Timah, Kapar, Klang",
+    "lat": 3.135,
+    "lng": 101.37,
+    "price": 68000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 68,000 /month",
+    "size": 37640,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "3-storey detached factory on 1.26 acres along Jalan Timah, Kapar, with 37,640 sqft built-up, a 27,200 sqft warehouse, a 40ft ceiling and a passenger lift. Also available for sale.",
+    "description": "3 Storey Detached Factory For Rent - Jalan Timah, Kapar\n\nProperty details:\nLand size: 55,000 sqft (1.26 acres)\nBuilt-up: 37,640 sqft\nWarehouse: 27,200 sqft (160 x 170 ft)\nPower supply: 400 amp\nCeiling height: 40 ft\nFloor loading: 3 tonnes/m²\nPassenger lift\n\nAccessibility: WCE, KESAS, SKVE\n\nRental: RM 68,000/month\nAlso available for sale: RM 18.5 million",
+    "images": [
+      "/api/uploads/1791899463245-fs19wx.jpeg",
+      "/api/uploads/1791899463252-lw5l3j.jpeg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 1.26 acres",
+      "Built-up 37,640 sqft",
+      "Ceiling height 40ft",
+      "Also available for sale"
+    ],
+    "attributes": {
+      "land_area": "55,000 sqft (1.26 acres)",
+      "built_up": "37,640 sqft",
+      "warehouse_area": "27,200 sqft (160 x 170 ft)",
+      "power_supply": "400 amp",
+      "ceiling_height": "40 ft",
+      "floor_loading": "3 tonnes/m²",
+      "lift": "Passenger lift",
+      "accessibility": "WCE, KESAS, SKVE",
+      "remarks": "Also available for sale at RM 18.5 million"
+    },
+    "updatedAt": "2026-10-13T14:07:03.000Z",
+    "documents": [
+      {
+        "name": "3 Storey Detached Factory, Jalan Timah, Kapar.docx",
+        "url": "/api/uploads/1791899463259-elspz0.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah 3 Tingkat Untuk Disewa - Jalan Timah, Kapar",
+        "shortDesc": "Kilang sesebuah 3 tingkat atas tanah 1.26 ekar di Jalan Timah, Kapar, binaan 37,640 kp dengan gudang 27,200 kp, siling 40 kaki dan lif penumpang. Turut ditawarkan untuk jualan."
+      },
+      "zh": {
+        "title": "3 层独立式厂房出租 - 加埔 Jalan Timah",
+        "shortDesc": "加埔 Jalan Timah 3 层独立式厂房，1.26 英亩地段，建筑面积 37,640 平方尺，含 27,200 平方尺仓库，40 尺净空，设客梯，亦可出售。"
+      }
+    }
+  },
+  {
+    "id": "mv6ra5koi976p0",
+    "createdAt": "2026-10-13T14:08:03.000Z",
+    "title": "2.5 Storey Detached Factory For Rent - KIIP 2, Kapar",
+    "slug": "2-5-storey-detached-factory-for-rent-kiip-2-kapar-npum",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Factory",
+    "dealType": "rent",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "KIIP 2, Kapar, Klang",
+    "lat": 3.142,
+    "lng": 101.38,
+    "price": 150000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 150,000 /month",
+    "size": 66671,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Freehold 2.5-storey detached factory on 2.326 acres in KIIP 2, Kapar, with 66,671 sqft built-up, 1200 amp power, a 40ft ceiling and fire sprinklers. Also available for sale.",
+    "description": "2.5 Storey Detached Factory For Rent - KIIP 2, Kapar\n\nProperty details:\nLand size: 101,299 sqft (2.326 acres)\nBuilt-up: 66,671 sqft\nFactory: 57,833 sqft\nPower supply: 1200 amp\nCeiling height: 40 ft\nFloor loading: 3 tonnes/m²\nFire sprinkler\nFacing north\nFreehold\n\nAccessibility: WCE, KESAS, SKVE\n\nRental: RM 150,000/month (RM 2.20 psf)\nAlso available for sale: RM 26.7 million",
+    "images": [
+      "/api/uploads/1791899463266-u7voat.jpg",
+      "/api/uploads/1791899463273-iy25ee.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 2.326 acres",
+      "Built-up 66,671 sqft",
+      "Power supply 1200 amp",
+      "Freehold"
+    ],
+    "attributes": {
+      "land_area": "101,299 sqft (2.326 acres)",
+      "built_up": "66,671 sqft",
+      "factory_area": "57,833 sqft",
+      "power_supply": "1200 amp",
+      "ceiling_height": "40 ft",
+      "floor_loading": "3 tonnes/m²",
+      "fire_protection": "Fire sprinkler",
+      "orientation": "Facing north",
+      "tenure": "Freehold",
+      "rental_psf": "RM 2.20 psf",
+      "accessibility": "WCE, KESAS, SKVE",
+      "remarks": "Also available for sale at RM 26.7 million"
+    },
+    "updatedAt": "2026-10-13T14:08:03.000Z",
+    "documents": [
+      {
+        "name": "2.5 Storey Detached Factory, KIIP 2, Kapar.docx",
+        "url": "/api/uploads/1791899463280-fin45a.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah 2.5 Tingkat Untuk Disewa - KIIP 2, Kapar",
+        "shortDesc": "Kilang sesebuah 2.5 tingkat pegangan bebas atas tanah 2.326 ekar di KIIP 2, Kapar, binaan 66,671 kp, kuasa 1200 amp, siling 40 kaki dan sistem pemercik. Turut ditawarkan untuk jualan."
+      },
+      "zh": {
+        "title": "2.5 层独立式厂房出租 - 加埔 KIIP 2",
+        "shortDesc": "加埔 KIIP 2 永久地契 2.5 层独立式厂房，2.326 英亩地段，建筑面积 66,671 平方尺，1200 安培电力，40 尺净空，设消防喷淋系统，亦可出售。"
+      }
+    }
+  },
+  {
+    "id": "mv6rbfvcj78tl5",
+    "createdAt": "2026-10-13T14:09:03.000Z",
+    "title": "3 Storey Semi-D Factory For Rent - Jalan Timah, Kapar",
+    "slug": "3-storey-semi-d-factory-for-rent-jalan-timah-kapar-syrs",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Factory",
+    "dealType": "rent",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "Jalan Timah, Kapar, Klang",
+    "lat": 3.1345,
+    "lng": 101.371,
+    "price": 41400,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 41,400 /month",
+    "size": 23000,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "3-storey semi-D factory on 0.74 acre along Jalan Timah, Kapar, with 23,000 sqft built-up, a 17,000 sqft factory floor and a 39ft ceiling. Also available for sale.",
+    "description": "3 Storey Semi-D Factory For Rent - Jalan Timah, Kapar\n\nProperty details:\nLand size: 32,495 sqft (0.74 acre)\nBuilt-up: 23,000 sqft\nFactory: 17,000 sqft\nPower supply: 400 amp\nCeiling height: 39 ft\nFloor loading: 3 tonnes/m²\n\nAccessibility: WCE, KESAS, SKVE\n\nRental: RM 41,400/month\nAlso available for sale: RM 10.35 million",
+    "images": [
+      "/api/uploads/1791899463287-rhs5yn.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 0.74 acre",
+      "Built-up 23,000 sqft",
+      "Ceiling height 39ft",
+      "Also available for sale"
+    ],
+    "attributes": {
+      "land_area": "32,495 sqft (0.74 acre)",
+      "built_up": "23,000 sqft",
+      "factory_area": "17,000 sqft",
+      "power_supply": "400 amp",
+      "ceiling_height": "39 ft",
+      "floor_loading": "3 tonnes/m²",
+      "accessibility": "WCE, KESAS, SKVE",
+      "remarks": "Also available for sale at RM 10.35 million"
+    },
+    "updatedAt": "2026-10-13T14:09:03.000Z",
+    "documents": [
+      {
+        "name": "3 Storey Semi-D Factory, Jalan Timah, Kapar.docx",
+        "url": "/api/uploads/1791899463294-odommi.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Berkembar 3 Tingkat Untuk Disewa - Jalan Timah, Kapar",
+        "shortDesc": "Kilang berkembar 3 tingkat atas tanah 0.74 ekar di Jalan Timah, Kapar, binaan 23,000 kp dengan ruang kilang 17,000 kp dan siling 39 kaki. Turut ditawarkan untuk jualan."
+      },
+      "zh": {
+        "title": "3 层半独立式厂房出租 - 加埔 Jalan Timah",
+        "shortDesc": "加埔 Jalan Timah 3 层半独立式厂房，0.74 英亩地段，建筑面积 23,000 平方尺，厂房面积 17,000 平方尺，39 尺净空，亦可出售。"
+      }
+    }
+  },
+  {
+    "id": "mv6rcq60k7w69g",
+    "createdAt": "2026-10-13T14:10:03.000Z",
+    "title": "Corner Semi-D Warehouse For Sale - Elmina Business Park, Shah Alam",
+    "slug": "corner-semi-d-warehouse-for-sale-elmina-business-park-shah-alam-kgy0",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Warehouse",
+    "dealType": "sale",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Elmina Business Park, Sungai Buloh, Shah Alam",
+    "lat": 3.2256,
+    "lng": 101.5268,
+    "price": 14000000,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 14800,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Corner semi-D warehouse for sale in Elmina Business Park, with 14,800 sqft built-up on 28,352 sqft of land, a 9m ceiling and 200 amp power. Also available for rent.",
+    "description": "Corner Semi-D Warehouse For Sale - Elmina Business Park, Shah Alam (Sungai Buloh)\n\nProperty details:\nLand size: 28,352 sqft\nBuilt-up: 14,800 sqft (approx.)\nPower supply: 200 amp\nCeiling height: 9m / 30ft\nFloor loading: 1.5 tonnes/m²\nCCC: 2026\n\nAccessibility: Guthrie Corridor, NKVE, LATAR, PLUS, ELITE, North East Highway\n\nSale price: RM 14 million\nAlso available for rent: RM 40,000/month",
+    "images": [
+      "/api/uploads/1791899463098-ekcde1.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 28,352 sqft",
+      "Built-up 14,800 sqft",
+      "Ceiling height 9m (30ft)",
+      "Corner unit"
+    ],
+    "attributes": {
+      "land_area": "28,352 sqft",
+      "built_up": "14,800 sqft (approx.)",
+      "power_supply": "200 amp",
+      "ceiling_height": "9m / 30ft",
+      "floor_loading": "1.5 tonnes/m²",
+      "ccc": "2026",
+      "lot_type": "Corner",
+      "accessibility": "Guthrie Corridor, NKVE, LATAR, PLUS, ELITE, North East Highway",
+      "remarks": "Also available for rent at RM 40,000/month"
+    },
+    "updatedAt": "2026-10-13T14:10:03.000Z",
+    "documents": [
+      {
+        "name": "Semi-Detached Warehouse (Corner) Elmina Business Park, Shah Alam Sg Buloh.docx",
+        "url": "/api/uploads/1791899463105-7kz5hs.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Berkembar Lot Penjuru Untuk Dijual - Elmina Business Park, Shah Alam",
+        "shortDesc": "Gudang berkembar lot penjuru untuk dijual di Elmina Business Park, binaan 14,800 kp atas tanah 28,352 kp, siling 9m dan kuasa 200 amp. Turut ditawarkan untuk sewaan."
+      },
+      "zh": {
+        "title": "转角半独立式仓库出售 - 莎阿南 Elmina 商业园",
+        "shortDesc": "Elmina 商业园转角半独立式仓库出售，建筑面积 14,800 平方尺，地段 28,352 平方尺，9 米净空，200 安培电力，亦可出租。"
+      }
+    }
+  },
+  {
+    "id": "mv6re0gol8uf0i",
+    "createdAt": "2026-10-13T14:11:03.000Z",
+    "title": "Premium Detached Warehouse Factory For Sale - Meru, Klang",
+    "slug": "premium-detached-warehouse-factory-for-sale-meru-klang-1b9u",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "sale",
+    "city": "Klang",
+    "state": "Selangor",
+    "address": "Meru, Klang",
+    "lat": 3.13868,
+    "lng": 101.44113,
+    "price": 35797795,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 76074,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Premium detached warehouse factory for sale on 2.69 acres in Meru, Klang, with 76,074 sqft built-up, up to 6000 amp, 5 tonne/m² floor loading and a weighing bridge.",
+    "description": "Premium Detached Warehouse Factory For Sale - Meru, Klang\n\nProperty details:\nLand size: 2.69 acres\nBuilt-up: 76,074 sqft (approx., including office)\n2-storey office with workstations, meeting room, pantry, waiting room, surau and staff room\nProduction office / staff room\nPower supply: up to 6000 amp\nCeiling height: 13m to 18m\nFloor loading: 5 tonnes/m²\nSprinkler system\nDual entry\nTrailer-friendly access\nWeighing bridge\n\nAsking price: RM 35,797,795\nAlso available for rent: RM 167,363/month (RM 2.20 psf)",
+    "images": [
+      "/api/uploads/1791899463161-qn2f4s.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 2.69 acres",
+      "Built-up 76,074 sqft",
+      "Ceiling height 13-18m",
+      "Power up to 6000 amp"
+    ],
+    "attributes": {
+      "land_area": "2.69 acres",
+      "built_up": "76,074 sqft (approx., including office)",
+      "office": "2-storey office with workstations, meeting room, pantry, waiting room, surau and staff room",
+      "power_supply": "Up to 6000 amp",
+      "ceiling_height": "13m to 18m",
+      "floor_loading": "5 tonnes/m²",
+      "features": "Sprinkler system, dual entry, trailer-friendly access, weighing bridge",
+      "remarks": "Also available for rent at RM 167,363/month"
+    },
+    "updatedAt": "2026-10-13T14:11:03.000Z",
+    "documents": [
+      {
+        "name": "Premium Detached Warehouse Factory, Meru Klang.docx",
+        "url": "/api/uploads/1791899463168-jaxuvj.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Gudang Sesebuah Premium Untuk Dijual - Meru, Klang",
+        "shortDesc": "Kilang gudang sesebuah premium untuk dijual atas tanah 2.69 ekar di Meru, Klang, binaan 76,074 kp, kuasa sehingga 6000 amp, beban lantai 5 tan/m² dan jambatan timbang."
+      },
+      "zh": {
+        "title": "高端独立式仓库厂房出售 - 巴生 Meru",
+        "shortDesc": "巴生 Meru 2.69 英亩高端独立式仓库厂房出售，建筑面积 76,074 平方尺，电力最高 6000 安培，楼面承重每平方米 5 吨，设地磅。"
+      }
+    }
+  },
+  {
+    "id": "mv6rfarcm4u7cm",
+    "createdAt": "2026-10-13T14:12:03.000Z",
+    "title": "Detached Warehouse Factory For Sale - Batu 22, Ijok",
+    "slug": "detached-warehouse-factory-for-sale-batu-22-ijok-au28",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "sale",
+    "city": "Ijok",
+    "state": "Selangor",
+    "address": "Batu 22, Ijok, Kuala Selangor",
+    "lat": 3.29591,
+    "lng": 101.44033,
+    "price": 18000000,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 61515,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Freehold two-unit detached warehouse factory for sale in Batu 22, Ijok, with 61,515 sqft built-up on 2 acres of land zoned for heavy industry and a 30ft ceiling.",
+    "description": "Detached Warehouse Factory For Sale - Batu 22, Ijok\n\nProperty details:\n2 units\nLand size: 2 acres\nBuilt-up: 61,515 sqft (approx.)\nFactory: 57,145 sqft (approx.)\nOffice: 3,396 sqft (3 storey)\nPower supply: up to 300 + 200 + 300 amp\nFloor loading: 1 tonne/m²\nCeiling height: 30 ft\nFreehold\nHeavy industry\n\nAsking price: RM 18 million\nAlso available for rent: RM 1.50 psf (negotiable)",
+    "images": [
+      "/api/uploads/1791899463175-y6221t.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 2 acres",
+      "Built-up 61,515 sqft",
+      "Ceiling height 30ft",
+      "Freehold"
+    ],
+    "attributes": {
+      "units": "2",
+      "land_area": "2 acres",
+      "built_up": "61,515 sqft (approx.)",
+      "factory_area": "57,145 sqft (approx.)",
+      "office": "3,396 sqft (3 storey)",
+      "power_supply": "Up to 300 + 200 + 300 amp",
+      "floor_loading": "1 tonne/m²",
+      "ceiling_height": "30 ft",
+      "tenure": "Freehold",
+      "category": "Heavy Industry",
+      "remarks": "Also available for rent at RM 1.50 psf (negotiable)"
+    },
+    "updatedAt": "2026-10-13T14:12:03.000Z",
+    "documents": [
+      {
+        "name": "Detached Warehouse Factory, Batu 22, Ijok.docx",
+        "url": "/api/uploads/1791899463182-6jtnk8.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Gudang Sesebuah Untuk Dijual - Batu 22, Ijok",
+        "shortDesc": "Kilang gudang sesebuah 2 unit pegangan bebas untuk dijual di Batu 22, Ijok, binaan 61,515 kp atas tanah industri berat 2 ekar dengan siling 30 kaki."
+      },
+      "zh": {
+        "title": "独立式仓库厂房出售 - 依约 Batu 22",
+        "shortDesc": "依约 Batu 22 永久地契两个单位独立式仓库厂房出售，2 英亩重工业地段，建筑面积 61,515 平方尺，30 尺净空。"
+      }
+    }
+  },
+  {
+    "id": "mv6rgl20n6y3qn",
+    "createdAt": "2026-10-13T14:13:03.000Z",
+    "title": "Detached Warehouse Factory For Sale - Bestari Jaya, Ijok",
+    "slug": "detached-warehouse-factory-for-sale-bestari-jaya-ijok-b0lj",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "sale",
+    "city": "Ijok",
+    "state": "Selangor",
+    "address": "Jalan Bakti, Bestari Jaya, Kuala Selangor",
+    "lat": 3.37801,
+    "lng": 101.41022,
+    "price": null,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 60000,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Detached warehouse factory on 4 acres of shared land at Jalan Bakti, Bestari Jaya, with 60,000 sqft built-up, up to 800 amp and a 30ft ceiling.",
+    "description": "Detached Warehouse Factory For Sale - Jalan Bakti, Bestari Jaya, Ijok\n\nProperty details:\nShared land\nLand size: 4 acres\nBuilt-up: 60,000 sqft (approx.)\nPower supply: up to 800 amp\nFloor loading: 1.5 tonnes/m²\nCeiling height: 30 ft\n\nSale price: please contact us\nAlso available for rent: RM 1.40 psf (negotiable)",
+    "images": [
+      "/api/uploads/1791899463301-3rb2pc.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 4 acres",
+      "Built-up 60,000 sqft",
+      "Ceiling height 30ft",
+      "Power up to 800 amp"
+    ],
+    "attributes": {
+      "land_area": "4 acres (shared land)",
+      "built_up": "60,000 sqft (approx.)",
+      "power_supply": "Up to 800 amp",
+      "floor_loading": "1.5 tonnes/m²",
+      "ceiling_height": "30 ft",
+      "remarks": "Also available for rent at RM 1.40 psf (negotiable)"
+    },
+    "updatedAt": "2026-10-13T14:13:03.000Z",
+    "documents": [
+      {
+        "name": "Detached Warehouse Factory, Bestari Jaya, Jalan Bakti, Ijok.docx",
+        "url": "/api/uploads/1791899463308-qx2u9h.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Gudang Sesebuah Untuk Dijual - Bestari Jaya, Ijok",
+        "shortDesc": "Kilang gudang sesebuah atas tanah kongsi 4 ekar di Jalan Bakti, Bestari Jaya, binaan 60,000 kp dengan kuasa sehingga 800 amp dan siling 30 kaki."
+      },
+      "zh": {
+        "title": "独立式仓库厂房出售 - 依约 Bestari Jaya",
+        "shortDesc": "依约 Bestari Jaya Jalan Bakti 独立式仓库厂房，4 英亩共享地段，建筑面积 60,000 平方尺，电力最高 800 安培，30 尺净空。"
+      }
+    }
+  },
+  {
+    "id": "mv6rhvcoo4yf15",
+    "createdAt": "2026-10-13T14:14:03.000Z",
+    "title": "3 Storey Detached Factory For Sale - Jalan Timah, Kapar",
+    "slug": "3-storey-detached-factory-for-sale-jalan-timah-kapar-d7ty",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Factory",
+    "dealType": "sale",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "Jalan Timah, Kapar, Klang",
+    "lat": 3.135,
+    "lng": 101.37,
+    "price": 18500000,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 37640,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "3-storey detached factory for sale on 1.26 acres along Jalan Timah, Kapar, with 37,640 sqft built-up, a 27,200 sqft warehouse, a 40ft ceiling and a passenger lift.",
+    "description": "3 Storey Detached Factory For Sale - Jalan Timah, Kapar\n\nProperty details:\nLand size: 55,000 sqft (1.26 acres)\nBuilt-up: 37,640 sqft\nWarehouse: 27,200 sqft (160 x 170 ft)\nPower supply: 400 amp\nCeiling height: 40 ft\nFloor loading: 3 tonnes/m²\nPassenger lift\n\nAccessibility: WCE, KESAS, SKVE\n\nSale price: RM 18.5 million\nAlso available for rent: RM 68,000/month",
+    "images": [
+      "/api/uploads/1791899463245-fs19wx.jpeg",
+      "/api/uploads/1791899463252-lw5l3j.jpeg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 1.26 acres",
+      "Built-up 37,640 sqft",
+      "Ceiling height 40ft",
+      "Passenger lift"
+    ],
+    "attributes": {
+      "land_area": "55,000 sqft (1.26 acres)",
+      "built_up": "37,640 sqft",
+      "warehouse_area": "27,200 sqft (160 x 170 ft)",
+      "power_supply": "400 amp",
+      "ceiling_height": "40 ft",
+      "floor_loading": "3 tonnes/m²",
+      "lift": "Passenger lift",
+      "accessibility": "WCE, KESAS, SKVE",
+      "remarks": "Also available for rent at RM 68,000/month"
+    },
+    "updatedAt": "2026-10-13T14:14:03.000Z",
+    "documents": [
+      {
+        "name": "3 Storey Detached Factory, Jalan Timah, Kapar.docx",
+        "url": "/api/uploads/1791899463259-elspz0.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah 3 Tingkat Untuk Dijual - Jalan Timah, Kapar",
+        "shortDesc": "Kilang sesebuah 3 tingkat untuk dijual atas tanah 1.26 ekar di Jalan Timah, Kapar, binaan 37,640 kp dengan gudang 27,200 kp, siling 40 kaki dan lif penumpang."
+      },
+      "zh": {
+        "title": "3 层独立式厂房出售 - 加埔 Jalan Timah",
+        "shortDesc": "加埔 Jalan Timah 3 层独立式厂房出售，1.26 英亩地段，建筑面积 37,640 平方尺，含 27,200 平方尺仓库，40 尺净空，设客梯。"
+      }
+    }
+  },
+  {
+    "id": "mv6rj5ncp1e8g3",
+    "createdAt": "2026-10-13T14:15:03.000Z",
+    "title": "2.5 Storey Detached Factory For Sale - KIIP 2, Kapar",
+    "slug": "2-5-storey-detached-factory-for-sale-kiip-2-kapar-rgn0",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Factory",
+    "dealType": "sale",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "KIIP 2, Kapar, Klang",
+    "lat": 3.142,
+    "lng": 101.38,
+    "price": 26700000,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 66671,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Freehold 2.5-storey detached factory for sale on 2.326 acres in KIIP 2, Kapar, with 66,671 sqft built-up, 1200 amp power, a 40ft ceiling and fire sprinklers.",
+    "description": "2.5 Storey Detached Factory For Sale - KIIP 2, Kapar\n\nProperty details:\nLand size: 101,299 sqft (2.326 acres)\nBuilt-up: 66,671 sqft\nFactory: 57,833 sqft\nPower supply: 1200 amp\nCeiling height: 40 ft\nFloor loading: 3 tonnes/m²\nFire sprinkler\nFacing north\nFreehold\n\nAccessibility: WCE, KESAS, SKVE\n\nSale price: RM 26.7 million\nAlso available for rent: RM 150,000/month (RM 2.20 psf)",
+    "images": [
+      "/api/uploads/1791899463266-u7voat.jpg",
+      "/api/uploads/1791899463273-iy25ee.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 2.326 acres",
+      "Built-up 66,671 sqft",
+      "Power supply 1200 amp",
+      "Freehold"
+    ],
+    "attributes": {
+      "land_area": "101,299 sqft (2.326 acres)",
+      "built_up": "66,671 sqft",
+      "factory_area": "57,833 sqft",
+      "power_supply": "1200 amp",
+      "ceiling_height": "40 ft",
+      "floor_loading": "3 tonnes/m²",
+      "fire_protection": "Fire sprinkler",
+      "orientation": "Facing north",
+      "tenure": "Freehold",
+      "accessibility": "WCE, KESAS, SKVE",
+      "remarks": "Also available for rent at RM 150,000/month"
+    },
+    "updatedAt": "2026-10-13T14:15:03.000Z",
+    "documents": [
+      {
+        "name": "2.5 Storey Detached Factory, KIIP 2, Kapar.docx",
+        "url": "/api/uploads/1791899463280-fin45a.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah 2.5 Tingkat Untuk Dijual - KIIP 2, Kapar",
+        "shortDesc": "Kilang sesebuah 2.5 tingkat pegangan bebas untuk dijual atas tanah 2.326 ekar di KIIP 2, Kapar, binaan 66,671 kp, kuasa 1200 amp, siling 40 kaki dan sistem pemercik."
+      },
+      "zh": {
+        "title": "2.5 层独立式厂房出售 - 加埔 KIIP 2",
+        "shortDesc": "加埔 KIIP 2 永久地契 2.5 层独立式厂房出售，2.326 英亩地段，建筑面积 66,671 平方尺，1200 安培电力，40 尺净空，设消防喷淋系统。"
+      }
+    }
+  },
+  {
+    "id": "mv6rkfy0q8zjhi",
+    "createdAt": "2026-10-13T14:16:03.000Z",
+    "title": "3 Storey Semi-D Factory For Sale - Jalan Timah, Kapar",
+    "slug": "3-storey-semi-d-factory-for-sale-jalan-timah-kapar-ua7y",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Semi-D Factory",
+    "dealType": "sale",
+    "city": "Kapar",
+    "state": "Selangor",
+    "address": "Jalan Timah, Kapar, Klang",
+    "lat": 3.1345,
+    "lng": 101.371,
+    "price": 10350000,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 23000,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "3-storey semi-D factory for sale on 0.74 acre along Jalan Timah, Kapar, with 23,000 sqft built-up, a 17,000 sqft factory floor, a 39ft ceiling and 400 amp power.",
+    "description": "3 Storey Semi-D Factory For Sale - Jalan Timah, Kapar\n\nProperty details:\nLand size: 32,495 sqft (0.74 acre)\nBuilt-up: 23,000 sqft\nFactory: 17,000 sqft\nPower supply: 400 amp\nCeiling height: 39 ft\nFloor loading: 3 tonnes/m²\n\nAccessibility: WCE, KESAS, SKVE\n\nSale price: RM 10.35 million\nAlso available for rent: RM 41,400/month",
+    "images": [
+      "/api/uploads/1791899463287-rhs5yn.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 0.74 acre",
+      "Built-up 23,000 sqft",
+      "Ceiling height 39ft",
+      "Power supply 400 amp"
+    ],
+    "attributes": {
+      "land_area": "32,495 sqft (0.74 acre)",
+      "built_up": "23,000 sqft",
+      "factory_area": "17,000 sqft",
+      "power_supply": "400 amp",
+      "ceiling_height": "39 ft",
+      "floor_loading": "3 tonnes/m²",
+      "accessibility": "WCE, KESAS, SKVE",
+      "remarks": "Also available for rent at RM 41,400/month"
+    },
+    "updatedAt": "2026-10-13T14:16:03.000Z",
+    "documents": [
+      {
+        "name": "3 Storey Semi-D Factory, Jalan Timah, Kapar.docx",
+        "url": "/api/uploads/1791899463294-odommi.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Berkembar 3 Tingkat Untuk Dijual - Jalan Timah, Kapar",
+        "shortDesc": "Kilang berkembar 3 tingkat untuk dijual atas tanah 0.74 ekar di Jalan Timah, Kapar, binaan 23,000 kp dengan ruang kilang 17,000 kp, siling 39 kaki dan kuasa 400 amp."
+      },
+      "zh": {
+        "title": "3 层半独立式厂房出售 - 加埔 Jalan Timah",
+        "shortDesc": "加埔 Jalan Timah 3 层半独立式厂房出售，0.74 英亩地段，建筑面积 23,000 平方尺，厂房面积 17,000 平方尺，39 尺净空，400 安培电力。"
+      }
+    }
   }
 ]

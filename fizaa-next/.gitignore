@@ -23,8 +23,12 @@
 !/public/uploads/.gitkeep
 
 # Source listing brochures (.docx) — working files, not site assets.
+# Listings are published by copying their photos/brochures into /uploads and
+# adding a record to data/listings.json; the source folders stay local.
 /public/For Rent/
 /public/For Sale/
+/For Rent/
+/For Sale/
 
 *.log
 .DS_Store

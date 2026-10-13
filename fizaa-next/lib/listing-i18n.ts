@@ -22,6 +22,7 @@ const TERMS_BM: Record<string, string> = {
   "Factory": "Kilang",
   "Detached Factory": "Kilang Sesebuah",
   "Semi-D Factory": "Kilang Berkembar",
+  "Semi-D Warehouse": "Gudang Berkembar",
   "Land": "Tanah",
   "Industrial Land": "Tanah Perindustrian",
   "Development Land": "Tanah Pembangunan",
@@ -49,6 +50,11 @@ const TERMS_BM: Record<string, string> = {
   "Corner lot, 40ft container access": "Lot penjuru, akses kontena 40kaki",
   "Rental on request": "Sewa atas permintaan",
   "2 blocks": "2 blok",
+  "Ample car park": "Tempat letak kereta yang luas",
+  "Shared security": "Kawalan keselamatan dikongsi",
+  "Sprinkler system": "Sistem pemercik",
+  "Passenger lift": "Lif penumpang",
+  "Corner unit": "Unit penjuru",
 };
 
 const TERMS_ZH: Record<string, string> = {
@@ -58,6 +64,7 @@ const TERMS_ZH: Record<string, string> = {
   "Factory": "厂房",
   "Detached Factory": "独立式厂房",
   "Semi-D Factory": "半独立式厂房",
+  "Semi-D Warehouse": "半独立式仓库",
   "Land": "地段",
   "Industrial Land": "工业地段",
   "Development Land": "发展地段",
@@ -70,6 +77,8 @@ const TERMS_ZH: Record<string, string> = {
   "Shah Alam": "莎阿南",
   "Rawang": "万挠",
   "Taiping": "太平",
+  "Kapar": "加埔",
+  "Ijok": "依约",
   // States
   "Selangor": "雪兰莪",
   "Perak": "霹雳",
@@ -94,6 +103,11 @@ const TERMS_ZH: Record<string, string> = {
   "Rental on request": "租金请洽询",
   "2 blocks": "2 座",
   "29.3 acres": "29.3 英亩",
+  "Ample car park": "充足停车位",
+  "Shared security": "共享保安",
+  "Sprinkler system": "消防喷淋系统",
+  "Passenger lift": "客梯",
+  "Corner unit": "转角单位",
 };
 
 // ── Ordered token rules ──────────────────────────────────────────────────
