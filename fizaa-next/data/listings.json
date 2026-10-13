@@ -844,10 +844,11 @@
     "featured": false,
     "status": "active",
     "shortDesc": "Detached warehouse in Meru on 100,578 sqft of land, 48,018 sqft built-up, 10.5m ceiling and up to 1,000 amp.",
-    "description": "Meru Detached Warehouse For Sale\n\n- Built-up size / area: 48,018 sqft\n- Land area: 100,578 sqft\n- Floor loading: 1 ton/m²\n- Ceiling height: 10.5 metres\n- Electric supply: maximum 1,000 amp\n\nAsking price RM 25 mil.",
+    "description": "Meru Detached Warehouse For Sale\nLocated in a matured industrial area with good accessibility.\n\n- Built-up size / area: 48,018 sqft\n- Land area: 100,578 sqft (2.3 acres)\n- Tenure: freehold\n- Floor loading: 1 ton/m²\n- Ceiling height: 10.5 metres\n- Electric supply: maximum 1,000 amp (currently on a sharing basis; own substation required)\n\nAccessibility: KESAS, NKVE, WCE, Shapadu, Setia Alam Highway & Federal Highway\n\nAsking price RM 25 mil (negotiable).",
     "images": [
       "/api/uploads/1785746091615-525emc.jpeg",
-      "/api/uploads/1785746091618-nzbf3q.jpeg"
+      "/api/uploads/1785746091618-nzbf3q.jpeg",
+      "/api/uploads/1791904956007-yb9uwl.jpg"
     ],
     "pdfUrl": null,
     "specs": [
@@ -858,12 +859,14 @@
     ],
     "attributes": {
       "built_up": "48,018 sqft",
-      "land_area": "100,578 sqft",
+      "land_area": "100,578 sqft (2.3 acres)",
       "floor_loading": "1 ton/m²",
       "ceiling_height": "10.5 metres",
-      "power_supply": "Maximum 1,000 amp"
+      "power_supply": "Maximum 1,000 amp (currently shared; own substation required)",
+      "tenure": "Freehold",
+      "accessibility": "KESAS, NKVE, WCE, Shapadu, Setia Alam Highway, Federal Highway"
     },
-    "updatedAt": "2026-08-03T08:34:51.608Z",
+    "updatedAt": "2026-10-13T15:22:36.000Z",
     "documents": [
       {
         "name": "Meru Detached Warehouse For Sale.docx",
@@ -967,7 +970,7 @@
     "featured": false,
     "status": "active",
     "shortDesc": "8.55-acre two-block detached factory in Bandar Enstek, 216,522 sqft built-up, 845 amp per building.",
-    "description": "Detached Factory for Sale, Bandar Enstek N9\n\nLand area 8.55 acres / 372,647 sqft\nBuilt-up area 216,522 sqft\n- Consists of 2 blocks:\nFactory area 101,383 sqft\nLoading bay 5,794 sqft\nEave height: 12 m\nRidge height: 15.9 m\nFloor loading 2.0 tonnes/m²\nPower supply 845 amp x 2 buildings\n\nAsking price RM 57 mil.\n\nContact for more details.",
+    "description": "Detached Factory for Sale, Bandar Enstek N9\n\nLand area 8.55 acres / 372,647 sqft\nBuilt-up area 216,522 sqft\n- Consists of 2 blocks:\nFactory area 101,383 sqft\nLoading bay 5,794 sqft\nEave height: 12 m\nRidge height: 15.9 m\nFloor loading 2.0 tonnes/m²\nPower supply 845 amp x 2 buildings\n\nAsking price RM 57 mil.\nAlso available for rent: RM 390,721/month (RM 1.80 psf).\n\nContact for more details.",
     "images": [
       "/api/uploads/1785746091639-wo6uer.jpg"
     ],
@@ -987,9 +990,10 @@
       "eave_height": "12 m",
       "ridge_height": "15.9 m",
       "floor_loading": "2.0 tonnes/m²",
-      "power_supply": "845 amp x 2 buildings"
+      "power_supply": "845 amp x 2 buildings",
+      "remarks": "Also available for rent at RM 390,721/month (RM 1.80 psf)"
     },
-    "updatedAt": "2026-08-03T08:34:51.608Z",
+    "updatedAt": "2026-10-13T15:22:36.000Z",
     "documents": [
       {
         "name": "Detached Factory for Sale, Bandar Enstek N9.docx",
@@ -1461,9 +1465,9 @@
     "address": "Elmina, Shah Alam",
     "lat": 3.2235,
     "lng": 101.5235,
-    "price": null,
+    "price": 134848,
     "priceUnit": "MYR",
-    "priceLabel": "Rental on request",
+    "priceLabel": "MYR 134,848 /month",
     "size": 67424,
     "sizeUnit": "sqft total built-up",
     "beds": null,
@@ -1471,7 +1475,7 @@
     "featured": false,
     "status": "active",
     "shortDesc": "Detached factory in Elmina, Shah Alam, with 67,424 sqft built-up on 1.983 acres, a 14m ceiling, 3 loading bays with dock levellers and CCC for warehouse use.",
-    "description": "Detached Factory For Rent - Elmina, Shah Alam\n\nProperty details:\nLand area: 1.983 acres\nWarehouse: 48,619 sqft\n1st floor: 9,402 sqft\n2nd floor: 9,402 sqft\nTotal built-up: 67,424 sqft\n3 loading bays with dock levellers\nParking: 54 car, 5 lorry and 34 motorcycle bays\nCeiling height: 14m\nPower supply: 150 amp (can be upgraded to 600 amp)\nFloor loading: 2.5 tonnes/m²\nUsage: CCC for warehouse (gudang)\nCCC ready: July 2025\n\nRental: please contact us",
+    "description": "Detached Factory For Rent - Elmina, Shah Alam\n\nProperty details:\nLand area: 1.983 acres\nWarehouse: 48,619 sqft\n1st floor: 9,402 sqft\n2nd floor: 9,402 sqft\nTotal built-up: 67,424 sqft\n3 loading bays with dock levellers\nParking: 54 car, 5 lorry and 34 motorcycle bays\nCeiling height: 14m\nPower supply: 150 amp (can be upgraded to 600 amp)\nFloor loading: 2.5 tonnes/m²\nUsage: CCC for warehouse (gudang)\nCCC ready: July 2025\n\nAsking rental: RM 134,848/month (RM 2 psf)",
     "images": [
       "/api/uploads/1791899463070-95yy0s.jpg"
     ],
@@ -1494,9 +1498,10 @@
       "power_supply": "150 amp (upgradeable to 600 amp)",
       "floor_loading": "2.5 tonnes/m²",
       "usage": "CCC for warehouse (gudang)",
-      "ccc": "Ready July 2025"
+      "ccc": "Ready July 2025",
+      "rental_psf": "RM 2 psf"
     },
-    "updatedAt": "2026-10-13T13:55:03.000Z",
+    "updatedAt": "2026-10-13T15:22:36.000Z",
     "documents": [
       {
         "name": "Detached Factory For Rent, Elmina Shah Alam.docx",
@@ -1926,9 +1931,9 @@
     "address": "Batu 22, Ijok, Kuala Selangor",
     "lat": 3.29591,
     "lng": 101.44033,
-    "price": null,
+    "price": 130680,
     "priceUnit": "MYR",
-    "priceLabel": "MYR 1.50 psf /month",
+    "priceLabel": "MYR 130,680 /month",
     "size": 61515,
     "sizeUnit": "sqft built-up",
     "beds": null,
@@ -1936,7 +1941,7 @@
     "featured": false,
     "status": "active",
     "shortDesc": "Two-unit detached warehouse factory on 2 acres of freehold land zoned for heavy industry in Batu 22, Ijok, with 61,515 sqft built-up and a 30ft ceiling. Also available for sale.",
-    "description": "Detached Warehouse Factory For Rent - Batu 22, Ijok\n\nProperty details:\n2 units\nLand size: 2 acres\nBuilt-up: 61,515 sqft (approx.)\nFactory: 57,145 sqft (approx.)\nOffice: 3,396 sqft (3 storey)\nPower supply: up to 300 + 200 + 300 amp\nFloor loading: 1 tonne/m²\nCeiling height: 30 ft\nFreehold\nHeavy industry\n\nAsking rental: RM 1.50 psf (negotiable)\nAlso available for sale: RM 18 million",
+    "description": "Detached Warehouse Factory For Rent - Batu 22, Ijok\n\nProperty details:\n2 units\nLand size: 2 acres\nBuilt-up: 61,515 sqft (approx.)\nFactory: 57,145 sqft (approx.)\nOffice: 3,396 sqft (3 storey)\nPower supply: up to 300 + 200 + 300 amp\nFloor loading: 1 tonne/m²\nCeiling height: 30 ft\nFreehold\nHeavy industry\n\nAsking rental: RM 130,680/month (RM 1.50 psf, negotiable)\nAlso available for sale: RM 18 million",
     "images": [
       "/api/uploads/1791899463175-y6221t.jpg"
     ],
@@ -1961,7 +1966,7 @@
       "rental_psf": "RM 1.50 psf (negotiable)",
       "remarks": "Also available for sale at RM 18 million"
     },
-    "updatedAt": "2026-10-13T14:02:03.000Z",
+    "updatedAt": "2026-10-13T15:22:36.000Z",
     "documents": [
       {
         "name": "Detached Warehouse Factory, Batu 22, Ijok.docx",
@@ -2588,7 +2593,7 @@
     "featured": false,
     "status": "active",
     "shortDesc": "Freehold two-unit detached warehouse factory for sale in Batu 22, Ijok, with 61,515 sqft built-up on 2 acres of land zoned for heavy industry and a 30ft ceiling.",
-    "description": "Detached Warehouse Factory For Sale - Batu 22, Ijok\n\nProperty details:\n2 units\nLand size: 2 acres\nBuilt-up: 61,515 sqft (approx.)\nFactory: 57,145 sqft (approx.)\nOffice: 3,396 sqft (3 storey)\nPower supply: up to 300 + 200 + 300 amp\nFloor loading: 1 tonne/m²\nCeiling height: 30 ft\nFreehold\nHeavy industry\n\nAsking price: RM 18 million\nAlso available for rent: RM 1.50 psf (negotiable)",
+    "description": "Detached Warehouse Factory For Sale - Batu 22, Ijok\n\nProperty details:\n2 units\nLand size: 2 acres\nBuilt-up: 61,515 sqft (approx.)\nFactory: 57,145 sqft (approx.)\nOffice: 3,396 sqft (3 storey)\nPower supply: up to 300 + 200 + 300 amp\nFloor loading: 1 tonne/m²\nCeiling height: 30 ft\nFreehold\nHeavy industry\n\nAsking price: RM 18 million\nAlso available for rent: RM 130,680/month (RM 1.50 psf, negotiable)",
     "images": [
       "/api/uploads/1791899463175-y6221t.jpg"
     ],
@@ -2610,9 +2615,9 @@
       "ceiling_height": "30 ft",
       "tenure": "Freehold",
       "category": "Heavy Industry",
-      "remarks": "Also available for rent at RM 1.50 psf (negotiable)"
+      "remarks": "Also available for rent at RM 130,680/month"
     },
-    "updatedAt": "2026-10-13T14:12:03.000Z",
+    "updatedAt": "2026-10-13T15:22:36.000Z",
     "documents": [
       {
         "name": "Detached Warehouse Factory, Batu 22, Ijok.docx",
@@ -2888,6 +2893,538 @@
       "zh": {
         "title": "3 层半独立式厂房出售 - 加埔 Jalan Timah",
         "shortDesc": "加埔 Jalan Timah 3 层半独立式厂房出售，0.74 英亩地段，建筑面积 23,000 平方尺，厂房面积 17,000 平方尺，39 尺净空，400 安培电力。"
+      }
+    }
+  },
+  {
+    "id": "mv6qa2yo14ctoc",
+    "createdAt": "2026-10-13T13:40:00.000Z",
+    "title": "Intermediate Lot 2.5 Storey Superlink Factory For Rent - Meru",
+    "slug": "intermediate-lot-2-5-storey-superlink-factory-for-rent-meru-jsrh",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Factory",
+    "dealType": "rent",
+    "city": "Klang",
+    "state": "Selangor",
+    "address": "Meru, Klang",
+    "lat": 3.091,
+    "lng": 101.4275,
+    "price": 16282,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 16,282 /month",
+    "size": 9321,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Intermediate 2.5-storey superlink factory in Meru, Klang, with 9,321 sqft built-up, a 40ft ceiling, a 2-tonne cargo lift and roller shutters front and rear.",
+    "description": "Intermediate Lot 2.5 Storey Superlink Factory For Rent - Meru\nSpacious, with a wide road for easy loading and unloading.\n\nLand size: 40 ft x 138.7 ft\nBuilt-up area: 9,321 sqft\nCeiling height: 12m / 40ft\nPower supply: 200 amp\nCargo lift: 2 tonnes capacity\n2 roller shutters, front and rear\n\nModern design\nESG compliance\nSpacious & high ceiling\n\nAsking rental RM 16,282/month.",
+    "images": [
+      "/api/uploads/1785746091661-pdok8y.jpeg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Built-up 9,321 sqft",
+      "Land 40 ft x 138.7 ft",
+      "Ceiling height 12m / 40ft",
+      "Cargo lift 2 tonnes"
+    ],
+    "attributes": {
+      "land_size": "40 ft x 138.7 ft",
+      "built_up": "9,321 sqft",
+      "ceiling_height": "12m / 40ft",
+      "power_supply": "200 amp",
+      "cargo_lift": "2 tonnes capacity",
+      "features": "Modern design, ESG compliance, 2 roller shutters (front and rear), wide road for easy loading and unloading"
+    },
+    "updatedAt": "2026-10-13T13:40:00.000Z",
+    "documents": [
+      {
+        "name": "Intermediate Lot 2.5 Storey Superlink Factory For Rent - Meru.docx",
+        "url": "/api/uploads/1791904956014-mkxm9y.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Superlink 2.5 Tingkat Lot Tengah Untuk Disewa - Meru",
+        "shortDesc": "Kilang superlink 2.5 tingkat lot tengah di Meru, Klang, binaan 9,321 kp, siling 40 kaki, lif kargo 2 tan dan pintu gulung di hadapan serta belakang."
+      },
+      "zh": {
+        "title": "2.5 层超级连排厂房出租 - 巴生 Meru（中间单位）",
+        "shortDesc": "巴生 Meru 2.5 层超级连排厂房（中间单位），建筑面积 9,321 平方尺，40 尺净空，配 2 吨货梯，前后均设卷闸门。"
+      }
+    }
+  },
+  {
+    "id": "mv6qbd9c225jfp",
+    "createdAt": "2026-10-13T13:41:00.000Z",
+    "title": "Detached Factory For Rent - Bandar Enstek, Negeri Sembilan",
+    "slug": "detached-factory-for-rent-bandar-enstek-negeri-sembilan-7o60",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Factory",
+    "dealType": "rent",
+    "city": "Bandar Enstek",
+    "state": "Negeri Sembilan",
+    "address": "Bandar Enstek",
+    "lat": 2.7856,
+    "lng": 101.7583,
+    "price": 390721,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 390,721 /month",
+    "size": 216522,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "8.55-acre two-block detached factory in Bandar Enstek with 216,522 sqft built-up, 12m eaves and 845 amp per building. Also available for sale.",
+    "description": "Detached Factory For Rent - Bandar Enstek, Negeri Sembilan\n\nLand area 8.55 acres / 372,647 sqft\nBuilt-up area 216,522 sqft\n- Consists of 2 blocks:\nFactory area 101,383 sqft\nLoading bay 5,794 sqft\nEave height: 12 m\nRidge height: 15.9 m\nFloor loading 2.0 tonnes/m²\nPower supply 845 amp x 2 buildings\n\nAsking rental RM 390,721/month (RM 1.80 psf).\nAlso available for sale: RM 57 mil.\n\nContact for more details.",
+    "images": [
+      "/api/uploads/1791904956021-f3skwp.jpeg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 8.55 acres / 372,647 sqft",
+      "Built-up 216,522 sqft",
+      "2 blocks",
+      "Power 845 amp x 2 buildings"
+    ],
+    "attributes": {
+      "land_area": "8.55 acres / 372,647 sqft",
+      "built_up": "216,522 sqft",
+      "configuration": "2 blocks",
+      "factory_area": "101,383 sqft",
+      "loading_bay": "5,794 sqft",
+      "eave_height": "12 m",
+      "ridge_height": "15.9 m",
+      "floor_loading": "2.0 tonnes/m²",
+      "power_supply": "845 amp x 2 buildings",
+      "rental_psf": "RM 1.80 psf",
+      "remarks": "Also available for sale at RM 57 million"
+    },
+    "updatedAt": "2026-10-13T13:41:00.000Z",
+    "documents": [
+      {
+        "name": "Detached Factory for Rent, Bandar Enstek N9.docx",
+        "url": "/api/uploads/1791904956028-kgrc4l.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah Untuk Disewa - Bandar Enstek, Negeri Sembilan",
+        "shortDesc": "Kilang sesebuah dua blok atas 8.55 ekar di Bandar Enstek, binaan 216,522 kp, ketinggian bumbung 12m dan 845 amp setiap bangunan. Turut ditawarkan untuk jualan."
+      },
+      "zh": {
+        "title": "独立式厂房出租 - 森美兰 Bandar Enstek",
+        "shortDesc": "Bandar Enstek 8.55 英亩双座独立式厂房，建筑面积 216,522 平方尺，檐高 12 米，每座 845 安培，亦可出售。"
+      }
+    }
+  },
+  {
+    "id": "mv6qcnk039gtqt",
+    "createdAt": "2026-10-13T13:42:00.000Z",
+    "title": "Prime Factory/Warehouse For Rent - PKNS Rawang Industrial Hub",
+    "slug": "prime-factory-warehouse-for-rent-pkns-rawang-industrial-hub-ixz0",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Factory",
+    "dealType": "rent",
+    "city": "Rawang",
+    "state": "Selangor",
+    "address": "Kawasan Perindustrian PKNS, Rawang",
+    "lat": 3.324,
+    "lng": 101.572,
+    "price": 35000,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 35,000 /month",
+    "size": 12335,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Brand-new factory in Rawang's PKNS industrial area with 12,335 sqft built-up on 31,500 sqft of land, a 40ft clear-span height, CCC and trailer-friendly access.",
+    "description": "Prime Factory/Warehouse For Rent - PKNS Rawang Industrial Hub\n\nThis brand-new factory at Kawasan Perindustrian PKNS offers the perfect blend of functionality, accessibility and efficiency for growing businesses.\n\nKey highlights:\n• Strategic location: in Rawang's established PKNS industrial area, ideal for logistics and manufacturing\n• Generous land area: 31,500 sqft with a fully concreted floor\n• Built-up: 12,335 sqft\n• Industrial title: medium industry classification\n• With CCC\n• Office facilities: 2-storey\n• High clearance: 40 ft\n• Efficient layout: clear-span design with no central columns\n• Bay spacing: 26.5 ft\n• Power supply: 300 amp\n• Floor loading: 30 kN/m²\n• Trailer-friendly access\n\nAccessibility & amenities:\n• LATAR (15 mins), PLUS Highway\n• Within 5km of Bandar Rawang, Lotus's and KPJ Rawang\n\nRental: RM 35,000 per month (negotiable)\nAlso available for sale: RM 10 mil (negotiable)",
+    "images": [
+      "/api/uploads/1791904956035-3nhp7r.jpg",
+      "/api/uploads/1791904956042-o589hn.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 31,500 sqft",
+      "Built-up 12,335 sqft",
+      "Ceiling height 40ft",
+      "Power supply 300 amp"
+    ],
+    "attributes": {
+      "land_area": "31,500 sqft (fully concreted)",
+      "built_up": "12,335 sqft",
+      "category": "Medium Industry",
+      "ccc": "Obtained",
+      "office": "2-storey",
+      "ceiling_height": "40 ft clearance",
+      "layout": "Clear-span, no central columns",
+      "bay_spacing": "26.5 ft",
+      "power_supply": "300 amp",
+      "floor_loading": "30 kN/m²",
+      "access": "Trailer-friendly",
+      "accessibility": "LATAR (15 mins), PLUS Highway; within 5km of Bandar Rawang, Lotus's and KPJ Rawang",
+      "remarks": "Also available for sale at RM 10 million (negotiable)"
+    },
+    "updatedAt": "2026-10-13T13:42:00.000Z",
+    "documents": [
+      {
+        "name": "Prime Factory/Warehouse for Rent - PKNS Rawang Industrial Hub.docx",
+        "url": "/api/uploads/1791904956049-3n83d0.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang/Gudang Perdana Untuk Disewa - Hab Perindustrian PKNS Rawang",
+        "shortDesc": "Kilang baharu di kawasan perindustrian PKNS Rawang, binaan 12,335 kp atas tanah 31,500 kp, ketinggian 40 kaki tanpa tiang tengah, CCC dan akses mesra treler."
+      },
+      "zh": {
+        "title": "优质厂房/仓库出租 - 万挠 PKNS 工业区",
+        "shortDesc": "万挠 PKNS 工业区全新厂房，建筑面积 12,335 平方尺，地段 31,500 平方尺，40 尺无柱净空，已获 CCC，方便拖车进出。"
+      }
+    }
+  },
+  {
+    "id": "mv6qdxuo47ll4u",
+    "createdAt": "2026-10-13T13:43:00.000Z",
+    "title": "4 Storey Detached Warehouse For Rent - Shah Alam (4.2 Acres)",
+    "slug": "4-storey-detached-warehouse-for-rent-shah-alam-4-2-acres-u1d0",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Warehouse",
+    "dealType": "rent",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "address": "Shah Alam",
+    "lat": 3.07,
+    "lng": 101.525,
+    "price": null,
+    "priceUnit": "MYR",
+    "priceLabel": "Rental on request",
+    "size": 134000,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "4-storey detached warehouse on 4.2 acres in a matured Shah Alam industrial area, with 134,000 sqft built-up, 42ft eaves and 1,200 amp power, close to major highways.",
+    "description": "4 Storey Detached Warehouse For Rent - Shah Alam\n\nEasy access to major highways.\nWithin a matured industrial area.\nSuitable for factory and logistics companies.\n\nLand area: 4.2 acres\nBuilt-up: 134,000 sqft\nPower supply: 1,200 amp\nEave height: 42 ft\n\nRental: please contact us",
+    "images": [
+      "/api/uploads/1791904956056-0h5nyv.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 4.2 acres",
+      "Built-up 134,000 sqft",
+      "Eave height 42ft",
+      "Power supply 1,200 amp"
+    ],
+    "attributes": {
+      "land_area": "4.2 acres",
+      "built_up": "134,000 sqft",
+      "power_supply": "1,200 amp",
+      "eave_height": "42 ft",
+      "location": "Matured industrial area with easy access to major highways",
+      "suitable_for": "Factory and logistics companies"
+    },
+    "updatedAt": "2026-10-13T13:43:00.000Z",
+    "documents": [
+      {
+        "name": "4 Storey Detached Warehouse, Shah Alam.docx",
+        "url": "/api/uploads/1791904956063-6m0g07.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Sesebuah 4 Tingkat Untuk Disewa - Shah Alam (4.2 Ekar)",
+        "shortDesc": "Gudang sesebuah 4 tingkat atas tanah 4.2 ekar di kawasan perindustrian matang Shah Alam, binaan 134,000 kp, ketinggian bumbung 42 kaki dan kuasa 1,200 amp, berhampiran lebuh raya utama."
+      },
+      "zh": {
+        "title": "4 层独立式仓库出租 - 莎阿南（4.2 英亩）",
+        "shortDesc": "莎阿南成熟工业区 4.2 英亩 4 层独立式仓库，建筑面积 134,000 平方尺，檐高 42 尺，1,200 安培电力，邻近主要大道。"
+      }
+    }
+  },
+  {
+    "id": "mv6qf85c52ek4w",
+    "createdAt": "2026-10-13T13:44:00.000Z",
+    "title": "Warehouse For Rent - Meru, Klang",
+    "slug": "warehouse-for-rent-meru-klang-6dny",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Warehouse",
+    "dealType": "rent",
+    "city": "Klang",
+    "state": "Selangor",
+    "address": "Meru, Klang",
+    "lat": 3.14,
+    "lng": 101.444,
+    "price": 130248,
+    "priceUnit": "MYR",
+    "priceLabel": "MYR 130,248 /month",
+    "size": 59204,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Warehouse on 4.344 acres in Meru, Klang, with 59,204 sqft of warehouse and office space, an 11m ceiling and a VNA racking system for 5,720 pallets.",
+    "description": "Warehouse For Rent - Meru, Klang\n\nLand area: 4.344 acres (189,224 sqft)\nWarehouse & office area: 59,204 sqft\nCeiling height: 11m\nFloor loading: 2.7 tonnes/m²\nRacking capacity: 5,720 pallets (VNA racking system, monthly maintenance RM 4,500)\nElectricity supply: 800 amp\n\nAsking rental: RM 130,248/month (RM 2.20 psf)",
+    "images": [
+      "/api/uploads/1791904956070-adzken.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 4.344 acres",
+      "Built-up 59,204 sqft",
+      "Ceiling height 11m",
+      "Power supply 800 amp"
+    ],
+    "attributes": {
+      "land_area": "4.344 acres (189,224 sqft)",
+      "built_up": "59,204 sqft (warehouse & office)",
+      "ceiling_height": "11m",
+      "floor_loading": "2.7 tonnes/m²",
+      "racking": "VNA racking system, 5,720 pallet positions",
+      "racking_maintenance": "RM 4,500/month",
+      "power_supply": "800 amp",
+      "rental_psf": "RM 2.20 psf"
+    },
+    "updatedAt": "2026-10-13T13:44:00.000Z",
+    "documents": [
+      {
+        "name": "Warehouse for Rent Meru, Klang.docx",
+        "url": "/api/uploads/1791904956077-i0d96d.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Gudang Untuk Disewa - Meru, Klang",
+        "shortDesc": "Gudang atas tanah 4.344 ekar di Meru, Klang, ruang gudang dan pejabat 59,204 kp, siling 11m dan sistem rak VNA untuk 5,720 palet."
+      },
+      "zh": {
+        "title": "仓库出租 - 巴生 Meru",
+        "shortDesc": "巴生 Meru 4.344 英亩仓库，仓库与办公室面积 59,204 平方尺，11 米净空，配 VNA 货架系统，可容纳 5,720 个托盘。"
+      }
+    }
+  },
+  {
+    "id": "mv6qgig066nbqg",
+    "createdAt": "2026-10-13T13:45:00.000Z",
+    "title": "Detached Factory For Sale - Taman Perindustrian Alam Jaya, Puncak Alam",
+    "slug": "detached-factory-for-sale-taman-perindustrian-alam-jaya-puncak-alam-0utj",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Detached Factory",
+    "dealType": "sale",
+    "city": "Puncak Alam",
+    "state": "Selangor",
+    "address": "Taman Perindustrian Alam Jaya, Puncak Alam",
+    "lat": 3.2185,
+    "lng": 101.419,
+    "price": 18500000,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 46400,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Detached factory for sale in Taman Perindustrian Alam Jaya, Puncak Alam, with 46,400 sqft built-up on 67,700 sqft of land, 28ft eaves and 400 amp three-phase power.",
+    "description": "Detached Factory For Sale - Taman Perindustrian Alam Jaya, Puncak Alam\n(Also available for rent)\n\nLand size: 67,700 sqft\nBuilt-up: 46,400 sqft\nEaves height: 28 ft\nGround floor: 38,800 sqft\n1st floor: 7,600 sqft\nPower supply: 3 phase 415V, 50Hz, 400 amperes\n\nAsking price RM 18.5 mil.",
+    "images": [
+      "/api/uploads/1791904956084-gw9d91.jpeg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 67,700 sqft",
+      "Built-up 46,400 sqft",
+      "Eaves height 28 ft",
+      "Also available for rent"
+    ],
+    "attributes": {
+      "land_size": "67,700 sqft",
+      "built_up": "46,400 sqft",
+      "eaves_height": "28 ft",
+      "ground_floor": "38,800 sqft",
+      "first_floor": "7,600 sqft",
+      "power_supply": "3 phase 415V, 50Hz, 400 amperes",
+      "remarks": "Also available for rent"
+    },
+    "updatedAt": "2026-10-13T13:45:00.000Z",
+    "documents": [
+      {
+        "name": "Detached Factory For Sale Taman Perindustrian Alam Jaya.docx",
+        "url": "/api/uploads/1791904956091-1txuut.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang Sesebuah Untuk Dijual - Taman Perindustrian Alam Jaya, Puncak Alam",
+        "shortDesc": "Kilang sesebuah untuk dijual di Taman Perindustrian Alam Jaya, Puncak Alam, binaan 46,400 kp atas tanah 67,700 kp, ketinggian bumbung 28 kaki dan kuasa 3 fasa 400 amp."
+      },
+      "zh": {
+        "title": "独立式厂房出售 - Taman Perindustrian Alam Jaya，Puncak Alam",
+        "shortDesc": "Puncak Alam Taman Perindustrian Alam Jaya 独立式厂房出售，建筑面积 46,400 平方尺，地段 67,700 平方尺，檐高 28 尺，三相 400 安培电力。"
+      }
+    }
+  },
+  {
+    "id": "mv6qhsqo73qbn0",
+    "createdAt": "2026-10-13T13:46:00.000Z",
+    "title": "Prime Factory/Warehouse For Sale - PKNS Rawang Industrial Hub",
+    "slug": "prime-factory-warehouse-for-sale-pkns-rawang-industrial-hub-n9rq",
+    "categoryId": "cat-mps7nl9l13n27y",
+    "subCategoryId": "sub-mps7nla222y3mg",
+    "propertyType": "Factory",
+    "dealType": "sale",
+    "city": "Rawang",
+    "state": "Selangor",
+    "address": "Kawasan Perindustrian PKNS, Rawang",
+    "lat": 3.324,
+    "lng": 101.572,
+    "price": 10000000,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 12335,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "Brand-new factory for sale in Rawang's PKNS industrial area, with 12,335 sqft built-up on 31,500 sqft of land, a 40ft clear-span height and CCC, 15 minutes from LATAR.",
+    "description": "Prime Factory/Warehouse For Sale - PKNS Rawang Industrial Hub\n\nThis brand-new factory at Kawasan Perindustrian PKNS offers the perfect blend of functionality, accessibility and efficiency for growing businesses.\n\nKey highlights:\n• Strategic location: in Rawang's established PKNS industrial area, ideal for logistics and manufacturing\n• Generous land area: 31,500 sqft with a fully concreted floor\n• Built-up: 12,335 sqft\n• Industrial title: medium industry classification\n• With CCC\n• Office facilities: 2-storey\n• High clearance: 40 ft\n• Efficient layout: clear-span design with no central columns\n• Bay spacing: 26.5 ft\n• Power supply: 300 amp\n• Floor loading: 30 kN/m²\n• Trailer-friendly access\n\nAccessibility & amenities:\n• LATAR (15 mins), PLUS Highway\n• Within 5km of Bandar Rawang, Lotus's and KPJ Rawang\n\nAsking price: RM 10 mil (negotiable)\nAlso available for rent: RM 35,000 per month (negotiable)",
+    "images": [
+      "/api/uploads/1791904956042-o589hn.jpg",
+      "/api/uploads/1791904956035-3nhp7r.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Land 31,500 sqft",
+      "Built-up 12,335 sqft",
+      "Ceiling height 40ft",
+      "Power supply 300 amp"
+    ],
+    "attributes": {
+      "land_area": "31,500 sqft (fully concreted)",
+      "built_up": "12,335 sqft",
+      "category": "Medium Industry",
+      "ccc": "Obtained",
+      "office": "2-storey",
+      "ceiling_height": "40 ft clearance",
+      "layout": "Clear-span, no central columns",
+      "bay_spacing": "26.5 ft",
+      "power_supply": "300 amp",
+      "floor_loading": "30 kN/m²",
+      "access": "Trailer-friendly",
+      "accessibility": "LATAR (15 mins), PLUS Highway; within 5km of Bandar Rawang, Lotus's and KPJ Rawang",
+      "remarks": "Also available for rent at RM 35,000/month (negotiable)"
+    },
+    "updatedAt": "2026-10-13T13:46:00.000Z",
+    "documents": [
+      {
+        "name": "Prime Factory/Warehouse for Sale - PKNS Rawang Industrial Hub.docx",
+        "url": "/api/uploads/1791904956098-gei4pv.docx"
+      }
+    ],
+    "segment": "industrial",
+    "i18n": {
+      "bm": {
+        "title": "Kilang/Gudang Perdana Untuk Dijual - Hab Perindustrian PKNS Rawang",
+        "shortDesc": "Kilang baharu untuk dijual di kawasan perindustrian PKNS Rawang, binaan 12,335 kp atas tanah 31,500 kp, ketinggian 40 kaki tanpa tiang tengah dan CCC, 15 minit ke LATAR."
+      },
+      "zh": {
+        "title": "优质厂房/仓库出售 - 万挠 PKNS 工业区",
+        "shortDesc": "万挠 PKNS 工业区全新厂房出售，建筑面积 12,335 平方尺，地段 31,500 平方尺，40 尺无柱净空，已获 CCC，15 分钟至 LATAR 大道。"
+      }
+    }
+  },
+  {
+    "id": "mv6qj31c888iy9",
+    "createdAt": "2026-10-13T13:47:00.000Z",
+    "title": "End Lot Commercial Unit For Sale - Ritze Perdana 1, Damansara Perdana",
+    "slug": "end-lot-commercial-unit-for-sale-ritze-perdana-1-damansara-perdana-etbd",
+    "categoryId": null,
+    "subCategoryId": null,
+    "propertyType": "Commercial Unit",
+    "dealType": "sale",
+    "city": "Petaling Jaya",
+    "state": "Selangor",
+    "address": "Ritze Perdana 1, Damansara Perdana, Petaling Jaya",
+    "lat": 3.16607,
+    "lng": 101.60468,
+    "price": 1300000,
+    "priceUnit": "MYR",
+    "priceLabel": "",
+    "size": 2836,
+    "sizeUnit": "sqft built-up",
+    "beds": null,
+    "baths": null,
+    "featured": false,
+    "status": "active",
+    "shortDesc": "End lot commercial unit at Ritze Perdana 1, Damansara Perdana, with 2,836 sqft built-up, vacant and ready to lease, targeting RM 8,500/month for an approx. 7.85% gross yield.",
+    "description": "Ritze Perdana 1, End Lot Commercial Unit | High Yield Investment\n\nAsking price: RM 1,300,000\nBuilt-up: 2,836 sqft\nUnit type: End lot\nStatus: Vacant, ready to lease\nTarget rental: RM 8,500 per month (approximately 7.85% yield)\n\nProperty highlights\nRare end lot commercial unit with a larger built-up of 2,836 sqft\nStrong investment yield of approximately 7.85% based on RM 8,500/month rental\n\nInvestment justification\nIntermediate units (2,127 sqft) are renting at approx. RM 6,300/month\nThis end lot offers:\n709 sqft more space\nHigher total rental income\nAn attractive option for investors seeking immediate cash flow with above-average yield\n\nRental & yield summary\nMonthly rent (target): RM 8,500\nAnnual rental income: RM 102,000\nGross yield at RM 1.3M: approx. 7.85%",
+    "images": [
+      "/api/uploads/1791904956105-vivvpe.jpg"
+    ],
+    "pdfUrl": null,
+    "specs": [
+      "Built-up 2,836 sqft",
+      "End lot",
+      "Vacant, ready to lease",
+      "Approx. 7.85% gross yield"
+    ],
+    "attributes": {
+      "built_up": "2,836 sqft",
+      "unit_type": "End lot",
+      "status": "Vacant, ready to lease",
+      "target_rental": "RM 8,500/month",
+      "annual_rental": "RM 102,000",
+      "gross_yield": "Approx. 7.85%"
+    },
+    "updatedAt": "2026-10-13T13:47:00.000Z",
+    "documents": [
+      {
+        "name": "Ritze Perdana 1 - End Lot Commercial Unit, High Yield Investment.docx",
+        "url": "/api/uploads/1791904956112-orjmp6.docx"
+      }
+    ],
+    "segment": "commercial",
+    "i18n": {
+      "bm": {
+        "title": "Unit Komersial Lot Hujung Untuk Dijual - Ritze Perdana 1, Damansara Perdana",
+        "shortDesc": "Unit komersial lot hujung di Ritze Perdana 1, Damansara Perdana, binaan 2,836 kp, kosong dan sedia disewakan, sasaran sewa RM 8,500 sebulan untuk pulangan kasar kira-kira 7.85%.",
+        "specs": [
+          "Binaan 2,836 kp",
+          "Lot hujung",
+          "Kosong, sedia untuk disewakan",
+          "Anggaran pulangan kasar 7.85%"
+        ]
+      },
+      "zh": {
+        "title": "尾端商业单位出售 - 白沙罗柏迪那 Ritze Perdana 1",
+        "shortDesc": "白沙罗柏迪那 Ritze Perdana 1 尾端商业单位，建筑面积 2,836 平方尺，空置可随时出租，目标月租 RM 8,500，毛回酬率约 7.85%。",
+        "specs": [
+          "建筑面积 2,836 平方尺",
+          "尾端单位",
+          "空置，可随时出租",
+          "毛回酬率约 7.85%"
+        ]
       }
     }
   }
